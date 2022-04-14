@@ -112,13 +112,23 @@ d3.json("/json/states_data.json", function(error, result){
                 .on('click', handleClick)
         });
     })
-        var state = d3.select('#state')
-        state.selectAll('option').data(result)
-            .enter()
-            .append('option')
-            .attr('value', function(d){return d.id})
-            .text(function(d){return d.state_name})
-    
+    var state = d3.select('#state')
+    state.selectAll('option').data(result)
+        .enter()
+        .append('option')
+        .attr('value', function(d){return d.id})
+        .text(function(d){return d.state_name}) 
+    $('#state option[value="'+ selectedStateId  + '"]').prop('selected', true)
+    var year = d3.select('#year')
+    year.selectAll('option').remove()
+    year.selectAll('option').data(function(){ 
+        for(var i = 0; i<states.length; i++ ){
+            if(Number(selectedStateId == states[i].id)){
+                return Object.keys(states[i].election_years)
+            }
+        } 
+    }).enter().append('option').attr('value', function(d){return d}).text(function(d){return d})
+    $('#year option[value="'+ selectedYear  + '"]').prop('selected', true)
 })
 
 

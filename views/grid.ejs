@@ -86,40 +86,39 @@ d3.json("/json/states_data.json", function(error, result){
 
     d3.json("/json/" + selectedState.state_name + "/" + selectedState.state_name + "-" + selectedYear + ".json", function(error, result){
         electionData = result
+        var projection = d3.geo.mercator().center(selectedState.center).scale(selectedState.scale).translate([width/2 , height/2]);
+        var svg = d3.select(".map").append("svg")
+            .attr("width", width)
+            .attr("height", height);
+        var path = d3.geo.path()
+            .projection(projection);
+        var g = svg.append("g");
+        g.append('text')
+            .attr("x", width/3 )
+            .attr("y", height /12)
+            .text(selectedYear + " " + selectedState.state_name+ " Election Result");
+        d3.json("/json/" + selectedState.state_name + "/" + selectedState.state_name + ".json", function(error, topology) {
+            g.selectAll("path")
+                .data(topojson.object(topology, topology.objects[selectedState.state_name])
+                    .geometries)
+            .enter()
+                .append("path")
+                .attr("d", path)
+                .attr("stroke","black")
+                .attr("stroke-width" , '0.7px')
+                .style("fill", function(d) { return getWinnerPartyColor(d.properties.ac_no);} )
+                .on('mouseover', handleMouseOver)
+                .on('mouseout', handleMouseOut)
+                .on('click', handleClick)
+        });
     })
-
-    var projection = d3.geo.mercator().center(selectedState.center).scale(selectedState.scale).translate([width/2 , height/2]);
-    var svg = d3.select(".map").append("svg")
-        .attr("width", width)
-        .attr("height", height);
-    var path = d3.geo.path()
-        .projection(projection);
-    var g = svg.append("g");
-    g.append('text')
-        .attr("x", width/3 )
-        .attr("y", height /12)
-        .text(selectedYear + " " + selectedState.state_name+ " Election Result");
-    d3.json("/json/" + selectedState.state_name + "/" + selectedState.state_name + ".json", function(error, topology) {
-        g.selectAll("path")
-            .data(topojson.object(topology, topology.objects[selectedState.state_name])
-                .geometries)
-        .enter()
-            .append("path")
-            .attr("d", path)
-            .attr("stroke","black")
-            .attr("stroke-width" , '0.7px')
-            .style("fill", function(d) { return getWinnerPartyColor(d.properties.ac_no);} )
-            .on('mouseover', handleMouseOver)
-            .on('mouseout', handleMouseOut)
-            .on('click', handleClick)
-    });
-
-    var state = d3.select('#state')
-    state.selectAll('option').data(result)
-        .enter()
-        .append('option')
-        .attr('value', function(d){return d.id})
-        .text(function(d){return d.state_name})
+        var state = d3.select('#state')
+        state.selectAll('option').data(result)
+            .enter()
+            .append('option')
+            .attr('value', function(d){return d.id})
+            .text(function(d){return d.state_name})
+    
 })
 
 

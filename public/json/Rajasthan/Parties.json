@@ -1,0 +1,20 @@
+[
+  { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 163 },
+  {
+    "party_code": "INC",
+    "party_name": "Indian National Congress",
+    "seats": 21
+  },
+  { "party_code": "IND", "party_name": "Independent", "seats": 7 },
+  {
+    "party_code": "NPEP",
+    "party_name": "National People\u2019s Party",
+    "seats": 4
+  },
+  { "party_code": "BSP", "party_name": "Bahujan Samaj Party", "seats": 3 },
+  {
+    "party_code": "NUZP",
+    "party_name": "National Unionist Zamindara Party",
+    "seats": 2
+  }
+]

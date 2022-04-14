@@ -1,0 +1,1418 @@
+[
+  {
+    "ac_no": 1,
+    "ac_name": "Yoksam-tashiding",
+    "candidates": [
+      {
+        "Candidate": "SONAM DADUL BHUTIA",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 6676,
+        "Postal Votes": 101,
+        "Total Votes": 6777,
+        "Vote %": 68.33
+      },
+      {
+        "Candidate": "THUTOP BHUTIA",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 2497,
+        "Postal Votes": 62,
+        "Total Votes": 2559,
+        "Vote %": 25.8
+      },
+      {
+        "Candidate": "PEMA RINZING BHUTIA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 363,
+        "Postal Votes": 0,
+        "Total Votes": 363,
+        "Vote %": 3.66
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 219,
+        "Postal Votes": 0,
+        "Total Votes": 219,
+        "Vote %": 2.21
+      }
+    ]
+  },
+  {
+    "ac_no": 2,
+    "ac_name": "Yangthang",
+    "candidates": [
+      {
+        "Candidate": "CHANDRA MAYA LIMBOO ",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 5063,
+        "Postal Votes": 148,
+        "Total Votes": 5211,
+        "Vote %": 56.0
+      },
+      {
+        "Candidate": "KHARKA BDR. SUBBA",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 3446,
+        "Postal Votes": 126,
+        "Total Votes": 3572,
+        "Vote %": 38.39
+      },
+      {
+        "Candidate": "LALL MAN SUBBA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 222,
+        "Postal Votes": 1,
+        "Total Votes": 223,
+        "Vote %": 2.4
+      },
+      {
+        "Candidate": "ASHIS GURUNG",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 139,
+        "Postal Votes": 1,
+        "Total Votes": 140,
+        "Vote %": 1.5
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 158,
+        "Postal Votes": 1,
+        "Total Votes": 159,
+        "Vote %": 1.71
+      }
+    ]
+  },
+  {
+    "ac_no": 3,
+    "ac_name": "Maneybung-dentam",
+    "candidates": [
+      {
+        "Candidate": "NARENDRA KUMAR ",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 7522,
+        "Postal Votes": 215,
+        "Total Votes": 7737,
+        "Vote %": 72.43
+      },
+      {
+        "Candidate": "BIRBAL TAMLING",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 2427,
+        "Postal Votes": 92,
+        "Total Votes": 2519,
+        "Vote %": 23.58
+      },
+      {
+        "Candidate": "KESHAR MAN GURUNG",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 139,
+        "Postal Votes": 1,
+        "Total Votes": 140,
+        "Vote %": 1.31
+      },
+      {
+        "Candidate": "MAN MAYA LIMBU",
+        "Party": "Indian National Congress",
+        "EVM Votes": 129,
+        "Postal Votes": 1,
+        "Total Votes": 130,
+        "Vote %": 1.22
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 156,
+        "Postal Votes": 0,
+        "Total Votes": 156,
+        "Vote %": 1.46
+      }
+    ]
+  },
+  {
+    "ac_no": 4,
+    "ac_name": "Gyalshing-barnyak",
+    "candidates": [
+      {
+        "Candidate": "SHER BAHADUR SUBEDI",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 4384,
+        "Postal Votes": 145,
+        "Total Votes": 4529,
+        "Vote %": 50.86
+      },
+      {
+        "Candidate": "LOK NATH SHARMA",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 3719,
+        "Postal Votes": 171,
+        "Total Votes": 3890,
+        "Vote %": 43.68
+      },
+      {
+        "Candidate": "MANDHOJ THAPA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 135,
+        "Postal Votes": 0,
+        "Total Votes": 135,
+        "Vote %": 1.52
+      },
+      {
+        "Candidate": "DAL BAHADUR KARKI",
+        "Party": "Indian National Congress",
+        "EVM Votes": 106,
+        "Postal Votes": 1,
+        "Total Votes": 107,
+        "Vote %": 1.2
+      },
+      {
+        "Candidate": "HARI CHANDRA SHARMA",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 95,
+        "Postal Votes": 1,
+        "Total Votes": 96,
+        "Vote %": 1.08
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 147,
+        "Postal Votes": 1,
+        "Total Votes": 148,
+        "Vote %": 1.66
+      }
+    ]
+  },
+  {
+    "ac_no": 5,
+    "ac_name": "Rinchenpong",
+    "candidates": [
+      {
+        "Candidate": "KARMA SONAM LEPCHA",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 7254,
+        "Postal Votes": 93,
+        "Total Votes": 7347,
+        "Vote %": 68.37
+      },
+      {
+        "Candidate": "PEMA KINZANG BHUTIA",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 2815,
+        "Postal Votes": 76,
+        "Total Votes": 2891,
+        "Vote %": 26.9
+      },
+      {
+        "Candidate": "LATEN TSHERING SHERPA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 186,
+        "Postal Votes": 0,
+        "Total Votes": 186,
+        "Vote %": 1.73
+      },
+      {
+        "Candidate": "KARSANG SHERPA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 131,
+        "Postal Votes": 1,
+        "Total Votes": 132,
+        "Vote %": 1.23
+      },
+      {
+        "Candidate": "PHUR TSHERING LEPCHA",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 93,
+        "Postal Votes": 0,
+        "Total Votes": 93,
+        "Vote %": 0.87
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 96,
+        "Postal Votes": 1,
+        "Total Votes": 97,
+        "Vote %": 0.9
+      }
+    ]
+  },
+  {
+    "ac_no": 6,
+    "ac_name": "Daramdin",
+    "candidates": [
+      {
+        "Candidate": "DANORBU SHERPA",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 6119,
+        "Postal Votes": 131,
+        "Total Votes": 6250,
+        "Vote %": 54.89
+      },
+      {
+        "Candidate": "MINGMA NORBU SHERPA",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 4444,
+        "Postal Votes": 202,
+        "Total Votes": 4646,
+        "Vote %": 40.8
+      },
+      {
+        "Candidate": "LADEN LEPCHA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 303,
+        "Postal Votes": 3,
+        "Total Votes": 306,
+        "Vote %": 2.69
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 184,
+        "Postal Votes": 1,
+        "Total Votes": 185,
+        "Vote %": 1.62
+      }
+    ]
+  },
+  {
+    "ac_no": 7,
+    "ac_name": "Soreong-chakung",
+    "candidates": [
+      {
+        "Candidate": "RAM BAHADUR LIMBOO ",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 6446,
+        "Postal Votes": 150,
+        "Total Votes": 6596,
+        "Vote %": 55.4
+      },
+      {
+        "Candidate": "BHARATI SHARMA",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 4526,
+        "Postal Votes": 141,
+        "Total Votes": 4667,
+        "Vote %": 39.2
+      },
+      {
+        "Candidate": "PUSHKER LIMBU",
+        "Party": "Indian National Congress",
+        "EVM Votes": 212,
+        "Postal Votes": 0,
+        "Total Votes": 212,
+        "Vote %": 1.78
+      },
+      {
+        "Candidate": "SHER BAHADUR KARKI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 195,
+        "Postal Votes": 2,
+        "Total Votes": 197,
+        "Vote %": 1.65
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 231,
+        "Postal Votes": 3,
+        "Total Votes": 234,
+        "Vote %": 1.97
+      }
+    ]
+  },
+  {
+    "ac_no": 8,
+    "ac_name": "Salghari-zoom  (SC)",
+    "candidates": [
+      {
+        "Candidate": "ARJUN KUMAR GHATANI",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 4179,
+        "Postal Votes": 71,
+        "Total Votes": 4250,
+        "Vote %": 52.63
+      },
+      {
+        "Candidate": "BHANU PRATAP RASAILY",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 3425,
+        "Postal Votes": 46,
+        "Total Votes": 3471,
+        "Vote %": 42.98
+      },
+      {
+        "Candidate": "RANJIT KAMI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 162,
+        "Postal Votes": 0,
+        "Total Votes": 162,
+        "Vote %": 2.01
+      },
+      {
+        "Candidate": "KHARKA BAHADUR ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 64,
+        "Postal Votes": 0,
+        "Total Votes": 64,
+        "Vote %": 0.79
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 129,
+        "Postal Votes": 0,
+        "Total Votes": 129,
+        "Vote %": 1.6
+      }
+    ]
+  },
+  {
+    "ac_no": 9,
+    "ac_name": "Barfung",
+    "candidates": [
+      {
+        "Candidate": "DORJEE DAZOM BHUTIA",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 6487,
+        "Postal Votes": 152,
+        "Total Votes": 6639,
+        "Vote %": 63.79
+      },
+      {
+        "Candidate": "PEMA WANGYAL BHUTIA",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 3333,
+        "Postal Votes": 127,
+        "Total Votes": 3460,
+        "Vote %": 33.24
+      },
+      {
+        "Candidate": "DADUL LEPCHA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 112,
+        "Postal Votes": 0,
+        "Total Votes": 112,
+        "Vote %": 1.08
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 197,
+        "Postal Votes": 0,
+        "Total Votes": 197,
+        "Vote %": 1.89
+      }
+    ]
+  },
+  {
+    "ac_no": 10,
+    "ac_name": "Poklok-kamrang",
+    "candidates": [
+      {
+        "Candidate": "KEDAR NATH RAI",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 7800,
+        "Postal Votes": 196,
+        "Total Votes": 7996,
+        "Vote %": 68.85
+      },
+      {
+        "Candidate": "BHOJ RAJ RAI",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 3237,
+        "Postal Votes": 88,
+        "Total Votes": 3325,
+        "Vote %": 28.63
+      },
+      {
+        "Candidate": "ISHWAR PRASAD RAI",
+        "Party": "Indian National Congress",
+        "EVM Votes": 114,
+        "Postal Votes": 1,
+        "Total Votes": 115,
+        "Vote %": 0.99
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 177,
+        "Postal Votes": 1,
+        "Total Votes": 178,
+        "Vote %": 1.53
+      }
+    ]
+  },
+  {
+    "ac_no": 11,
+    "ac_name": "Namchi-singhithang",
+    "candidates": [
+      {
+        "Candidate": "PAWAN CHAMLING",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 4523,
+        "Postal Votes": 251,
+        "Total Votes": 4774,
+        "Vote %": 55.08
+      },
+      {
+        "Candidate": "MILAN RAI",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 3545,
+        "Postal Votes": 145,
+        "Total Votes": 3690,
+        "Vote %": 42.57
+      },
+      {
+        "Candidate": "KHUSH BDR. RAI",
+        "Party": "Indian National Congress",
+        "EVM Votes": 91,
+        "Postal Votes": 1,
+        "Total Votes": 92,
+        "Vote %": 1.06
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 108,
+        "Postal Votes": 4,
+        "Total Votes": 112,
+        "Vote %": 1.29
+      }
+    ]
+  },
+  {
+    "ac_no": 12,
+    "ac_name": "Melli",
+    "candidates": [
+      {
+        "Candidate": "TULSHI DEVI RAI",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 7442,
+        "Postal Votes": 213,
+        "Total Votes": 7655,
+        "Vote %": 67.32
+      },
+      {
+        "Candidate": "PREM BAHADUR KARKI",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 3275,
+        "Postal Votes": 131,
+        "Total Votes": 3406,
+        "Vote %": 29.95
+      },
+      {
+        "Candidate": "MAN BAHADUR RAI",
+        "Party": "Indian National Congress",
+        "EVM Votes": 130,
+        "Postal Votes": 2,
+        "Total Votes": 132,
+        "Vote %": 1.16
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 173,
+        "Postal Votes": 5,
+        "Total Votes": 178,
+        "Vote %": 1.57
+      }
+    ]
+  },
+  {
+    "ac_no": 13,
+    "ac_name": "Namthang-rateypani",
+    "candidates": [
+      {
+        "Candidate": "TILU GURUNG",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 5808,
+        "Postal Votes": 139,
+        "Total Votes": 5947,
+        "Vote %": 53.84
+      },
+      {
+        "Candidate": "PREM SINGH TAMANG",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 4643,
+        "Postal Votes": 149,
+        "Total Votes": 4792,
+        "Vote %": 43.38
+      },
+      {
+        "Candidate": "DIK MAYA BASNET",
+        "Party": "Indian National Congress",
+        "EVM Votes": 107,
+        "Postal Votes": 0,
+        "Total Votes": 107,
+        "Vote %": 0.97
+      },
+      {
+        "Candidate": "YASODHA BARAKOTI",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 91,
+        "Postal Votes": 0,
+        "Total Votes": 91,
+        "Vote %": 0.82
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 109,
+        "Postal Votes": 0,
+        "Total Votes": 109,
+        "Vote %": 0.99
+      }
+    ]
+  },
+  {
+    "ac_no": 14,
+    "ac_name": "Temi-namphing",
+    "candidates": [
+      {
+        "Candidate": "GARJAMAN GURUNG",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 5507,
+        "Postal Votes": 150,
+        "Total Votes": 5657,
+        "Vote %": 55.38
+      },
+      {
+        "Candidate": "LALIT SHARMA",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 4107,
+        "Postal Votes": 161,
+        "Total Votes": 4268,
+        "Vote %": 41.78
+      },
+      {
+        "Candidate": "DEEPAK BHANDARI",
+        "Party": "Indian National Congress",
+        "EVM Votes": 110,
+        "Postal Votes": 0,
+        "Total Votes": 110,
+        "Vote %": 1.08
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 178,
+        "Postal Votes": 2,
+        "Total Votes": 180,
+        "Vote %": 1.76
+      }
+    ]
+  },
+  {
+    "ac_no": 15,
+    "ac_name": "Rangang-yangang",
+    "candidates": [
+      {
+        "Candidate": "PAWAN CHAMLING",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 6187,
+        "Postal Votes": 156,
+        "Total Votes": 6343,
+        "Vote %": 63.84
+      },
+      {
+        "Candidate": "BIKASH BASNET",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 3117,
+        "Postal Votes": 84,
+        "Total Votes": 3201,
+        "Vote %": 32.22
+      },
+      {
+        "Candidate": "OM PRAKASH BISTA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 206,
+        "Postal Votes": 0,
+        "Total Votes": 206,
+        "Vote %": 2.07
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 185,
+        "Postal Votes": 1,
+        "Total Votes": 186,
+        "Vote %": 1.87
+      }
+    ]
+  },
+  {
+    "ac_no": 16,
+    "ac_name": "Tumen-lingi",
+    "candidates": [
+      {
+        "Candidate": "UGEN T. GYATSO BHUTIA",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 6974,
+        "Postal Votes": 217,
+        "Total Votes": 7191,
+        "Vote %": 62.26
+      },
+      {
+        "Candidate": "NIDUP TSHERING LEPCHA",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 3892,
+        "Postal Votes": 107,
+        "Total Votes": 3999,
+        "Vote %": 34.62
+      },
+      {
+        "Candidate": "PANDUP LEPCHA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 150,
+        "Postal Votes": 1,
+        "Total Votes": 151,
+        "Vote %": 1.31
+      },
+      {
+        "Candidate": "PREM TSHERING LEPCHA",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 104,
+        "Postal Votes": 0,
+        "Total Votes": 104,
+        "Vote %": 0.9
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 103,
+        "Postal Votes": 2,
+        "Total Votes": 105,
+        "Vote %": 0.91
+      }
+    ]
+  },
+  {
+    "ac_no": 17,
+    "ac_name": "Khamdong-singtam",
+    "candidates": [
+      {
+        "Candidate": "SOM NATH POUDYAL",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 4639,
+        "Postal Votes": 79,
+        "Total Votes": 4718,
+        "Vote %": 49.13
+      },
+      {
+        "Candidate": "MANI KUMAR SHARMA",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 4322,
+        "Postal Votes": 126,
+        "Total Votes": 4448,
+        "Vote %": 46.31
+      },
+      {
+        "Candidate": "MADAN KUMAR SHARMA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 190,
+        "Postal Votes": 1,
+        "Total Votes": 191,
+        "Vote %": 1.99
+      },
+      {
+        "Candidate": "PUNYA PRASAD KOIRALA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 87,
+        "Postal Votes": 0,
+        "Total Votes": 87,
+        "Vote %": 0.91
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 160,
+        "Postal Votes": 0,
+        "Total Votes": 160,
+        "Vote %": 1.67
+      }
+    ]
+  },
+  {
+    "ac_no": 18,
+    "ac_name": "West pendam  (SC)",
+    "candidates": [
+      {
+        "Candidate": "GOPAL BARAILY",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 5263,
+        "Postal Votes": 119,
+        "Total Votes": 5382,
+        "Vote %": 52.45
+      },
+      {
+        "Candidate": "K. K. THATAL",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 4382,
+        "Postal Votes": 80,
+        "Total Votes": 4462,
+        "Vote %": 43.49
+      },
+      {
+        "Candidate": "AMAR LOHAR",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 157,
+        "Postal Votes": 0,
+        "Total Votes": 157,
+        "Vote %": 1.53
+      },
+      {
+        "Candidate": "RANJEET GAZMER",
+        "Party": "Indian National Congress",
+        "EVM Votes": 74,
+        "Postal Votes": 0,
+        "Total Votes": 74,
+        "Vote %": 0.72
+      },
+      {
+        "Candidate": "MOHAN LALL ",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 73,
+        "Postal Votes": 0,
+        "Total Votes": 73,
+        "Vote %": 0.71
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 113,
+        "Postal Votes": 0,
+        "Total Votes": 113,
+        "Vote %": 1.1
+      }
+    ]
+  },
+  {
+    "ac_no": 19,
+    "ac_name": "Rhenock",
+    "candidates": [
+      {
+        "Candidate": "HEMENDRA ADHIKARI",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 6185,
+        "Postal Votes": 230,
+        "Total Votes": 6415,
+        "Vote %": 50.05
+      },
+      {
+        "Candidate": "BHIM PRASAD DHUNGEL",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 5310,
+        "Postal Votes": 151,
+        "Total Votes": 5461,
+        "Vote %": 42.6
+      },
+      {
+        "Candidate": "TILAK KUMAR PRADHAN",
+        "Party": "Independent",
+        "EVM Votes": 470,
+        "Postal Votes": 4,
+        "Total Votes": 474,
+        "Vote %": 3.7
+      },
+      {
+        "Candidate": "PADAM BDR. CHETTRI",
+        "Party": "Indian National Congress",
+        "EVM Votes": 138,
+        "Postal Votes": 0,
+        "Total Votes": 138,
+        "Vote %": 1.08
+      },
+      {
+        "Candidate": "OM PRAKASH BHANDARI",
+        "Party": "Independent",
+        "EVM Votes": 99,
+        "Postal Votes": 0,
+        "Total Votes": 99,
+        "Vote %": 0.77
+      },
+      {
+        "Candidate": "NAWRAJ CHETTRI",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 90,
+        "Postal Votes": 2,
+        "Total Votes": 92,
+        "Vote %": 0.72
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 137,
+        "Postal Votes": 2,
+        "Total Votes": 139,
+        "Vote %": 1.08
+      }
+    ]
+  },
+  {
+    "ac_no": 20,
+    "ac_name": "Chujachen",
+    "candidates": [
+      {
+        "Candidate": "BIKRAM PRADHAN",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 7572,
+        "Postal Votes": 264,
+        "Total Votes": 7836,
+        "Vote %": 60.98
+      },
+      {
+        "Candidate": "KHARGA BAHADUR ",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 4230,
+        "Postal Votes": 195,
+        "Total Votes": 4425,
+        "Vote %": 34.44
+      },
+      {
+        "Candidate": "GAJENDRA RIZAL",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 246,
+        "Postal Votes": 2,
+        "Total Votes": 248,
+        "Vote %": 1.93
+      },
+      {
+        "Candidate": "RUDRA NARSING SAKYA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 162,
+        "Postal Votes": 0,
+        "Total Votes": 162,
+        "Vote %": 1.26
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 179,
+        "Postal Votes": 0,
+        "Total Votes": 179,
+        "Vote %": 1.39
+      }
+    ]
+  },
+  {
+    "ac_no": 21,
+    "ac_name": "Gnathang-machong",
+    "candidates": [
+      {
+        "Candidate": "DORJEE TSH. LEPCHA",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 4775,
+        "Postal Votes": 242,
+        "Total Votes": 5017,
+        "Vote %": 58.21
+      },
+      {
+        "Candidate": "SONAM DORJEE",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 2913,
+        "Postal Votes": 188,
+        "Total Votes": 3101,
+        "Vote %": 35.98
+      },
+      {
+        "Candidate": "PEMPA TSHERING BHUTIA",
+        "Party": "Independent",
+        "EVM Votes": 321,
+        "Postal Votes": 4,
+        "Total Votes": 325,
+        "Vote %": 3.77
+      },
+      {
+        "Candidate": "DORJEE ONGDEN BHUTIA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 105,
+        "Postal Votes": 2,
+        "Total Votes": 107,
+        "Vote %": 1.24
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 69,
+        "Postal Votes": 0,
+        "Total Votes": 69,
+        "Vote %": 0.8
+      }
+    ]
+  },
+  {
+    "ac_no": 22,
+    "ac_name": "Namcheybung",
+    "candidates": [
+      {
+        "Candidate": "BEK BAHADUR RAI",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 5381,
+        "Postal Votes": 196,
+        "Total Votes": 5577,
+        "Vote %": 50.72
+      },
+      {
+        "Candidate": "DILIP RAI",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 4775,
+        "Postal Votes": 180,
+        "Total Votes": 4955,
+        "Vote %": 45.07
+      },
+      {
+        "Candidate": "TASHI RAI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 167,
+        "Postal Votes": 0,
+        "Total Votes": 167,
+        "Vote %": 1.52
+      },
+      {
+        "Candidate": "MANOJ RAI",
+        "Party": "Indian National Congress",
+        "EVM Votes": 138,
+        "Postal Votes": 1,
+        "Total Votes": 139,
+        "Vote %": 1.26
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 156,
+        "Postal Votes": 1,
+        "Total Votes": 157,
+        "Vote %": 1.43
+      }
+    ]
+  },
+  {
+    "ac_no": 23,
+    "ac_name": "Shyari",
+    "candidates": [
+      {
+        "Candidate": "KUNGA NIMA LEPCHA",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 5141,
+        "Postal Votes": 183,
+        "Total Votes": 5324,
+        "Vote %": 52.23
+      },
+      {
+        "Candidate": "KARMA TEMPO NAMGYAL ",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 4428,
+        "Postal Votes": 160,
+        "Total Votes": 4588,
+        "Vote %": 45.01
+      },
+      {
+        "Candidate": "SAMDUP DORJEE LAMA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 142,
+        "Postal Votes": 0,
+        "Total Votes": 142,
+        "Vote %": 1.39
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 138,
+        "Postal Votes": 2,
+        "Total Votes": 140,
+        "Vote %": 1.37
+      }
+    ]
+  },
+  {
+    "ac_no": 24,
+    "ac_name": "Martam-rumtek",
+    "candidates": [
+      {
+        "Candidate": "MECHUNG BHUTIA",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 5830,
+        "Postal Votes": 225,
+        "Total Votes": 6055,
+        "Vote %": 50.24
+      },
+      {
+        "Candidate": "MENLOM LEPCHA",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 5380,
+        "Postal Votes": 196,
+        "Total Votes": 5576,
+        "Vote %": 46.26
+      },
+      {
+        "Candidate": "SONAM TSHERING BHUTIA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 182,
+        "Postal Votes": 1,
+        "Total Votes": 183,
+        "Vote %": 1.52
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 238,
+        "Postal Votes": 1,
+        "Total Votes": 239,
+        "Vote %": 1.98
+      }
+    ]
+  },
+  {
+    "ac_no": 25,
+    "ac_name": "Upper tadong",
+    "candidates": [
+      {
+        "Candidate": "TIMOTHY WILLIAM ",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 3219,
+        "Postal Votes": 114,
+        "Total Votes": 3333,
+        "Vote %": 48.61
+      },
+      {
+        "Candidate": "BHASKER BASNETT",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 3037,
+        "Postal Votes": 174,
+        "Total Votes": 3211,
+        "Vote %": 46.83
+      },
+      {
+        "Candidate": "ELI PAL",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 155,
+        "Postal Votes": 0,
+        "Total Votes": 155,
+        "Vote %": 2.26
+      },
+      {
+        "Candidate": "TARA KUMAR PRADHAN",
+        "Party": "Indian National Congress",
+        "EVM Votes": 78,
+        "Postal Votes": 1,
+        "Total Votes": 79,
+        "Vote %": 1.15
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 76,
+        "Postal Votes": 3,
+        "Total Votes": 79,
+        "Vote %": 1.15
+      }
+    ]
+  },
+  {
+    "ac_no": 26,
+    "ac_name": "Arithang",
+    "candidates": [
+      {
+        "Candidate": "SHYAM PRADHAN",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 3927,
+        "Postal Votes": 99,
+        "Total Votes": 4026,
+        "Vote %": 57.92
+      },
+      {
+        "Candidate": "UDAI LAMA",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 2318,
+        "Postal Votes": 102,
+        "Total Votes": 2420,
+        "Vote %": 34.82
+      },
+      {
+        "Candidate": "SHERAP DORJEE BHUTIA",
+        "Party": "Independent",
+        "EVM Votes": 250,
+        "Postal Votes": 3,
+        "Total Votes": 253,
+        "Vote %": 3.64
+      },
+      {
+        "Candidate": "GYALPO TAMANG",
+        "Party": "Indian National Congress",
+        "EVM Votes": 105,
+        "Postal Votes": 0,
+        "Total Votes": 105,
+        "Vote %": 1.51
+      },
+      {
+        "Candidate": "RAJENEY GURUNG",
+        "Party": "Independent",
+        "EVM Votes": 76,
+        "Postal Votes": 0,
+        "Total Votes": 76,
+        "Vote %": 1.09
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 70,
+        "Postal Votes": 1,
+        "Total Votes": 71,
+        "Vote %": 1.02
+      }
+    ]
+  },
+  {
+    "ac_no": 27,
+    "ac_name": "Gangtok",
+    "candidates": [
+      {
+        "Candidate": "PINTSO CHOPEL",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 4097,
+        "Postal Votes": 111,
+        "Total Votes": 4208,
+        "Vote %": 61.28
+      },
+      {
+        "Candidate": "HISHEY LACHUNGPA",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 2195,
+        "Postal Votes": 122,
+        "Total Votes": 2317,
+        "Vote %": 33.74
+      },
+      {
+        "Candidate": "NORDEN GYALPO DORJI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 168,
+        "Postal Votes": 3,
+        "Total Votes": 171,
+        "Vote %": 2.49
+      },
+      {
+        "Candidate": "TSHERING GYATSO ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 71,
+        "Postal Votes": 1,
+        "Total Votes": 72,
+        "Vote %": 1.05
+      },
+      {
+        "Candidate": "TSHERING WANGCHUK ",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 36,
+        "Postal Votes": 1,
+        "Total Votes": 37,
+        "Vote %": 0.54
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 61,
+        "Postal Votes": 1,
+        "Total Votes": 62,
+        "Vote %": 0.9
+      }
+    ]
+  },
+  {
+    "ac_no": 28,
+    "ac_name": "Upper burtuk",
+    "candidates": [
+      {
+        "Candidate": "PREM SINGH TAMANG",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 5075,
+        "Postal Votes": 197,
+        "Total Votes": 5272,
+        "Vote %": 50.73
+      },
+      {
+        "Candidate": "D. R. THAPA",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 4545,
+        "Postal Votes": 154,
+        "Total Votes": 4699,
+        "Vote %": 45.21
+      },
+      {
+        "Candidate": "UGEN TAMANG",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 159,
+        "Postal Votes": 0,
+        "Total Votes": 159,
+        "Vote %": 1.53
+      },
+      {
+        "Candidate": "SANTA BIR GURUNG",
+        "Party": "Indian National Congress",
+        "EVM Votes": 124,
+        "Postal Votes": 0,
+        "Total Votes": 124,
+        "Vote %": 1.19
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 138,
+        "Postal Votes": 1,
+        "Total Votes": 139,
+        "Vote %": 1.34
+      }
+    ]
+  },
+  {
+    "ac_no": 29,
+    "ac_name": "Kabi lungchuk",
+    "candidates": [
+      {
+        "Candidate": "UGEN NEDUP BHUTIA",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 4357,
+        "Postal Votes": 258,
+        "Total Votes": 4615,
+        "Vote %": 49.18
+      },
+      {
+        "Candidate": "THENLAY TSHERING ",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 4247,
+        "Postal Votes": 242,
+        "Total Votes": 4489,
+        "Vote %": 47.84
+      },
+      {
+        "Candidate": "KARMA TASHI BHUTIA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 126,
+        "Postal Votes": 1,
+        "Total Votes": 127,
+        "Vote %": 1.35
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 149,
+        "Postal Votes": 3,
+        "Total Votes": 152,
+        "Vote %": 1.62
+      }
+    ]
+  },
+  {
+    "ac_no": 30,
+    "ac_name": "Djongu",
+    "candidates": [
+      {
+        "Candidate": "SONAM GYATSO LEPCHA",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 4507,
+        "Postal Votes": 111,
+        "Total Votes": 4618,
+        "Vote %": 63.67
+      },
+      {
+        "Candidate": "DAWA TSHERING LEPCHA",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 2360,
+        "Postal Votes": 83,
+        "Total Votes": 2443,
+        "Vote %": 33.68
+      },
+      {
+        "Candidate": "PENZONG LEPCHA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 105,
+        "Postal Votes": 0,
+        "Total Votes": 105,
+        "Vote %": 1.45
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 87,
+        "Postal Votes": 0,
+        "Total Votes": 87,
+        "Vote %": 1.2
+      }
+    ]
+  },
+  {
+    "ac_no": 31,
+    "ac_name": "Lachen mangan",
+    "candidates": [
+      {
+        "Candidate": "TSHERING WANGDI ",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 3024,
+        "Postal Votes": 103,
+        "Total Votes": 3127,
+        "Vote %": 53.43
+      },
+      {
+        "Candidate": "SAMDUP LEPCHA",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 2503,
+        "Postal Votes": 67,
+        "Total Votes": 2570,
+        "Vote %": 43.92
+      },
+      {
+        "Candidate": "TOPDEN LEPCHA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 76,
+        "Postal Votes": 0,
+        "Total Votes": 76,
+        "Vote %": 1.3
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 79,
+        "Postal Votes": 0,
+        "Total Votes": 79,
+        "Vote %": 1.35
+      }
+    ]
+  },
+  {
+    "ac_no": 32,
+    "ac_name": "Sangha",
+    "candidates": [
+      {
+        "Candidate": "SONAM LAMA",
+        "Party": "Sikkim Krantikari Morcha",
+        "EVM Votes": 1083,
+        "Postal Votes": 13,
+        "Total Votes": 1096,
+        "Vote %": 49.86
+      },
+      {
+        "Candidate": "PALDEN LACHUNGPA",
+        "Party": "Sikkim Democratic Front",
+        "EVM Votes": 945,
+        "Postal Votes": 26,
+        "Total Votes": 971,
+        "Vote %": 44.18
+      },
+      {
+        "Candidate": "TSHERING LAMA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 106,
+        "Postal Votes": 2,
+        "Total Votes": 108,
+        "Vote %": 4.91
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 23,
+        "Postal Votes": 0,
+        "Total Votes": 23,
+        "Vote %": 1.05
+      }
+    ]
+  }
+]

@@ -1,0 +1,2404 @@
+[
+  {
+    "ac_no": 1,
+    "ac_name": "Dimapur-i",
+    "candidates": [
+      {
+        "Candidate": "H. TOVIHOTO AYEMI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 11653,
+        "Postal Votes": 68,
+        "Total Votes": 11721,
+        "Vote %": 63.53
+      },
+      {
+        "Candidate": "PUKHAVI YEPTHOMI",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 5093,
+        "Postal Votes": 28,
+        "Total Votes": 5121,
+        "Vote %": 27.75
+      },
+      {
+        "Candidate": "W. KHOLIE KAPFO",
+        "Party": "Indian National Congress",
+        "EVM Votes": 1385,
+        "Postal Votes": 10,
+        "Total Votes": 1395,
+        "Vote %": 7.56
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 214,
+        "Postal Votes": 0,
+        "Total Votes": 214,
+        "Vote %": 1.16
+      }
+    ]
+  },
+  {
+    "ac_no": 2,
+    "ac_name": "Dimapur-ii  (ST)",
+    "candidates": [
+      {
+        "Candidate": "MOATOSHI LONGKUMER",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 21758,
+        "Postal Votes": 184,
+        "Total Votes": 21942,
+        "Vote %": 56.72
+      },
+      {
+        "Candidate": "SUPULEBTEN",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 14888,
+        "Postal Votes": 115,
+        "Total Votes": 15003,
+        "Vote %": 38.78
+      },
+      {
+        "Candidate": "DR. S. AMOS LKR",
+        "Party": "Aam Aadmi Party",
+        "EVM Votes": 1201,
+        "Postal Votes": 10,
+        "Total Votes": 1211,
+        "Vote %": 3.13
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 529,
+        "Postal Votes": 2,
+        "Total Votes": 531,
+        "Vote %": 1.37
+      }
+    ]
+  },
+  {
+    "ac_no": 3,
+    "ac_name": "Dimapur-iii  (ST)",
+    "candidates": [
+      {
+        "Candidate": "AZHETO ZHIMOMI",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 13050,
+        "Postal Votes": 112,
+        "Total Votes": 13162,
+        "Vote %": 48.82
+      },
+      {
+        "Candidate": "TOKHEHO",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 10921,
+        "Postal Votes": 103,
+        "Total Votes": 11024,
+        "Vote %": 40.89
+      },
+      {
+        "Candidate": "LUN TUNGNUNG",
+        "Party": "Indian National Congress",
+        "EVM Votes": 2133,
+        "Postal Votes": 19,
+        "Total Votes": 2152,
+        "Vote %": 7.98
+      },
+      {
+        "Candidate": "WEDIE-U KRONU",
+        "Party": "National People's Party",
+        "EVM Votes": 481,
+        "Postal Votes": 2,
+        "Total Votes": 483,
+        "Vote %": 1.79
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 137,
+        "Postal Votes": 0,
+        "Total Votes": 137,
+        "Vote %": 0.51
+      }
+    ]
+  },
+  {
+    "ac_no": 4,
+    "ac_name": "Ghaspani-i  (ST)",
+    "candidates": [
+      {
+        "Candidate": "N. JACOB ZHIMOMI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 23209,
+        "Postal Votes": 182,
+        "Total Votes": 23391,
+        "Vote %": 44.72
+      },
+      {
+        "Candidate": "Z. KASHETO YEPTHO",
+        "Party": "Independent",
+        "EVM Votes": 20696,
+        "Postal Votes": 100,
+        "Total Votes": 20796,
+        "Vote %": 39.76
+      },
+      {
+        "Candidate": "AKAVI N. ZHIMOMI",
+        "Party": "Aam Aadmi Party",
+        "EVM Votes": 6209,
+        "Postal Votes": 24,
+        "Total Votes": 6233,
+        "Vote %": 11.92
+      },
+      {
+        "Candidate": "NAGAVITO SUMI",
+        "Party": "Indian National Congress",
+        "EVM Votes": 1476,
+        "Postal Votes": 21,
+        "Total Votes": 1497,
+        "Vote %": 2.86
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 378,
+        "Postal Votes": 9,
+        "Total Votes": 387,
+        "Vote %": 0.74
+      }
+    ]
+  },
+  {
+    "ac_no": 5,
+    "ac_name": "Ghaspani-ii  (ST)",
+    "candidates": [
+      {
+        "Candidate": "ZHALEO RIO",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 10881,
+        "Postal Votes": 58,
+        "Total Votes": 10939,
+        "Vote %": 47.79
+      },
+      {
+        "Candidate": "DR. KEVINGULIE KHRO",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 5989,
+        "Postal Votes": 34,
+        "Total Votes": 6023,
+        "Vote %": 26.31
+      },
+      {
+        "Candidate": "K. K. SEMA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 5630,
+        "Postal Votes": 23,
+        "Total Votes": 5653,
+        "Vote %": 24.7
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 275,
+        "Postal Votes": 0,
+        "Total Votes": 275,
+        "Vote %": 1.2
+      }
+    ]
+  },
+  {
+    "ac_no": 6,
+    "ac_name": "Tenning  (ST)",
+    "candidates": [
+      {
+        "Candidate": "NAMRI NCHANG",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 6969,
+        "Postal Votes": 49,
+        "Total Votes": 7018,
+        "Vote %": 34.24
+      },
+      {
+        "Candidate": "NAMDUADI RANGKAU ",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 6814,
+        "Postal Votes": 36,
+        "Total Votes": 6850,
+        "Vote %": 33.42
+      },
+      {
+        "Candidate": "TARIE ZELIANG",
+        "Party": "Independent",
+        "EVM Votes": 6461,
+        "Postal Votes": 15,
+        "Total Votes": 6476,
+        "Vote %": 31.6
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 150,
+        "Postal Votes": 0,
+        "Total Votes": 150,
+        "Vote %": 0.73
+      }
+    ]
+  },
+  {
+    "ac_no": 7,
+    "ac_name": "Peren  (ST)",
+    "candidates": [
+      {
+        "Candidate": "TADITUI RANGKAU ",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 13817,
+        "Postal Votes": 247,
+        "Total Votes": 14064,
+        "Vote %": 61.66
+      },
+      {
+        "Candidate": "IHERIE NDANG",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 8435,
+        "Postal Votes": 197,
+        "Total Votes": 8632,
+        "Vote %": 37.84
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 113,
+        "Postal Votes": 0,
+        "Total Votes": 113,
+        "Vote %": 0.5
+      }
+    ]
+  },
+  {
+    "ac_no": 8,
+    "ac_name": "Western angami  (ST)",
+    "candidates": [
+      {
+        "Candidate": "KENEIZHAKHO NAKHRO",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 6420,
+        "Postal Votes": 96,
+        "Total Votes": 6516,
+        "Vote %": 46.75
+      },
+      {
+        "Candidate": "ER.KEVISEKHO KRUSE",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 5771,
+        "Postal Votes": 51,
+        "Total Votes": 5822,
+        "Vote %": 41.77
+      },
+      {
+        "Candidate": "ASU KEYHO",
+        "Party": "National People's Party",
+        "EVM Votes": 1485,
+        "Postal Votes": 15,
+        "Total Votes": 1500,
+        "Vote %": 10.76
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 98,
+        "Postal Votes": 1,
+        "Total Votes": 99,
+        "Vote %": 0.71
+      }
+    ]
+  },
+  {
+    "ac_no": 9,
+    "ac_name": "Kohima town  (ST)",
+    "candidates": [
+      {
+        "Candidate": "DR.NEIKIESALIE NICKY ",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 12342,
+        "Postal Votes": 263,
+        "Total Votes": 12605,
+        "Vote %": 54.84
+      },
+      {
+        "Candidate": "DR.TSEILHOUTUO ",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 10044,
+        "Postal Votes": 189,
+        "Total Votes": 10233,
+        "Vote %": 44.52
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 144,
+        "Postal Votes": 2,
+        "Total Votes": 146,
+        "Vote %": 0.64
+      }
+    ]
+  },
+  {
+    "ac_no": 10,
+    "ac_name": "Northern angami-i  (ST)",
+    "candidates": [
+      {
+        "Candidate": "KHRIEHU LIEZIETSU",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 7630,
+        "Postal Votes": 152,
+        "Total Votes": 7782,
+        "Vote %": 59.32
+      },
+      {
+        "Candidate": "DR.KEKHRIELHOULIE ",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 5168,
+        "Postal Votes": 98,
+        "Total Votes": 5266,
+        "Vote %": 40.14
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 69,
+        "Postal Votes": 1,
+        "Total Votes": 70,
+        "Vote %": 0.53
+      }
+    ]
+  },
+  {
+    "ac_no": 11,
+    "ac_name": "Northern angami-ii (ST)",
+    "candidates": [
+      {
+        "Candidate": "NEIPHIU RIO",
+        "Party": "Nationalist Democratic Progressive Party",
+        "Total Votes": 0
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "Total Votes": 0
+      }
+    ]
+  },
+  {
+    "ac_no": 12,
+    "ac_name": "Tseminyu  (ST)",
+    "candidates": [
+      {
+        "Candidate": "R. KHING",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 7868,
+        "Postal Votes": 57,
+        "Total Votes": 7925,
+        "Vote %": 36.05
+      },
+      {
+        "Candidate": "ER. LEVI RENGMA",
+        "Party": "National People's Party",
+        "EVM Votes": 7041,
+        "Postal Votes": 21,
+        "Total Votes": 7062,
+        "Vote %": 32.12
+      },
+      {
+        "Candidate": "LOGUSENG SEMP",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 6812,
+        "Postal Votes": 59,
+        "Total Votes": 6871,
+        "Vote %": 31.26
+      },
+      {
+        "Candidate": "THAPIMO SEMY",
+        "Party": "Janata Dal  (United)",
+        "EVM Votes": 101,
+        "Postal Votes": 4,
+        "Total Votes": 105,
+        "Vote %": 0.48
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 20,
+        "Postal Votes": 0,
+        "Total Votes": 20,
+        "Vote %": 0.09
+      }
+    ]
+  },
+  {
+    "ac_no": 13,
+    "ac_name": "Pughoboto  (ST)",
+    "candidates": [
+      {
+        "Candidate": "Y. VIKHEHO SWU",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 6012,
+        "Postal Votes": 246,
+        "Total Votes": 6258,
+        "Vote %": 49.99
+      },
+      {
+        "Candidate": "DR. SUKHATO A. SEMA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 5975,
+        "Postal Votes": 213,
+        "Total Votes": 6188,
+        "Vote %": 49.43
+      },
+      {
+        "Candidate": "KHEYIHE ZIMOMI",
+        "Party": "Independent",
+        "EVM Votes": 54,
+        "Postal Votes": 2,
+        "Total Votes": 56,
+        "Vote %": 0.45
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 17,
+        "Postal Votes": 0,
+        "Total Votes": 17,
+        "Vote %": 0.14
+      }
+    ]
+  },
+  {
+    "ac_no": 14,
+    "ac_name": "Southern angami-i  (ST)",
+    "candidates": [
+      {
+        "Candidate": "VIKHO-O YHOSH\u00dc",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 5771,
+        "Postal Votes": 50,
+        "Total Votes": 5821,
+        "Vote %": 51.21
+      },
+      {
+        "Candidate": "MEDOKUL SOPHIE",
+        "Party": "National People's Party",
+        "EVM Votes": 3713,
+        "Postal Votes": 26,
+        "Total Votes": 3739,
+        "Vote %": 32.89
+      },
+      {
+        "Candidate": "KHRIELEZO BIO",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 1358,
+        "Postal Votes": 8,
+        "Total Votes": 1366,
+        "Vote %": 12.02
+      },
+      {
+        "Candidate": "NAGAKUL TASE",
+        "Party": "Indian National Congress",
+        "EVM Votes": 335,
+        "Postal Votes": 2,
+        "Total Votes": 337,
+        "Vote %": 2.96
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 105,
+        "Postal Votes": 0,
+        "Total Votes": 105,
+        "Vote %": 0.92
+      }
+    ]
+  },
+  {
+    "ac_no": 15,
+    "ac_name": "Southern angami-ii  (ST)",
+    "candidates": [
+      {
+        "Candidate": "ZALE NEIKHA",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 7496,
+        "Postal Votes": 67,
+        "Total Votes": 7563,
+        "Vote %": 52.55
+      },
+      {
+        "Candidate": "ER. KROPOL VITSU",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 6737,
+        "Postal Votes": 55,
+        "Total Votes": 6792,
+        "Vote %": 47.19
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 38,
+        "Postal Votes": 0,
+        "Total Votes": 38,
+        "Vote %": 0.26
+      }
+    ]
+  },
+  {
+    "ac_no": 16,
+    "ac_name": "Pfutsero  (ST)",
+    "candidates": [
+      {
+        "Candidate": "NEIBA KRONU",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 6083,
+        "Postal Votes": 145,
+        "Total Votes": 6228,
+        "Vote %": 36.87
+      },
+      {
+        "Candidate": "THENUCHO",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 4843,
+        "Postal Votes": 71,
+        "Total Votes": 4914,
+        "Vote %": 29.09
+      },
+      {
+        "Candidate": "KEWEKHAPE THERIE",
+        "Party": "Indian National Congress",
+        "EVM Votes": 3702,
+        "Postal Votes": 83,
+        "Total Votes": 3785,
+        "Vote %": 22.41
+      },
+      {
+        "Candidate": "VIVOLIE KEZO",
+        "Party": "National People's Party",
+        "EVM Votes": 1889,
+        "Postal Votes": 25,
+        "Total Votes": 1914,
+        "Vote %": 11.33
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 52,
+        "Postal Votes": 0,
+        "Total Votes": 52,
+        "Vote %": 0.31
+      }
+    ]
+  },
+  {
+    "ac_no": 17,
+    "ac_name": "Chizami  (ST)",
+    "candidates": [
+      {
+        "Candidate": "KEZHIENYI KHALO",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 6463,
+        "Postal Votes": 100,
+        "Total Votes": 6563,
+        "Vote %": 43.09
+      },
+      {
+        "Candidate": "KEVECHUTSO DOULO",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 6066,
+        "Postal Votes": 94,
+        "Total Votes": 6160,
+        "Vote %": 40.44
+      },
+      {
+        "Candidate": "DEO NUKHU",
+        "Party": "National People's Party",
+        "EVM Votes": 1586,
+        "Postal Votes": 81,
+        "Total Votes": 1667,
+        "Vote %": 10.94
+      },
+      {
+        "Candidate": "KEWEPELO TSUHAH",
+        "Party": "Indian National Congress",
+        "EVM Votes": 453,
+        "Postal Votes": 18,
+        "Total Votes": 471,
+        "Vote %": 3.09
+      },
+      {
+        "Candidate": "REKHA ROSE DUKRU",
+        "Party": "Independent",
+        "EVM Votes": 337,
+        "Postal Votes": 1,
+        "Total Votes": 338,
+        "Vote %": 2.22
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 30,
+        "Postal Votes": 2,
+        "Total Votes": 32,
+        "Vote %": 0.21
+      }
+    ]
+  },
+  {
+    "ac_no": 18,
+    "ac_name": "Chozuba  (ST)",
+    "candidates": [
+      {
+        "Candidate": "CHOTISUH SAZO",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 11309,
+        "Postal Votes": 123,
+        "Total Votes": 11432,
+        "Vote %": 51.93
+      },
+      {
+        "Candidate": "KUDECHO KHAMO",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 10383,
+        "Postal Votes": 107,
+        "Total Votes": 10490,
+        "Vote %": 47.65
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 93,
+        "Postal Votes": 0,
+        "Total Votes": 93,
+        "Vote %": 0.42
+      }
+    ]
+  },
+  {
+    "ac_no": 19,
+    "ac_name": "Phek  (ST)",
+    "candidates": [
+      {
+        "Candidate": "KUZHOLUZO NIENU",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 10700,
+        "Postal Votes": 427,
+        "Total Votes": 11127,
+        "Vote %": 62.41
+      },
+      {
+        "Candidate": "KUPOTA KHESOH",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 5996,
+        "Postal Votes": 200,
+        "Total Votes": 6196,
+        "Vote %": 34.75
+      },
+      {
+        "Candidate": "SHEZOTA LOHE",
+        "Party": "Indian National Congress",
+        "EVM Votes": 324,
+        "Postal Votes": 2,
+        "Total Votes": 326,
+        "Vote %": 1.83
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 181,
+        "Postal Votes": 0,
+        "Total Votes": 181,
+        "Vote %": 1.02
+      }
+    ]
+  },
+  {
+    "ac_no": 20,
+    "ac_name": "Meluri  (ST)",
+    "candidates": [
+      {
+        "Candidate": "YITACHU",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 7709,
+        "Postal Votes": 219,
+        "Total Votes": 7928,
+        "Vote %": 47.77
+      },
+      {
+        "Candidate": "Z NYUSIETHO NYUTHE",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 7688,
+        "Postal Votes": 166,
+        "Total Votes": 7854,
+        "Vote %": 47.32
+      },
+      {
+        "Candidate": "M HOPESON SNOCK",
+        "Party": "National People's Party",
+        "EVM Votes": 615,
+        "Postal Votes": 4,
+        "Total Votes": 619,
+        "Vote %": 3.73
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 195,
+        "Postal Votes": 0,
+        "Total Votes": 195,
+        "Vote %": 1.17
+      }
+    ]
+  },
+  {
+    "ac_no": 21,
+    "ac_name": "Tuli  (ST)",
+    "candidates": [
+      {
+        "Candidate": "AMENBA YADEN",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 3828,
+        "Postal Votes": 37,
+        "Total Votes": 3865,
+        "Vote %": 26.64
+      },
+      {
+        "Candidate": "L. TEMJEN JAMIR",
+        "Party": "Janata Dal  (United)",
+        "EVM Votes": 2967,
+        "Postal Votes": 12,
+        "Total Votes": 2979,
+        "Vote %": 20.54
+      },
+      {
+        "Candidate": "JAMES IMTIKUMBA YADEN",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 2766,
+        "Postal Votes": 26,
+        "Total Votes": 2792,
+        "Vote %": 19.25
+      },
+      {
+        "Candidate": "LIPOKMAR TZUDIR",
+        "Party": "Lok Jan Shakti Party",
+        "EVM Votes": 2324,
+        "Postal Votes": 26,
+        "Total Votes": 2350,
+        "Vote %": 16.2
+      },
+      {
+        "Candidate": "S. IMTIWAPANG JAMIR",
+        "Party": "Nationalist Congress Party",
+        "EVM Votes": 1372,
+        "Postal Votes": 3,
+        "Total Votes": 1375,
+        "Vote %": 9.48
+      },
+      {
+        "Candidate": "I. CHUBATANGIT JAMIR",
+        "Party": "Independent",
+        "EVM Votes": 777,
+        "Postal Votes": 7,
+        "Total Votes": 784,
+        "Vote %": 5.4
+      },
+      {
+        "Candidate": "LEPZUNGCHIBA JAMIR",
+        "Party": "Indian National Congress",
+        "EVM Votes": 296,
+        "Postal Votes": 1,
+        "Total Votes": 297,
+        "Vote %": 2.05
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 64,
+        "Postal Votes": 0,
+        "Total Votes": 64,
+        "Vote %": 0.44
+      }
+    ]
+  },
+  {
+    "ac_no": 22,
+    "ac_name": "Arkakong  (ST)",
+    "candidates": [
+      {
+        "Candidate": "SHRI IMNATIBA",
+        "Party": "National People's Party",
+        "EVM Votes": 6259,
+        "Postal Votes": 48,
+        "Total Votes": 6307,
+        "Vote %": 43.91
+      },
+      {
+        "Candidate": "SHRI NUKLUTOSHI",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 5478,
+        "Postal Votes": 36,
+        "Total Votes": 5514,
+        "Vote %": 38.39
+      },
+      {
+        "Candidate": "SHRI K TEMJEN JAMIR",
+        "Party": "Independent",
+        "EVM Votes": 1542,
+        "Postal Votes": 34,
+        "Total Votes": 1576,
+        "Vote %": 10.97
+      },
+      {
+        "Candidate": "SHRI MANGYANG LIMA",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 895,
+        "Postal Votes": 19,
+        "Total Votes": 914,
+        "Vote %": 6.36
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 53,
+        "Postal Votes": 0,
+        "Total Votes": 53,
+        "Vote %": 0.37
+      }
+    ]
+  },
+  {
+    "ac_no": 23,
+    "ac_name": "Impur  (ST)",
+    "candidates": [
+      {
+        "Candidate": "DR IMTIWAPANG AIER",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 4783,
+        "Postal Votes": 69,
+        "Total Votes": 4852,
+        "Vote %": 50.18
+      },
+      {
+        "Candidate": "T N MANNEN",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 4765,
+        "Postal Votes": 25,
+        "Total Votes": 4790,
+        "Vote %": 49.54
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 27,
+        "Postal Votes": 0,
+        "Total Votes": 27,
+        "Vote %": 0.28
+      }
+    ]
+  },
+  {
+    "ac_no": 24,
+    "ac_name": "Angetyongpang  (ST)",
+    "candidates": [
+      {
+        "Candidate": "TONGPANG OZUKUM",
+        "Party": "Independent",
+        "EVM Votes": 4492,
+        "Postal Votes": 115,
+        "Total Votes": 4607,
+        "Vote %": 36.84
+      },
+      {
+        "Candidate": "ALEMTEMSHI JAMIR",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 3577,
+        "Postal Votes": 80,
+        "Total Votes": 3657,
+        "Vote %": 29.24
+      },
+      {
+        "Candidate": "S CHUBA LONGKUMER",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 3304,
+        "Postal Votes": 49,
+        "Total Votes": 3353,
+        "Vote %": 26.81
+      },
+      {
+        "Candidate": "SASHIMAR",
+        "Party": "Janata Dal  (United)",
+        "EVM Votes": 584,
+        "Postal Votes": 33,
+        "Total Votes": 617,
+        "Vote %": 4.93
+      },
+      {
+        "Candidate": "SUPONGWATI",
+        "Party": "Nationalist Congress Party",
+        "EVM Votes": 221,
+        "Postal Votes": 2,
+        "Total Votes": 223,
+        "Vote %": 1.78
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 49,
+        "Postal Votes": 0,
+        "Total Votes": 49,
+        "Vote %": 0.39
+      }
+    ]
+  },
+  {
+    "ac_no": 25,
+    "ac_name": "Mongoya  (ST)",
+    "candidates": [
+      {
+        "Candidate": "NGANGSHI K AO",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 6633,
+        "Postal Votes": 250,
+        "Total Votes": 6883,
+        "Vote %": 50.67
+      },
+      {
+        "Candidate": "ALEMTEMSHI JAMIR",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 6371,
+        "Postal Votes": 164,
+        "Total Votes": 6535,
+        "Vote %": 48.1
+      },
+      {
+        "Candidate": "S. SUPONGMEREN JAMIR",
+        "Party": "National People's Party",
+        "EVM Votes": 137,
+        "Postal Votes": 14,
+        "Total Votes": 151,
+        "Vote %": 1.11
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 16,
+        "Postal Votes": 0,
+        "Total Votes": 16,
+        "Vote %": 0.12
+      }
+    ]
+  },
+  {
+    "ac_no": 26,
+    "ac_name": "Aonglenden  (ST)",
+    "candidates": [
+      {
+        "Candidate": "IMTIKUMZUK",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 4928,
+        "Postal Votes": 278,
+        "Total Votes": 5206,
+        "Vote %": 50.24
+      },
+      {
+        "Candidate": "TOSHIPOKBA",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 4897,
+        "Postal Votes": 221,
+        "Total Votes": 5118,
+        "Vote %": 49.39
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 37,
+        "Postal Votes": 2,
+        "Total Votes": 39,
+        "Vote %": 0.38
+      }
+    ]
+  },
+  {
+    "ac_no": 27,
+    "ac_name": "Mokokchung town  (ST)",
+    "candidates": [
+      {
+        "Candidate": "METSUBO JAMIR",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 2800,
+        "Postal Votes": 164,
+        "Total Votes": 2964,
+        "Vote %": 52.87
+      },
+      {
+        "Candidate": "C. APOK JAMIR",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 1840,
+        "Postal Votes": 120,
+        "Total Votes": 1960,
+        "Vote %": 34.96
+      },
+      {
+        "Candidate": "TEMSUWATI",
+        "Party": "Independent",
+        "EVM Votes": 507,
+        "Postal Votes": 19,
+        "Total Votes": 526,
+        "Vote %": 9.38
+      },
+      {
+        "Candidate": "RONGSENSHILU",
+        "Party": "Indian National Congress",
+        "EVM Votes": 121,
+        "Postal Votes": 8,
+        "Total Votes": 129,
+        "Vote %": 2.3
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 25,
+        "Postal Votes": 2,
+        "Total Votes": 27,
+        "Vote %": 0.48
+      }
+    ]
+  },
+  {
+    "ac_no": 28,
+    "ac_name": "Koridang  (ST)",
+    "candidates": [
+      {
+        "Candidate": "IMKONG L IMCHEN",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 7202,
+        "Postal Votes": 323,
+        "Total Votes": 7525,
+        "Vote %": 47.9
+      },
+      {
+        "Candidate": "T CHALUKUMBA AO",
+        "Party": "National People's Party",
+        "EVM Votes": 7320,
+        "Postal Votes": 77,
+        "Total Votes": 7397,
+        "Vote %": 47.09
+      },
+      {
+        "Candidate": "C LIMA IMCHEN",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 651,
+        "Postal Votes": 98,
+        "Total Votes": 749,
+        "Vote %": 4.77
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 36,
+        "Postal Votes": 2,
+        "Total Votes": 38,
+        "Vote %": 0.24
+      }
+    ]
+  },
+  {
+    "ac_no": 29,
+    "ac_name": "Jangpetkong  (ST)",
+    "candidates": [
+      {
+        "Candidate": "LONGRINEKEN",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 3577,
+        "Postal Votes": 38,
+        "Total Votes": 3615,
+        "Vote %": 35.5
+      },
+      {
+        "Candidate": "E.T SUNUP",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 3294,
+        "Postal Votes": 45,
+        "Total Votes": 3339,
+        "Vote %": 32.79
+      },
+      {
+        "Candidate": "DR. K. CHUBA",
+        "Party": "National People's Party",
+        "EVM Votes": 3149,
+        "Postal Votes": 36,
+        "Total Votes": 3185,
+        "Vote %": 31.27
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 45,
+        "Postal Votes": 0,
+        "Total Votes": 45,
+        "Vote %": 0.44
+      }
+    ]
+  },
+  {
+    "ac_no": 30,
+    "ac_name": "Alongtaki  (ST)",
+    "candidates": [
+      {
+        "Candidate": "TEMJEN IMNA ALONG",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 5962,
+        "Postal Votes": 19,
+        "Total Votes": 5981,
+        "Vote %": 50.18
+      },
+      {
+        "Candidate": "DR. BENJONGLIBA AIER",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 5862,
+        "Postal Votes": 33,
+        "Total Votes": 5895,
+        "Vote %": 49.46
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 43,
+        "Postal Votes": 0,
+        "Total Votes": 43,
+        "Vote %": 0.36
+      }
+    ]
+  },
+  {
+    "ac_no": 31,
+    "ac_name": "Akuluto  (ST)",
+    "candidates": [
+      {
+        "Candidate": "KAZHETO KINIMI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 4673,
+        "Postal Votes": 171,
+        "Total Votes": 4844,
+        "Vote %": 54.01
+      },
+      {
+        "Candidate": "K KHEKAHO ASSUMI",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 4035,
+        "Postal Votes": 74,
+        "Total Votes": 4109,
+        "Vote %": 45.82
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 14,
+        "Postal Votes": 1,
+        "Total Votes": 15,
+        "Vote %": 0.17
+      }
+    ]
+  },
+  {
+    "ac_no": 32,
+    "ac_name": "Atoizu  (ST)",
+    "candidates": [
+      {
+        "Candidate": "PICTO",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 7433,
+        "Postal Votes": 210,
+        "Total Votes": 7643,
+        "Vote %": 52.82
+      },
+      {
+        "Candidate": "K.L.CHISHI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 6573,
+        "Postal Votes": 232,
+        "Total Votes": 6805,
+        "Vote %": 47.03
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 21,
+        "Postal Votes": 0,
+        "Total Votes": 21,
+        "Vote %": 0.15
+      }
+    ]
+  },
+  {
+    "ac_no": 33,
+    "ac_name": "Suruhoto  (ST)",
+    "candidates": [
+      {
+        "Candidate": "H KHEHOVI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 10506,
+        "Postal Votes": 354,
+        "Total Votes": 10860,
+        "Vote %": 82.2
+      },
+      {
+        "Candidate": "DR. KAITO JAKHALU",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 2255,
+        "Postal Votes": 46,
+        "Total Votes": 2301,
+        "Vote %": 17.42
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 50,
+        "Postal Votes": 1,
+        "Total Votes": 51,
+        "Vote %": 0.39
+      }
+    ]
+  },
+  {
+    "ac_no": 34,
+    "ac_name": "Aghunato  (ST)",
+    "candidates": [
+      {
+        "Candidate": "PUKHAYI",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 6154,
+        "Postal Votes": 245,
+        "Total Votes": 6399,
+        "Vote %": 55.97
+      },
+      {
+        "Candidate": "HUKIYE N TISSICA",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 4797,
+        "Postal Votes": 181,
+        "Total Votes": 4978,
+        "Vote %": 43.54
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 55,
+        "Postal Votes": 0,
+        "Total Votes": 55,
+        "Vote %": 0.48
+      }
+    ]
+  },
+  {
+    "ac_no": 35,
+    "ac_name": "Zunheboto  (ST)",
+    "candidates": [
+      {
+        "Candidate": "K. TOKUGHA SUKHALU",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 9060,
+        "Postal Votes": 370,
+        "Total Votes": 9430,
+        "Vote %": 57.56
+      },
+      {
+        "Candidate": "HUKAVI ZHIMOMI",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 6611,
+        "Postal Votes": 271,
+        "Total Votes": 6882,
+        "Vote %": 42.01
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 70,
+        "Postal Votes": 1,
+        "Total Votes": 71,
+        "Vote %": 0.43
+      }
+    ]
+  },
+  {
+    "ac_no": 36,
+    "ac_name": "Satakha  (ST)",
+    "candidates": [
+      {
+        "Candidate": "G. KAITO AYE",
+        "Party": "Janata Dal  (United)",
+        "EVM Votes": 6329,
+        "Postal Votes": 102,
+        "Total Votes": 6431,
+        "Vote %": 47.98
+      },
+      {
+        "Candidate": "ZHEITO CHOPHY",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 3835,
+        "Postal Votes": 53,
+        "Total Votes": 3888,
+        "Vote %": 29.01
+      },
+      {
+        "Candidate": "ER. GHUKHUI ZHIMOMI",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 2888,
+        "Postal Votes": 71,
+        "Total Votes": 2959,
+        "Vote %": 22.08
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 126,
+        "Postal Votes": 0,
+        "Total Votes": 126,
+        "Vote %": 0.94
+      }
+    ]
+  },
+  {
+    "ac_no": 37,
+    "ac_name": "Tyui  (ST)",
+    "candidates": [
+      {
+        "Candidate": "YANTHUNGO PATTON",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 11297,
+        "Postal Votes": 412,
+        "Total Votes": 11709,
+        "Vote %": 55.41
+      },
+      {
+        "Candidate": "YANKITHUNG YANTHAN",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 8418,
+        "Postal Votes": 199,
+        "Total Votes": 8617,
+        "Vote %": 40.78
+      },
+      {
+        "Candidate": "DR. R. THUNGCHAMO ",
+        "Party": "Nationalist Congress Party",
+        "EVM Votes": 554,
+        "Postal Votes": 31,
+        "Total Votes": 585,
+        "Vote %": 2.77
+      },
+      {
+        "Candidate": "CHOBHATHUNG ODYUO",
+        "Party": "Janata Dal  (United)",
+        "EVM Votes": 79,
+        "Postal Votes": 108,
+        "Total Votes": 187,
+        "Vote %": 0.88
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 32,
+        "Postal Votes": 0,
+        "Total Votes": 32,
+        "Vote %": 0.15
+      }
+    ]
+  },
+  {
+    "ac_no": 38,
+    "ac_name": "Wokha  (ST)",
+    "candidates": [
+      {
+        "Candidate": "DR. CHUMBEN MURRY",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 14381,
+        "Postal Votes": 489,
+        "Total Votes": 14870,
+        "Vote %": 56.41
+      },
+      {
+        "Candidate": "Y. MHONBEMO HUMTSOE",
+        "Party": "Janata Dal  (United)",
+        "EVM Votes": 5935,
+        "Postal Votes": 380,
+        "Total Votes": 6315,
+        "Vote %": 23.96
+      },
+      {
+        "Candidate": "DR. T. MYINGTHUNGO ",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 4620,
+        "Postal Votes": 235,
+        "Total Votes": 4855,
+        "Vote %": 18.42
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 317,
+        "Postal Votes": 4,
+        "Total Votes": 321,
+        "Vote %": 1.22
+      }
+    ]
+  },
+  {
+    "ac_no": 39,
+    "ac_name": "Sanis  (ST)",
+    "candidates": [
+      {
+        "Candidate": "MHATHUNG YANTHAN",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 10391,
+        "Postal Votes": 157,
+        "Total Votes": 10548,
+        "Vote %": 49.97
+      },
+      {
+        "Candidate": "RAMONGO LOTHA",
+        "Party": "Janata Dal  (United)",
+        "EVM Votes": 7428,
+        "Postal Votes": 128,
+        "Total Votes": 7556,
+        "Vote %": 35.79
+      },
+      {
+        "Candidate": "RALANTHUNG YANTHAN",
+        "Party": "National People's Party",
+        "EVM Votes": 1963,
+        "Postal Votes": 34,
+        "Total Votes": 1997,
+        "Vote %": 9.46
+      },
+      {
+        "Candidate": "Y. RENBOMO KIKON",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 462,
+        "Postal Votes": 9,
+        "Total Votes": 471,
+        "Vote %": 2.23
+      },
+      {
+        "Candidate": "SENKATHUNG JAMI",
+        "Party": "Lok Jan Shakti Party",
+        "EVM Votes": 413,
+        "Postal Votes": 2,
+        "Total Votes": 415,
+        "Vote %": 1.97
+      },
+      {
+        "Candidate": "Y. SULANTHUNG H LOTHA",
+        "Party": "Independent",
+        "EVM Votes": 87,
+        "Postal Votes": 5,
+        "Total Votes": 92,
+        "Vote %": 0.44
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 31,
+        "Postal Votes": 0,
+        "Total Votes": 31,
+        "Vote %": 0.15
+      }
+    ]
+  },
+  {
+    "ac_no": 40,
+    "ac_name": "Bhandari  (ST)",
+    "candidates": [
+      {
+        "Candidate": "MMHONLUMO KIKON",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 10998,
+        "Postal Votes": 207,
+        "Total Votes": 11205,
+        "Vote %": 45.79
+      },
+      {
+        "Candidate": "ACHUMBEMO KIKON",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 10528,
+        "Postal Votes": 365,
+        "Total Votes": 10893,
+        "Vote %": 44.51
+      },
+      {
+        "Candidate": "MYINTHUNGO MOZHUI",
+        "Party": "Janata Dal  (United)",
+        "EVM Votes": 1989,
+        "Postal Votes": 8,
+        "Total Votes": 1997,
+        "Vote %": 8.16
+      },
+      {
+        "Candidate": "E.THUNGJAMO EZUNG",
+        "Party": "Indian National Congress",
+        "EVM Votes": 160,
+        "Postal Votes": 4,
+        "Total Votes": 164,
+        "Vote %": 0.67
+      },
+      {
+        "Candidate": "MHONJAN LOTHA",
+        "Party": "National People's Party",
+        "EVM Votes": 119,
+        "Postal Votes": 0,
+        "Total Votes": 119,
+        "Vote %": 0.49
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 95,
+        "Postal Votes": 0,
+        "Total Votes": 95,
+        "Vote %": 0.39
+      }
+    ]
+  },
+  {
+    "ac_no": 41,
+    "ac_name": "Tizit  (ST)",
+    "candidates": [
+      {
+        "Candidate": "P. PAIWANG KONYAK",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 6886,
+        "Postal Votes": 95,
+        "Total Votes": 6981,
+        "Vote %": 41.13
+      },
+      {
+        "Candidate": "Y. WANGTO KONYAK",
+        "Party": "Independent",
+        "EVM Votes": 4573,
+        "Postal Votes": 22,
+        "Total Votes": 4595,
+        "Vote %": 27.07
+      },
+      {
+        "Candidate": "T. HATPHA WANGNAO",
+        "Party": "Janata Dal  (United)",
+        "EVM Votes": 4140,
+        "Postal Votes": 29,
+        "Total Votes": 4169,
+        "Vote %": 24.56
+      },
+      {
+        "Candidate": "KHONGJAH KONYAK",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 1079,
+        "Postal Votes": 12,
+        "Total Votes": 1091,
+        "Vote %": 6.43
+      },
+      {
+        "Candidate": "NAOWANG KONYAK",
+        "Party": "Indian National Congress",
+        "EVM Votes": 67,
+        "Postal Votes": 0,
+        "Total Votes": 67,
+        "Vote %": 0.39
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 70,
+        "Postal Votes": 0,
+        "Total Votes": 70,
+        "Vote %": 0.41
+      }
+    ]
+  },
+  {
+    "ac_no": 42,
+    "ac_name": "Wakching  (ST)",
+    "candidates": [
+      {
+        "Candidate": "SHRI. Y.M.YOLLOW ",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 7677,
+        "Postal Votes": 131,
+        "Total Votes": 7808,
+        "Vote %": 56.02
+      },
+      {
+        "Candidate": "SHRI. M.C.KONYAK",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 5929,
+        "Postal Votes": 115,
+        "Total Votes": 6044,
+        "Vote %": 43.36
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 86,
+        "Postal Votes": 0,
+        "Total Votes": 86,
+        "Vote %": 0.62
+      }
+    ]
+  },
+  {
+    "ac_no": 43,
+    "ac_name": "Tapi  (ST)",
+    "candidates": [
+      {
+        "Candidate": "NOKE",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 4116,
+        "Postal Votes": 168,
+        "Total Votes": 4284,
+        "Vote %": 38.08
+      },
+      {
+        "Candidate": "N.APHOA KONYAK",
+        "Party": "Janata Dal  (United)",
+        "EVM Votes": 3014,
+        "Postal Votes": 33,
+        "Total Votes": 3047,
+        "Vote %": 27.09
+      },
+      {
+        "Candidate": "LANPHA KONYAK",
+        "Party": "Indian National Congress",
+        "EVM Votes": 2377,
+        "Postal Votes": 49,
+        "Total Votes": 2426,
+        "Vote %": 21.57
+      },
+      {
+        "Candidate": "TINGTHOK KONYAK",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 893,
+        "Postal Votes": 14,
+        "Total Votes": 907,
+        "Vote %": 8.06
+      },
+      {
+        "Candidate": "WANGLEM",
+        "Party": "National People's Party",
+        "EVM Votes": 537,
+        "Postal Votes": 12,
+        "Total Votes": 549,
+        "Vote %": 4.88
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 36,
+        "Postal Votes": 0,
+        "Total Votes": 36,
+        "Vote %": 0.32
+      }
+    ]
+  },
+  {
+    "ac_no": 44,
+    "ac_name": "Phomching  (ST)",
+    "candidates": [
+      {
+        "Candidate": "POHWANG KONYAK",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 6586,
+        "Postal Votes": 25,
+        "Total Votes": 6611,
+        "Vote %": 44.75
+      },
+      {
+        "Candidate": "K. KONNGAM KONYAK",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 5968,
+        "Postal Votes": 11,
+        "Total Votes": 5979,
+        "Vote %": 40.48
+      },
+      {
+        "Candidate": "H. CHINGSAK KONYAK",
+        "Party": "National People's Party",
+        "EVM Votes": 1722,
+        "Postal Votes": 3,
+        "Total Votes": 1725,
+        "Vote %": 11.68
+      },
+      {
+        "Candidate": "T. NGAMPAI KONYAK",
+        "Party": "Indian National Congress",
+        "EVM Votes": 230,
+        "Postal Votes": 0,
+        "Total Votes": 230,
+        "Vote %": 1.56
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 227,
+        "Postal Votes": 0,
+        "Total Votes": 227,
+        "Vote %": 1.54
+      }
+    ]
+  },
+  {
+    "ac_no": 45,
+    "ac_name": "Tehok  (ST)",
+    "candidates": [
+      {
+        "Candidate": "C.L JOHN",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 7333,
+        "Postal Votes": 130,
+        "Total Votes": 7463,
+        "Vote %": 69.55
+      },
+      {
+        "Candidate": "ER C KAWANG KONYAK",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 2882,
+        "Postal Votes": 25,
+        "Total Votes": 2907,
+        "Vote %": 27.09
+      },
+      {
+        "Candidate": "CHINGKAI KONYAK",
+        "Party": "National People's Party",
+        "EVM Votes": 265,
+        "Postal Votes": 3,
+        "Total Votes": 268,
+        "Vote %": 2.5
+      },
+      {
+        "Candidate": "SHABOH KONYAK",
+        "Party": "Indian National Congress",
+        "EVM Votes": 45,
+        "Postal Votes": 0,
+        "Total Votes": 45,
+        "Vote %": 0.42
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 47,
+        "Postal Votes": 0,
+        "Total Votes": 47,
+        "Vote %": 0.44
+      }
+    ]
+  },
+  {
+    "ac_no": 46,
+    "ac_name": "Mon town  (ST)",
+    "candidates": [
+      {
+        "Candidate": "N. THONGWANG KONYAK",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 5227,
+        "Postal Votes": 202,
+        "Total Votes": 5429,
+        "Vote %": 33.26
+      },
+      {
+        "Candidate": "Y. MANKHAO KONYAK",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 5172,
+        "Postal Votes": 229,
+        "Total Votes": 5401,
+        "Vote %": 33.09
+      },
+      {
+        "Candidate": "ER. CHEONG KONYAK",
+        "Party": "National People's Party",
+        "EVM Votes": 4806,
+        "Postal Votes": 197,
+        "Total Votes": 5003,
+        "Vote %": 30.65
+      },
+      {
+        "Candidate": "HAWANG T. WANGSHA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 361,
+        "Postal Votes": 17,
+        "Total Votes": 378,
+        "Vote %": 2.32
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 113,
+        "Postal Votes": 0,
+        "Total Votes": 113,
+        "Vote %": 0.69
+      }
+    ]
+  },
+  {
+    "ac_no": 47,
+    "ac_name": "Aboi  (ST)",
+    "candidates": [
+      {
+        "Candidate": "ESHAK KONYAK",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 5948,
+        "Postal Votes": 88,
+        "Total Votes": 6036,
+        "Vote %": 53.84
+      },
+      {
+        "Candidate": "AWAN KONYAK",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 5015,
+        "Postal Votes": 116,
+        "Total Votes": 5131,
+        "Vote %": 45.77
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 43,
+        "Postal Votes": 0,
+        "Total Votes": 43,
+        "Vote %": 0.38
+      }
+    ]
+  },
+  {
+    "ac_no": 48,
+    "ac_name": "Moka  (ST)",
+    "candidates": [
+      {
+        "Candidate": "E. E. PANGTEANG",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 7603,
+        "Postal Votes": 81,
+        "Total Votes": 7684,
+        "Vote %": 50.4
+      },
+      {
+        "Candidate": "K. KIKO KONYAK",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 7497,
+        "Postal Votes": 39,
+        "Total Votes": 7536,
+        "Vote %": 49.43
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 27,
+        "Postal Votes": 0,
+        "Total Votes": 27,
+        "Vote %": 0.18
+      }
+    ]
+  },
+  {
+    "ac_no": 49,
+    "ac_name": "Tamlu  (ST)",
+    "candidates": [
+      {
+        "Candidate": "B. S. NGANLANG PHOM",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 6463,
+        "Postal Votes": 119,
+        "Total Votes": 6582,
+        "Vote %": 42.49
+      },
+      {
+        "Candidate": "B. PHONGSHAK PHOM",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 5499,
+        "Postal Votes": 125,
+        "Total Votes": 5624,
+        "Vote %": 36.3
+      },
+      {
+        "Candidate": "W CHINGKAM",
+        "Party": "Independent",
+        "EVM Votes": 3104,
+        "Postal Votes": 58,
+        "Total Votes": 3162,
+        "Vote %": 20.41
+      },
+      {
+        "Candidate": "P. MOIGAM PHOM",
+        "Party": "Aam Aadmi Party",
+        "EVM Votes": 47,
+        "Postal Votes": 0,
+        "Total Votes": 47,
+        "Vote %": 0.3
+      },
+      {
+        "Candidate": "B.P. HENVEIH PHOM",
+        "Party": "National People's Party",
+        "EVM Votes": 37,
+        "Postal Votes": 3,
+        "Total Votes": 40,
+        "Vote %": 0.26
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 34,
+        "Postal Votes": 2,
+        "Total Votes": 36,
+        "Vote %": 0.23
+      }
+    ]
+  },
+  {
+    "ac_no": 50,
+    "ac_name": "Longleng  (ST)",
+    "candidates": [
+      {
+        "Candidate": "S PANGNYU PHOM",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 9735,
+        "Postal Votes": 252,
+        "Total Votes": 9987,
+        "Vote %": 41.9
+      },
+      {
+        "Candidate": "Y. B ANGAM PHOM",
+        "Party": "National People's Party",
+        "EVM Votes": 8722,
+        "Postal Votes": 259,
+        "Total Votes": 8981,
+        "Vote %": 37.68
+      },
+      {
+        "Candidate": "ER. T. L. SEMDOK",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 4505,
+        "Postal Votes": 134,
+        "Total Votes": 4639,
+        "Vote %": 19.46
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 225,
+        "Postal Votes": 1,
+        "Total Votes": 226,
+        "Vote %": 0.95
+      }
+    ]
+  },
+  {
+    "ac_no": 51,
+    "ac_name": "Noksen  (ST)",
+    "candidates": [
+      {
+        "Candidate": "C.M. CHANG",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 4301,
+        "Postal Votes": 135,
+        "Total Votes": 4436,
+        "Vote %": 44.11
+      },
+      {
+        "Candidate": "W.CHINGMAK CHANG",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 3779,
+        "Postal Votes": 81,
+        "Total Votes": 3860,
+        "Vote %": 38.39
+      },
+      {
+        "Candidate": "I.NOKSENLEMBA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 992,
+        "Postal Votes": 16,
+        "Total Votes": 1008,
+        "Vote %": 10.02
+      },
+      {
+        "Candidate": "DR.K.MANGYANGPULA ",
+        "Party": "National People's Party",
+        "EVM Votes": 713,
+        "Postal Votes": 12,
+        "Total Votes": 725,
+        "Vote %": 7.21
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 27,
+        "Postal Votes": 0,
+        "Total Votes": 27,
+        "Vote %": 0.27
+      }
+    ]
+  },
+  {
+    "ac_no": 52,
+    "ac_name": "Longkhim chare  (ST)",
+    "candidates": [
+      {
+        "Candidate": "MUTHINGNYUBA SANGTAM",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 9139,
+        "Postal Votes": 177,
+        "Total Votes": 9316,
+        "Vote %": 47.01
+      },
+      {
+        "Candidate": "A. IMTILEMBA SANGTAM",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 7413,
+        "Postal Votes": 55,
+        "Total Votes": 7468,
+        "Vote %": 37.68
+      },
+      {
+        "Candidate": "T. CHOLONGSE SANGTAM",
+        "Party": "National People's Party",
+        "EVM Votes": 2930,
+        "Postal Votes": 41,
+        "Total Votes": 2971,
+        "Vote %": 14.99
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 64,
+        "Postal Votes": 0,
+        "Total Votes": 64,
+        "Vote %": 0.32
+      }
+    ]
+  },
+  {
+    "ac_no": 53,
+    "ac_name": "Tuensang sadar-i  (ST)",
+    "candidates": [
+      {
+        "Candidate": "TOYANG CHANG",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 9642,
+        "Postal Votes": 445,
+        "Total Votes": 10087,
+        "Vote %": 59.39
+      },
+      {
+        "Candidate": "T.MONGKO CHANG",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 6523,
+        "Postal Votes": 305,
+        "Total Votes": 6828,
+        "Vote %": 40.2
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 70,
+        "Postal Votes": 0,
+        "Total Votes": 70,
+        "Vote %": 0.41
+      }
+    ]
+  },
+  {
+    "ac_no": 54,
+    "ac_name": "Tuensang sadar-ii  (ST)",
+    "candidates": [
+      {
+        "Candidate": "KEJONG CHANG",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 6130,
+        "Postal Votes": 74,
+        "Total Votes": 6204,
+        "Vote %": 46.15
+      },
+      {
+        "Candidate": "H ZUNGKUM CHANG",
+        "Party": "Nationalist Congress Party",
+        "EVM Votes": 4348,
+        "Postal Votes": 57,
+        "Total Votes": 4405,
+        "Vote %": 32.77
+      },
+      {
+        "Candidate": "RHAKILA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 2733,
+        "Postal Votes": 16,
+        "Total Votes": 2749,
+        "Vote %": 20.45
+      },
+      {
+        "Candidate": "H. WONGTO CHANG",
+        "Party": "National People's Party",
+        "EVM Votes": 46,
+        "Postal Votes": 2,
+        "Total Votes": 48,
+        "Vote %": 0.36
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 38,
+        "Postal Votes": 0,
+        "Total Votes": 38,
+        "Vote %": 0.28
+      }
+    ]
+  },
+  {
+    "ac_no": 55,
+    "ac_name": "Tobu  (ST)",
+    "candidates": [
+      {
+        "Candidate": "N. BONGKHAO KONYAK",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 9673,
+        "Postal Votes": 59,
+        "Total Votes": 9732,
+        "Vote %": 54.76
+      },
+      {
+        "Candidate": "NAIBA KONYAK",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 7901,
+        "Postal Votes": 90,
+        "Total Votes": 7991,
+        "Vote %": 44.97
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 48,
+        "Postal Votes": 0,
+        "Total Votes": 48,
+        "Vote %": 0.27
+      }
+    ]
+  },
+  {
+    "ac_no": 56,
+    "ac_name": "Noklak  (ST)",
+    "candidates": [
+      {
+        "Candidate": "H. HAIYING",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 5546,
+        "Postal Votes": 97,
+        "Total Votes": 5643,
+        "Vote %": 40.62
+      },
+      {
+        "Candidate": "P. LONGON",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 5533,
+        "Postal Votes": 105,
+        "Total Votes": 5638,
+        "Vote %": 40.59
+      },
+      {
+        "Candidate": "P. MULANG",
+        "Party": "Nationalist Congress Party",
+        "EVM Votes": 2125,
+        "Postal Votes": 10,
+        "Total Votes": 2135,
+        "Vote %": 15.37
+      },
+      {
+        "Candidate": "K. KHAMING",
+        "Party": "Janata Dal  (United)",
+        "EVM Votes": 439,
+        "Postal Votes": 10,
+        "Total Votes": 449,
+        "Vote %": 3.23
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 26,
+        "Postal Votes": 0,
+        "Total Votes": 26,
+        "Vote %": 0.19
+      }
+    ]
+  },
+  {
+    "ac_no": 57,
+    "ac_name": "Thonoknyu  (ST)",
+    "candidates": [
+      {
+        "Candidate": "L.KHUMO KHIAMNIUNGAN",
+        "Party": "National People's Party",
+        "EVM Votes": 8285,
+        "Postal Votes": 104,
+        "Total Votes": 8389,
+        "Vote %": 51.89
+      },
+      {
+        "Candidate": "S.HENO KHIAMNIUNGAN",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 4304,
+        "Postal Votes": 41,
+        "Total Votes": 4345,
+        "Vote %": 26.87
+      },
+      {
+        "Candidate": "Y.P CHILLIO",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 2895,
+        "Postal Votes": 30,
+        "Total Votes": 2925,
+        "Vote %": 18.09
+      },
+      {
+        "Candidate": "PAKHIU KHIAMNIUNGAN",
+        "Party": "Indian National Congress",
+        "EVM Votes": 390,
+        "Postal Votes": 2,
+        "Total Votes": 392,
+        "Vote %": 2.42
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 117,
+        "Postal Votes": 0,
+        "Total Votes": 117,
+        "Vote %": 0.72
+      }
+    ]
+  },
+  {
+    "ac_no": 58,
+    "ac_name": "Shamator chessore  (ST)",
+    "candidates": [
+      {
+        "Candidate": "TOSHI WUNGTUNG",
+        "Party": "Nationalist Democratic Progressive Party",
+        "EVM Votes": 4268,
+        "Postal Votes": 43,
+        "Total Votes": 4311,
+        "Vote %": 28.79
+      },
+      {
+        "Candidate": "R. TOHANBA",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 3948,
+        "Postal Votes": 56,
+        "Total Votes": 4004,
+        "Vote %": 26.74
+      },
+      {
+        "Candidate": "H. MUKAM",
+        "Party": "Janata Dal  (United)",
+        "EVM Votes": 3607,
+        "Postal Votes": 47,
+        "Total Votes": 3654,
+        "Vote %": 24.4
+      },
+      {
+        "Candidate": "K. YIMSO YIMCHUNGER",
+        "Party": "National People's Party",
+        "EVM Votes": 2890,
+        "Postal Votes": 55,
+        "Total Votes": 2945,
+        "Vote %": 19.67
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 61,
+        "Postal Votes": 0,
+        "Total Votes": 61,
+        "Vote %": 0.41
+      }
+    ]
+  },
+  {
+    "ac_no": 59,
+    "ac_name": "Seyochung sitimi  (ST)",
+    "candidates": [
+      {
+        "Candidate": "V. KASHIHO SANGTAM",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 9698,
+        "Postal Votes": 132,
+        "Total Votes": 9830,
+        "Vote %": 53.0
+      },
+      {
+        "Candidate": "C KIPILI SANGTAM",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 8547,
+        "Postal Votes": 121,
+        "Total Votes": 8668,
+        "Vote %": 46.73
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 49,
+        "Postal Votes": 1,
+        "Total Votes": 50,
+        "Vote %": 0.27
+      }
+    ]
+  },
+  {
+    "ac_no": 60,
+    "ac_name": "Pungro kiphire  (ST)",
+    "candidates": [
+      {
+        "Candidate": "T. TORECHU",
+        "Party": "Naga Peoples Front",
+        "EVM Votes": 7949,
+        "Postal Votes": 107,
+        "Total Votes": 8056,
+        "Vote %": 35.77
+      },
+      {
+        "Candidate": "T.YANGSEO SANGTAM",
+        "Party": "Janata Dal  (United)",
+        "EVM Votes": 7441,
+        "Postal Votes": 142,
+        "Total Votes": 7583,
+        "Vote %": 33.67
+      },
+      {
+        "Candidate": "S K JAMES",
+        "Party": "National People's Party",
+        "EVM Votes": 3614,
+        "Postal Votes": 105,
+        "Total Votes": 3719,
+        "Vote %": 16.51
+      },
+      {
+        "Candidate": "LITHRIYEM DUPONGLE",
+        "Party": "Nationalist Congress Party",
+        "EVM Votes": 1952,
+        "Postal Votes": 18,
+        "Total Votes": 1970,
+        "Vote %": 8.75
+      },
+      {
+        "Candidate": "T. YANKIU YIMCHUNGER",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 960,
+        "Postal Votes": 5,
+        "Total Votes": 965,
+        "Vote %": 4.28
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 230,
+        "Postal Votes": 0,
+        "Total Votes": 230,
+        "Vote %": 1.02
+      }
+    ]
+  }
+]

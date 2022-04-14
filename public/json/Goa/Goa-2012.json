@@ -1,0 +1,1962 @@
+[
+  {
+    "ac_no": 1,
+    "ac_name": "Mandrem",
+    "candidates": [
+      {
+        "Candidate": "LAXMIKANT PARSEKAR",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 11725,
+        "Postal Votes": 230,
+        "Total Votes": 11955,
+        "Vote %": 46.11
+      },
+      {
+        "Candidate": "DAYANAND RAGHUNATH ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 8350,
+        "Postal Votes": 170,
+        "Total Votes": 8520,
+        "Vote %": 32.86
+      },
+      {
+        "Candidate": "SAMEER SALGAOCAR",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 4553,
+        "Postal Votes": 38,
+        "Total Votes": 4591,
+        "Vote %": 17.71
+      },
+      {
+        "Candidate": "MENINO FRANCIS MONTEIRO",
+        "Party": "Goa Vikas Party",
+        "EVM Votes": 294,
+        "Postal Votes": 1,
+        "Total Votes": 295,
+        "Vote %": 1.14
+      },
+      {
+        "Candidate": "SANJAY PRABHU DESSAI",
+        "Party": "Independent",
+        "EVM Votes": 290,
+        "Postal Votes": 2,
+        "Total Votes": 292,
+        "Vote %": 1.13
+      },
+      {
+        "Candidate": "SANJAY DAMU KOLE",
+        "Party": "Samajwadi Janata Party (Rashtriya)",
+        "EVM Votes": 275,
+        "Postal Votes": 0,
+        "Total Votes": 275,
+        "Vote %": 1.06
+      }
+    ]
+  },
+  {
+    "ac_no": 2,
+    "ac_name": "Pernem  (SC)",
+    "candidates": [
+      {
+        "Candidate": "RAJENDRA ARLEKAR",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 16073,
+        "Postal Votes": 333,
+        "Total Votes": 16406,
+        "Vote %": 63.37
+      },
+      {
+        "Candidate": "MANOHAR TRIMBAK ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 7826,
+        "Postal Votes": 227,
+        "Total Votes": 8053,
+        "Vote %": 31.1
+      },
+      {
+        "Candidate": "SUBHASH BARKELO KERKAR",
+        "Party": "Independent",
+        "EVM Votes": 812,
+        "Postal Votes": 12,
+        "Total Votes": 824,
+        "Vote %": 3.18
+      },
+      {
+        "Candidate": "SAKHARAM VISHRAM ",
+        "Party": "Independent",
+        "EVM Votes": 191,
+        "Postal Votes": 1,
+        "Total Votes": 192,
+        "Vote %": 0.74
+      },
+      {
+        "Candidate": "KANTA SABAJI JADHAV",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 150,
+        "Postal Votes": 1,
+        "Total Votes": 151,
+        "Vote %": 0.58
+      },
+      {
+        "Candidate": "MANOHAR RAJARAM ",
+        "Party": "Samajwadi Janata Party (Rashtriya)",
+        "EVM Votes": 93,
+        "Postal Votes": 3,
+        "Total Votes": 96,
+        "Vote %": 0.37
+      },
+      {
+        "Candidate": "RAJAN KAMBLI",
+        "Party": "Independent",
+        "EVM Votes": 60,
+        "Postal Votes": 1,
+        "Total Votes": 61,
+        "Vote %": 0.24
+      },
+      {
+        "Candidate": "SHYAM BABLO AMONKAR",
+        "Party": "Republican Party of India (A)",
+        "EVM Votes": 57,
+        "Postal Votes": 0,
+        "Total Votes": 57,
+        "Vote %": 0.22
+      },
+      {
+        "Candidate": "SANTOSH SHANKAR ",
+        "Party": "United Goans Democratic Party",
+        "EVM Votes": 50,
+        "Postal Votes": 0,
+        "Total Votes": 50,
+        "Vote %": 0.19
+      }
+    ]
+  },
+  {
+    "ac_no": 3,
+    "ac_name": "Bicholim",
+    "candidates": [
+      {
+        "Candidate": "NARESH RAJARAM SAWAL",
+        "Party": "Independent",
+        "EVM Votes": 8151,
+        "Postal Votes": 180,
+        "Total Votes": 8331,
+        "Vote %": 39.68
+      },
+      {
+        "Candidate": "RAJESH T. PATNEKAR",
+        "Party": "Indian National Congress",
+        "EVM Votes": 6383,
+        "Postal Votes": 149,
+        "Total Votes": 6532,
+        "Vote %": 31.11
+      },
+      {
+        "Candidate": "MANOHAR PANDURANG ",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 5340,
+        "Postal Votes": 71,
+        "Total Votes": 5411,
+        "Vote %": 25.77
+      },
+      {
+        "Candidate": "PANDURANG DATTARAM ",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 699,
+        "Postal Votes": 21,
+        "Total Votes": 720,
+        "Vote %": 3.43
+      }
+    ]
+  },
+  {
+    "ac_no": 4,
+    "ac_name": "Tivim",
+    "candidates": [
+      {
+        "Candidate": "KIRAN MOHAN KANDOLKAR",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 10332,
+        "Postal Votes": 141,
+        "Total Votes": 10473,
+        "Vote %": 51.56
+      },
+      {
+        "Candidate": "NILKANTH RAMNATH ",
+        "Party": "Nationalist Congress Party",
+        "EVM Votes": 9191,
+        "Postal Votes": 170,
+        "Total Votes": 9361,
+        "Vote %": 46.08
+      },
+      {
+        "Candidate": "DEELIP DATTA CHODANKAR",
+        "Party": "Goa Vikas Party",
+        "EVM Votes": 202,
+        "Postal Votes": 2,
+        "Total Votes": 204,
+        "Vote %": 1.0
+      },
+      {
+        "Candidate": "INDRAKANT DATTARAM ",
+        "Party": "Independent",
+        "EVM Votes": 167,
+        "Postal Votes": 0,
+        "Total Votes": 167,
+        "Vote %": 0.82
+      },
+      {
+        "Candidate": "DATTARAM GOVIND SAWANT",
+        "Party": "Shivsena",
+        "EVM Votes": 108,
+        "Postal Votes": 1,
+        "Total Votes": 109,
+        "Vote %": 0.54
+      }
+    ]
+  },
+  {
+    "ac_no": 5,
+    "ac_name": "Mapusa",
+    "candidates": [
+      {
+        "Candidate": "FRANCIS D'SOUZA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 14769,
+        "Postal Votes": 186,
+        "Total Votes": 14955,
+        "Vote %": 74.0
+      },
+      {
+        "Candidate": "ASHISH TULSHIDAS ",
+        "Party": "Nationalist Congress Party",
+        "EVM Votes": 4729,
+        "Postal Votes": 57,
+        "Total Votes": 4786,
+        "Vote %": 23.68
+      },
+      {
+        "Candidate": "FRANCISCA DE SOUZA",
+        "Party": "Independent",
+        "EVM Votes": 276,
+        "Postal Votes": 4,
+        "Total Votes": 280,
+        "Vote %": 1.39
+      },
+      {
+        "Candidate": "MITTU MUJAVAR",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 186,
+        "Postal Votes": 2,
+        "Total Votes": 188,
+        "Vote %": 0.93
+      }
+    ]
+  },
+  {
+    "ac_no": 6,
+    "ac_name": "Siolim",
+    "candidates": [
+      {
+        "Candidate": "DAYANAND MANDREKAR",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 11259,
+        "Postal Votes": 171,
+        "Total Votes": 11430,
+        "Vote %": 52.83
+      },
+      {
+        "Candidate": "UDAY DATTARAM PALIEMKAR",
+        "Party": "Indian National Congress",
+        "EVM Votes": 9163,
+        "Postal Votes": 96,
+        "Total Votes": 9259,
+        "Vote %": 42.8
+      },
+      {
+        "Candidate": "RAJAN SAVLO GHATE",
+        "Party": "Samajwadi Janata Party (Rashtriya)",
+        "EVM Votes": 350,
+        "Postal Votes": 2,
+        "Total Votes": 352,
+        "Vote %": 1.63
+      },
+      {
+        "Candidate": "ABHIJIT DHARGALKAR",
+        "Party": "Jai Maha Bharath Party",
+        "EVM Votes": 274,
+        "Postal Votes": 0,
+        "Total Votes": 274,
+        "Vote %": 1.27
+      },
+      {
+        "Candidate": "RATIKANT SHANKAR ",
+        "Party": "Independent",
+        "EVM Votes": 254,
+        "Postal Votes": 0,
+        "Total Votes": 254,
+        "Vote %": 1.17
+      },
+      {
+        "Candidate": "MUKESH MADHUKAR ",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 66,
+        "Postal Votes": 0,
+        "Total Votes": 66,
+        "Vote %": 0.31
+      }
+    ]
+  },
+  {
+    "ac_no": 7,
+    "ac_name": "Saligao",
+    "candidates": [
+      {
+        "Candidate": "DILIP PARULEKAR",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 9950,
+        "Postal Votes": 134,
+        "Total Votes": 10084,
+        "Vote %": 51.96
+      },
+      {
+        "Candidate": "D'SOUZA TULIO",
+        "Party": "Independent",
+        "EVM Votes": 4237,
+        "Postal Votes": 39,
+        "Total Votes": 4276,
+        "Vote %": 22.03
+      },
+      {
+        "Candidate": "SURESH V. PARULEKAR",
+        "Party": "Nationalist Congress Party",
+        "EVM Votes": 1703,
+        "Postal Votes": 26,
+        "Total Votes": 1729,
+        "Vote %": 8.91
+      },
+      {
+        "Candidate": "FRANCISCO COLACO",
+        "Party": "Independent",
+        "EVM Votes": 1184,
+        "Postal Votes": 8,
+        "Total Votes": 1192,
+        "Vote %": 6.14
+      },
+      {
+        "Candidate": "PAUL FERNANDES",
+        "Party": "Independent",
+        "EVM Votes": 1124,
+        "Postal Votes": 11,
+        "Total Votes": 1135,
+        "Vote %": 5.85
+      },
+      {
+        "Candidate": "TRAJANO D'MELLO",
+        "Party": "Independent",
+        "EVM Votes": 621,
+        "Postal Votes": 4,
+        "Total Votes": 625,
+        "Vote %": 3.22
+      },
+      {
+        "Candidate": "GAJANAN RAMA NAIK",
+        "Party": "Communist Party of India",
+        "EVM Votes": 165,
+        "Postal Votes": 1,
+        "Total Votes": 166,
+        "Vote %": 0.86
+      },
+      {
+        "Candidate": "OSBERT MANUEL D'CUNHA",
+        "Party": "Independent",
+        "EVM Votes": 72,
+        "Postal Votes": 2,
+        "Total Votes": 74,
+        "Vote %": 0.38
+      },
+      {
+        "Candidate": "ALEX CAMIL RODRIGUES",
+        "Party": "Independent",
+        "EVM Votes": 65,
+        "Postal Votes": 0,
+        "Total Votes": 65,
+        "Vote %": 0.33
+      },
+      {
+        "Candidate": "MANOJ ANAND SANGODKAR",
+        "Party": "All India Minorities Front",
+        "EVM Votes": 63,
+        "Postal Votes": 0,
+        "Total Votes": 63,
+        "Vote %": 0.32
+      }
+    ]
+  },
+  {
+    "ac_no": 8,
+    "ac_name": "Calangute",
+    "candidates": [
+      {
+        "Candidate": "MICHAEL VINCENT LOBO",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 9824,
+        "Postal Votes": 67,
+        "Total Votes": 9891,
+        "Vote %": 53.91
+      },
+      {
+        "Candidate": "AGNELO NICHOLAS ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 7979,
+        "Postal Votes": 43,
+        "Total Votes": 8022,
+        "Vote %": 43.72
+      },
+      {
+        "Candidate": "JOSE PAUL MENINO SILVEIRA",
+        "Party": "Independent",
+        "EVM Votes": 239,
+        "Postal Votes": 1,
+        "Total Votes": 240,
+        "Vote %": 1.31
+      },
+      {
+        "Candidate": "ASHLEY FRANCISCO GOMES",
+        "Party": "Independent",
+        "EVM Votes": 194,
+        "Postal Votes": 1,
+        "Total Votes": 195,
+        "Vote %": 1.06
+      }
+    ]
+  },
+  {
+    "ac_no": 9,
+    "ac_name": "Porvorim",
+    "candidates": [
+      {
+        "Candidate": "ROHAN KHAUNTE",
+        "Party": "Independent",
+        "EVM Votes": 7813,
+        "Postal Votes": 159,
+        "Total Votes": 7972,
+        "Vote %": 47.93
+      },
+      {
+        "Candidate": "GOVIND PARVATKAR",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 6919,
+        "Postal Votes": 152,
+        "Total Votes": 7071,
+        "Vote %": 42.52
+      },
+      {
+        "Candidate": "FERMEENA P. KHAUNTE",
+        "Party": "Nationalist Congress Party",
+        "EVM Votes": 1204,
+        "Postal Votes": 13,
+        "Total Votes": 1217,
+        "Vote %": 7.32
+      },
+      {
+        "Candidate": "UMESH SUKHA NARVEKAR",
+        "Party": "Independent",
+        "EVM Votes": 232,
+        "Postal Votes": 0,
+        "Total Votes": 232,
+        "Vote %": 1.39
+      },
+      {
+        "Candidate": "RAJU D'SOUZA",
+        "Party": "Samajwadi Janata Party (Rashtriya)",
+        "EVM Votes": 138,
+        "Postal Votes": 1,
+        "Total Votes": 139,
+        "Vote %": 0.84
+      }
+    ]
+  },
+  {
+    "ac_no": 10,
+    "ac_name": "Aldona",
+    "candidates": [
+      {
+        "Candidate": "TICLO GLENN J V A E SOUZA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 11213,
+        "Postal Votes": 102,
+        "Total Votes": 11315,
+        "Vote %": 55.77
+      },
+      {
+        "Candidate": "DAYANAND G. NARVEKAR",
+        "Party": "Indian National Congress",
+        "EVM Votes": 7694,
+        "Postal Votes": 145,
+        "Total Votes": 7839,
+        "Vote %": 38.64
+      },
+      {
+        "Candidate": "WILFRED D'SOUZA",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 639,
+        "Postal Votes": 4,
+        "Total Votes": 643,
+        "Vote %": 3.17
+      },
+      {
+        "Candidate": "RAVINDRA VASUDEV ",
+        "Party": "Independent",
+        "EVM Votes": 256,
+        "Postal Votes": 0,
+        "Total Votes": 256,
+        "Vote %": 1.26
+      },
+      {
+        "Candidate": "JULIUS PEREIRA",
+        "Party": "Goa Su-Raj Party",
+        "EVM Votes": 234,
+        "Postal Votes": 2,
+        "Total Votes": 236,
+        "Vote %": 1.16
+      }
+    ]
+  },
+  {
+    "ac_no": 11,
+    "ac_name": "Panaji",
+    "candidates": [
+      {
+        "Candidate": "MANOHAR PARRIKAR",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 10870,
+        "Postal Votes": 216,
+        "Total Votes": 11086,
+        "Vote %": 66.13
+      },
+      {
+        "Candidate": "YATIN PAREKH",
+        "Party": "Indian National Congress",
+        "EVM Votes": 4949,
+        "Postal Votes": 69,
+        "Total Votes": 5018,
+        "Vote %": 29.93
+      },
+      {
+        "Candidate": "CHRISTOPHER FONSECA",
+        "Party": "Communist Party of India",
+        "EVM Votes": 378,
+        "Postal Votes": 5,
+        "Total Votes": 383,
+        "Vote %": 2.28
+      },
+      {
+        "Candidate": "DOMINIC SAVIO A. ",
+        "Party": "Janata Dal  (United)",
+        "EVM Votes": 170,
+        "Postal Votes": 2,
+        "Total Votes": 172,
+        "Vote %": 1.03
+      },
+      {
+        "Candidate": "BALARAM KARISHETTY",
+        "Party": "Independent",
+        "EVM Votes": 104,
+        "Postal Votes": 0,
+        "Total Votes": 104,
+        "Vote %": 0.62
+      }
+    ]
+  },
+  {
+    "ac_no": 12,
+    "ac_name": "Taleigao",
+    "candidates": [
+      {
+        "Candidate": "JENNIFER A. MONSERRATE",
+        "Party": "Indian National Congress",
+        "EVM Votes": 10444,
+        "Postal Votes": 238,
+        "Total Votes": 10682,
+        "Vote %": 50.88
+      },
+      {
+        "Candidate": "DATTAPRASAD MADHUKAR ",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 9400,
+        "Postal Votes": 131,
+        "Total Votes": 9531,
+        "Vote %": 45.39
+      },
+      {
+        "Candidate": "ANNABELLE MARIA PEREIRA",
+        "Party": "Goa Su-Raj Party",
+        "EVM Votes": 326,
+        "Postal Votes": 7,
+        "Total Votes": 333,
+        "Vote %": 1.59
+      },
+      {
+        "Candidate": "NATTY PO",
+        "Party": "Samajwadi Janata Party (Rashtriya)",
+        "EVM Votes": 224,
+        "Postal Votes": 2,
+        "Total Votes": 226,
+        "Vote %": 1.08
+      },
+      {
+        "Candidate": "VASUDEV NARAYAN SHARMA",
+        "Party": "Independent",
+        "EVM Votes": 143,
+        "Postal Votes": 0,
+        "Total Votes": 143,
+        "Vote %": 0.68
+      },
+      {
+        "Candidate": "SANJAY C. KORGAONKAR",
+        "Party": "Independent",
+        "EVM Votes": 79,
+        "Postal Votes": 2,
+        "Total Votes": 81,
+        "Vote %": 0.39
+      }
+    ]
+  },
+  {
+    "ac_no": 13,
+    "ac_name": "St. Cruz",
+    "candidates": [
+      {
+        "Candidate": "ATANASIO J. MONSERRATE",
+        "Party": "Indian National Congress",
+        "EVM Votes": 8483,
+        "Postal Votes": 161,
+        "Total Votes": 8644,
+        "Vote %": 40.43
+      },
+      {
+        "Candidate": "RODOLFO LOUIS ",
+        "Party": "Independent",
+        "EVM Votes": 6210,
+        "Postal Votes": 98,
+        "Total Votes": 6308,
+        "Vote %": 29.5
+      },
+      {
+        "Candidate": "DINAR PURSHOTTAM KAMAT ",
+        "Party": "Maharashtrawadi Gomantak",
+        "EVM Votes": 5690,
+        "Postal Votes": 134,
+        "Total Votes": 5824,
+        "Vote %": 27.24
+      },
+      {
+        "Candidate": "PEDRO CAITANO PIRES",
+        "Party": "Communist Party of India",
+        "EVM Votes": 220,
+        "Postal Votes": 1,
+        "Total Votes": 221,
+        "Vote %": 1.03
+      },
+      {
+        "Candidate": "XAVIER CARDO",
+        "Party": "Independent",
+        "EVM Votes": 189,
+        "Postal Votes": 0,
+        "Total Votes": 189,
+        "Vote %": 0.88
+      },
+      {
+        "Candidate": "DINESH NAIR",
+        "Party": "Independent",
+        "EVM Votes": 78,
+        "Postal Votes": 1,
+        "Total Votes": 79,
+        "Vote %": 0.37
+      },
+      {
+        "Candidate": "JOSE LOPES",
+        "Party": "Independent",
+        "EVM Votes": 74,
+        "Postal Votes": 0,
+        "Total Votes": 74,
+        "Vote %": 0.35
+      },
+      {
+        "Candidate": "HENEY LOBO",
+        "Party": "Independent",
+        "EVM Votes": 42,
+        "Postal Votes": 0,
+        "Total Votes": 42,
+        "Vote %": 0.2
+      }
+    ]
+  },
+  {
+    "ac_no": 14,
+    "ac_name": "St. Andre",
+    "candidates": [
+      {
+        "Candidate": "VISHNU SURYA NAIK WAGH",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 8715,
+        "Postal Votes": 103,
+        "Total Votes": 8818,
+        "Vote %": 51.24
+      },
+      {
+        "Candidate": "FRANCISCO SILVEIRA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 7514,
+        "Postal Votes": 85,
+        "Total Votes": 7599,
+        "Vote %": 44.16
+      },
+      {
+        "Candidate": "PRADIP KUMAR SANGODKAR",
+        "Party": "Independent",
+        "EVM Votes": 439,
+        "Postal Votes": 1,
+        "Total Votes": 440,
+        "Vote %": 2.56
+      },
+      {
+        "Candidate": "MILTON S. MARSHAL",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 351,
+        "Postal Votes": 1,
+        "Total Votes": 352,
+        "Vote %": 2.05
+      }
+    ]
+  },
+  {
+    "ac_no": 15,
+    "ac_name": "Cumbarjua",
+    "candidates": [
+      {
+        "Candidate": "PANDURANG A. MADKAIKAR",
+        "Party": "Indian National Congress",
+        "EVM Votes": 9359,
+        "Postal Votes": 197,
+        "Total Votes": 9556,
+        "Vote %": 48.22
+      },
+      {
+        "Candidate": "NIRMALA P. SAWANT",
+        "Party": "Independent",
+        "EVM Votes": 7844,
+        "Postal Votes": 137,
+        "Total Votes": 7981,
+        "Vote %": 40.27
+      },
+      {
+        "Candidate": "JOSE BISMARQUE ",
+        "Party": "Independent",
+        "EVM Votes": 1969,
+        "Postal Votes": 27,
+        "Total Votes": 1996,
+        "Vote %": 10.07
+      },
+      {
+        "Candidate": "PRAMOD NAIK",
+        "Party": "Jai Maha Bharath Party",
+        "EVM Votes": 155,
+        "Postal Votes": 0,
+        "Total Votes": 155,
+        "Vote %": 0.78
+      },
+      {
+        "Candidate": "GAURISH M. DESSAI",
+        "Party": "Independent",
+        "EVM Votes": 129,
+        "Postal Votes": 0,
+        "Total Votes": 129,
+        "Vote %": 0.65
+      }
+    ]
+  },
+  {
+    "ac_no": 16,
+    "ac_name": "Maem",
+    "candidates": [
+      {
+        "Candidate": "ANANT SHET",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 11880,
+        "Postal Votes": 174,
+        "Total Votes": 12054,
+        "Vote %": 53.79
+      },
+      {
+        "Candidate": "PRAVIN ZANTYE",
+        "Party": "Independent",
+        "EVM Votes": 6247,
+        "Postal Votes": 88,
+        "Total Votes": 6335,
+        "Vote %": 28.27
+      },
+      {
+        "Candidate": "RUDRESH CHODANKAR",
+        "Party": "Nationalist Congress Party",
+        "EVM Votes": 3536,
+        "Postal Votes": 49,
+        "Total Votes": 3585,
+        "Vote %": 16.0
+      },
+      {
+        "Candidate": "KAMLAKANT GADEKAR",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 225,
+        "Postal Votes": 0,
+        "Total Votes": 225,
+        "Vote %": 1.0
+      },
+      {
+        "Candidate": "DEEPKUMAR MAPARI",
+        "Party": "Independent",
+        "EVM Votes": 211,
+        "Postal Votes": 1,
+        "Total Votes": 212,
+        "Vote %": 0.95
+      }
+    ]
+  },
+  {
+    "ac_no": 17,
+    "ac_name": "Sanquelim",
+    "candidates": [
+      {
+        "Candidate": "PRAMOD  SAWANT",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 14076,
+        "Postal Votes": 179,
+        "Total Votes": 14255,
+        "Vote %": 66.02
+      },
+      {
+        "Candidate": "PRATAP GAUNS",
+        "Party": "Indian National Congress",
+        "EVM Votes": 7218,
+        "Postal Votes": 119,
+        "Total Votes": 7337,
+        "Vote %": 33.98
+      }
+    ]
+  },
+  {
+    "ac_no": 18,
+    "ac_name": "Poriem",
+    "candidates": [
+      {
+        "Candidate": "PRATAPSINGH  RAOJI RANE",
+        "Party": "Indian National Congress",
+        "EVM Votes": 13389,
+        "Postal Votes": 383,
+        "Total Votes": 13772,
+        "Vote %": 55.09
+      },
+      {
+        "Candidate": "VISHWAJIT KRISHNARAO ",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 11152,
+        "Postal Votes": 73,
+        "Total Votes": 11225,
+        "Vote %": 44.91
+      }
+    ]
+  },
+  {
+    "ac_no": 19,
+    "ac_name": "Valpoi",
+    "candidates": [
+      {
+        "Candidate": "VISHWAJIT PRATAPSINGH ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 12188,
+        "Postal Votes": 224,
+        "Total Votes": 12412,
+        "Vote %": 53.66
+      },
+      {
+        "Candidate": "SATYAVIJAY SUBRAI NAIK",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 9375,
+        "Postal Votes": 98,
+        "Total Votes": 9473,
+        "Vote %": 40.96
+      },
+      {
+        "Candidate": "VENKATESH ATMARAM ",
+        "Party": "Independent",
+        "EVM Votes": 800,
+        "Postal Votes": 5,
+        "Total Votes": 805,
+        "Vote %": 3.48
+      },
+      {
+        "Candidate": "RAVINDRA TALAULIKAR",
+        "Party": "Independent",
+        "EVM Votes": 255,
+        "Postal Votes": 0,
+        "Total Votes": 255,
+        "Vote %": 1.1
+      },
+      {
+        "Candidate": "GAJENDRANATH ",
+        "Party": "Independent",
+        "EVM Votes": 184,
+        "Postal Votes": 0,
+        "Total Votes": 184,
+        "Vote %": 0.8
+      }
+    ]
+  },
+  {
+    "ac_no": 20,
+    "ac_name": "Priol",
+    "candidates": [
+      {
+        "Candidate": "PANDURANG ALIAS DEEPAK ",
+        "Party": "Maharashtrawadi Gomantak",
+        "EVM Votes": 12038,
+        "Postal Votes": 226,
+        "Total Votes": 12264,
+        "Vote %": 49.72
+      },
+      {
+        "Candidate": "GOVIND GAUDE",
+        "Party": "Independent",
+        "EVM Votes": 10029,
+        "Postal Votes": 135,
+        "Total Votes": 10164,
+        "Vote %": 41.2
+      },
+      {
+        "Candidate": "DHAKU A. MADKAIKAR",
+        "Party": "Indian National Congress",
+        "EVM Votes": 1609,
+        "Postal Votes": 16,
+        "Total Votes": 1625,
+        "Vote %": 6.59
+      },
+      {
+        "Candidate": "SHASHI PANJIKAR",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 413,
+        "Postal Votes": 1,
+        "Total Votes": 414,
+        "Vote %": 1.68
+      },
+      {
+        "Candidate": "RAMA KRISHNA BORKAR",
+        "Party": "Goa Vikas Party",
+        "EVM Votes": 198,
+        "Postal Votes": 3,
+        "Total Votes": 201,
+        "Vote %": 0.81
+      }
+    ]
+  },
+  {
+    "ac_no": 21,
+    "ac_name": "Ponda",
+    "candidates": [
+      {
+        "Candidate": "LAVOO MAMLEDAR",
+        "Party": "Maharashtrawadi Gomantak",
+        "EVM Votes": 12483,
+        "Postal Votes": 179,
+        "Total Votes": 12662,
+        "Vote %": 54.51
+      },
+      {
+        "Candidate": "RAVI NAIK",
+        "Party": "Indian National Congress",
+        "EVM Votes": 9295,
+        "Postal Votes": 177,
+        "Total Votes": 9472,
+        "Vote %": 40.77
+      },
+      {
+        "Candidate": "SAYAD IMTIYAZ",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 500,
+        "Postal Votes": 2,
+        "Total Votes": 502,
+        "Vote %": 2.16
+      },
+      {
+        "Candidate": "GITESH GOKULDAS NAIK",
+        "Party": "United Goans Democratic Party",
+        "EVM Votes": 223,
+        "Postal Votes": 0,
+        "Total Votes": 223,
+        "Vote %": 0.96
+      },
+      {
+        "Candidate": "MOHAN GOVIND NAIK",
+        "Party": "Independent",
+        "EVM Votes": 187,
+        "Postal Votes": 2,
+        "Total Votes": 189,
+        "Vote %": 0.81
+      },
+      {
+        "Candidate": "VAIBHAV P MARATHE",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 91,
+        "Postal Votes": 0,
+        "Total Votes": 91,
+        "Vote %": 0.39
+      },
+      {
+        "Candidate": "JOHN MASCARENHAS",
+        "Party": "Independent",
+        "EVM Votes": 91,
+        "Postal Votes": 0,
+        "Total Votes": 91,
+        "Vote %": 0.39
+      }
+    ]
+  },
+  {
+    "ac_no": 22,
+    "ac_name": "Siroda",
+    "candidates": [
+      {
+        "Candidate": "MAHADEV NARAYAN NAIK",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 12064,
+        "Postal Votes": 152,
+        "Total Votes": 12216,
+        "Vote %": 53.15
+      },
+      {
+        "Candidate": "SUBHASH ANKUSH ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 9804,
+        "Postal Votes": 150,
+        "Total Votes": 9954,
+        "Vote %": 43.31
+      },
+      {
+        "Candidate": "VISHWAS PRABHUDESAI",
+        "Party": "Independent",
+        "EVM Votes": 419,
+        "Postal Votes": 3,
+        "Total Votes": 422,
+        "Vote %": 1.84
+      },
+      {
+        "Candidate": "SHAILA SHENVI BORKAR",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 230,
+        "Postal Votes": 0,
+        "Total Votes": 230,
+        "Vote %": 1.0
+      },
+      {
+        "Candidate": "SAVIO FERNANDES",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 162,
+        "Postal Votes": 0,
+        "Total Votes": 162,
+        "Vote %": 0.7
+      }
+    ]
+  },
+  {
+    "ac_no": 23,
+    "ac_name": "Marcaim",
+    "candidates": [
+      {
+        "Candidate": "RAMKRISHNA ALIAS SUDIN ",
+        "Party": "Maharashtrawadi Gomantak",
+        "EVM Votes": 14518,
+        "Postal Votes": 434,
+        "Total Votes": 14952,
+        "Vote %": 65.94
+      },
+      {
+        "Candidate": "RITESH NAIK",
+        "Party": "Indian National Congress",
+        "EVM Votes": 7603,
+        "Postal Votes": 119,
+        "Total Votes": 7722,
+        "Vote %": 34.06
+      }
+    ]
+  },
+  {
+    "ac_no": 24,
+    "ac_name": "Mormugao",
+    "candidates": [
+      {
+        "Candidate": "MILIND SAGUN NAIK",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 7321,
+        "Postal Votes": 98,
+        "Total Votes": 7419,
+        "Vote %": 45.69
+      },
+      {
+        "Candidate": "SANKALP PADMANABH ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 6430,
+        "Postal Votes": 76,
+        "Total Votes": 6506,
+        "Vote %": 40.07
+      },
+      {
+        "Candidate": "NAZIR KHAN",
+        "Party": "Independent",
+        "EVM Votes": 1703,
+        "Postal Votes": 7,
+        "Total Votes": 1710,
+        "Vote %": 10.53
+      },
+      {
+        "Candidate": "JERRY FERNANDES",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 343,
+        "Postal Votes": 3,
+        "Total Votes": 346,
+        "Vote %": 2.13
+      },
+      {
+        "Candidate": "NARAYAN RAMCHANDRA ",
+        "Party": "Independent",
+        "EVM Votes": 154,
+        "Postal Votes": 0,
+        "Total Votes": 154,
+        "Vote %": 0.95
+      },
+      {
+        "Candidate": "GOPAL DATTARAM ",
+        "Party": "Jai Maha Bharath Party",
+        "EVM Votes": 63,
+        "Postal Votes": 1,
+        "Total Votes": 64,
+        "Vote %": 0.39
+      },
+      {
+        "Candidate": "SHANTARAM VASUDEV ",
+        "Party": "Shivsena",
+        "EVM Votes": 36,
+        "Postal Votes": 1,
+        "Total Votes": 37,
+        "Vote %": 0.23
+      }
+    ]
+  },
+  {
+    "ac_no": 25,
+    "ac_name": "Vasco-da-gama",
+    "candidates": [
+      {
+        "Candidate": "JOSE LUIS CARLOS ALMEIDA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 11352,
+        "Postal Votes": 116,
+        "Total Votes": 11468,
+        "Vote %": 52.72
+      },
+      {
+        "Candidate": "JOSE FILEPE D'SOUZA",
+        "Party": "Nationalist Congress Party",
+        "EVM Votes": 6924,
+        "Postal Votes": 54,
+        "Total Votes": 6978,
+        "Vote %": 32.08
+      },
+      {
+        "Candidate": "G. KARL VAZ",
+        "Party": "Independent",
+        "EVM Votes": 1381,
+        "Postal Votes": 13,
+        "Total Votes": 1394,
+        "Vote %": 6.41
+      },
+      {
+        "Candidate": "MOHAMMED IQBAL SHAIKH",
+        "Party": "Goa Vikas Party",
+        "EVM Votes": 595,
+        "Postal Votes": 5,
+        "Total Votes": 600,
+        "Vote %": 2.76
+      },
+      {
+        "Candidate": "ADAM ABDULLA JUMMA",
+        "Party": "United Goans Democratic Party",
+        "EVM Votes": 489,
+        "Postal Votes": 0,
+        "Total Votes": 489,
+        "Vote %": 2.25
+      },
+      {
+        "Candidate": "AMINDIN MULLA",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 328,
+        "Postal Votes": 0,
+        "Total Votes": 328,
+        "Vote %": 1.51
+      },
+      {
+        "Candidate": "STANLEY C.ALMEIDA",
+        "Party": "Independent",
+        "EVM Votes": 143,
+        "Postal Votes": 0,
+        "Total Votes": 143,
+        "Vote %": 0.66
+      },
+      {
+        "Candidate": "HAMZA ISSAK KHAN",
+        "Party": "All India Minorities Front",
+        "EVM Votes": 106,
+        "Postal Votes": 0,
+        "Total Votes": 106,
+        "Vote %": 0.49
+      },
+      {
+        "Candidate": "GLUCK D'SOUZA",
+        "Party": "Janata Dal  (United)",
+        "EVM Votes": 103,
+        "Postal Votes": 1,
+        "Total Votes": 104,
+        "Vote %": 0.48
+      },
+      {
+        "Candidate": "PRASHANT MAHADEV ",
+        "Party": "Independent",
+        "EVM Votes": 76,
+        "Postal Votes": 1,
+        "Total Votes": 77,
+        "Vote %": 0.35
+      },
+      {
+        "Candidate": "JAGDISH YADU DURBHATKAR",
+        "Party": "Shivsena",
+        "EVM Votes": 64,
+        "Postal Votes": 0,
+        "Total Votes": 64,
+        "Vote %": 0.29
+      }
+    ]
+  },
+  {
+    "ac_no": 26,
+    "ac_name": "Dabolim",
+    "candidates": [
+      {
+        "Candidate": "MAUVIN HELIODORO ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 7364,
+        "Postal Votes": 104,
+        "Total Votes": 7468,
+        "Vote %": 48.89
+      },
+      {
+        "Candidate": "PREMANAND NANOSKAR",
+        "Party": "Maharashtrawadi Gomantak",
+        "EVM Votes": 6474,
+        "Postal Votes": 50,
+        "Total Votes": 6524,
+        "Vote %": 42.71
+      },
+      {
+        "Candidate": "PRATAP MARDOLKAR",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 841,
+        "Postal Votes": 8,
+        "Total Votes": 849,
+        "Vote %": 5.56
+      },
+      {
+        "Candidate": "SIMON D'SOUZA",
+        "Party": "Independent",
+        "EVM Votes": 428,
+        "Postal Votes": 5,
+        "Total Votes": 433,
+        "Vote %": 2.83
+      }
+    ]
+  },
+  {
+    "ac_no": 27,
+    "ac_name": "Cortalim",
+    "candidates": [
+      {
+        "Candidate": "MATANHY SALDANHA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 7388,
+        "Postal Votes": 39,
+        "Total Votes": 7427,
+        "Vote %": 36.37
+      },
+      {
+        "Candidate": "NELLY RODRIGUES",
+        "Party": "Goa Vikas Party",
+        "EVM Votes": 5135,
+        "Postal Votes": 23,
+        "Total Votes": 5158,
+        "Vote %": 25.26
+      },
+      {
+        "Candidate": "RAMAKANT BORKAR",
+        "Party": "United Goans Democratic Party",
+        "EVM Votes": 3697,
+        "Postal Votes": 19,
+        "Total Votes": 3716,
+        "Vote %": 18.2
+      },
+      {
+        "Candidate": "CAITAN XAVIER",
+        "Party": "Indian National Congress",
+        "EVM Votes": 3377,
+        "Postal Votes": 16,
+        "Total Votes": 3393,
+        "Vote %": 16.61
+      },
+      {
+        "Candidate": "TOLENTINO D'SOUZA",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 728,
+        "Postal Votes": 0,
+        "Total Votes": 728,
+        "Vote %": 3.56
+      }
+    ]
+  },
+  {
+    "ac_no": 28,
+    "ac_name": "Nuvem",
+    "candidates": [
+      {
+        "Candidate": "FRANCISCO XAVIER ",
+        "Party": "Goa Vikas Party",
+        "EVM Votes": 12250,
+        "Postal Votes": 38,
+        "Total Votes": 12288,
+        "Vote %": 56.9
+      },
+      {
+        "Candidate": "ALEIXO SEQUEIRA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 8012,
+        "Postal Votes": 80,
+        "Total Votes": 8092,
+        "Vote %": 37.47
+      },
+      {
+        "Candidate": "ABDUL AZIZ HASSANSHA ",
+        "Party": "Independent",
+        "EVM Votes": 481,
+        "Postal Votes": 1,
+        "Total Votes": 482,
+        "Vote %": 2.23
+      },
+      {
+        "Candidate": "MARCOS MENINO D'SOUZA",
+        "Party": "Independent",
+        "EVM Votes": 279,
+        "Postal Votes": 0,
+        "Total Votes": 279,
+        "Vote %": 1.29
+      },
+      {
+        "Candidate": "PRABHAKAR RUPO GAUDE",
+        "Party": "Maharashtrawadi Gomantak",
+        "EVM Votes": 246,
+        "Postal Votes": 4,
+        "Total Votes": 250,
+        "Vote %": 1.16
+      },
+      {
+        "Candidate": "PETER FRANCISCO ",
+        "Party": "Independent",
+        "EVM Votes": 206,
+        "Postal Votes": 0,
+        "Total Votes": 206,
+        "Vote %": 0.95
+      }
+    ]
+  },
+  {
+    "ac_no": 29,
+    "ac_name": "Curtorim",
+    "candidates": [
+      {
+        "Candidate": "ALEIXO REGINALDO ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 11151,
+        "Postal Votes": 70,
+        "Total Votes": 11221,
+        "Vote %": 57.11
+      },
+      {
+        "Candidate": "DOMNIC GAONKAR",
+        "Party": "Independent",
+        "EVM Votes": 7089,
+        "Postal Votes": 63,
+        "Total Votes": 7152,
+        "Vote %": 36.4
+      },
+      {
+        "Candidate": "RAJU KRISHNAMURTHY IYER",
+        "Party": "Independent",
+        "EVM Votes": 600,
+        "Postal Votes": 3,
+        "Total Votes": 603,
+        "Vote %": 3.07
+      },
+      {
+        "Candidate": "CONCEICAO SANTANO DIAS",
+        "Party": "United Goans Democratic Party",
+        "EVM Votes": 513,
+        "Postal Votes": 2,
+        "Total Votes": 515,
+        "Vote %": 2.62
+      },
+      {
+        "Candidate": "WILLIAM D'CRUZ",
+        "Party": "Janata Dal  (United)",
+        "EVM Votes": 156,
+        "Postal Votes": 0,
+        "Total Votes": 156,
+        "Vote %": 0.79
+      }
+    ]
+  },
+  {
+    "ac_no": 30,
+    "ac_name": "Fatorda",
+    "candidates": [
+      {
+        "Candidate": "VIJAI SARDESAI",
+        "Party": "Independent",
+        "EVM Votes": 10256,
+        "Postal Votes": 119,
+        "Total Votes": 10375,
+        "Vote %": 48.39
+      },
+      {
+        "Candidate": "DAMODAR (DAMU) G. NAIK",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 8307,
+        "Postal Votes": 129,
+        "Total Votes": 8436,
+        "Vote %": 39.35
+      },
+      {
+        "Candidate": "ARTHUR D'SILVA",
+        "Party": "Independent",
+        "EVM Votes": 1116,
+        "Postal Votes": 10,
+        "Total Votes": 1126,
+        "Vote %": 5.25
+      },
+      {
+        "Candidate": "PIEDADE NORONHA E SILVA",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 687,
+        "Postal Votes": 8,
+        "Total Votes": 695,
+        "Vote %": 3.24
+      },
+      {
+        "Candidate": "M. K. SHAIKH",
+        "Party": "Indian National Congress",
+        "EVM Votes": 658,
+        "Postal Votes": 2,
+        "Total Votes": 660,
+        "Vote %": 3.08
+      },
+      {
+        "Candidate": "ASHOK TUKARAM ",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 56,
+        "Postal Votes": 1,
+        "Total Votes": 57,
+        "Vote %": 0.27
+      },
+      {
+        "Candidate": "DIAS JAWAHAR",
+        "Party": "Independent",
+        "EVM Votes": 47,
+        "Postal Votes": 0,
+        "Total Votes": 47,
+        "Vote %": 0.22
+      },
+      {
+        "Candidate": "ANWAR SAYED",
+        "Party": "All India Minorities Front",
+        "EVM Votes": 45,
+        "Postal Votes": 0,
+        "Total Votes": 45,
+        "Vote %": 0.21
+      }
+    ]
+  },
+  {
+    "ac_no": 31,
+    "ac_name": "Margao",
+    "candidates": [
+      {
+        "Candidate": "DIGAMBAR KAMAT",
+        "Party": "Indian National Congress",
+        "EVM Votes": 11876,
+        "Postal Votes": 165,
+        "Total Votes": 12041,
+        "Vote %": 54.36
+      },
+      {
+        "Candidate": "MAHATME RUPESH",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 7550,
+        "Postal Votes": 39,
+        "Total Votes": 7589,
+        "Vote %": 34.26
+      },
+      {
+        "Candidate": "COUTINHO SAVIO HUGO",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 1872,
+        "Postal Votes": 1,
+        "Total Votes": 1873,
+        "Vote %": 8.46
+      },
+      {
+        "Candidate": "IVO ALMEIDA COUTINHO",
+        "Party": "Independent",
+        "EVM Votes": 394,
+        "Postal Votes": 2,
+        "Total Votes": 396,
+        "Vote %": 1.79
+      },
+      {
+        "Candidate": "CEDRIC ISIDORIO D'COSTA",
+        "Party": "Independent",
+        "EVM Votes": 250,
+        "Postal Votes": 0,
+        "Total Votes": 250,
+        "Vote %": 1.13
+      }
+    ]
+  },
+  {
+    "ac_no": 32,
+    "ac_name": "Benaulim",
+    "candidates": [
+      {
+        "Candidate": "CAETANO R. SILVA",
+        "Party": "Goa Vikas Party",
+        "EVM Votes": 9674,
+        "Postal Votes": 21,
+        "Total Votes": 9695,
+        "Vote %": 45.95
+      },
+      {
+        "Candidate": "VALANKA ALEMAO",
+        "Party": "Indian National Congress",
+        "EVM Votes": 7676,
+        "Postal Votes": 18,
+        "Total Votes": 7694,
+        "Vote %": 36.47
+      },
+      {
+        "Candidate": "HUMBERTO GOMES",
+        "Party": "Independent",
+        "EVM Votes": 1770,
+        "Postal Votes": 5,
+        "Total Votes": 1775,
+        "Vote %": 8.41
+      },
+      {
+        "Candidate": "JOHN FERNANDES",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 1272,
+        "Postal Votes": 5,
+        "Total Votes": 1277,
+        "Vote %": 6.05
+      },
+      {
+        "Candidate": "ASHLEY FRANCIS DIAS",
+        "Party": "Independent",
+        "EVM Votes": 288,
+        "Postal Votes": 1,
+        "Total Votes": 289,
+        "Vote %": 1.37
+      },
+      {
+        "Candidate": "P. XAVIER GEORGE",
+        "Party": "Independent",
+        "EVM Votes": 245,
+        "Postal Votes": 0,
+        "Total Votes": 245,
+        "Vote %": 1.16
+      },
+      {
+        "Candidate": "SUBHASH SHIVNATH ",
+        "Party": "Independent",
+        "EVM Votes": 122,
+        "Postal Votes": 0,
+        "Total Votes": 122,
+        "Vote %": 0.58
+      }
+    ]
+  },
+  {
+    "ac_no": 33,
+    "ac_name": "Navelim",
+    "candidates": [
+      {
+        "Candidate": "AVERTANO FURTADO",
+        "Party": "Independent",
+        "EVM Votes": 10153,
+        "Postal Votes": 78,
+        "Total Votes": 10231,
+        "Vote %": 54.48
+      },
+      {
+        "Candidate": "CHURCHILL ALEMAO",
+        "Party": "Indian National Congress",
+        "EVM Votes": 8057,
+        "Postal Votes": 29,
+        "Total Votes": 8086,
+        "Vote %": 43.06
+      },
+      {
+        "Candidate": "ILIYAS SHAIKH",
+        "Party": "Independent",
+        "EVM Votes": 261,
+        "Postal Votes": 0,
+        "Total Votes": 261,
+        "Vote %": 1.39
+      },
+      {
+        "Candidate": "JOSE PAUL COUTINHO",
+        "Party": "Janata Dal  (United)",
+        "EVM Votes": 201,
+        "Postal Votes": 1,
+        "Total Votes": 202,
+        "Vote %": 1.08
+      }
+    ]
+  },
+  {
+    "ac_no": 34,
+    "ac_name": "Cuncolim",
+    "candidates": [
+      {
+        "Candidate": "SUBHASH ALIAS RAJAN ",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 7628,
+        "Postal Votes": 110,
+        "Total Votes": 7738,
+        "Vote %": 37.31
+      },
+      {
+        "Candidate": "ALEMAO JOAQUIM",
+        "Party": "Indian National Congress",
+        "EVM Votes": 6355,
+        "Postal Votes": 70,
+        "Total Votes": 6425,
+        "Vote %": 30.98
+      },
+      {
+        "Candidate": "JOHN INACIO MONTEIRO",
+        "Party": "Independent",
+        "EVM Votes": 4811,
+        "Postal Votes": 19,
+        "Total Votes": 4830,
+        "Vote %": 23.29
+      },
+      {
+        "Candidate": "MILAGRES GONSALVES",
+        "Party": "Independent",
+        "EVM Votes": 602,
+        "Postal Votes": 1,
+        "Total Votes": 603,
+        "Vote %": 2.91
+      },
+      {
+        "Candidate": "JOSE ALIAS BRANY ",
+        "Party": "United Goans Democratic Party",
+        "EVM Votes": 538,
+        "Postal Votes": 5,
+        "Total Votes": 543,
+        "Vote %": 2.62
+      },
+      {
+        "Candidate": "MARIO MORAIS",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 325,
+        "Postal Votes": 0,
+        "Total Votes": 325,
+        "Vote %": 1.57
+      },
+      {
+        "Candidate": "RONY RODRIGUES",
+        "Party": "Independent",
+        "EVM Votes": 191,
+        "Postal Votes": 0,
+        "Total Votes": 191,
+        "Vote %": 0.92
+      },
+      {
+        "Candidate": "DERICK DIAS",
+        "Party": "Janata Dal  (United)",
+        "EVM Votes": 85,
+        "Postal Votes": 0,
+        "Total Votes": 85,
+        "Vote %": 0.41
+      }
+    ]
+  },
+  {
+    "ac_no": 35,
+    "ac_name": "Velim",
+    "candidates": [
+      {
+        "Candidate": "BENJAMIN SILVA",
+        "Party": "Independent",
+        "EVM Votes": 13107,
+        "Postal Votes": 57,
+        "Total Votes": 13164,
+        "Vote %": 59.49
+      },
+      {
+        "Candidate": "FILIPE NERY RODRIGUES",
+        "Party": "Indian National Congress",
+        "EVM Votes": 8151,
+        "Postal Votes": 87,
+        "Total Votes": 8238,
+        "Vote %": 37.23
+      },
+      {
+        "Candidate": "CLIFFTON DESOUZA",
+        "Party": "Independent",
+        "EVM Votes": 385,
+        "Postal Votes": 1,
+        "Total Votes": 386,
+        "Vote %": 1.74
+      },
+      {
+        "Candidate": "MICHAEL BENY DA COSTA",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 340,
+        "Postal Votes": 0,
+        "Total Votes": 340,
+        "Vote %": 1.54
+      }
+    ]
+  },
+  {
+    "ac_no": 36,
+    "ac_name": "Quepem",
+    "candidates": [
+      {
+        "Candidate": "CHANDRAKANT KAVALEKAR",
+        "Party": "Indian National Congress",
+        "EVM Votes": 10841,
+        "Postal Votes": 153,
+        "Total Votes": 10994,
+        "Vote %": 44.22
+      },
+      {
+        "Candidate": "PRAKASH SHANKAR VELIP",
+        "Party": "Independent",
+        "EVM Votes": 4553,
+        "Postal Votes": 68,
+        "Total Votes": 4621,
+        "Vote %": 18.59
+      },
+      {
+        "Candidate": "PRAKASH ARJUN VELIP",
+        "Party": "Maharashtrawadi Gomantak",
+        "EVM Votes": 4438,
+        "Postal Votes": 98,
+        "Total Votes": 4536,
+        "Vote %": 18.25
+      },
+      {
+        "Candidate": "COLACO MANUEL",
+        "Party": "United Goans Democratic Party",
+        "EVM Votes": 4320,
+        "Postal Votes": 36,
+        "Total Votes": 4356,
+        "Vote %": 17.52
+      },
+      {
+        "Candidate": "JOSEPH GONSALVES",
+        "Party": "Goa Vikas Party",
+        "EVM Votes": 353,
+        "Postal Votes": 1,
+        "Total Votes": 354,
+        "Vote %": 1.42
+      }
+    ]
+  },
+  {
+    "ac_no": 37,
+    "ac_name": "Curchorem",
+    "candidates": [
+      {
+        "Candidate": "NILESH CABRAL",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 14129,
+        "Postal Votes": 170,
+        "Total Votes": 14299,
+        "Vote %": 72.2
+      },
+      {
+        "Candidate": "SHYAM GOPINATH ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 5435,
+        "Postal Votes": 72,
+        "Total Votes": 5507,
+        "Vote %": 27.8
+      }
+    ]
+  },
+  {
+    "ac_no": 38,
+    "ac_name": "Sanvordem",
+    "candidates": [
+      {
+        "Candidate": "GANESH CHANDRU ",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 10442,
+        "Postal Votes": 143,
+        "Total Votes": 10585,
+        "Vote %": 45.34
+      },
+      {
+        "Candidate": "ARJUN ANIL SALGAOCAR",
+        "Party": "Independent",
+        "EVM Votes": 8214,
+        "Postal Votes": 80,
+        "Total Votes": 8294,
+        "Vote %": 35.53
+      },
+      {
+        "Candidate": "RAMNATH ALIAS DEEPAK ",
+        "Party": "Independent",
+        "EVM Votes": 2805,
+        "Postal Votes": 23,
+        "Total Votes": 2828,
+        "Vote %": 12.11
+      },
+      {
+        "Candidate": "GOVIND SAWANT",
+        "Party": "Indian National Congress",
+        "EVM Votes": 1321,
+        "Postal Votes": 7,
+        "Total Votes": 1328,
+        "Vote %": 5.69
+      },
+      {
+        "Candidate": "PRASHANT BUDHO ",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 307,
+        "Postal Votes": 2,
+        "Total Votes": 309,
+        "Vote %": 1.32
+      }
+    ]
+  },
+  {
+    "ac_no": 39,
+    "ac_name": "Sanguem",
+    "candidates": [
+      {
+        "Candidate": "SUBHASH  U. PHAL DESSAI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 7307,
+        "Postal Votes": 147,
+        "Total Votes": 7454,
+        "Vote %": 34.67
+      },
+      {
+        "Candidate": "ALEMAO YURI",
+        "Party": "Nationalist Congress Party",
+        "EVM Votes": 6893,
+        "Postal Votes": 78,
+        "Total Votes": 6971,
+        "Vote %": 32.42
+      },
+      {
+        "Candidate": "PRASAD SHASHIKANT ",
+        "Party": "Independent",
+        "EVM Votes": 5677,
+        "Postal Votes": 60,
+        "Total Votes": 5737,
+        "Vote %": 26.68
+      },
+      {
+        "Candidate": "D'COSTA MINGUELINO",
+        "Party": "Goa Vikas Party",
+        "EVM Votes": 869,
+        "Postal Votes": 11,
+        "Total Votes": 880,
+        "Vote %": 4.09
+      },
+      {
+        "Candidate": "EDDIE DE SOUZA TAVARES",
+        "Party": "Independent",
+        "EVM Votes": 227,
+        "Postal Votes": 0,
+        "Total Votes": 227,
+        "Vote %": 1.06
+      },
+      {
+        "Candidate": "ARUN KRISHNA RAIKAR",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 133,
+        "Postal Votes": 1,
+        "Total Votes": 134,
+        "Vote %": 0.62
+      },
+      {
+        "Candidate": "SUDESH N. GAONKAR",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 98,
+        "Postal Votes": 0,
+        "Total Votes": 98,
+        "Vote %": 0.46
+      }
+    ]
+  },
+  {
+    "ac_no": 40,
+    "ac_name": "Canacona",
+    "candidates": [
+      {
+        "Candidate": "RAMESH BOMBO TAWADKAR",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 14105,
+        "Postal Votes": 223,
+        "Total Votes": 14328,
+        "Vote %": 53.89
+      },
+      {
+        "Candidate": "ISIDORE ALEIXINHO ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 11459,
+        "Postal Votes": 165,
+        "Total Votes": 11624,
+        "Vote %": 43.72
+      },
+      {
+        "Candidate": "SAPNESH DESAI",
+        "Party": "All India Trinamool Congress",
+        "EVM Votes": 632,
+        "Postal Votes": 5,
+        "Total Votes": 637,
+        "Vote %": 2.4
+      }
+    ]
+  }
+]

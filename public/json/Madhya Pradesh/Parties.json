@@ -1,0 +1,11 @@
+[
+  {
+    "party_code": "INC",
+    "party_name": "Indian National Congress",
+    "seats": 114
+  },
+  { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 109 },
+  { "party_code": "IND", "party_name": "Independent", "seats": 4 },
+  { "party_code": "BSP", "party_name": "Bahujan Samaj Party", "seats": 2 },
+  { "party_code": "SP", "party_name": "Samajwadi Party", "seats": 1 }
+]

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>2022 Goa</title>
+    <style>
+      .map{
+          width: 30%;
+          float: left;
+      }
+      .assembly{
+        width: 70%;
+        float: left;
+      }
+      text {
+          fill: blue;
+          stroke: blue;
+          stroke-width: 2px;
+          font-size: large;
+          font-family: 'Courier New', Courier, monospace;
+      }
+      path {
+        stroke: black;
+        stroke-width: 0.7px;
+      }
+      
+      .ac_name svg text{
+        padding-top: 10px;
+        fill: black;
+        stroke: black;
+      }
+
+      th, td {
+        padding: 8px;
+      }
+
+      body {
+        font-family: sans-serif;
+      }
+
+      thead {
+        background-color: #333;
+        color: white;
+        font-size: 0.875rem;
+        text-transform: uppercase;
+        letter-spacing: 2%;
+      }
+
+      table {
+        border-collapse: collapse;
+        border: 1px solid black;
+        text-align: center;
+	      vertical-align: middle;
+      }
+
+      thead .small{
+        width: 10%;
+      }
+
+      thead .large{
+        width: 25%;
+      }
+
+      tbody tr:nth-child(odd) {
+        background-color: #fff;
+      }
+      
+      tbody tr:nth-child(even) {
+        background-color: #eee;
+      }
+      
+      .Aam_Aadmi_Party{
+        background-color: #0066A4 !important;
+      }
+
+    </style>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/topojson.v0.min.js"></script>
+  </head>
+  <body>
+      <div class="map"></div>
+      <div class="assembly">
+        <table>
+          <caption class="ac_name"></caption>
+          <thead>
+            <tr>
+              <th class="small">No</th>
+              <th class="large">Candidate Name</th>
+              <th class="large">Party</th>
+              <th class="small">EVM Votes</th>
+              <th class="small">Postal Votes</th>
+              <th class="small">Total Votes</th>
+              <th class="small">Votes %</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody">
+          </tbody>
+        </table>
+      </div>
+    <script type="text/javascript">
+      var width = 400;
+      var height = 600;
+      var electionData = []
+      function color(party){
+        if(party === "AAP"){
+            return "#0066A4";
+        }else if(party === "INC"){
+            return "#34d5eb";
+        }else if(party === "BJP"){
+            return "#F97D09";
+        }else if(party === "SAD"){
+            return "#ebc634";
+        }else if(party === "BSP"){
+            return "#22409A";
+        }else{
+            return "#bdbdbd";
+        }
+      }
+
+      d3.json("./Goa-2022.json", function(error, result){
+        electionData = result
+      })
+
+      var projection = d3.geo.mercator().center([74,15.4]).scale(25000).translate([width/2 , height/1.7]);
+      var svg = d3.select(".map").append("svg")
+          .attr("width", width)
+          .attr("height", height);
+      var path = d3.geo.path()
+          .projection(projection);
+      var g = svg.append("g");
+      g.append('text')
+            .attr("x", width/5 )
+            .attr("y", height /12)
+            .text("2022 Goa Election Result");
+      d3.json("./Goa.json", function(error, topology) {
+          g.selectAll("path")
+            .data(topojson.object(topology, topology.objects.Goa)
+                .geometries)
+          .enter()
+            .append("path")
+            .attr("d", path)
+            .style("fill", function(d) { return color(d.properties.Winner);} )
+            .on('mouseover', handleMouseOver)
+            .on('mouseout', handleMouseOut)
+            .on('click' , handleClick)
+      });
+
+      function handleMouseOver(d, i) {  
+      }
+
+      function handleMouseOut(d, i) {
+      }
+
+      function handleClick(d, i) {
+        console.log(d.properties)
+        for(var i = 0 ; i<= electionData.length ; i++){
+          if(electionData[i].ac_no == Number(d.properties.ac_no)){
+            d3.select('.ac_name').text(electionData[i].ac_no + "-" + electionData[i].ac_name)
+          var tableBody = d3.select("#tableBody");
+          var rows = tableBody.selectAll("tr").data(electionData[i].candidates);
+          rows.exit().remove();
+          rows.enter().append("tr").attr('class' , function(d,i){ return d.Party.replaceAll(' ','_') });
+          rows.attr('class' , function(d,i){ return d.Party.replaceAll(' ','_') } )
+          var cells = rows.selectAll("td")
+            .data(function(d, i) {
+              return Object.values(d);
+            });
+          cells.exit().remove();
+          cells.enter().append("td")
+            .text(function(d) {
+              return d;
+            });
+            cells.text(function(d) {
+              return d;
+            });
+
+            break
+          }
+        }
+      }
+
+    </script>
+  </body>
+</html>

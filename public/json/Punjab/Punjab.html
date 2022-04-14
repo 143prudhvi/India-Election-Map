@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>2022 Punjab</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="http://d3js.org/d3.v4.min.js"></script>
+    <script src="http://d3js.org/topojson.v0.min.js"></script>
+  </head>
+  <body>
+      <div id="map"></div>
+
+      
+      <!-- <div class="pie"></div>
+      <div class="assembly">
+        
+          
+      </div> -->
+    <script type="text/javascript">
+      var width = 1500;
+      var height = 700;
+      var electionData = []
+      {/* var data = [
+        {
+          party : "AAP",
+          seats : 92
+        },
+        {
+          party : "INC",
+          seats : 18
+        },
+        {
+          party : "SAD+",
+          seats : 4
+        },
+        {
+          party : "BJP",
+          seats : 2
+        },
+        {
+          party : "IND",
+          seats : 1
+        }
+      ]
+      var radius = Math.min(width,height/2)/2
+
+      var pie_color = d3.scaleOrdinal(['#0066A4', "#34d5eb", "#ebc634", "#F97D09", "#bdbdbd"])
+      var pie = d3.pie().startAngle(-90 * (Math.PI / 180)).endAngle(90 * (Math.PI / 180)).padAngle(.01)
+      var arc = d3.arc().innerRadius(radius - radius * 0.4).outerRadius(radius)
+      var pie_svg = d3.select('.pie').append('svg')
+                        .attr('width' , width)
+                        .attr('height' , height/2)
+      pie_svg.append('g')
+              .attr("transform" , 'translate(' + width/2 + ',' + height/3 + ')')
+              .attr("stroke", 'black')
+              .attr("stroke-width", 1)
+              .attr("stroke-linejoin", 'round')
+              .selectAll("arc")
+              .data(pie(data.map(i => {return i.seats})))
+              .enter().append('g')
+              .append("path")
+              .attr('fill' , function(d,i){return pie_color(i)})
+              .attr('d' , arc) */}
+
+
+      d3.json("./Punjab-2022.json", function(error, result){
+        electionData = result
+      })
+
+      var projection = d3.geoMercator().center([75.4,31]).scale(10000).translate([width/2 , height/1.8]);
+      var svg = d3.select("#map").append("svg")
+          .attr("width", width)
+          .attr("height", height);
+      var path = d3.geoPath()
+          .projection(projection);
+      var g = svg.append("g");
+      g.append('text')
+            .attr("x", width/2.3 )
+            .attr("y", height /12)
+            .text("2022 Punjab Election Result");
+      d3.json("./Punjab.json", function(error, topology) {
+          var b = g.selectAll("path")
+            .data(topojson.object(topology, topology.objects.Punjab)
+                .geometries)
+            .enter()
+            .append("path")
+            .attr("d", path)
+            .attr("stroke" , "black")
+            .attr("stroke-width" , '0.7px')
+            .style("fill", function(d) { return color(d.properties.Winner);} )
+            .on('mouseover', handleMouseOver)
+            .on('mouseout', handleMouseOut)
+            .on('mousemove', handleMouseMove)
+            // .on('click' , handleClick)
+      });
+
+      var Tooltip = d3.select("#map")
+                    .append("div")
+                    .style("opacity", 0)
+                    .attr("class", "tooltip")
+                    .style("background-color", "white")
+                    .style("border", "solid")
+                    .style("border-width", "2px")
+                    .style("border-radius", "5px")
+                    .style("padding", "5px")
+
+
+
+
+      function color(party){
+        if(party === "AAP"){
+            return "#0066A4";
+        }else if(party === "INC"){
+            return "#34d5eb";
+        }else if(party === "BJP"){
+            return "#F97D09";
+        }else if(party === "SAD" || party === "BSP"){
+            return "#ebc634";
+        }else{
+            return "#bdbdbd";
+        }
+      }
+
+      var toolTipHtml = ""
+
+      function handleMouseOver(d, i) { 
+        for(var i = 0 ; i< electionData.length ; i++){
+          if(electionData[i].ac_no == Number(d.properties.ac_no)){
+            var rows = []
+            electionData[i].candidates.forEach(candidate => {
+              var row = '<tr>' 
+              Object.values(candidate).forEach(e => {
+                row += '<td>' + e + '</td>'
+              })
+              row += '</tr>'
+              rows.push(row)
+            })
+            toolTipHtml = '<table><caption class="ac_name">' + d.properties.ac_no + '-' + d.properties.ac_name +'</caption><thead><tr><th class="small">No</th><th class="large">Candidate Name</th><th class="large">Party</th><th class="small">EVM Votes</th><th class="small">Postal Votes</th><th class="small">Total Votes</th><th class="small">Votes %</th></tr></thead><tbody id="tableBody">' + rows.join("") + '</tbody></table>'
+            break
+          }
+        }
+        Tooltip
+          .style("opacity", 1)
+        d3.select(this)
+          .attr("opacity" , 0.7)
+          .attr("stroke" , "red")
+          .attr("stroke-width" , '2px')
+      }
+
+      function handleMouseOut(d, i) {
+        toolTipHtml=""
+        Tooltip
+        .html(toolTipHtml)
+          .style("opacity", 0)
+        d3.select(this)
+          .attr("opacity" , 1)
+          .attr("stroke" , "black")
+          .attr("stroke-width" , '0.7px')
+      }
+
+      function handleMouseMove(d,i){
+        
+        Tooltip
+          .html(toolTipHtml)
+          .style("left", (d3.mouse(this)[0] + 70) + "px")
+          .style("top", (d3.mouse(this)[1]) + "px")
+      }
+
+      function handleClick(d, i) {
+        for(var i = 0 ; i<= electionData.length ; i++){
+          if(electionData[i].ac_no == Number(d.properties.ac_no)){
+          d3.select('.ac_name').text(electionData[i].ac_no + "-" +electionData[i].ac_name)
+          var tableBody = d3.select("#tableBody");
+          var rows = tableBody.selectAll("tr").data(electionData[i].candidates);
+          rows.exit().remove();
+          rows.enter().append("tr").attr('class' , function(d,i){ return d.Party.replaceAll(' ','_') });
+          rows.attr('class' , function(d,i){ return d.Party.replaceAll(' ','_') } )
+          var cells = rows.selectAll("td")
+            .data(function(d, i) {
+              return Object.values(d);
+            });
+          cells.exit().remove();
+          cells.enter().append("td")
+            .text(function(d) {
+              return d;
+            });
+
+            break
+          }
+        }
+      }
+
+    </script>
+  </body>
+</html>

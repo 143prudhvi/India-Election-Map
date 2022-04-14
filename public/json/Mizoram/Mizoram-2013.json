@@ -1,0 +1,1698 @@
+[
+  {
+    "ac_no": 1,
+    "ac_name": "Hachhek  (ST)",
+    "candidates": [
+      {
+        "Candidate": "LALRINMAWIA RALTE",
+        "Party": "Indian National Congress",
+        "EVM Votes": 7071,
+        "Postal Votes": 781,
+        "Total Votes": 7852,
+        "Vote %": 45.35
+      },
+      {
+        "Candidate": "SAIKAPTHIANGA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 4965,
+        "Postal Votes": 554,
+        "Total Votes": 5519,
+        "Vote %": 31.87
+      },
+      {
+        "Candidate": "LALHMINGTHANGA",
+        "Party": "Nationalist Congress Party",
+        "EVM Votes": 334,
+        "Postal Votes": 2133,
+        "Total Votes": 2467,
+        "Vote %": 14.25
+      },
+      {
+        "Candidate": "LALZAMLOVA ",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 904,
+        "Postal Votes": 235,
+        "Total Votes": 1139,
+        "Vote %": 6.58
+      },
+      {
+        "Candidate": "PAZAWNA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 104,
+        "Postal Votes": 51,
+        "Total Votes": 155,
+        "Vote %": 0.9
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 179,
+        "Postal Votes": 4,
+        "Total Votes": 183,
+        "Vote %": 1.06
+      }
+    ]
+  },
+  {
+    "ac_no": 2,
+    "ac_name": "Dampa  (ST)",
+    "candidates": [
+      {
+        "Candidate": "LALROBIAKA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 6051,
+        "Postal Votes": 121,
+        "Total Votes": 6172,
+        "Vote %": 43.27
+      },
+      {
+        "Candidate": "LIANSUAMA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 4630,
+        "Postal Votes": 381,
+        "Total Votes": 5011,
+        "Vote %": 35.13
+      },
+      {
+        "Candidate": "LALRIMAWIA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 2647,
+        "Postal Votes": 231,
+        "Total Votes": 2878,
+        "Vote %": 20.18
+      },
+      {
+        "Candidate": "R LALTAWNLIANA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 86,
+        "Postal Votes": 35,
+        "Total Votes": 121,
+        "Vote %": 0.85
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 81,
+        "Postal Votes": 0,
+        "Total Votes": 81,
+        "Vote %": 0.57
+      }
+    ]
+  },
+  {
+    "ac_no": 3,
+    "ac_name": "Mamit  (ST)",
+    "candidates": [
+      {
+        "Candidate": "JOHN ROTLUANGLIANA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 7588,
+        "Postal Votes": 210,
+        "Total Votes": 7798,
+        "Vote %": 45.81
+      },
+      {
+        "Candidate": "H.B. LIANMUNGA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 5124,
+        "Postal Votes": 184,
+        "Total Votes": 5308,
+        "Vote %": 31.19
+      },
+      {
+        "Candidate": "BIAKTHUAMA MOLSHOY",
+        "Party": "Nationalist Congress Party",
+        "EVM Votes": 643,
+        "Postal Votes": 1725,
+        "Total Votes": 2368,
+        "Vote %": 13.91
+      },
+      {
+        "Candidate": "H LALTANPUIA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 1206,
+        "Postal Votes": 90,
+        "Total Votes": 1296,
+        "Vote %": 7.61
+      },
+      {
+        "Candidate": "C DARLIANTHANGA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 82,
+        "Postal Votes": 18,
+        "Total Votes": 100,
+        "Vote %": 0.59
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 150,
+        "Postal Votes": 1,
+        "Total Votes": 151,
+        "Vote %": 0.89
+      }
+    ]
+  },
+  {
+    "ac_no": 4,
+    "ac_name": "Tuirial  (ST)",
+    "candidates": [
+      {
+        "Candidate": "HMINGDAILOVA KHIANGTE",
+        "Party": "Indian National Congress",
+        "EVM Votes": 4956,
+        "Postal Votes": 163,
+        "Total Votes": 5119,
+        "Vote %": 39.12
+      },
+      {
+        "Candidate": "JOSEPH L. RALTE",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 4496,
+        "Postal Votes": 384,
+        "Total Votes": 4880,
+        "Vote %": 37.3
+      },
+      {
+        "Candidate": "DR. KENNETH ",
+        "Party": "Mizoram People's Conference",
+        "EVM Votes": 2868,
+        "Postal Votes": 114,
+        "Total Votes": 2982,
+        "Vote %": 22.79
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 101,
+        "Postal Votes": 2,
+        "Total Votes": 103,
+        "Vote %": 0.79
+      }
+    ]
+  },
+  {
+    "ac_no": 5,
+    "ac_name": "Kolasib  (ST)",
+    "candidates": [
+      {
+        "Candidate": "P.C. ZORAM SANGLIANA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 5927,
+        "Postal Votes": 151,
+        "Total Votes": 6078,
+        "Vote %": 38.06
+      },
+      {
+        "Candidate": "LALCHAMLIANA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 5315,
+        "Postal Votes": 168,
+        "Total Votes": 5483,
+        "Vote %": 34.33
+      },
+      {
+        "Candidate": "LALDUHOMA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 3916,
+        "Postal Votes": 212,
+        "Total Votes": 4128,
+        "Vote %": 25.85
+      },
+      {
+        "Candidate": "RAMFANGZAUVI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 122,
+        "Postal Votes": 37,
+        "Total Votes": 159,
+        "Vote %": 1.0
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 119,
+        "Postal Votes": 3,
+        "Total Votes": 122,
+        "Vote %": 0.76
+      }
+    ]
+  },
+  {
+    "ac_no": 6,
+    "ac_name": "Serlui  (ST)",
+    "candidates": [
+      {
+        "Candidate": "K. LALRINTHANGA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 5432,
+        "Postal Votes": 232,
+        "Total Votes": 5664,
+        "Vote %": 40.52
+      },
+      {
+        "Candidate": "LALHMINGLIANA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 4112,
+        "Postal Votes": 146,
+        "Total Votes": 4258,
+        "Vote %": 30.46
+      },
+      {
+        "Candidate": "R. LALAWIA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 3245,
+        "Postal Votes": 304,
+        "Total Votes": 3549,
+        "Vote %": 25.39
+      },
+      {
+        "Candidate": "H.A. DAWNGLIANA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 343,
+        "Postal Votes": 11,
+        "Total Votes": 354,
+        "Vote %": 2.53
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 155,
+        "Postal Votes": 0,
+        "Total Votes": 155,
+        "Vote %": 1.11
+      }
+    ]
+  },
+  {
+    "ac_no": 7,
+    "ac_name": "Tuivawl  (ST)",
+    "candidates": [
+      {
+        "Candidate": "R. L. PIANMAWIA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 5650,
+        "Postal Votes": 18,
+        "Total Votes": 5668,
+        "Vote %": 45.41
+      },
+      {
+        "Candidate": "GOGO LALREMTLUANGA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 4262,
+        "Postal Votes": 35,
+        "Total Votes": 4297,
+        "Vote %": 34.42
+      },
+      {
+        "Candidate": "LALMUANPUIA PUNTE",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 2407,
+        "Postal Votes": 5,
+        "Total Votes": 2412,
+        "Vote %": 19.32
+      },
+      {
+        "Candidate": "C. RAMKINLOVA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 63,
+        "Postal Votes": 0,
+        "Total Votes": 63,
+        "Vote %": 0.5
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 43,
+        "Postal Votes": 0,
+        "Total Votes": 43,
+        "Vote %": 0.34
+      }
+    ]
+  },
+  {
+    "ac_no": 8,
+    "ac_name": "Chalfilh  (ST)",
+    "candidates": [
+      {
+        "Candidate": "DR. NGURDINGLIANA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 7168,
+        "Postal Votes": 6,
+        "Total Votes": 7174,
+        "Vote %": 50.84
+      },
+      {
+        "Candidate": "L. T. KIMA FANAI",
+        "Party": "Mizoram People's Conference",
+        "EVM Votes": 3430,
+        "Postal Votes": 16,
+        "Total Votes": 3446,
+        "Vote %": 24.42
+      },
+      {
+        "Candidate": "J. LALCHHANHIMA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 3355,
+        "Postal Votes": 13,
+        "Total Votes": 3368,
+        "Vote %": 23.87
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 123,
+        "Postal Votes": 0,
+        "Total Votes": 123,
+        "Vote %": 0.87
+      }
+    ]
+  },
+  {
+    "ac_no": 9,
+    "ac_name": "Tawi  (ST)",
+    "candidates": [
+      {
+        "Candidate": "R LALZIRLIANA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 5726,
+        "Postal Votes": 31,
+        "Total Votes": 5757,
+        "Vote %": 45.42
+      },
+      {
+        "Candidate": "LALMALSAWMI",
+        "Party": "Mizo National Front",
+        "EVM Votes": 4773,
+        "Postal Votes": 37,
+        "Total Votes": 4810,
+        "Vote %": 37.95
+      },
+      {
+        "Candidate": "R. LALTHATLUANGA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 2011,
+        "Postal Votes": 12,
+        "Total Votes": 2023,
+        "Vote %": 15.96
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 84,
+        "Postal Votes": 0,
+        "Total Votes": 84,
+        "Vote %": 0.66
+      }
+    ]
+  },
+  {
+    "ac_no": 10,
+    "ac_name": "Aizawl  North - i  (ST)",
+    "candidates": [
+      {
+        "Candidate": "R. ROMAWIA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 5911,
+        "Postal Votes": 59,
+        "Total Votes": 5970,
+        "Vote %": 37.08
+      },
+      {
+        "Candidate": "VANLALHLANA",
+        "Party": "Mizoram People's Conference",
+        "EVM Votes": 5210,
+        "Postal Votes": 103,
+        "Total Votes": 5313,
+        "Vote %": 33.0
+      },
+      {
+        "Candidate": "C. LALMALSAWMA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 4479,
+        "Postal Votes": 85,
+        "Total Votes": 4564,
+        "Vote %": 28.35
+      },
+      {
+        "Candidate": "DAVID LALFAKZUALA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 136,
+        "Postal Votes": 1,
+        "Total Votes": 137,
+        "Vote %": 0.85
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 114,
+        "Postal Votes": 1,
+        "Total Votes": 115,
+        "Vote %": 0.71
+      }
+    ]
+  },
+  {
+    "ac_no": 11,
+    "ac_name": "Aizawl North - ii  (ST)",
+    "candidates": [
+      {
+        "Candidate": "LALTHANLIANA",
+        "Party": "Mizoram People's Conference",
+        "EVM Votes": 6714,
+        "Postal Votes": 161,
+        "Total Votes": 6875,
+        "Vote %": 41.53
+      },
+      {
+        "Candidate": "H. LIANSAILOVA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 6427,
+        "Postal Votes": 137,
+        "Total Votes": 6564,
+        "Vote %": 39.65
+      },
+      {
+        "Candidate": "LALCHHANHIMA PAUTU",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 2872,
+        "Postal Votes": 59,
+        "Total Votes": 2931,
+        "Vote %": 17.71
+      },
+      {
+        "Candidate": "C LALNUNZIRI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 60,
+        "Postal Votes": 0,
+        "Total Votes": 60,
+        "Vote %": 0.36
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 120,
+        "Postal Votes": 3,
+        "Total Votes": 123,
+        "Vote %": 0.74
+      }
+    ]
+  },
+  {
+    "ac_no": 12,
+    "ac_name": "Aizawl North-iii  (ST)",
+    "candidates": [
+      {
+        "Candidate": "LAL THANZARA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 6156,
+        "Postal Votes": 106,
+        "Total Votes": 6262,
+        "Vote %": 45.48
+      },
+      {
+        "Candidate": "LALCHHANDAMA RALTE",
+        "Party": "Mizo National Front",
+        "EVM Votes": 5402,
+        "Postal Votes": 110,
+        "Total Votes": 5512,
+        "Vote %": 40.03
+      },
+      {
+        "Candidate": "R. K. DANIELA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 1850,
+        "Postal Votes": 28,
+        "Total Votes": 1878,
+        "Vote %": 13.64
+      },
+      {
+        "Candidate": "BIAKMAWIA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 36,
+        "Postal Votes": 0,
+        "Total Votes": 36,
+        "Vote %": 0.26
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 81,
+        "Postal Votes": 1,
+        "Total Votes": 82,
+        "Vote %": 0.6
+      }
+    ]
+  },
+  {
+    "ac_no": 13,
+    "ac_name": "Aizawl East - i",
+    "candidates": [
+      {
+        "Candidate": "R. LALRINAWMA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 6183,
+        "Postal Votes": 38,
+        "Total Votes": 6221,
+        "Vote %": 37.72
+      },
+      {
+        "Candidate": "LALHMANGAIHA SAILO",
+        "Party": "Mizoram People's Conference",
+        "EVM Votes": 5738,
+        "Postal Votes": 61,
+        "Total Votes": 5799,
+        "Vote %": 35.16
+      },
+      {
+        "Candidate": "ZARZOLIANA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 4232,
+        "Postal Votes": 59,
+        "Total Votes": 4291,
+        "Vote %": 26.02
+      },
+      {
+        "Candidate": "THANGCHUNGNUNGA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 98,
+        "Postal Votes": 0,
+        "Total Votes": 98,
+        "Vote %": 0.59
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 84,
+        "Postal Votes": 1,
+        "Total Votes": 85,
+        "Vote %": 0.52
+      }
+    ]
+  },
+  {
+    "ac_no": 14,
+    "ac_name": "Aizawl East ii  (ST)",
+    "candidates": [
+      {
+        "Candidate": "LALSAWTA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 4884,
+        "Postal Votes": 108,
+        "Total Votes": 4992,
+        "Vote %": 38.31
+      },
+      {
+        "Candidate": "SAILOTHANGA SAILO",
+        "Party": "Mizo National Front",
+        "EVM Votes": 4647,
+        "Postal Votes": 168,
+        "Total Votes": 4815,
+        "Vote %": 36.95
+      },
+      {
+        "Candidate": "K. LALTUVELA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 3000,
+        "Postal Votes": 131,
+        "Total Votes": 3131,
+        "Vote %": 24.03
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 92,
+        "Postal Votes": 1,
+        "Total Votes": 93,
+        "Vote %": 0.71
+      }
+    ]
+  },
+  {
+    "ac_no": 15,
+    "ac_name": "Aizawl West i  (ST)",
+    "candidates": [
+      {
+        "Candidate": "K SANGTHUAMA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 6276,
+        "Postal Votes": 111,
+        "Total Votes": 6387,
+        "Vote %": 36.61
+      },
+      {
+        "Candidate": "TLANGTHANMAWII",
+        "Party": "Indian National Congress",
+        "EVM Votes": 5878,
+        "Postal Votes": 47,
+        "Total Votes": 5925,
+        "Vote %": 33.96
+      },
+      {
+        "Candidate": "LALDUHOMA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 4807,
+        "Postal Votes": 87,
+        "Total Votes": 4894,
+        "Vote %": 28.05
+      },
+      {
+        "Candidate": "KAPMAWIA RALTE",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 104,
+        "Postal Votes": 1,
+        "Total Votes": 105,
+        "Vote %": 0.6
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 136,
+        "Postal Votes": 0,
+        "Total Votes": 136,
+        "Vote %": 0.78
+      }
+    ]
+  },
+  {
+    "ac_no": 16,
+    "ac_name": "Aizawl West ii  (ST)",
+    "candidates": [
+      {
+        "Candidate": "LALRUATKIMA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 6398,
+        "Postal Votes": 177,
+        "Total Votes": 6575,
+        "Vote %": 43.47
+      },
+      {
+        "Candidate": "DR. LALMALSAWMA ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 5863,
+        "Postal Votes": 82,
+        "Total Votes": 5945,
+        "Vote %": 39.31
+      },
+      {
+        "Candidate": "C. ROPIANGA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 2481,
+        "Postal Votes": 49,
+        "Total Votes": 2530,
+        "Vote %": 16.73
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 72,
+        "Postal Votes": 2,
+        "Total Votes": 74,
+        "Vote %": 0.49
+      }
+    ]
+  },
+  {
+    "ac_no": 17,
+    "ac_name": "Aizawl West iii  (ST)",
+    "candidates": [
+      {
+        "Candidate": "VANLALZAWMA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 5600,
+        "Postal Votes": 165,
+        "Total Votes": 5765,
+        "Vote %": 37.99
+      },
+      {
+        "Candidate": "R. SELTHUAMA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 4720,
+        "Postal Votes": 67,
+        "Total Votes": 4787,
+        "Vote %": 31.54
+      },
+      {
+        "Candidate": "DR. C. T. TLUANGA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 4405,
+        "Postal Votes": 129,
+        "Total Votes": 4534,
+        "Vote %": 29.87
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 91,
+        "Postal Votes": 0,
+        "Total Votes": 91,
+        "Vote %": 0.6
+      }
+    ]
+  },
+  {
+    "ac_no": 18,
+    "ac_name": "Aizawl South i  (ST)",
+    "candidates": [
+      {
+        "Candidate": "R. VANLALVENA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 6360,
+        "Postal Votes": 103,
+        "Total Votes": 6463,
+        "Vote %": 39.59
+      },
+      {
+        "Candidate": "R. K. LIANZUALA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 5028,
+        "Postal Votes": 139,
+        "Total Votes": 5167,
+        "Vote %": 31.65
+      },
+      {
+        "Candidate": "K LIANTLINGA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 4516,
+        "Postal Votes": 100,
+        "Total Votes": 4616,
+        "Vote %": 28.27
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 79,
+        "Postal Votes": 1,
+        "Total Votes": 80,
+        "Vote %": 0.49
+      }
+    ]
+  },
+  {
+    "ac_no": 19,
+    "ac_name": "Aizawl South ii  (ST)",
+    "candidates": [
+      {
+        "Candidate": "LT. COL. ZOSANGZUALA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 6736,
+        "Postal Votes": 142,
+        "Total Votes": 6878,
+        "Vote %": 39.79
+      },
+      {
+        "Candidate": "R. TLANGHMINGTHANGA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 5676,
+        "Postal Votes": 159,
+        "Total Votes": 5835,
+        "Vote %": 33.76
+      },
+      {
+        "Candidate": "RINZAWNA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 4289,
+        "Postal Votes": 162,
+        "Total Votes": 4451,
+        "Vote %": 25.75
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 116,
+        "Postal Votes": 4,
+        "Total Votes": 120,
+        "Vote %": 0.69
+      }
+    ]
+  },
+  {
+    "ac_no": 20,
+    "ac_name": "Aizawl South-iii  (ST)",
+    "candidates": [
+      {
+        "Candidate": "K. S. THANGA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 6566,
+        "Postal Votes": 28,
+        "Total Votes": 6594,
+        "Vote %": 41.5
+      },
+      {
+        "Candidate": "TAWNLUIA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 5877,
+        "Postal Votes": 50,
+        "Total Votes": 5927,
+        "Vote %": 37.3
+      },
+      {
+        "Candidate": "R. VANLALTLUANGA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 3256,
+        "Postal Votes": 36,
+        "Total Votes": 3292,
+        "Vote %": 20.72
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 77,
+        "Postal Votes": 1,
+        "Total Votes": 78,
+        "Vote %": 0.49
+      }
+    ]
+  },
+  {
+    "ac_no": 21,
+    "ac_name": "Lengteng  (ST)",
+    "candidates": [
+      {
+        "Candidate": "H .ROHLUNA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 5663,
+        "Postal Votes": 19,
+        "Total Votes": 5682,
+        "Vote %": 42.83
+      },
+      {
+        "Candidate": "L .THANGMAWIA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 5456,
+        "Postal Votes": 59,
+        "Total Votes": 5515,
+        "Vote %": 41.57
+      },
+      {
+        "Candidate": "H.GINZALALA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 1937,
+        "Postal Votes": 7,
+        "Total Votes": 1944,
+        "Vote %": 14.65
+      },
+      {
+        "Candidate": "ZORAMCHHANI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 79,
+        "Postal Votes": 1,
+        "Total Votes": 80,
+        "Vote %": 0.6
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 46,
+        "Postal Votes": 0,
+        "Total Votes": 46,
+        "Vote %": 0.35
+      }
+    ]
+  },
+  {
+    "ac_no": 22,
+    "ac_name": "Tuichang  (ST)",
+    "candidates": [
+      {
+        "Candidate": "LALRINLIANA SAILO",
+        "Party": "Indian National Congress",
+        "EVM Votes": 6208,
+        "Postal Votes": 50,
+        "Total Votes": 6258,
+        "Vote %": 48.66
+      },
+      {
+        "Candidate": "DR. H .LALLUNGMUANA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 3170,
+        "Postal Votes": 103,
+        "Total Votes": 3273,
+        "Vote %": 25.45
+      },
+      {
+        "Candidate": "LALBIAKZAMA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 3183,
+        "Postal Votes": 46,
+        "Total Votes": 3229,
+        "Vote %": 25.11
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 100,
+        "Postal Votes": 0,
+        "Total Votes": 100,
+        "Vote %": 0.78
+      }
+    ]
+  },
+  {
+    "ac_no": 23,
+    "ac_name": "Champhai North  (ST)",
+    "candidates": [
+      {
+        "Candidate": "T.T. ZOTHANSANGA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 5871,
+        "Postal Votes": 63,
+        "Total Votes": 5934,
+        "Vote %": 42.44
+      },
+      {
+        "Candidate": "T.C. KAPHMINGTHANGA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 4383,
+        "Postal Votes": 81,
+        "Total Votes": 4464,
+        "Vote %": 31.93
+      },
+      {
+        "Candidate": "C .LALREMLIANA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 3295,
+        "Postal Votes": 78,
+        "Total Votes": 3373,
+        "Vote %": 24.12
+      },
+      {
+        "Candidate": "C .ROLIANA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 104,
+        "Postal Votes": 2,
+        "Total Votes": 106,
+        "Vote %": 0.76
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 105,
+        "Postal Votes": 0,
+        "Total Votes": 105,
+        "Vote %": 0.75
+      }
+    ]
+  },
+  {
+    "ac_no": 24,
+    "ac_name": "Champhai South  (ST)",
+    "candidates": [
+      {
+        "Candidate": "JH.ROTHUAMA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 5152,
+        "Postal Votes": 51,
+        "Total Votes": 5203,
+        "Vote %": 40.99
+      },
+      {
+        "Candidate": "ROSIAMNGHETA",
+        "Party": "Mizoram People's Conference",
+        "EVM Votes": 3490,
+        "Postal Votes": 63,
+        "Total Votes": 3553,
+        "Vote %": 27.99
+      },
+      {
+        "Candidate": "VANLALNEIHA RALTE",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 2417,
+        "Postal Votes": 54,
+        "Total Votes": 2471,
+        "Vote %": 19.47
+      },
+      {
+        "Candidate": "B .SANGKHUMI",
+        "Party": "Independent",
+        "EVM Votes": 1386,
+        "Postal Votes": 11,
+        "Total Votes": 1397,
+        "Vote %": 11.01
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 68,
+        "Postal Votes": 0,
+        "Total Votes": 68,
+        "Vote %": 0.54
+      }
+    ]
+  },
+  {
+    "ac_no": 25,
+    "ac_name": "East tuipui  (ST)",
+    "candidates": [
+      {
+        "Candidate": "T. SANGKUNGA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 4886,
+        "Postal Votes": 40,
+        "Total Votes": 4926,
+        "Vote %": 43.37
+      },
+      {
+        "Candidate": "ZORAMTHANGA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 4059,
+        "Postal Votes": 69,
+        "Total Votes": 4128,
+        "Vote %": 36.34
+      },
+      {
+        "Candidate": "W.CHHUANAWMA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 2180,
+        "Postal Votes": 24,
+        "Total Votes": 2204,
+        "Vote %": 19.4
+      },
+      {
+        "Candidate": "LALRAWNA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 37,
+        "Postal Votes": 0,
+        "Total Votes": 37,
+        "Vote %": 0.33
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 64,
+        "Postal Votes": 0,
+        "Total Votes": 64,
+        "Vote %": 0.56
+      }
+    ]
+  },
+  {
+    "ac_no": 26,
+    "ac_name": "Serchhip  (ST)",
+    "candidates": [
+      {
+        "Candidate": "LAL THANHAWLA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 5605,
+        "Postal Votes": 114,
+        "Total Votes": 5719,
+        "Vote %": 41.48
+      },
+      {
+        "Candidate": "C. LALRAMZAUVA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 4851,
+        "Postal Votes": 134,
+        "Total Votes": 4985,
+        "Vote %": 36.15
+      },
+      {
+        "Candidate": "P.B. LALSAWMLIANA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 2815,
+        "Postal Votes": 84,
+        "Total Votes": 2899,
+        "Vote %": 21.03
+      },
+      {
+        "Candidate": "LALAWMPUIA RENTHLEI",
+        "Party": "Independent",
+        "EVM Votes": 119,
+        "Postal Votes": 1,
+        "Total Votes": 120,
+        "Vote %": 0.87
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 64,
+        "Postal Votes": 1,
+        "Total Votes": 65,
+        "Vote %": 0.47
+      }
+    ]
+  },
+  {
+    "ac_no": 27,
+    "ac_name": "Tuikum  (ST)",
+    "candidates": [
+      {
+        "Candidate": "ER. LALRINAWMA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 4411,
+        "Postal Votes": 56,
+        "Total Votes": 4467,
+        "Vote %": 35.53
+      },
+      {
+        "Candidate": "K. LIANZUALA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 4428,
+        "Postal Votes": 25,
+        "Total Votes": 4453,
+        "Vote %": 35.42
+      },
+      {
+        "Candidate": "PC VANLALRUATA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 3527,
+        "Postal Votes": 48,
+        "Total Votes": 3575,
+        "Vote %": 28.43
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 78,
+        "Postal Votes": 0,
+        "Total Votes": 78,
+        "Vote %": 0.62
+      }
+    ]
+  },
+  {
+    "ac_no": 28,
+    "ac_name": "Hrangturzo  (ST)",
+    "candidates": [
+      {
+        "Candidate": "LAL THANHAWLA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 5139,
+        "Postal Votes": 34,
+        "Total Votes": 5173,
+        "Vote %": 42.21
+      },
+      {
+        "Candidate": "LALTHANSANGA",
+        "Party": "Mizoram People's Conference",
+        "EVM Votes": 3504,
+        "Postal Votes": 41,
+        "Total Votes": 3545,
+        "Vote %": 28.93
+      },
+      {
+        "Candidate": "H. LALDUHAWMA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 3374,
+        "Postal Votes": 38,
+        "Total Votes": 3412,
+        "Vote %": 27.84
+      },
+      {
+        "Candidate": "LALAWMPUIA RENTHLEI",
+        "Party": "Independent",
+        "EVM Votes": 39,
+        "Postal Votes": 0,
+        "Total Votes": 39,
+        "Vote %": 0.32
+      },
+      {
+        "Candidate": "F. REMKHUMA",
+        "Party": "Jai Maha Bharath Party",
+        "EVM Votes": 29,
+        "Postal Votes": 0,
+        "Total Votes": 29,
+        "Vote %": 0.24
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 56,
+        "Postal Votes": 0,
+        "Total Votes": 56,
+        "Vote %": 0.46
+      }
+    ]
+  },
+  {
+    "ac_no": 29,
+    "ac_name": "South tuipui  (ST)",
+    "candidates": [
+      {
+        "Candidate": "JOHN SIAMKUNGA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 4878,
+        "Postal Votes": 34,
+        "Total Votes": 4912,
+        "Vote %": 42.44
+      },
+      {
+        "Candidate": "J. LALCHHUANA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 3278,
+        "Postal Votes": 66,
+        "Total Votes": 3344,
+        "Vote %": 28.89
+      },
+      {
+        "Candidate": "Z.H. ROPUIA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 3160,
+        "Postal Votes": 57,
+        "Total Votes": 3217,
+        "Vote %": 27.79
+      },
+      {
+        "Candidate": "PC.  REMTHANGA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 52,
+        "Postal Votes": 1,
+        "Total Votes": 53,
+        "Vote %": 0.46
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 49,
+        "Postal Votes": 0,
+        "Total Votes": 49,
+        "Vote %": 0.42
+      }
+    ]
+  },
+  {
+    "ac_no": 30,
+    "ac_name": "Lunglei North  (ST)",
+    "candidates": [
+      {
+        "Candidate": "P.C. LALTHANLIANA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 6085,
+        "Postal Votes": 83,
+        "Total Votes": 6168,
+        "Vote %": 47.15
+      },
+      {
+        "Candidate": "DR. K.VANLALLAWMA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 5204,
+        "Postal Votes": 94,
+        "Total Votes": 5298,
+        "Vote %": 40.5
+      },
+      {
+        "Candidate": "RD. LALRAMMAWIA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 1344,
+        "Postal Votes": 29,
+        "Total Votes": 1373,
+        "Vote %": 10.49
+      },
+      {
+        "Candidate": "S. L. SAILOVA",
+        "Party": "Independent",
+        "EVM Votes": 203,
+        "Postal Votes": 5,
+        "Total Votes": 208,
+        "Vote %": 1.59
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 36,
+        "Postal Votes": 0,
+        "Total Votes": 36,
+        "Vote %": 0.28
+      }
+    ]
+  },
+  {
+    "ac_no": 31,
+    "ac_name": "Lunglei East  (ST)",
+    "candidates": [
+      {
+        "Candidate": "JOSEPH LALHIMPUIA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 5233,
+        "Postal Votes": 134,
+        "Total Votes": 5367,
+        "Vote %": 49.32
+      },
+      {
+        "Candidate": "LALRINZUALA",
+        "Party": "Mizoram People's Conference",
+        "EVM Votes": 3664,
+        "Postal Votes": 92,
+        "Total Votes": 3756,
+        "Vote %": 34.52
+      },
+      {
+        "Candidate": "PC. LALDUHTHLANGA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 1621,
+        "Postal Votes": 40,
+        "Total Votes": 1661,
+        "Vote %": 15.27
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 94,
+        "Postal Votes": 3,
+        "Total Votes": 97,
+        "Vote %": 0.89
+      }
+    ]
+  },
+  {
+    "ac_no": 32,
+    "ac_name": "Lunglei West  (ST)",
+    "candidates": [
+      {
+        "Candidate": "CHALROSANGA RALTE",
+        "Party": "Indian National Congress",
+        "EVM Votes": 5054,
+        "Postal Votes": 120,
+        "Total Votes": 5174,
+        "Vote %": 46.27
+      },
+      {
+        "Candidate": "DR. R. LALTHANGLIANA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 4919,
+        "Postal Votes": 161,
+        "Total Votes": 5080,
+        "Vote %": 45.43
+      },
+      {
+        "Candidate": "R. LALRAMZAUVA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 806,
+        "Postal Votes": 40,
+        "Total Votes": 846,
+        "Vote %": 7.57
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 80,
+        "Postal Votes": 1,
+        "Total Votes": 81,
+        "Vote %": 0.72
+      }
+    ]
+  },
+  {
+    "ac_no": 33,
+    "ac_name": "Lunglei South  (ST)",
+    "candidates": [
+      {
+        "Candidate": "S. LALDINGLIANA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 6116,
+        "Postal Votes": 114,
+        "Total Votes": 6230,
+        "Vote %": 47.45
+      },
+      {
+        "Candidate": "DR. K PACHHUNGA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 5602,
+        "Postal Votes": 178,
+        "Total Votes": 5780,
+        "Vote %": 44.02
+      },
+      {
+        "Candidate": "DR. AICHHUNGA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 985,
+        "Postal Votes": 52,
+        "Total Votes": 1037,
+        "Vote %": 7.9
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 83,
+        "Postal Votes": 0,
+        "Total Votes": 83,
+        "Vote %": 0.63
+      }
+    ]
+  },
+  {
+    "ac_no": 34,
+    "ac_name": "Thorang  (ST)",
+    "candidates": [
+      {
+        "Candidate": "ZODINTLUANGA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 6312,
+        "Postal Votes": 111,
+        "Total Votes": 6423,
+        "Vote %": 59.15
+      },
+      {
+        "Candidate": "JOSEPH LALZAWMLIANA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 3830,
+        "Postal Votes": 89,
+        "Total Votes": 3919,
+        "Vote %": 36.09
+      },
+      {
+        "Candidate": "ELIS LUNGTIAWIA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 343,
+        "Postal Votes": 4,
+        "Total Votes": 347,
+        "Vote %": 3.2
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 169,
+        "Postal Votes": 0,
+        "Total Votes": 169,
+        "Vote %": 1.56
+      }
+    ]
+  },
+  {
+    "ac_no": 35,
+    "ac_name": "West tuipui  (ST)",
+    "candidates": [
+      {
+        "Candidate": "NIHAR KANTI CHAKMA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 6742,
+        "Postal Votes": 172,
+        "Total Votes": 6914,
+        "Vote %": 63.84
+      },
+      {
+        "Candidate": "PRITI RANJAN CHAKMA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 3438,
+        "Postal Votes": 142,
+        "Total Votes": 3580,
+        "Vote %": 33.06
+      },
+      {
+        "Candidate": "LALRINPUIA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 177,
+        "Postal Votes": 3,
+        "Total Votes": 180,
+        "Vote %": 1.66
+      },
+      {
+        "Candidate": "ZOREMSIAMA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 94,
+        "Postal Votes": 7,
+        "Total Votes": 101,
+        "Vote %": 0.93
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 55,
+        "Postal Votes": 0,
+        "Total Votes": 55,
+        "Vote %": 0.51
+      }
+    ]
+  },
+  {
+    "ac_no": 36,
+    "ac_name": "Tuichawng  (ST)",
+    "candidates": [
+      {
+        "Candidate": "BUDDHA DHAN CHAKMA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 14569,
+        "Postal Votes": 57,
+        "Total Votes": 14626,
+        "Vote %": 69.43
+      },
+      {
+        "Candidate": "RASIK MOHAN CHAKMA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 5881,
+        "Postal Votes": 19,
+        "Total Votes": 5900,
+        "Vote %": 28.01
+      },
+      {
+        "Candidate": "VICTOR TALUKDAR",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 374,
+        "Postal Votes": 0,
+        "Total Votes": 374,
+        "Vote %": 1.78
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 167,
+        "Postal Votes": 0,
+        "Total Votes": 167,
+        "Vote %": 0.79
+      }
+    ]
+  },
+  {
+    "ac_no": 37,
+    "ac_name": "Lawngtlai West  (ST)",
+    "candidates": [
+      {
+        "Candidate": "C.NGUNLIANCHUNGA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 10219,
+        "Postal Votes": 104,
+        "Total Votes": 10323,
+        "Vote %": 52.72
+      },
+      {
+        "Candidate": "C.RAMHLUNA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 8658,
+        "Postal Votes": 130,
+        "Total Votes": 8788,
+        "Vote %": 44.88
+      },
+      {
+        "Candidate": "MC.LALRAMCHHANA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 313,
+        "Postal Votes": 7,
+        "Total Votes": 320,
+        "Vote %": 1.63
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 150,
+        "Postal Votes": 0,
+        "Total Votes": 150,
+        "Vote %": 0.77
+      }
+    ]
+  },
+  {
+    "ac_no": 38,
+    "ac_name": "Lawngtlai East  (ST)",
+    "candidates": [
+      {
+        "Candidate": "H.ZOTHANGLIANA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 8018,
+        "Postal Votes": 173,
+        "Total Votes": 8191,
+        "Vote %": 48.65
+      },
+      {
+        "Candidate": "VANUPA ZATHANG",
+        "Party": "Mizo National Front",
+        "EVM Votes": 7676,
+        "Postal Votes": 242,
+        "Total Votes": 7918,
+        "Vote %": 47.03
+      },
+      {
+        "Candidate": "F. SANGDAWNA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 621,
+        "Postal Votes": 21,
+        "Total Votes": 642,
+        "Vote %": 3.81
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 84,
+        "Postal Votes": 2,
+        "Total Votes": 86,
+        "Vote %": 0.51
+      }
+    ]
+  },
+  {
+    "ac_no": 39,
+    "ac_name": "Saiha  (ST)",
+    "candidates": [
+      {
+        "Candidate": "DR. K. BEICHHUA",
+        "Party": "Mizo National Front",
+        "EVM Votes": 7124,
+        "Postal Votes": 200,
+        "Total Votes": 7324,
+        "Vote %": 49.62
+      },
+      {
+        "Candidate": "S. HIATO",
+        "Party": "Indian National Congress",
+        "EVM Votes": 6972,
+        "Postal Votes": 130,
+        "Total Votes": 7102,
+        "Vote %": 48.11
+      },
+      {
+        "Candidate": "F. LALHMACHHUANA",
+        "Party": "Zoram Nationalist Party",
+        "EVM Votes": 268,
+        "Postal Votes": 6,
+        "Total Votes": 274,
+        "Vote %": 1.86
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 61,
+        "Postal Votes": 0,
+        "Total Votes": 61,
+        "Vote %": 0.41
+      }
+    ]
+  },
+  {
+    "ac_no": 40,
+    "ac_name": "Palak  (ST)",
+    "candidates": [
+      {
+        "Candidate": "HIPHEI",
+        "Party": "Indian National Congress",
+        "EVM Votes": 7223,
+        "Postal Votes": 33,
+        "Total Votes": 7256,
+        "Vote %": 56.86
+      },
+      {
+        "Candidate": "PP. THAWLA",
+        "Party": "Maraland Democratic Front",
+        "EVM Votes": 5399,
+        "Postal Votes": 34,
+        "Total Votes": 5433,
+        "Vote %": 42.58
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 72,
+        "Postal Votes": 0,
+        "Total Votes": 72,
+        "Vote %": 0.56
+      }
+    ]
+  }
+]

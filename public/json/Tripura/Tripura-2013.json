@@ -1,0 +1,2354 @@
+[
+  {
+    "ac_no": 1,
+    "ac_name": "Simna  (ST)",
+    "candidates": [
+      {
+        "Candidate": "PRANAB DEBBARMA",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 16818,
+        "Postal Votes": 245,
+        "Total Votes": 17063,
+        "Vote %": 54.36
+      },
+      {
+        "Candidate": "RABINDRA DEBBARMA",
+        "Party": "Indigenous Nationalist Party of Twipra",
+        "EVM Votes": 13045,
+        "Postal Votes": 199,
+        "Total Votes": 13244,
+        "Vote %": 42.19
+      },
+      {
+        "Candidate": "SUBODH DEBBARMA",
+        "Party": "Indigenousn People's Front Of Tripura",
+        "EVM Votes": 627,
+        "Postal Votes": 5,
+        "Total Votes": 632,
+        "Vote %": 2.01
+      },
+      {
+        "Candidate": "HIRAMUNI DEBBARMA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 446,
+        "Postal Votes": 4,
+        "Total Votes": 450,
+        "Vote %": 1.43
+      }
+    ]
+  },
+  {
+    "ac_no": 2,
+    "ac_name": "Mohanpur",
+    "candidates": [
+      {
+        "Candidate": "RATAN LAL NATH",
+        "Party": "Indian National Congress",
+        "EVM Votes": 18773,
+        "Postal Votes": 370,
+        "Total Votes": 19143,
+        "Vote %": 49.12
+      },
+      {
+        "Candidate": "SUBHAS CHANDRA DEBNATH",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 17963,
+        "Postal Votes": 405,
+        "Total Votes": 18368,
+        "Vote %": 47.13
+      },
+      {
+        "Candidate": "MANGALIA DEBBARMA",
+        "Party": "Indigenousn People's Front Of Tripura",
+        "EVM Votes": 632,
+        "Postal Votes": 8,
+        "Total Votes": 640,
+        "Vote %": 1.64
+      },
+      {
+        "Candidate": "BHUPESH DEBNATH",
+        "Party": "Amra Bangalee",
+        "EVM Votes": 412,
+        "Postal Votes": 5,
+        "Total Votes": 417,
+        "Vote %": 1.07
+      },
+      {
+        "Candidate": "DHIRENDRA DEBNATH",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 393,
+        "Postal Votes": 10,
+        "Total Votes": 403,
+        "Vote %": 1.03
+      }
+    ]
+  },
+  {
+    "ac_no": 3,
+    "ac_name": "Bamutia  (SC)",
+    "candidates": [
+      {
+        "Candidate": "HARICHARAN SARKAR",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 19405,
+        "Postal Votes": 339,
+        "Total Votes": 19744,
+        "Vote %": 52.35
+      },
+      {
+        "Candidate": "PRAKASH CHANDRA DAS",
+        "Party": "Indian National Congress",
+        "EVM Votes": 16685,
+        "Postal Votes": 309,
+        "Total Votes": 16994,
+        "Vote %": 45.06
+      },
+      {
+        "Candidate": "BIKRAM BAIRAGI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 488,
+        "Postal Votes": 5,
+        "Total Votes": 493,
+        "Vote %": 1.31
+      },
+      {
+        "Candidate": "BIMAL CHANDRA DAS",
+        "Party": "Amra Bangalee",
+        "EVM Votes": 479,
+        "Postal Votes": 2,
+        "Total Votes": 481,
+        "Vote %": 1.28
+      }
+    ]
+  },
+  {
+    "ac_no": 4,
+    "ac_name": "Barjala  (SC)",
+    "candidates": [
+      {
+        "Candidate": "JITENDRA SARKAR",
+        "Party": "Indian National Congress",
+        "EVM Votes": 17394,
+        "Postal Votes": 334,
+        "Total Votes": 17728,
+        "Vote %": 49.25
+      },
+      {
+        "Candidate": "JITENDRA DAS",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 17179,
+        "Postal Votes": 288,
+        "Total Votes": 17467,
+        "Vote %": 48.52
+      },
+      {
+        "Candidate": "SAMIR BISWAS",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 504,
+        "Postal Votes": 7,
+        "Total Votes": 511,
+        "Vote %": 1.42
+      },
+      {
+        "Candidate": "RAHUL DAS",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 291,
+        "Postal Votes": 0,
+        "Total Votes": 291,
+        "Vote %": 0.81
+      }
+    ]
+  },
+  {
+    "ac_no": 5,
+    "ac_name": "Khayerpur",
+    "candidates": [
+      {
+        "Candidate": "PABITRA KAR",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 20591,
+        "Postal Votes": 381,
+        "Total Votes": 20972,
+        "Vote %": 50.72
+      },
+      {
+        "Candidate": "BAPTU CHAKRABORTY",
+        "Party": "Indian National Congress",
+        "EVM Votes": 19250,
+        "Postal Votes": 425,
+        "Total Votes": 19675,
+        "Vote %": 47.59
+      },
+      {
+        "Candidate": "NILIMA GHOSH",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 688,
+        "Postal Votes": 10,
+        "Total Votes": 698,
+        "Vote %": 1.69
+      }
+    ]
+  },
+  {
+    "ac_no": 6,
+    "ac_name": "Agartala",
+    "candidates": [
+      {
+        "Candidate": "SUDIP ROY BARMAN",
+        "Party": "Indian National Congress",
+        "EVM Votes": 21727,
+        "Postal Votes": 433,
+        "Total Votes": 22160,
+        "Vote %": 52.29
+      },
+      {
+        "Candidate": "SANKAR PRASAD DATTA",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 19014,
+        "Postal Votes": 384,
+        "Total Votes": 19398,
+        "Vote %": 45.77
+      },
+      {
+        "Candidate": "SUSHIL ROY",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 815,
+        "Postal Votes": 8,
+        "Total Votes": 823,
+        "Vote %": 1.94
+      }
+    ]
+  },
+  {
+    "ac_no": 7,
+    "ac_name": "Ramnagar",
+    "candidates": [
+      {
+        "Candidate": "RATAN DAS",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 17558,
+        "Postal Votes": 502,
+        "Total Votes": 18060,
+        "Vote %": 49.19
+      },
+      {
+        "Candidate": "SURAJIT DATTA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 17439,
+        "Postal Votes": 556,
+        "Total Votes": 17995,
+        "Vote %": 49.02
+      },
+      {
+        "Candidate": "BIDYUT GHOSH",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 639,
+        "Postal Votes": 18,
+        "Total Votes": 657,
+        "Vote %": 1.79
+      }
+    ]
+  },
+  {
+    "ac_no": 8,
+    "ac_name": "Town bordowali",
+    "candidates": [
+      {
+        "Candidate": "ASISH KUMAR SAHA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 21818,
+        "Postal Votes": 656,
+        "Total Votes": 22474,
+        "Vote %": 57.45
+      },
+      {
+        "Candidate": "SHYAMAL ROY",
+        "Party": "All India Forward Bloc",
+        "EVM Votes": 14836,
+        "Postal Votes": 578,
+        "Total Votes": 15414,
+        "Vote %": 39.41
+      },
+      {
+        "Candidate": "MANOJ KANTI DEBROY",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 481,
+        "Postal Votes": 17,
+        "Total Votes": 498,
+        "Vote %": 1.27
+      },
+      {
+        "Candidate": "SUJIT PAUL",
+        "Party": "Independent",
+        "EVM Votes": 352,
+        "Postal Votes": 2,
+        "Total Votes": 354,
+        "Vote %": 0.91
+      },
+      {
+        "Candidate": "DEBAJIT ROY",
+        "Party": "Amra Bangalee",
+        "EVM Votes": 203,
+        "Postal Votes": 3,
+        "Total Votes": 206,
+        "Vote %": 0.53
+      },
+      {
+        "Candidate": "SHIBANI BHAUMIK",
+        "Party": "SOCIALIST UNITY CENTRE OF INDIA (COMMUNIST)",
+        "EVM Votes": 157,
+        "Postal Votes": 13,
+        "Total Votes": 170,
+        "Vote %": 0.43
+      }
+    ]
+  },
+  {
+    "ac_no": 9,
+    "ac_name": "Banamalipur",
+    "candidates": [
+      {
+        "Candidate": "GOPAL CHANDRA ROY",
+        "Party": "Indian National Congress",
+        "EVM Votes": 18966,
+        "Postal Votes": 498,
+        "Total Votes": 19464,
+        "Vote %": 57.28
+      },
+      {
+        "Candidate": "YUDHISTHIR DAS",
+        "Party": "Communist Party of India",
+        "EVM Votes": 13228,
+        "Postal Votes": 474,
+        "Total Votes": 13702,
+        "Vote %": 40.32
+      },
+      {
+        "Candidate": "GITA ROY",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 427,
+        "Postal Votes": 14,
+        "Total Votes": 441,
+        "Vote %": 1.3
+      },
+      {
+        "Candidate": "DULAL CHANDRA TALAPATRA",
+        "Party": "Amra Bangalee",
+        "EVM Votes": 192,
+        "Postal Votes": 2,
+        "Total Votes": 194,
+        "Vote %": 0.57
+      },
+      {
+        "Candidate": "SUBRATA CHAKRABORTY",
+        "Party": "SOCIALIST UNITY CENTRE OF INDIA (COMMUNIST)",
+        "EVM Votes": 177,
+        "Postal Votes": 3,
+        "Total Votes": 180,
+        "Vote %": 0.53
+      }
+    ]
+  },
+  {
+    "ac_no": 10,
+    "ac_name": "Majlishpur",
+    "candidates": [
+      {
+        "Candidate": "MANIK DEY",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 20867,
+        "Postal Votes": 437,
+        "Total Votes": 21304,
+        "Vote %": 52.43
+      },
+      {
+        "Candidate": "BIBEKANANDA CHOUDHURI",
+        "Party": "Indian National Congress",
+        "EVM Votes": 17985,
+        "Postal Votes": 390,
+        "Total Votes": 18375,
+        "Vote %": 45.22
+      },
+      {
+        "Candidate": "BALARAM DEBBARMA",
+        "Party": "Indigenousn People's Front Of Tripura",
+        "EVM Votes": 517,
+        "Postal Votes": 3,
+        "Total Votes": 520,
+        "Vote %": 1.28
+      },
+      {
+        "Candidate": "DHANANJOY BHOWMIK",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 427,
+        "Postal Votes": 7,
+        "Total Votes": 434,
+        "Vote %": 1.07
+      }
+    ]
+  },
+  {
+    "ac_no": 11,
+    "ac_name": "Mandaibazar  (ST)",
+    "candidates": [
+      {
+        "Candidate": "MONORANJAN DEBBARMA",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 18888,
+        "Postal Votes": 387,
+        "Total Votes": 19275,
+        "Vote %": 50.35
+      },
+      {
+        "Candidate": "JAGADISH DEBBARMA",
+        "Party": "Indigenous Nationalist Party of Twipra",
+        "EVM Votes": 16889,
+        "Postal Votes": 561,
+        "Total Votes": 17450,
+        "Vote %": 45.58
+      },
+      {
+        "Candidate": "BASINDRA DEBBARMA",
+        "Party": "Indigenousn People's Front Of Tripura",
+        "EVM Votes": 905,
+        "Postal Votes": 5,
+        "Total Votes": 910,
+        "Vote %": 2.38
+      },
+      {
+        "Candidate": "PADMA KUMAR DEBBARMA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 632,
+        "Postal Votes": 17,
+        "Total Votes": 649,
+        "Vote %": 1.7
+      }
+    ]
+  },
+  {
+    "ac_no": 12,
+    "ac_name": "Takarjala  (ST)",
+    "candidates": [
+      {
+        "Candidate": "NIRANJAN DEBBARMA",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 17071,
+        "Postal Votes": 244,
+        "Total Votes": 17315,
+        "Vote %": 49.87
+      },
+      {
+        "Candidate": "RAJESHWAR DEBBARMA",
+        "Party": "Indigenous Nationalist Party of Twipra",
+        "EVM Votes": 15772,
+        "Postal Votes": 336,
+        "Total Votes": 16108,
+        "Vote %": 46.4
+      },
+      {
+        "Candidate": "BRAJALAL DEBBARMA",
+        "Party": "Indigenousn People's Front Of Tripura",
+        "EVM Votes": 680,
+        "Postal Votes": 10,
+        "Total Votes": 690,
+        "Vote %": 1.99
+      },
+      {
+        "Candidate": "GANESH KALAI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 602,
+        "Postal Votes": 3,
+        "Total Votes": 605,
+        "Vote %": 1.74
+      }
+    ]
+  },
+  {
+    "ac_no": 13,
+    "ac_name": "Pratapgarh  (SC)",
+    "candidates": [
+      {
+        "Candidate": "ANIL SARKAR",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 23571,
+        "Postal Votes": 406,
+        "Total Votes": 23977,
+        "Vote %": 51.38
+      },
+      {
+        "Candidate": "RANJIT KUMAR DAS",
+        "Party": "Indian National Congress",
+        "EVM Votes": 21529,
+        "Postal Votes": 316,
+        "Total Votes": 21845,
+        "Vote %": 46.81
+      },
+      {
+        "Candidate": "BIPLAB CHANDRA SARKAR",
+        "Party": "Independent",
+        "EVM Votes": 844,
+        "Postal Votes": 2,
+        "Total Votes": 846,
+        "Vote %": 1.81
+      }
+    ]
+  },
+  {
+    "ac_no": 14,
+    "ac_name": "Badharghat  (SC)",
+    "candidates": [
+      {
+        "Candidate": "DILIP SARKAR",
+        "Party": "Indian National Congress",
+        "EVM Votes": 23629,
+        "Postal Votes": 680,
+        "Total Votes": 24309,
+        "Vote %": 49.29
+      },
+      {
+        "Candidate": "SAMAR DAS",
+        "Party": "Revolutionary Socialist Party",
+        "EVM Votes": 23140,
+        "Postal Votes": 526,
+        "Total Votes": 23666,
+        "Vote %": 47.98
+      },
+      {
+        "Candidate": "BIDYUT DAS",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 514,
+        "Postal Votes": 15,
+        "Total Votes": 529,
+        "Vote %": 1.07
+      },
+      {
+        "Candidate": "SUBAL SARKAR",
+        "Party": "Amra Bangalee",
+        "EVM Votes": 506,
+        "Postal Votes": 4,
+        "Total Votes": 510,
+        "Vote %": 1.03
+      },
+      {
+        "Candidate": "ASIT DAS",
+        "Party": "SOCIALIST UNITY CENTRE OF INDIA (COMMUNIST)",
+        "EVM Votes": 284,
+        "Postal Votes": 24,
+        "Total Votes": 308,
+        "Vote %": 0.62
+      }
+    ]
+  },
+  {
+    "ac_no": 15,
+    "ac_name": "Kamalasagar",
+    "candidates": [
+      {
+        "Candidate": "NARAYAN CHANDRA ",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 19490,
+        "Postal Votes": 318,
+        "Total Votes": 19808,
+        "Vote %": 56.13
+      },
+      {
+        "Candidate": "DIPAK KUMAR ROY",
+        "Party": "Indian National Congress",
+        "EVM Votes": 13961,
+        "Postal Votes": 432,
+        "Total Votes": 14393,
+        "Vote %": 40.79
+      },
+      {
+        "Candidate": "SUJIT SARKAR",
+        "Party": "Independent",
+        "EVM Votes": 370,
+        "Postal Votes": 1,
+        "Total Votes": 371,
+        "Vote %": 1.05
+      },
+      {
+        "Candidate": "TULSI BANIK",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 365,
+        "Postal Votes": 2,
+        "Total Votes": 367,
+        "Vote %": 1.04
+      },
+      {
+        "Candidate": "SHUBHENDU SARKAR",
+        "Party": "Amra Bangalee",
+        "EVM Votes": 347,
+        "Postal Votes": 2,
+        "Total Votes": 349,
+        "Vote %": 0.99
+      }
+    ]
+  },
+  {
+    "ac_no": 16,
+    "ac_name": "Bishalgarh",
+    "candidates": [
+      {
+        "Candidate": "BHANULAL SAHA",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 20678,
+        "Postal Votes": 309,
+        "Total Votes": 20987,
+        "Vote %": 51.02
+      },
+      {
+        "Candidate": "SAMIR RANJAN BARMAN",
+        "Party": "Indian National Congress",
+        "EVM Votes": 18940,
+        "Postal Votes": 323,
+        "Total Votes": 19263,
+        "Vote %": 46.83
+      },
+      {
+        "Candidate": "RAM NARAYAN ROY",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 381,
+        "Postal Votes": 5,
+        "Total Votes": 386,
+        "Vote %": 0.94
+      },
+      {
+        "Candidate": "JIBAN KUMAR BHOWMIK",
+        "Party": "Independent",
+        "EVM Votes": 310,
+        "Postal Votes": 3,
+        "Total Votes": 313,
+        "Vote %": 0.76
+      },
+      {
+        "Candidate": "ASHIT RANJAN DEB",
+        "Party": "Amra Bangalee",
+        "EVM Votes": 187,
+        "Postal Votes": 1,
+        "Total Votes": 188,
+        "Vote %": 0.46
+      }
+    ]
+  },
+  {
+    "ac_no": 17,
+    "ac_name": "Golaghati  (ST)",
+    "candidates": [
+      {
+        "Candidate": "KESHAB DEBBARMA",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 18937,
+        "Postal Votes": 244,
+        "Total Votes": 19181,
+        "Vote %": 55.55
+      },
+      {
+        "Candidate": "MANAB DEBBARMA",
+        "Party": "Indigenous Nationalist Party of Twipra",
+        "EVM Votes": 14423,
+        "Postal Votes": 225,
+        "Total Votes": 14648,
+        "Vote %": 42.42
+      },
+      {
+        "Candidate": "BUDHU KUMAR DEBBARMA",
+        "Party": "Indigenousn People's Front Of Tripura",
+        "EVM Votes": 683,
+        "Postal Votes": 20,
+        "Total Votes": 703,
+        "Vote %": 2.04
+      }
+    ]
+  },
+  {
+    "ac_no": 18,
+    "ac_name": "Suryamaninagar",
+    "candidates": [
+      {
+        "Candidate": "RAJ KUMAR CHAUDHURI",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 21296,
+        "Postal Votes": 317,
+        "Total Votes": 21613,
+        "Vote %": 50.47
+      },
+      {
+        "Candidate": "AVIJIT DEB",
+        "Party": "Indian National Congress",
+        "EVM Votes": 19586,
+        "Postal Votes": 393,
+        "Total Votes": 19979,
+        "Vote %": 46.66
+      },
+      {
+        "Candidate": "TAPAS MAJUMDER",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 566,
+        "Postal Votes": 9,
+        "Total Votes": 575,
+        "Vote %": 1.34
+      },
+      {
+        "Candidate": "NEPAL CHANDRA DAS",
+        "Party": "Independent",
+        "EVM Votes": 380,
+        "Postal Votes": 2,
+        "Total Votes": 382,
+        "Vote %": 0.89
+      },
+      {
+        "Candidate": "BABUL BANIK",
+        "Party": "SOCIALIST UNITY CENTRE OF INDIA (COMMUNIST)",
+        "EVM Votes": 269,
+        "Postal Votes": 2,
+        "Total Votes": 271,
+        "Vote %": 0.63
+      }
+    ]
+  },
+  {
+    "ac_no": 19,
+    "ac_name": "Charilam  (ST)",
+    "candidates": [
+      {
+        "Candidate": "RAMENDRA NARAYAN ",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 16193,
+        "Postal Votes": 286,
+        "Total Votes": 16479,
+        "Vote %": 50.94
+      },
+      {
+        "Candidate": "HIMANI DEBBARMA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 14825,
+        "Postal Votes": 313,
+        "Total Votes": 15138,
+        "Vote %": 46.79
+      },
+      {
+        "Candidate": "RAMMOHAN DEBBARMA",
+        "Party": "Indigenousn People's Front Of Tripura",
+        "EVM Votes": 722,
+        "Postal Votes": 11,
+        "Total Votes": 733,
+        "Vote %": 2.27
+      }
+    ]
+  },
+  {
+    "ac_no": 20,
+    "ac_name": "Boxanagar",
+    "candidates": [
+      {
+        "Candidate": "SAHID CHOUDHURI",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 16964,
+        "Postal Votes": 136,
+        "Total Votes": 17100,
+        "Vote %": 53.21
+      },
+      {
+        "Candidate": "BILLAL MIA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 14471,
+        "Postal Votes": 108,
+        "Total Votes": 14579,
+        "Vote %": 45.36
+      },
+      {
+        "Candidate": "MANTU SARKAR",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 458,
+        "Postal Votes": 2,
+        "Total Votes": 460,
+        "Vote %": 1.43
+      }
+    ]
+  },
+  {
+    "ac_no": 21,
+    "ac_name": "Nalchar  (SC)",
+    "candidates": [
+      {
+        "Candidate": "TAPAN CHANDRA DAS",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 21766,
+        "Postal Votes": 203,
+        "Total Votes": 21969,
+        "Vote %": 59.96
+      },
+      {
+        "Candidate": "UTTAM DAS",
+        "Party": "Indian National Congress",
+        "EVM Votes": 13743,
+        "Postal Votes": 119,
+        "Total Votes": 13862,
+        "Vote %": 37.83
+      },
+      {
+        "Candidate": "PARIMAL BARMAN",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 538,
+        "Postal Votes": 3,
+        "Total Votes": 541,
+        "Vote %": 1.48
+      },
+      {
+        "Candidate": "CHANDAN DAS",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 270,
+        "Postal Votes": 0,
+        "Total Votes": 270,
+        "Vote %": 0.74
+      }
+    ]
+  },
+  {
+    "ac_no": 22,
+    "ac_name": "Sonamura",
+    "candidates": [
+      {
+        "Candidate": "SHYAMAL CHAKRABORTY",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 17630,
+        "Postal Votes": 413,
+        "Total Votes": 18043,
+        "Vote %": 52.21
+      },
+      {
+        "Candidate": "SUBAL BHOWMIK",
+        "Party": "Indian National Congress",
+        "EVM Votes": 16204,
+        "Postal Votes": 313,
+        "Total Votes": 16517,
+        "Vote %": 47.79
+      }
+    ]
+  },
+  {
+    "ac_no": 23,
+    "ac_name": "Dhanpur",
+    "candidates": [
+      {
+        "Candidate": "MANIK SARKAR",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 21048,
+        "Postal Votes": 238,
+        "Total Votes": 21286,
+        "Vote %": 57.1
+      },
+      {
+        "Candidate": "SHAH ALAM",
+        "Party": "Indian National Congress",
+        "EVM Votes": 15108,
+        "Postal Votes": 161,
+        "Total Votes": 15269,
+        "Vote %": 40.96
+      },
+      {
+        "Candidate": "ABUL KALAM",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 715,
+        "Postal Votes": 6,
+        "Total Votes": 721,
+        "Vote %": 1.93
+      }
+    ]
+  },
+  {
+    "ac_no": 24,
+    "ac_name": "Ramchandraghat  (ST)",
+    "candidates": [
+      {
+        "Candidate": "PADMA KUMAR DEBBARMA",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 19166,
+        "Postal Votes": 338,
+        "Total Votes": 19504,
+        "Vote %": 59.15
+      },
+      {
+        "Candidate": "ANIMESH DEBBARMA",
+        "Party": "Independent",
+        "EVM Votes": 11377,
+        "Postal Votes": 236,
+        "Total Votes": 11613,
+        "Vote %": 35.22
+      },
+      {
+        "Candidate": "ANANTA DEBBARMA",
+        "Party": "Indigenous Nationalist Party of Twipra",
+        "EVM Votes": 991,
+        "Postal Votes": 25,
+        "Total Votes": 1016,
+        "Vote %": 3.08
+      },
+      {
+        "Candidate": "SHIB CHANDRA DEBBARMA",
+        "Party": "Independent",
+        "EVM Votes": 838,
+        "Postal Votes": 4,
+        "Total Votes": 842,
+        "Vote %": 2.55
+      }
+    ]
+  },
+  {
+    "ac_no": 25,
+    "ac_name": "Khowai",
+    "candidates": [
+      {
+        "Candidate": "SAMIR DEBSARKAR",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 22229,
+        "Postal Votes": 463,
+        "Total Votes": 22692,
+        "Vote %": 60.82
+      },
+      {
+        "Candidate": "DIPAK MAJUMDER",
+        "Party": "Indian National Congress",
+        "EVM Votes": 13623,
+        "Postal Votes": 236,
+        "Total Votes": 13859,
+        "Vote %": 37.15
+      },
+      {
+        "Candidate": "RUPESH KUMAR DEB",
+        "Party": "Amra Bangalee",
+        "EVM Votes": 309,
+        "Postal Votes": 1,
+        "Total Votes": 310,
+        "Vote %": 0.83
+      },
+      {
+        "Candidate": "PRAMOD RANJAN DAS",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 230,
+        "Postal Votes": 2,
+        "Total Votes": 232,
+        "Vote %": 0.62
+      },
+      {
+        "Candidate": "UTTAM KUMAR GHOSH",
+        "Party": "Independent",
+        "EVM Votes": 215,
+        "Postal Votes": 1,
+        "Total Votes": 216,
+        "Vote %": 0.58
+      }
+    ]
+  },
+  {
+    "ac_no": 26,
+    "ac_name": "Asharambari  (ST)",
+    "candidates": [
+      {
+        "Candidate": "AGHORE DEBBARMA",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 17639,
+        "Postal Votes": 187,
+        "Total Votes": 17826,
+        "Vote %": 59.55
+      },
+      {
+        "Candidate": "AMIYA KUMAR DEBBARMA",
+        "Party": "Indigenous Nationalist Party of Twipra",
+        "EVM Votes": 10484,
+        "Postal Votes": 125,
+        "Total Votes": 10609,
+        "Vote %": 35.44
+      },
+      {
+        "Candidate": "DHANABHAKTI JAMATIA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 811,
+        "Postal Votes": 4,
+        "Total Votes": 815,
+        "Vote %": 2.72
+      },
+      {
+        "Candidate": "DINESH DEBBARMA",
+        "Party": "Independent",
+        "EVM Votes": 675,
+        "Postal Votes": 9,
+        "Total Votes": 684,
+        "Vote %": 2.29
+      }
+    ]
+  },
+  {
+    "ac_no": 27,
+    "ac_name": "Kalyanpur-pramodenagar",
+    "candidates": [
+      {
+        "Candidate": "MANINDRA CHANDRA DAS",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 19448,
+        "Postal Votes": 307,
+        "Total Votes": 19755,
+        "Vote %": 53.78
+      },
+      {
+        "Candidate": "KAJAL CHANDRA DAS",
+        "Party": "Indian National Congress",
+        "EVM Votes": 15738,
+        "Postal Votes": 237,
+        "Total Votes": 15975,
+        "Vote %": 43.49
+      },
+      {
+        "Candidate": "BIPLAB ROY",
+        "Party": "Amra Bangalee",
+        "EVM Votes": 607,
+        "Postal Votes": 2,
+        "Total Votes": 609,
+        "Vote %": 1.66
+      },
+      {
+        "Candidate": "KHOKAN CHANDRA PAL",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 392,
+        "Postal Votes": 3,
+        "Total Votes": 395,
+        "Vote %": 1.08
+      }
+    ]
+  },
+  {
+    "ac_no": 28,
+    "ac_name": "Teliamura",
+    "candidates": [
+      {
+        "Candidate": "GOURI DAS",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 18000,
+        "Postal Votes": 357,
+        "Total Votes": 18357,
+        "Vote %": 50.2
+      },
+      {
+        "Candidate": "GOURISANKAR ROY",
+        "Party": "Indian National Congress",
+        "EVM Votes": 16649,
+        "Postal Votes": 395,
+        "Total Votes": 17044,
+        "Vote %": 46.61
+      },
+      {
+        "Candidate": "PATAL KANYA JAMATIA",
+        "Party": "Indigenousn People's Front Of Tripura",
+        "EVM Votes": 409,
+        "Postal Votes": 13,
+        "Total Votes": 422,
+        "Vote %": 1.15
+      },
+      {
+        "Candidate": "GOPAL SARKAR",
+        "Party": "Amra Bangalee",
+        "EVM Votes": 380,
+        "Postal Votes": 6,
+        "Total Votes": 386,
+        "Vote %": 1.06
+      },
+      {
+        "Candidate": "BISWAJIT DEBROY",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 355,
+        "Postal Votes": 7,
+        "Total Votes": 362,
+        "Vote %": 0.99
+      }
+    ]
+  },
+  {
+    "ac_no": 29,
+    "ac_name": "Krishnapur  (ST)",
+    "candidates": [
+      {
+        "Candidate": "KHAGENDRA JAMATIA",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 16911,
+        "Postal Votes": 214,
+        "Total Votes": 17125,
+        "Vote %": 58.32
+      },
+      {
+        "Candidate": "SABDA KUMAR JAMATIA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 10932,
+        "Postal Votes": 151,
+        "Total Votes": 11083,
+        "Vote %": 37.74
+      },
+      {
+        "Candidate": "SUNADHAN DEBBARMA",
+        "Party": "Indigenousn People's Front Of Tripura",
+        "EVM Votes": 605,
+        "Postal Votes": 1,
+        "Total Votes": 606,
+        "Vote %": 2.06
+      },
+      {
+        "Candidate": "MANIA DEBBARMA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 537,
+        "Postal Votes": 12,
+        "Total Votes": 549,
+        "Vote %": 1.87
+      }
+    ]
+  },
+  {
+    "ac_no": 30,
+    "ac_name": "Bagma  (ST)",
+    "candidates": [
+      {
+        "Candidate": "NARESH CHANDRA JAMATIA",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 23288,
+        "Postal Votes": 312,
+        "Total Votes": 23600,
+        "Vote %": 53.49
+      },
+      {
+        "Candidate": "JYOTISH JAMATIA",
+        "Party": "Indigenous Nationalist Party of Twipra",
+        "EVM Votes": 19201,
+        "Postal Votes": 324,
+        "Total Votes": 19525,
+        "Vote %": 44.25
+      },
+      {
+        "Candidate": "SUBODH JAMATIA",
+        "Party": "Indigenousn People's Front Of Tripura",
+        "EVM Votes": 986,
+        "Postal Votes": 9,
+        "Total Votes": 995,
+        "Vote %": 2.26
+      }
+    ]
+  },
+  {
+    "ac_no": 31,
+    "ac_name": "Radhakishorepur",
+    "candidates": [
+      {
+        "Candidate": "PRANAJIT SINGHA ROY",
+        "Party": "Indian National Congress",
+        "EVM Votes": 19567,
+        "Postal Votes": 573,
+        "Total Votes": 20140,
+        "Vote %": 50.23
+      },
+      {
+        "Candidate": "JOY GOBINDA DEB ROY",
+        "Party": "Revolutionary Socialist Party",
+        "EVM Votes": 18687,
+        "Postal Votes": 616,
+        "Total Votes": 19303,
+        "Vote %": 48.15
+      },
+      {
+        "Candidate": "LOKMAN HUSEN",
+        "Party": "Communist Party of India  (Marxist-Leninist)  (Liberation)",
+        "EVM Votes": 256,
+        "Postal Votes": 4,
+        "Total Votes": 260,
+        "Vote %": 0.65
+      },
+      {
+        "Candidate": "SWAPAN ADHIKARI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 236,
+        "Postal Votes": 3,
+        "Total Votes": 239,
+        "Vote %": 0.6
+      },
+      {
+        "Candidate": "BIBHU LAL DEY",
+        "Party": "SOCIALIST UNITY CENTRE OF INDIA (COMMUNIST)",
+        "EVM Votes": 151,
+        "Postal Votes": 0,
+        "Total Votes": 151,
+        "Vote %": 0.38
+      }
+    ]
+  },
+  {
+    "ac_no": 32,
+    "ac_name": "Matarbari",
+    "candidates": [
+      {
+        "Candidate": "MADHAB CHANDRA SAHA",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 21838,
+        "Postal Votes": 340,
+        "Total Votes": 22178,
+        "Vote %": 50.09
+      },
+      {
+        "Candidate": "BIPLAB KUMAR GHOSH",
+        "Party": "Indian National Congress",
+        "EVM Votes": 20503,
+        "Postal Votes": 365,
+        "Total Votes": 20868,
+        "Vote %": 47.13
+      },
+      {
+        "Candidate": "MADHUSUDHAN ",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 465,
+        "Postal Votes": 12,
+        "Total Votes": 477,
+        "Vote %": 1.08
+      },
+      {
+        "Candidate": "GOPAL ROY",
+        "Party": "Communist Party of India  (Marxist-Leninist)  (Liberation)",
+        "EVM Votes": 414,
+        "Postal Votes": 0,
+        "Total Votes": 414,
+        "Vote %": 0.93
+      },
+      {
+        "Candidate": "AGHORE DEBBARMA",
+        "Party": "Indigenousn People's Front Of Tripura",
+        "EVM Votes": 343,
+        "Postal Votes": 0,
+        "Total Votes": 343,
+        "Vote %": 0.77
+      }
+    ]
+  },
+  {
+    "ac_no": 33,
+    "ac_name": "Kakraban-salgarh  (SC)",
+    "candidates": [
+      {
+        "Candidate": "RATAN BHOWMIK",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 24563,
+        "Postal Votes": 384,
+        "Total Votes": 24947,
+        "Vote %": 57.07
+      },
+      {
+        "Candidate": "RAJIB SAMADDAR",
+        "Party": "Indian National Congress",
+        "EVM Votes": 17472,
+        "Postal Votes": 285,
+        "Total Votes": 17757,
+        "Vote %": 40.62
+      },
+      {
+        "Candidate": "RABINDRA KUMAR DAS",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 596,
+        "Postal Votes": 7,
+        "Total Votes": 603,
+        "Vote %": 1.38
+      },
+      {
+        "Candidate": "UTTAM DAS",
+        "Party": "Nationalist Congress Party",
+        "EVM Votes": 396,
+        "Postal Votes": 10,
+        "Total Votes": 406,
+        "Vote %": 0.93
+      }
+    ]
+  },
+  {
+    "ac_no": 34,
+    "ac_name": "Rajnagar  (SC)",
+    "candidates": [
+      {
+        "Candidate": "SUDHAN DAS",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 23628,
+        "Postal Votes": 314,
+        "Total Votes": 23942,
+        "Vote %": 63.61
+      },
+      {
+        "Candidate": "MANIK CHANDRA DAS",
+        "Party": "Indian National Congress",
+        "EVM Votes": 12403,
+        "Postal Votes": 142,
+        "Total Votes": 12545,
+        "Vote %": 33.33
+      },
+      {
+        "Candidate": "JAGADISH DAS",
+        "Party": "Communist Party of India  (Marxist-Leninist)  (Liberation)",
+        "EVM Votes": 673,
+        "Postal Votes": 2,
+        "Total Votes": 675,
+        "Vote %": 1.79
+      },
+      {
+        "Candidate": "SAKHIL DAS",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 471,
+        "Postal Votes": 7,
+        "Total Votes": 478,
+        "Vote %": 1.27
+      }
+    ]
+  },
+  {
+    "ac_no": 35,
+    "ac_name": "Belonia",
+    "candidates": [
+      {
+        "Candidate": "BASUDEV MAJUMDER",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 20096,
+        "Postal Votes": 489,
+        "Total Votes": 20585,
+        "Vote %": 55.6
+      },
+      {
+        "Candidate": "AMAL MALLIK",
+        "Party": "Indian National Congress",
+        "EVM Votes": 15424,
+        "Postal Votes": 337,
+        "Total Votes": 15761,
+        "Vote %": 42.57
+      },
+      {
+        "Candidate": "GOURI SANKAR NANDI",
+        "Party": "Amra Bangalee",
+        "EVM Votes": 350,
+        "Postal Votes": 2,
+        "Total Votes": 352,
+        "Vote %": 0.95
+      },
+      {
+        "Candidate": "BABUL CHANDRA PAUL",
+        "Party": "Communist Party of India  (Marxist-Leninist)  (Liberation)",
+        "EVM Votes": 321,
+        "Postal Votes": 3,
+        "Total Votes": 324,
+        "Vote %": 0.88
+      }
+    ]
+  },
+  {
+    "ac_no": 36,
+    "ac_name": "Santirbazar  (ST)",
+    "candidates": [
+      {
+        "Candidate": "MANINDRA REANG",
+        "Party": "Communist Party of India",
+        "EVM Votes": 20491,
+        "Postal Votes": 307,
+        "Total Votes": 20798,
+        "Vote %": 52.87
+      },
+      {
+        "Candidate": "GOURI SANKAR REANG",
+        "Party": "Indian National Congress",
+        "EVM Votes": 16742,
+        "Postal Votes": 300,
+        "Total Votes": 17042,
+        "Vote %": 43.32
+      },
+      {
+        "Candidate": "RANA KISHORE REANG",
+        "Party": "Indigenousn People's Front Of Tripura",
+        "EVM Votes": 887,
+        "Postal Votes": 1,
+        "Total Votes": 888,
+        "Vote %": 2.26
+      },
+      {
+        "Candidate": "PARIKSHIT DEBBARMA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 603,
+        "Postal Votes": 10,
+        "Total Votes": 613,
+        "Vote %": 1.56
+      }
+    ]
+  },
+  {
+    "ac_no": 37,
+    "ac_name": "Hrishyamukh",
+    "candidates": [
+      {
+        "Candidate": "BADAL CHOUDHURY",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 24596,
+        "Postal Votes": 413,
+        "Total Votes": 25009,
+        "Vote %": 65.42
+      },
+      {
+        "Candidate": "SUSANKAR BHOWMIK",
+        "Party": "Indian National Congress",
+        "EVM Votes": 12356,
+        "Postal Votes": 224,
+        "Total Votes": 12580,
+        "Vote %": 32.91
+      },
+      {
+        "Candidate": "SUDARSHAN MAJUMDER",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 627,
+        "Postal Votes": 12,
+        "Total Votes": 639,
+        "Vote %": 1.67
+      }
+    ]
+  },
+  {
+    "ac_no": 38,
+    "ac_name": "Jolaibari  (ST)",
+    "candidates": [
+      {
+        "Candidate": "JASHABIR TRIPURA",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 23950,
+        "Postal Votes": 345,
+        "Total Votes": 24295,
+        "Vote %": 61.9
+      },
+      {
+        "Candidate": "BRAJENDRA MOG ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 14696,
+        "Postal Votes": 256,
+        "Total Votes": 14952,
+        "Vote %": 38.1
+      }
+    ]
+  },
+  {
+    "ac_no": 39,
+    "ac_name": "Manu  (ST)",
+    "candidates": [
+      {
+        "Candidate": "JITENDRA CHAUDHURY",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 20979,
+        "Postal Votes": 341,
+        "Total Votes": 21320,
+        "Vote %": 58.07
+      },
+      {
+        "Candidate": "CHANDI CHARAN TRIPURA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 14215,
+        "Postal Votes": 209,
+        "Total Votes": 14424,
+        "Vote %": 39.29
+      },
+      {
+        "Candidate": "THAIU MOG",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 966,
+        "Postal Votes": 5,
+        "Total Votes": 971,
+        "Vote %": 2.64
+      }
+    ]
+  },
+  {
+    "ac_no": 40,
+    "ac_name": "Sabroom",
+    "candidates": [
+      {
+        "Candidate": "RITA KAR (MAJUMDER)",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 21002,
+        "Postal Votes": 402,
+        "Total Votes": 21404,
+        "Vote %": 55.87
+      },
+      {
+        "Candidate": "PREMTOSH NATH",
+        "Party": "Indian National Congress",
+        "EVM Votes": 15938,
+        "Postal Votes": 259,
+        "Total Votes": 16197,
+        "Vote %": 42.28
+      },
+      {
+        "Candidate": "BHALU RANI DEY",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 709,
+        "Postal Votes": 3,
+        "Total Votes": 712,
+        "Vote %": 1.86
+      }
+    ]
+  },
+  {
+    "ac_no": 41,
+    "ac_name": "Ampinagar  (ST)",
+    "candidates": [
+      {
+        "Candidate": "DANIEL JAMATIA",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 15534,
+        "Postal Votes": 180,
+        "Total Votes": 15714,
+        "Vote %": 52.69
+      },
+      {
+        "Candidate": "NAGENDRA JAMATIA",
+        "Party": "Indigenous Nationalist Party of Twipra",
+        "EVM Votes": 12709,
+        "Postal Votes": 221,
+        "Total Votes": 12930,
+        "Vote %": 43.36
+      },
+      {
+        "Candidate": "PATAL KANYA JAMATIA",
+        "Party": "Indigenousn People's Front Of Tripura",
+        "EVM Votes": 423,
+        "Postal Votes": 3,
+        "Total Votes": 426,
+        "Vote %": 1.43
+      },
+      {
+        "Candidate": "SUBIR KUMAR JAMATIA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 410,
+        "Postal Votes": 10,
+        "Total Votes": 420,
+        "Vote %": 1.41
+      },
+      {
+        "Candidate": "MANARAM REANG",
+        "Party": "Independent",
+        "EVM Votes": 332,
+        "Postal Votes": 1,
+        "Total Votes": 333,
+        "Vote %": 1.12
+      }
+    ]
+  },
+  {
+    "ac_no": 42,
+    "ac_name": "Amarpur",
+    "candidates": [
+      {
+        "Candidate": "MANORANJAN ACHARJEE",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 18825,
+        "Postal Votes": 250,
+        "Total Votes": 19075,
+        "Vote %": 54.72
+      },
+      {
+        "Candidate": "NIRANJAN BARMAN",
+        "Party": "Indian National Congress",
+        "EVM Votes": 14793,
+        "Postal Votes": 260,
+        "Total Votes": 15053,
+        "Vote %": 43.18
+      },
+      {
+        "Candidate": "MAHI BHUSAN ",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 407,
+        "Postal Votes": 3,
+        "Total Votes": 410,
+        "Vote %": 1.18
+      },
+      {
+        "Candidate": "BIJOY DAS",
+        "Party": "Amra Bangalee",
+        "EVM Votes": 319,
+        "Postal Votes": 2,
+        "Total Votes": 321,
+        "Vote %": 0.92
+      }
+    ]
+  },
+  {
+    "ac_no": 43,
+    "ac_name": "Karbook  (ST)",
+    "candidates": [
+      {
+        "Candidate": "PRIYAMANI DEBBARMA",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 15399,
+        "Postal Votes": 127,
+        "Total Votes": 15526,
+        "Vote %": 53.4
+      },
+      {
+        "Candidate": "DHARJAROY TRIPURA",
+        "Party": "Indigenous Nationalist Party of Twipra",
+        "EVM Votes": 11979,
+        "Postal Votes": 112,
+        "Total Votes": 12091,
+        "Vote %": 41.59
+      },
+      {
+        "Candidate": "MITU CHAKMA",
+        "Party": "Nationalist Congress Party",
+        "EVM Votes": 331,
+        "Postal Votes": 20,
+        "Total Votes": 351,
+        "Vote %": 1.21
+      },
+      {
+        "Candidate": "CHARENDRA REANG",
+        "Party": "Independent",
+        "EVM Votes": 348,
+        "Postal Votes": 0,
+        "Total Votes": 348,
+        "Vote %": 1.2
+      },
+      {
+        "Candidate": "SUBAL DEBBARMA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 289,
+        "Postal Votes": 1,
+        "Total Votes": 290,
+        "Vote %": 1.0
+      },
+      {
+        "Candidate": "SATIRAM REANG",
+        "Party": "Indigenousn People's Front Of Tripura",
+        "EVM Votes": 286,
+        "Postal Votes": 2,
+        "Total Votes": 288,
+        "Vote %": 0.99
+      },
+      {
+        "Candidate": "FALGUNI TRIPURA",
+        "Party": "Communist Party of India  (Marxist-Leninist)  (Liberation)",
+        "EVM Votes": 179,
+        "Postal Votes": 0,
+        "Total Votes": 179,
+        "Vote %": 0.62
+      }
+    ]
+  },
+  {
+    "ac_no": 44,
+    "ac_name": "Raima valley  (ST)",
+    "candidates": [
+      {
+        "Candidate": "LALIT MOHAN TRIPURA",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 18282,
+        "Postal Votes": 245,
+        "Total Votes": 18527,
+        "Vote %": 51.99
+      },
+      {
+        "Candidate": "NAKSHATRA JAMATIA",
+        "Party": "Indigenous Nationalist Party of Twipra",
+        "EVM Votes": 15365,
+        "Postal Votes": 286,
+        "Total Votes": 15651,
+        "Vote %": 43.92
+      },
+      {
+        "Candidate": "BUGERAI REANG",
+        "Party": "Independent",
+        "EVM Votes": 793,
+        "Postal Votes": 5,
+        "Total Votes": 798,
+        "Vote %": 2.24
+      },
+      {
+        "Candidate": "RAJENDRA REANG",
+        "Party": "Indigenousn People's Front Of Tripura",
+        "EVM Votes": 654,
+        "Postal Votes": 8,
+        "Total Votes": 662,
+        "Vote %": 1.86
+      }
+    ]
+  },
+  {
+    "ac_no": 45,
+    "ac_name": "Kamalpur",
+    "candidates": [
+      {
+        "Candidate": "BIJOY LAKSHMI SINGHA",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 18846,
+        "Postal Votes": 358,
+        "Total Votes": 19204,
+        "Vote %": 51.15
+      },
+      {
+        "Candidate": "MANOJ KANTI DEB",
+        "Party": "Indian National Congress",
+        "EVM Votes": 17308,
+        "Postal Votes": 382,
+        "Total Votes": 17690,
+        "Vote %": 47.12
+      },
+      {
+        "Candidate": "AHINDRA KUMAR ",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 643,
+        "Postal Votes": 9,
+        "Total Votes": 652,
+        "Vote %": 1.74
+      }
+    ]
+  },
+  {
+    "ac_no": 46,
+    "ac_name": "Surma  (SC)",
+    "candidates": [
+      {
+        "Candidate": "SUDHIR DAS",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 18327,
+        "Postal Votes": 321,
+        "Total Votes": 18648,
+        "Vote %": 50.51
+      },
+      {
+        "Candidate": "SUKHA RANJAN DAS",
+        "Party": "Indian National Congress",
+        "EVM Votes": 16442,
+        "Postal Votes": 344,
+        "Total Votes": 16786,
+        "Vote %": 45.47
+      },
+      {
+        "Candidate": "ANADI SARKAR",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 408,
+        "Postal Votes": 7,
+        "Total Votes": 415,
+        "Vote %": 1.12
+      },
+      {
+        "Candidate": "SUSHIL MALAKAR",
+        "Party": "Independent",
+        "EVM Votes": 391,
+        "Postal Votes": 3,
+        "Total Votes": 394,
+        "Vote %": 1.07
+      },
+      {
+        "Candidate": "BIDHU CHANDAR DAS",
+        "Party": "Amra Bangalee",
+        "EVM Votes": 235,
+        "Postal Votes": 1,
+        "Total Votes": 236,
+        "Vote %": 0.64
+      },
+      {
+        "Candidate": "LUKESH SABDAKAR",
+        "Party": "Independent",
+        "EVM Votes": 230,
+        "Postal Votes": 1,
+        "Total Votes": 231,
+        "Vote %": 0.63
+      },
+      {
+        "Candidate": "ATUL DAS",
+        "Party": "Independent",
+        "EVM Votes": 206,
+        "Postal Votes": 3,
+        "Total Votes": 209,
+        "Vote %": 0.57
+      }
+    ]
+  },
+  {
+    "ac_no": 47,
+    "ac_name": "Ambassa  (ST)",
+    "candidates": [
+      {
+        "Candidate": "LALIT KUMAR DEBBARMA",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 18466,
+        "Postal Votes": 289,
+        "Total Votes": 18755,
+        "Vote %": 49.11
+      },
+      {
+        "Candidate": "BIJOY KUMAR HRANGKHAWL",
+        "Party": "Indigenous Nationalist Party of Twipra",
+        "EVM Votes": 17288,
+        "Postal Votes": 413,
+        "Total Votes": 17701,
+        "Vote %": 46.35
+      },
+      {
+        "Candidate": "PRADIP DEBBARMA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 652,
+        "Postal Votes": 3,
+        "Total Votes": 655,
+        "Vote %": 1.72
+      },
+      {
+        "Candidate": "BIMAL DEBBARMA",
+        "Party": "Independent",
+        "EVM Votes": 595,
+        "Postal Votes": 3,
+        "Total Votes": 598,
+        "Vote %": 1.57
+      },
+      {
+        "Candidate": "KRISHAN KUMAR DEBBARMA",
+        "Party": "Indigenousn People's Front Of Tripura",
+        "EVM Votes": 470,
+        "Postal Votes": 11,
+        "Total Votes": 481,
+        "Vote %": 1.26
+      }
+    ]
+  },
+  {
+    "ac_no": 48,
+    "ac_name": "Karmachhara  (ST)",
+    "candidates": [
+      {
+        "Candidate": "DIBA CHANDRA ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 15166,
+        "Postal Votes": 245,
+        "Total Votes": 15411,
+        "Vote %": 49.77
+      },
+      {
+        "Candidate": "GAJENDRA TRIPURA",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 13872,
+        "Postal Votes": 167,
+        "Total Votes": 14039,
+        "Vote %": 45.34
+      },
+      {
+        "Candidate": "CHIRANJOY REANG",
+        "Party": "Independent",
+        "EVM Votes": 488,
+        "Postal Votes": 0,
+        "Total Votes": 488,
+        "Vote %": 1.58
+      },
+      {
+        "Candidate": "PADMA BIKASH TRIPURA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 440,
+        "Postal Votes": 6,
+        "Total Votes": 446,
+        "Vote %": 1.44
+      },
+      {
+        "Candidate": "KALPA MOHAN TRIPURA",
+        "Party": "Independent",
+        "EVM Votes": 225,
+        "Postal Votes": 1,
+        "Total Votes": 226,
+        "Vote %": 0.73
+      },
+      {
+        "Candidate": "SAIMON DARLONG",
+        "Party": "Indigenousn People's Front Of Tripura",
+        "EVM Votes": 206,
+        "Postal Votes": 2,
+        "Total Votes": 208,
+        "Vote %": 0.67
+      },
+      {
+        "Candidate": "KHANNA MARAK",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 145,
+        "Postal Votes": 0,
+        "Total Votes": 145,
+        "Vote %": 0.47
+      }
+    ]
+  },
+  {
+    "ac_no": 49,
+    "ac_name": "Chawamanu  (ST)",
+    "candidates": [
+      {
+        "Candidate": "NIRAJOY TRIPURA",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 15652,
+        "Postal Votes": 218,
+        "Total Votes": 15870,
+        "Vote %": 50.8
+      },
+      {
+        "Candidate": "ZAIDAMI TRIPURA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 14068,
+        "Postal Votes": 307,
+        "Total Votes": 14375,
+        "Vote %": 46.01
+      },
+      {
+        "Candidate": "AMAL BASU CHAKMA",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 993,
+        "Postal Votes": 3,
+        "Total Votes": 996,
+        "Vote %": 3.19
+      }
+    ]
+  },
+  {
+    "ac_no": 50,
+    "ac_name": "Pabiachhara  (SC)",
+    "candidates": [
+      {
+        "Candidate": "SAMIRAN MALAKAR",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 18184,
+        "Postal Votes": 320,
+        "Total Votes": 18504,
+        "Vote %": 49.81
+      },
+      {
+        "Candidate": "SATYABAN DAS",
+        "Party": "Indian National Congress",
+        "EVM Votes": 16930,
+        "Postal Votes": 324,
+        "Total Votes": 17254,
+        "Vote %": 46.44
+      },
+      {
+        "Candidate": "BHAGABAN DAS",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 535,
+        "Postal Votes": 8,
+        "Total Votes": 543,
+        "Vote %": 1.46
+      },
+      {
+        "Candidate": "BILAS BINDU MALAKAR",
+        "Party": "Independent",
+        "EVM Votes": 445,
+        "Postal Votes": 1,
+        "Total Votes": 446,
+        "Vote %": 1.2
+      },
+      {
+        "Candidate": "PRANESH DAS",
+        "Party": "Amra Bangalee",
+        "EVM Votes": 402,
+        "Postal Votes": 3,
+        "Total Votes": 405,
+        "Vote %": 1.09
+      }
+    ]
+  },
+  {
+    "ac_no": 51,
+    "ac_name": "Fatikroy  (SC)",
+    "candidates": [
+      {
+        "Candidate": "TUNUBALA MALAKAR",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 17672,
+        "Postal Votes": 227,
+        "Total Votes": 17899,
+        "Vote %": 51.18
+      },
+      {
+        "Candidate": "JUGAL MALAKAR",
+        "Party": "Indian National Congress",
+        "EVM Votes": 15805,
+        "Postal Votes": 229,
+        "Total Votes": 16034,
+        "Vote %": 45.84
+      },
+      {
+        "Candidate": "SAJAL DAS",
+        "Party": "Independent",
+        "EVM Votes": 467,
+        "Postal Votes": 0,
+        "Total Votes": 467,
+        "Vote %": 1.34
+      },
+      {
+        "Candidate": "SUBRATA MALAKAR",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 378,
+        "Postal Votes": 2,
+        "Total Votes": 380,
+        "Vote %": 1.09
+      },
+      {
+        "Candidate": "BISHNUPADA ROY",
+        "Party": "Communist Party of India  (Marxist-Leninist)  (Liberation)",
+        "EVM Votes": 193,
+        "Postal Votes": 3,
+        "Total Votes": 196,
+        "Vote %": 0.56
+      }
+    ]
+  },
+  {
+    "ac_no": 52,
+    "ac_name": "Chandipur",
+    "candidates": [
+      {
+        "Candidate": "TAPAN CHAKRABARTI",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 20673,
+        "Postal Votes": 336,
+        "Total Votes": 21009,
+        "Vote %": 58.43
+      },
+      {
+        "Candidate": "NIRMALENDU DEB",
+        "Party": "Indian National Congress",
+        "EVM Votes": 13119,
+        "Postal Votes": 261,
+        "Total Votes": 13380,
+        "Vote %": 37.21
+      },
+      {
+        "Candidate": "RANJAN SINHA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 630,
+        "Postal Votes": 13,
+        "Total Votes": 643,
+        "Vote %": 1.79
+      },
+      {
+        "Candidate": "RUDRA KANTA SINHA",
+        "Party": "Independent",
+        "EVM Votes": 532,
+        "Postal Votes": 1,
+        "Total Votes": 533,
+        "Vote %": 1.48
+      },
+      {
+        "Candidate": "CHIRANJIB BHATTACHARJEE",
+        "Party": "Communist Party of India  (Marxist-Leninist)  (Liberation)",
+        "EVM Votes": 387,
+        "Postal Votes": 4,
+        "Total Votes": 391,
+        "Vote %": 1.09
+      }
+    ]
+  },
+  {
+    "ac_no": 53,
+    "ac_name": "Kailashahar",
+    "candidates": [
+      {
+        "Candidate": "BIRAJIT SINHA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 18527,
+        "Postal Votes": 330,
+        "Total Votes": 18857,
+        "Vote %": 49.55
+      },
+      {
+        "Candidate": "MOBOSHAR ALI",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 18001,
+        "Postal Votes": 371,
+        "Total Votes": 18372,
+        "Vote %": 48.28
+      },
+      {
+        "Candidate": "DURGA CHARAN DEB",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 404,
+        "Postal Votes": 8,
+        "Total Votes": 412,
+        "Vote %": 1.08
+      },
+      {
+        "Candidate": "MD TAYBUR RAHMAN",
+        "Party": "Independent",
+        "EVM Votes": 249,
+        "Postal Votes": 2,
+        "Total Votes": 251,
+        "Vote %": 0.66
+      },
+      {
+        "Candidate": "AMAL SINHA",
+        "Party": "Communist Party of India  (Marxist-Leninist)  (Liberation)",
+        "EVM Votes": 161,
+        "Postal Votes": 1,
+        "Total Votes": 162,
+        "Vote %": 0.43
+      }
+    ]
+  },
+  {
+    "ac_no": 54,
+    "ac_name": "Kadamtala-kurti",
+    "candidates": [
+      {
+        "Candidate": "FAYZUR ROHAMAN",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 14361,
+        "Postal Votes": 153,
+        "Total Votes": 14514,
+        "Vote %": 42.64
+      },
+      {
+        "Candidate": "ABDUL MATIN CHAUDHURY",
+        "Party": "Indian National Congress",
+        "EVM Votes": 12521,
+        "Postal Votes": 64,
+        "Total Votes": 12585,
+        "Vote %": 36.98
+      },
+      {
+        "Candidate": "ARIJIT NATH",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 6055,
+        "Postal Votes": 15,
+        "Total Votes": 6070,
+        "Vote %": 17.83
+      },
+      {
+        "Candidate": "ABDUL KAYUM",
+        "Party": "Janata Dal  (United)",
+        "EVM Votes": 486,
+        "Postal Votes": 1,
+        "Total Votes": 487,
+        "Vote %": 1.43
+      },
+      {
+        "Candidate": "FAZLUR RAHAMAN",
+        "Party": "Communist Party of India  (Marxist-Leninist)  (Liberation)",
+        "EVM Votes": 378,
+        "Postal Votes": 1,
+        "Total Votes": 379,
+        "Vote %": 1.11
+      }
+    ]
+  },
+  {
+    "ac_no": 55,
+    "ac_name": "Bagbassa",
+    "candidates": [
+      {
+        "Candidate": "BIJITA NATH",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 17767,
+        "Postal Votes": 224,
+        "Total Votes": 17991,
+        "Vote %": 51.26
+      },
+      {
+        "Candidate": "JYOTIRMOY NATH",
+        "Party": "Indian National Congress",
+        "EVM Votes": 14919,
+        "Postal Votes": 140,
+        "Total Votes": 15059,
+        "Vote %": 42.91
+      },
+      {
+        "Candidate": "RONAJOY KUMAR DEB",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 1473,
+        "Postal Votes": 6,
+        "Total Votes": 1479,
+        "Vote %": 4.21
+      },
+      {
+        "Candidate": "SUBIRJIT SINHA",
+        "Party": "Communist Party of India  (Marxist-Leninist)  (Liberation)",
+        "EVM Votes": 565,
+        "Postal Votes": 1,
+        "Total Votes": 566,
+        "Vote %": 1.61
+      }
+    ]
+  },
+  {
+    "ac_no": 56,
+    "ac_name": "Dharmanagar",
+    "candidates": [
+      {
+        "Candidate": "BISWABANDHU SEN",
+        "Party": "Indian National Congress",
+        "EVM Votes": 17691,
+        "Postal Votes": 300,
+        "Total Votes": 17991,
+        "Vote %": 50.99
+      },
+      {
+        "Candidate": "AMITABHA DATTA",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 15764,
+        "Postal Votes": 383,
+        "Total Votes": 16147,
+        "Vote %": 45.77
+      },
+      {
+        "Candidate": "JAHAR CHAKRABARTI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 682,
+        "Postal Votes": 10,
+        "Total Votes": 692,
+        "Vote %": 1.96
+      },
+      {
+        "Candidate": "PRATYUSH NAG",
+        "Party": "Independent",
+        "EVM Votes": 183,
+        "Postal Votes": 0,
+        "Total Votes": 183,
+        "Vote %": 0.52
+      },
+      {
+        "Candidate": "BIBHASH RANJAN DAS",
+        "Party": "Amra Bangalee",
+        "EVM Votes": 155,
+        "Postal Votes": 4,
+        "Total Votes": 159,
+        "Vote %": 0.45
+      },
+      {
+        "Candidate": "SANJOY CHAUDHURY",
+        "Party": "SOCIALIST UNITY CENTRE OF INDIA (COMMUNIST)",
+        "EVM Votes": 109,
+        "Postal Votes": 0,
+        "Total Votes": 109,
+        "Vote %": 0.31
+      }
+    ]
+  },
+  {
+    "ac_no": 57,
+    "ac_name": "Jubarajnagar",
+    "candidates": [
+      {
+        "Candidate": "RAMENDRA CHANDRA ",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 18400,
+        "Postal Votes": 202,
+        "Total Votes": 18602,
+        "Vote %": 53.19
+      },
+      {
+        "Candidate": "RANADHIR NATH",
+        "Party": "Indian National Congress",
+        "EVM Votes": 15560,
+        "Postal Votes": 164,
+        "Total Votes": 15724,
+        "Vote %": 44.96
+      },
+      {
+        "Candidate": "PIJUSH NATH",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 641,
+        "Postal Votes": 7,
+        "Total Votes": 648,
+        "Vote %": 1.85
+      }
+    ]
+  },
+  {
+    "ac_no": 58,
+    "ac_name": "Panisagar",
+    "candidates": [
+      {
+        "Candidate": "SUBODH DAS",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 14973,
+        "Postal Votes": 223,
+        "Total Votes": 15196,
+        "Vote %": 51.45
+      },
+      {
+        "Candidate": "RADHIKA RANJAN DAS",
+        "Party": "Indian National Congress",
+        "EVM Votes": 13110,
+        "Postal Votes": 175,
+        "Total Votes": 13285,
+        "Vote %": 44.98
+      },
+      {
+        "Candidate": "SURANJAN KUMAR DAS",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 616,
+        "Postal Votes": 2,
+        "Total Votes": 618,
+        "Vote %": 2.09
+      },
+      {
+        "Candidate": "NARAYAN MALAKAR",
+        "Party": "Amra Bangalee",
+        "EVM Votes": 433,
+        "Postal Votes": 2,
+        "Total Votes": 435,
+        "Vote %": 1.47
+      }
+    ]
+  },
+  {
+    "ac_no": 59,
+    "ac_name": "Pencharthal  (ST)",
+    "candidates": [
+      {
+        "Candidate": "ARUN KUMAR CHAKMA",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 16421,
+        "Postal Votes": 180,
+        "Total Votes": 16601,
+        "Vote %": 50.46
+      },
+      {
+        "Candidate": "PURNITA CHAKMA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 15340,
+        "Postal Votes": 244,
+        "Total Votes": 15584,
+        "Vote %": 47.36
+      },
+      {
+        "Candidate": "KRISHNA CHAKMA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 709,
+        "Postal Votes": 8,
+        "Total Votes": 717,
+        "Vote %": 2.18
+      }
+    ]
+  },
+  {
+    "ac_no": 60,
+    "ac_name": "Kanchanpur  (ST)",
+    "candidates": [
+      {
+        "Candidate": "RAJENDRA REANG",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 16794,
+        "Postal Votes": 392,
+        "Total Votes": 17186,
+        "Vote %": 50.13
+      },
+      {
+        "Candidate": "DRAO KUMAR  REANG",
+        "Party": "Indigenous Nationalist Party of Twipra",
+        "EVM Votes": 15746,
+        "Postal Votes": 359,
+        "Total Votes": 16105,
+        "Vote %": 46.98
+      },
+      {
+        "Candidate": "UPENDRA REANG",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 958,
+        "Postal Votes": 34,
+        "Total Votes": 992,
+        "Vote %": 2.89
+      }
+    ]
+  }
+]

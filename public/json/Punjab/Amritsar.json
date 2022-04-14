@@ -1,0 +1,251 @@
+{
+  "type": "Topology",
+  "arcs": [
+    [
+      [427, 478],
+      [-62, -29],
+      [29, -58],
+      [1, -39],
+      [-22, -6],
+      [67, -37]
+    ],
+    [
+      [440, 309],
+      [-86, -10],
+      [-26, -36],
+      [-9, -35],
+      [20, -15],
+      [27, 27],
+      [31, -63]
+    ],
+    [
+      [397, 177],
+      [-216, -42],
+      [-4, -30]
+    ],
+    [
+      [177, 105],
+      [-89, 37],
+      [-88, 100],
+      [10, 29],
+      [92, 77],
+      [133, 13],
+      [-64, 47],
+      [54, 76],
+      [187, 154],
+      [30, -43],
+      [-15, -117]
+    ],
+    [
+      [397, 177],
+      [54, -25],
+      [10, 17],
+      [-42, 22],
+      [40, -7],
+      [50, 52],
+      [18, -11]
+    ],
+    [
+      [527, 225],
+      [95, -85],
+      [58, 45],
+      [148, -87]
+    ],
+    [
+      [828, 98],
+      [-122, -98],
+      [-66, 32],
+      [-90, -16],
+      [-69, 47],
+      [-50, 3],
+      [-110, -45],
+      [-54, 16],
+      [-48, 95],
+      [-42, -27]
+    ],
+    [
+      [750, 370],
+      [-1, -52],
+      [51, 0],
+      [1, -78],
+      [47, -108],
+      [-20, -34]
+    ],
+    [
+      [527, 225],
+      [0, 41],
+      [-20, -1],
+      [16, 28]
+    ],
+    [
+      [523, 293],
+      [19, 33],
+      [-17, 13],
+      [44, 15],
+      [-16, -29],
+      [47, 4],
+      [-12, 30],
+      [106, 63],
+      [-1, 34]
+    ],
+    [
+      [693, 456],
+      [98, 132],
+      [113, -82],
+      [-1, -42],
+      [-33, -38],
+      [2, -18],
+      [-122, 2],
+      [0, -40]
+    ],
+    [
+      [523, 293],
+      [-39, 8],
+      [-31, -48],
+      [-27, 22],
+      [14, 34]
+    ],
+    [
+      [427, 478],
+      [113, 33],
+      [93, -14],
+      [60, -41]
+    ]
+  ],
+  "transform": {
+    "scale": [0.0002106222329385156, 0.00017747252550276063],
+    "translate": [74.77263287730551, 31.581837131778286]
+  },
+  "objects": {
+    "Punjab": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {
+          "arcs": [[0, 1, 2, 3]],
+          "type": "Polygon",
+          "properties": {
+            "gid": 3216,
+            "objectid": "2",
+            "st_code": "3",
+            "st_name": "PUNJAB",
+            "dt_code": "2",
+            "dist_name": "AMRITSAR",
+            "ac_no": "16",
+            "ac_name": "Amritsar West (SC)",
+            "pc_no": "2",
+            "pc_name": "AMRITSAR",
+            "pc_id": "302",
+            "status": null,
+            "shape_leng": "0.37824694155",
+            "shape_area": "0.00412664862",
+            "tid": null,
+            "territory_": null,
+            "Margin": 43913,
+            "Winner": "AAP",
+            "Runner": "INC"
+          }
+        },
+        {
+          "arcs": [[4, 5, 6, -3]],
+          "type": "Polygon",
+          "properties": {
+            "gid": 3225,
+            "objectid": "2",
+            "st_code": "3",
+            "st_name": "PUNJAB",
+            "dt_code": "2",
+            "dist_name": "AMRITSAR",
+            "ac_no": "19",
+            "ac_name": "Amritsar South",
+            "pc_no": "2",
+            "pc_name": "AMRITSAR",
+            "pc_id": "302",
+            "status": null,
+            "shape_leng": "0.33661879819",
+            "shape_area": "0.00286059036",
+            "tid": null,
+            "territory_": null,
+            "Margin": 27503,
+            "Winner": "AAP",
+            "Runner": "SAD"
+          }
+        },
+        {
+          "arcs": [[7, -6, 8, 9, 10]],
+          "type": "Polygon",
+          "properties": {
+            "gid": 3352,
+            "objectid": "2",
+            "st_code": "3",
+            "st_name": "PUNJAB",
+            "dt_code": "2",
+            "dist_name": "AMRITSAR",
+            "ac_no": "18",
+            "ac_name": "Amritsar East",
+            "pc_no": "2",
+            "pc_name": "AMRITSAR",
+            "pc_id": "302",
+            "status": null,
+            "shape_leng": "0.34015162393",
+            "shape_area": "0.0031730908",
+            "tid": null,
+            "territory_": null,
+            "Margin": 6750,
+            "Winner": "AAP",
+            "Runner": "INC"
+          }
+        },
+        {
+          "arcs": [[-10, 11, -1, 12]],
+          "type": "Polygon",
+          "properties": {
+            "gid": 3353,
+            "objectid": "2",
+            "st_code": "3",
+            "st_name": "PUNJAB",
+            "dt_code": "2",
+            "dist_name": "AMRITSAR",
+            "ac_no": "15",
+            "ac_name": "Amritsar North",
+            "pc_no": "2",
+            "pc_name": "AMRITSAR",
+            "pc_id": "302",
+            "status": null,
+            "shape_leng": "0.21798452431",
+            "shape_area": "0.00178716813",
+            "tid": null,
+            "territory_": null,
+            "Margin": 28318,
+            "Winner": "AAP",
+            "Runner": "SAD"
+          }
+        },
+        {
+          "arcs": [[-12, -9, -5, -2]],
+          "type": "Polygon",
+          "properties": {
+            "gid": 3355,
+            "objectid": "2",
+            "st_code": "3",
+            "st_name": "PUNJAB",
+            "dt_code": "2",
+            "dist_name": "AMRITSAR",
+            "ac_no": "17",
+            "ac_name": "Amritsar Central",
+            "pc_no": "2",
+            "pc_name": "AMRITSAR",
+            "pc_id": "302",
+            "status": null,
+            "shape_leng": "0.16071498998",
+            "shape_area": "0.00065857813",
+            "tid": null,
+            "territory_": null,
+            "Margin": 14026,
+            "Winner": "AAP",
+            "Runner": "INC"
+          }
+        }
+      ]
+    }
+  }
+}

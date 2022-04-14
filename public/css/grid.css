@@ -1,0 +1,189 @@
+.electiondata{
+    display: grid;
+    grid-template-rows: 14% 5% 80%;
+}
+
+.select{
+    border: 3px solid black;
+    border-radius: 20px 0;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 50% 30% 20%;
+}
+
+#state, #year, .fetch{
+    margin: auto 10px;
+    font-size: large;
+    height: 50%;
+}
+
+.page {
+    display: grid;
+    grid-template-columns: 69% 31%;
+}
+
+.constituency {
+    border: 3px solid black;
+    height: 76vh;
+    margin: 5px;
+    overflow: scroll;
+}
+
+.map {
+    border: 3px solid black;
+    border-radius: 20px 0;
+    height: 96vh;
+    margin: 5px;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 100%;
+    height: 100px;
+}
+
+.parties, .candidates{
+    display: grid;
+    grid-template-rows: 25vh 25vh 25vh;
+}
+
+.partyTile , .candidateTile{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin: 10px;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.party{
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+.candidate{
+    display: grid;
+    grid-template-rows: 20% 20% 60% ;
+}
+
+.partyName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    color: black;
+    border-radius: 20px;
+}
+
+.candidateName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    color: black;
+}
+
+.partyDetails{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+
+.candidateDetails{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+text {
+    fill: blue;
+    stroke: blue;
+    stroke-width: 2px;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.number{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.caption{
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+}
+
+.ac_name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.totalseats{
+    fill: black;
+    font-size: xx-large;
+    font-weight: bold;
+    stroke: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Aam_Aadmi_Party .partyName{
+    background-color: #0066A4;
+}
+
+.Indian_National_Congress .partyName{
+    background-color: #19AAED;
+}
+
+.Shiromani_Akali_Dal .partyName{
+    background-color: #ebc634;
+}
+
+.Bahujan_Samaj_Party .partyName{
+    background-color: #22409A;
+}
+
+.partyName{
+    background-color: #bdbdbd;
+}
+
+.Bharatiya_Janata_Party .partyName{
+    background-color: #FF9933;
+}
+
+.Samajwadi_Party .partyName{
+    background-color: red;
+}
+
+.Telugu_Desam .partyName{
+    background-color: #FFFF00;
+}
+
+.Yuvajana_Sramika_Rythu_Congress_Party .partyName{
+    background-color: blue;
+}
+
+.Janasena_Party .partyName{
+    background-color: red;
+}
+
+.All_India_Trinamool_Congress .partyName{
+    background-color: #20C646;
+}
+
+.Biju_Janata_Dal .partyName{
+    background-color: #006400;
+}
+.Telangana_Rashtra_Samithi .partyName{
+    background-color: #FF0274;
+}

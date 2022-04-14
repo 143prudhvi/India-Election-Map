@@ -1,0 +1,632 @@
+[
+  {
+    "ac_name": "Almora",
+    "ac_no": "52",
+    "Winner Candidate": "MANOJ TEWARI",
+    "Winner Party": "Indian National Congress",
+    "Runner Candidate": "KAILASH SHARMA",
+    "Runner Party": "Bharatiya Janata Party",
+    "Margin": "127"
+  },
+  {
+    "ac_name": "B.H.E.L. Ranipur",
+    "ac_no": "26",
+    "Winner Candidate": "Adesh Chauhan",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "Rajbir Singh Chauhan",
+    "Runner Party": "Indian National Congress",
+    "Margin": "13862"
+  },
+  {
+    "ac_name": "Badrinath",
+    "ac_no": "4",
+    "Winner Candidate": "Rajendra Singh Bhandari",
+    "Winner Party": "Indian National Congress",
+    "Runner Candidate": "Mahendra Bhatt",
+    "Runner Party": "Bharatiya Janata Party",
+    "Margin": "2066"
+  },
+  {
+    "ac_name": "Bageshwar",
+    "ac_no": "47",
+    "Winner Candidate": "CHANDAN RAM DASS",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "RANJEET DAS",
+    "Runner Party": "Indian National Congress",
+    "Margin": "12141"
+  },
+  {
+    "ac_name": "Bajpur",
+    "ac_no": "64",
+    "Winner Candidate": "YASHPAL ARYA",
+    "Winner Party": "Indian National Congress",
+    "Runner Candidate": "RAJESH KUMAR",
+    "Runner Party": "Bharatiya Janata Party",
+    "Margin": "1611"
+  },
+  {
+    "ac_name": "Bhagwanpur",
+    "ac_no": "28",
+    "Winner Candidate": "Mamta Rakesh",
+    "Winner Party": "Indian National Congress",
+    "Runner Candidate": "Subodh Rakesh",
+    "Runner Party": "Bahujan Samaj Party",
+    "Margin": "4811"
+  },
+  {
+    "ac_name": "Bhimtal",
+    "ac_no": "57",
+    "Winner Candidate": "RAM SINGH KAIRA",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "DAN SINGH BHANDARI",
+    "Runner Party": "Indian National Congress",
+    "Margin": "9844"
+  },
+  {
+    "ac_name": "Chakrata",
+    "ac_no": "15",
+    "Winner Candidate": "Pritam Singh",
+    "Winner Party": "Indian National Congress",
+    "Runner Candidate": "Ram Sharan Nautiyal",
+    "Runner Party": "Bharatiya Janata Party",
+    "Margin": "9436"
+  },
+  {
+    "ac_name": "Champawat",
+    "ac_no": "55",
+    "Winner Candidate": "Kailash Chandra Gahtori",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "Hemesh Kharkwal",
+    "Runner Party": "Indian National Congress",
+    "Margin": "5304"
+  },
+  {
+    "ac_name": "Chaubattakhal",
+    "ac_no": "39",
+    "Winner Candidate": "SATPAL MAHARAJ",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "KESHAR SINGH",
+    "Runner Party": "Indian National Congress",
+    "Margin": "11430"
+  },
+  {
+    "ac_name": "Dehradun Cantt.",
+    "ac_no": "21",
+    "Winner Candidate": "Savita Kapoor",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "Suryakant Dhasmana",
+    "Runner Party": "Indian National Congress",
+    "Margin": "20938"
+  },
+  {
+    "ac_name": "Deoprayag",
+    "ac_no": "10",
+    "Winner Candidate": "Vinod Kandari",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "Diwakar Bhatt",
+    "Runner Party": "Uttarakhand Kranti Dal",
+    "Margin": "2588"
+  },
+  {
+    "ac_name": "Dhanolti",
+    "ac_no": "14",
+    "Winner Candidate": "Pritam Singh Panwar",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "Jot Singh Bisht",
+    "Runner Party": "Indian National Congress",
+    "Margin": "4684"
+  },
+  {
+    "ac_name": "Dharampur",
+    "ac_no": "18",
+    "Winner Candidate": "VINOD CHAMOLI",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "DINESH AGARWAL",
+    "Runner Party": "Indian National Congress",
+    "Margin": "10090"
+  },
+  {
+    "ac_name": "Dharchula",
+    "ac_no": "42",
+    "Winner Candidate": "HARISH SINGH DHAMI",
+    "Winner Party": "Indian National Congress",
+    "Runner Candidate": "DHAN SINGH DHAMI (DHAN DA)",
+    "Runner Party": "Bharatiya Janata Party",
+    "Margin": "1118"
+  },
+  {
+    "ac_name": "Didihat",
+    "ac_no": "43",
+    "Winner Candidate": "VISHAN SINGH",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "KISHAN BHANDARI",
+    "Runner Party": "Independent",
+    "Margin": "3226"
+  },
+  {
+    "ac_name": "Doiwala",
+    "ac_no": "23",
+    "Winner Candidate": "BRIJ BHUSHAN GAIROLA",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "GAURAV (GINNI)",
+    "Runner Party": "Indian National Congress",
+    "Margin": "29021"
+  },
+  {
+    "ac_name": "Dwarahat",
+    "ac_no": "48",
+    "Winner Candidate": "MADAN SINGH BISHT",
+    "Winner Party": "Indian National Congress",
+    "Runner Candidate": "ANIL SINGH SHAHI",
+    "Runner Party": "Bharatiya Janata Party",
+    "Margin": "182"
+  },
+  {
+    "ac_name": "Gadarpur",
+    "ac_no": "65",
+    "Winner Candidate": "Arvind Pandey",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "Premanand Mahajan",
+    "Runner Party": "Indian National Congress",
+    "Margin": "1120"
+  },
+  {
+    "ac_name": "Gangolihat",
+    "ac_no": "45",
+    "Winner Candidate": "FAKEER RAM",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "KHAJAN CHANDRA GUDDU",
+    "Runner Party": "Indian National Congress",
+    "Margin": "10053"
+  },
+  {
+    "ac_name": "Gangotri",
+    "ac_no": "3",
+    "Winner Candidate": "Suresh Singh Chauhan",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "Vijaypal Singh Sajwan",
+    "Runner Party": "Indian National Congress",
+    "Margin": "8029"
+  },
+  {
+    "ac_name": "Ghanshali",
+    "ac_no": "9",
+    "Winner Candidate": "SHAKTI LAL SHAH",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "DHANI LAL SHAH",
+    "Runner Party": "Indian National Congress",
+    "Margin": "10285"
+  },
+  {
+    "ac_name": "Haldwani",
+    "ac_no": "59",
+    "Winner Candidate": "SUMIT HRIDAYESH",
+    "Winner Party": "Indian National Congress",
+    "Runner Candidate": "DR. JOGENDER PAL SINGH RAUTELA",
+    "Runner Party": "Bharatiya Janata Party",
+    "Margin": "7814"
+  },
+  {
+    "ac_name": "Hardwar",
+    "ac_no": "25",
+    "Winner Candidate": "MADAN KAUSHIK",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "SATPAL BRAHAMCHARI",
+    "Runner Party": "Indian National Congress",
+    "Margin": "15237"
+  },
+  {
+    "ac_name": "Hardwar Rural",
+    "ac_no": "35",
+    "Winner Candidate": "Anupama Rawat",
+    "Winner Party": "Indian National Congress",
+    "Runner Candidate": "Yatishwaranand",
+    "Runner Party": "Bharatiya Janata Party",
+    "Margin": "4472"
+  },
+  {
+    "ac_name": "Jageshwar",
+    "ac_no": "53",
+    "Winner Candidate": "MOHAN SINGH",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "GOVIND SINGH KUNJWAL",
+    "Runner Party": "Indian National Congress",
+    "Margin": "5883"
+  },
+  {
+    "ac_name": "Jaspur",
+    "ac_no": "62",
+    "Winner Candidate": "ADESH SINGH CHAUHAN",
+    "Winner Party": "Indian National Congress",
+    "Runner Candidate": "Dr. SHAILENDRA MOHAN SINGHAL",
+    "Runner Party": "Bharatiya Janata Party",
+    "Margin": "4172"
+  },
+  {
+    "ac_name": "Jhabrera",
+    "ac_no": "29",
+    "Winner Candidate": "Virendra Kumar",
+    "Winner Party": "Indian National Congress",
+    "Runner Candidate": "Rajpal Singh",
+    "Runner Party": "Bharatiya Janata Party",
+    "Margin": "8216"
+  },
+  {
+    "ac_name": "Jwalapur",
+    "ac_no": "27",
+    "Winner Candidate": "Er. Ravi Bahadur",
+    "Winner Party": "Indian National Congress",
+    "Runner Candidate": "Suresh Rathore",
+    "Runner Party": "Bharatiya Janata Party",
+    "Margin": "13343"
+  },
+  {
+    "ac_name": "Kaladhungi",
+    "ac_no": "60",
+    "Winner Candidate": "BANSHIDHAR BHAGAT",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "MAHESH CHANDRA",
+    "Runner Party": "Indian National Congress",
+    "Margin": "23931"
+  },
+  {
+    "ac_name": "Kapkot",
+    "ac_no": "46",
+    "Winner Candidate": "Suresh Gariya",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "Lalit Farswan",
+    "Runner Party": "Indian National Congress",
+    "Margin": "4046"
+  },
+  {
+    "ac_name": "Karnprayag",
+    "ac_no": "6",
+    "Winner Candidate": "Anil Nautiyal",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "Mukesh Negi",
+    "Runner Party": "Indian National Congress",
+    "Margin": "6715"
+  },
+  {
+    "ac_name": "Kashipur",
+    "ac_no": "63",
+    "Winner Candidate": "Trilok Singh Cheema",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "Narendra Chand Singh",
+    "Runner Party": "Indian National Congress",
+    "Margin": "16335"
+  },
+  {
+    "ac_name": "Kedarnath",
+    "ac_no": "7",
+    "Winner Candidate": "SHAILA RANI RAWAT",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "KULDEEP SINGH RAWAT",
+    "Runner Party": "Independent",
+    "Margin": "8463"
+  },
+  {
+    "ac_name": "Khanpur",
+    "ac_no": "32",
+    "Winner Candidate": "UMESH KUMAR",
+    "Winner Party": "Independent",
+    "Runner Candidate": "RAVINDRA SINGH",
+    "Runner Party": "Bahujan Samaj Party",
+    "Margin": "6852"
+  },
+  {
+    "ac_name": "Khatima",
+    "ac_no": "70",
+    "Winner Candidate": "Bhuwan Chandra Kapri",
+    "Winner Party": "Indian National Congress",
+    "Runner Candidate": "Pushkar Singh Dhami",
+    "Runner Party": "Bharatiya Janata Party",
+    "Margin": "6579"
+  },
+  {
+    "ac_name": "Kichha",
+    "ac_no": "67",
+    "Winner Candidate": "Tilak Raj Behar",
+    "Winner Party": "Indian National Congress",
+    "Runner Candidate": "Rajesh Shukla",
+    "Runner Party": "Bharatiya Janata Party",
+    "Margin": "10077"
+  },
+  {
+    "ac_name": "Kotdwar",
+    "ac_no": "41",
+    "Winner Candidate": "Ritu Khanduri Bhushan",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "Surendra Singh Negi",
+    "Runner Party": "Indian National Congress",
+    "Margin": "3687"
+  },
+  {
+    "ac_name": "Laksar",
+    "ac_no": "34",
+    "Winner Candidate": "Shahzad",
+    "Winner Party": "Bahujan Samaj Party",
+    "Runner Candidate": "Sanjay Gupta",
+    "Runner Party": "Bharatiya Janata Party",
+    "Margin": "10440"
+  },
+  {
+    "ac_name": "Lalkuwa",
+    "ac_no": "56",
+    "Winner Candidate": "Dr. Mohan Singh Bisht",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "Harish Rawat",
+    "Runner Party": "Indian National Congress",
+    "Margin": "17527"
+  },
+  {
+    "ac_name": "Lansdowne",
+    "ac_no": "40",
+    "Winner Candidate": "DALEEP SINGH RAWAT",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "ANUKRITI GUSAIN RAWAT",
+    "Runner Party": "Indian National Congress",
+    "Margin": "9868"
+  },
+  {
+    "ac_name": "Lohaghat",
+    "ac_no": "54",
+    "Winner Candidate": "KHUSHAL SINGH ADHIKARI",
+    "Winner Party": "Indian National Congress",
+    "Runner Candidate": "PURAN SINGH FARTYAL",
+    "Runner Party": "Bharatiya Janata Party",
+    "Margin": "6038"
+  },
+  {
+    "ac_name": "Manglaur",
+    "ac_no": "33",
+    "Winner Candidate": "Sarwat Kareem Ansari",
+    "Winner Party": "Bahujan Samaj Party",
+    "Runner Candidate": "Qazi Mohammad Nizamuddin",
+    "Runner Party": "Indian National Congress",
+    "Margin": "598"
+  },
+  {
+    "ac_name": "Mussoorie",
+    "ac_no": "22",
+    "Winner Candidate": "GANESH JOSHI",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "GODAVARI THAPLI",
+    "Runner Party": "Indian National Congress",
+    "Margin": "15325"
+  },
+  {
+    "ac_name": "Nainital",
+    "ac_no": "58",
+    "Winner Candidate": "Sarita Arya",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "Sanjeev Arya",
+    "Runner Party": "Indian National Congress",
+    "Margin": "7881"
+  },
+  {
+    "ac_name": "Nanak Matta",
+    "ac_no": "69",
+    "Winner Candidate": "GOPAL SINGH RANA",
+    "Winner Party": "Indian National Congress",
+    "Runner Candidate": "PREM SINGH RANA",
+    "Runner Party": "Bharatiya Janata Party",
+    "Margin": "13020"
+  },
+  {
+    "ac_name": "Narendranagar",
+    "ac_no": "11",
+    "Winner Candidate": "SUBODH UNIYAL",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "OM GOPAL",
+    "Runner Party": "Indian National Congress",
+    "Margin": "1798"
+  },
+  {
+    "ac_name": "Pauri",
+    "ac_no": "37",
+    "Winner Candidate": "Rajkumar Pori",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "Naval Kishor",
+    "Runner Party": "Indian National Congress",
+    "Margin": "5738"
+  },
+  {
+    "ac_name": "Pirankaliyar",
+    "ac_no": "30",
+    "Winner Candidate": "FURKAN AHMAD",
+    "Winner Party": "Indian National Congress",
+    "Runner Candidate": "MUNISH KUMAR SAINI",
+    "Runner Party": "Bharatiya Janata Party",
+    "Margin": "15743"
+  },
+  {
+    "ac_name": "Pithoragarh",
+    "ac_no": "44",
+    "Winner Candidate": "Mayukh Mahar",
+    "Winner Party": "Indian National Congress",
+    "Runner Candidate": "Chandra Pant",
+    "Runner Party": "Bharatiya Janata Party",
+    "Margin": "6054"
+  },
+  {
+    "ac_name": "Pratapnagar",
+    "ac_no": "12",
+    "Winner Candidate": "Vikram Singh Negi",
+    "Winner Party": "Indian National Congress",
+    "Runner Candidate": "Vijay Singh Panwar",
+    "Runner Party": "Bharatiya Janata Party",
+    "Margin": "2341"
+  },
+  {
+    "ac_name": "Purola",
+    "ac_no": "1",
+    "Winner Candidate": "DURGESHWAR LAL",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "Malchand",
+    "Runner Party": "Indian National Congress",
+    "Margin": "6296"
+  },
+  {
+    "ac_name": "Raipur",
+    "ac_no": "19",
+    "Winner Candidate": "UMESH SHARMA KAU",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "HIRA SINGH BISHT",
+    "Runner Party": "Indian National Congress",
+    "Margin": "30052"
+  },
+  {
+    "ac_name": "Rajpur Road",
+    "ac_no": "20",
+    "Winner Candidate": "KHAJAN DASS",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "RAJKUMAR",
+    "Runner Party": "Indian National Congress",
+    "Margin": "11163"
+  },
+  {
+    "ac_name": "Ramnagar",
+    "ac_no": "61",
+    "Winner Candidate": "DIWAN SINGH BISHT",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "MAHENDRA SINGH PAL",
+    "Runner Party": "Indian National Congress",
+    "Margin": "4745"
+  },
+  {
+    "ac_name": "Ranikhet",
+    "ac_no": "50",
+    "Winner Candidate": "PRAMOD NAINWAL",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "KARAN MAHARA",
+    "Runner Party": "Indian National Congress",
+    "Margin": "2584"
+  },
+  {
+    "ac_name": "Rishikesh",
+    "ac_no": "24",
+    "Winner Candidate": "PREM CHAND AGGARWAL",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "JAYENDRA CHAND RAMOLA",
+    "Runner Party": "Indian National Congress",
+    "Margin": "19057"
+  },
+  {
+    "ac_name": "Roorkee",
+    "ac_no": "31",
+    "Winner Candidate": "Pradeep Batra",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "YASHPAL RANA",
+    "Runner Party": "Indian National Congress",
+    "Margin": "2277"
+  },
+  {
+    "ac_name": "Rudraprayag",
+    "ac_no": "8",
+    "Winner Candidate": "BHARAT SINGH CHAUDHARY",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "PRADEEP PRASAD THAPLIYAL",
+    "Runner Party": "Indian National Congress",
+    "Margin": "9802"
+  },
+  {
+    "ac_name": "Rudrapur",
+    "ac_no": "66",
+    "Winner Candidate": "Shiv Arora",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "Meena Sharma",
+    "Runner Party": "Indian National Congress",
+    "Margin": "19750"
+  },
+  {
+    "ac_name": "Sahaspur",
+    "ac_no": "17",
+    "Winner Candidate": "SAHDEV SINGH PUNDIR",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "ARYENDRA SHARMA",
+    "Runner Party": "Indian National Congress",
+    "Margin": "8355"
+  },
+  {
+    "ac_name": "Salt",
+    "ac_no": "49",
+    "Winner Candidate": "Mahesh Jeena",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "RANJEET SINGH RAWAT",
+    "Runner Party": "Indian National Congress",
+    "Margin": "3688"
+  },
+  {
+    "ac_name": "Sitarganj",
+    "ac_no": "68",
+    "Winner Candidate": "Saurabh Bahuguna",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "Navtej Pal Singh",
+    "Runner Party": "Indian National Congress",
+    "Margin": "10938"
+  },
+  {
+    "ac_name": "Someshwar",
+    "ac_no": "51",
+    "Winner Candidate": "Rekha Arya",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "Rajendra Barakoti",
+    "Runner Party": "Indian National Congress",
+    "Margin": "5293"
+  },
+  {
+    "ac_name": "Srinagar",
+    "ac_no": "38",
+    "Winner Candidate": "(Dr) Dhan Singh Rawat",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "Ganesh Godiyal",
+    "Runner Party": "Indian National Congress",
+    "Margin": "587"
+  },
+  {
+    "ac_name": "Tehri",
+    "ac_no": "13",
+    "Winner Candidate": "Kishore Upadhyay",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "Dinesh Dhanai",
+    "Runner Party": "Uttarakhand Janekta Party",
+    "Margin": "951"
+  },
+  {
+    "ac_name": "Tharali",
+    "ac_no": "5",
+    "Winner Candidate": "Bhupal Ram Tamta",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "Dr. Jeet Ram",
+    "Runner Party": "Indian National Congress",
+    "Margin": "8302"
+  },
+  {
+    "ac_name": "Vikasnagar",
+    "ac_no": "16",
+    "Winner Candidate": "Munna Singh Chauhan",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "Nav Prabhat",
+    "Runner Party": "Indian National Congress",
+    "Margin": "5193"
+  },
+  {
+    "ac_name": "Yamkeshwar",
+    "ac_no": "36",
+    "Winner Candidate": "RENU BISHT",
+    "Winner Party": "Bharatiya Janata Party",
+    "Runner Candidate": "SHAILENDRA SINGH RAWAT",
+    "Runner Party": "Indian National Congress",
+    "Margin": "10410"
+  },
+  {
+    "ac_name": "Yamunotri",
+    "ac_no": "2",
+    "Winner Candidate": "Sanjay Dobhal",
+    "Winner Party": "Independent",
+    "Runner Candidate": "Deepak Bijalwan",
+    "Runner Party": "Indian National Congress",
+    "Margin": "6639"
+  }
+]

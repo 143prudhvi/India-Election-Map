@@ -1,0 +1,6078 @@
+[
+  {
+    "ac_no": 1,
+    "ac_name": "Purola  (SC)",
+    "candidates": [
+      {
+        "Candidate": "RAJKUMAR",
+        "Party": "Indian National Congress",
+        "EVM Votes": 17548,
+        "Postal Votes": 250,
+        "Total Votes": 17798,
+        "Vote %": 36.49
+      },
+      {
+        "Candidate": "MALCHAND",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 16543,
+        "Postal Votes": 242,
+        "Total Votes": 16785,
+        "Vote %": 34.42
+      },
+      {
+        "Candidate": "DURGESHWAR LAL",
+        "Party": "Independent",
+        "EVM Votes": 13279,
+        "Postal Votes": 229,
+        "Total Votes": 13508,
+        "Vote %": 27.7
+      },
+      {
+        "Candidate": "RAMLAL",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 675,
+        "Postal Votes": 4,
+        "Total Votes": 679,
+        "Vote %": 1.39
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 762,
+        "Postal Votes": 0,
+        "Total Votes": 762,
+        "Vote %": 1.56
+      }
+    ]
+  },
+  {
+    "ac_no": 2,
+    "ac_name": "Yamunotri",
+    "candidates": [
+      {
+        "Candidate": "KEDAR SINGH",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 19292,
+        "Postal Votes": 508,
+        "Total Votes": 19800,
+        "Vote %": 42.42
+      },
+      {
+        "Candidate": "SANJAY DOBHAL",
+        "Party": "Indian National Congress",
+        "EVM Votes": 13495,
+        "Postal Votes": 345,
+        "Total Votes": 13840,
+        "Vote %": 29.65
+      },
+      {
+        "Candidate": "PRAKASH CHAND RAMOLA",
+        "Party": "Independent",
+        "EVM Votes": 6961,
+        "Postal Votes": 100,
+        "Total Votes": 7061,
+        "Vote %": 15.13
+      },
+      {
+        "Candidate": "RANVEER SINGH",
+        "Party": "Independent",
+        "EVM Votes": 4553,
+        "Postal Votes": 60,
+        "Total Votes": 4613,
+        "Vote %": 9.88
+      },
+      {
+        "Candidate": "RAJBAHADUR SINGH ",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 509,
+        "Postal Votes": 21,
+        "Total Votes": 530,
+        "Vote %": 1.14
+      },
+      {
+        "Candidate": "JAIPRAKASH",
+        "Party": "Sarv Vikas Party",
+        "EVM Votes": 339,
+        "Postal Votes": 3,
+        "Total Votes": 342,
+        "Vote %": 0.73
+      },
+      {
+        "Candidate": "DHARMANAND BIJALWAN",
+        "Party": "Independent",
+        "EVM Votes": 248,
+        "Postal Votes": 0,
+        "Total Votes": 248,
+        "Vote %": 0.53
+      },
+      {
+        "Candidate": "PURUSHOTTAM UNIYAL",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 243,
+        "Postal Votes": 3,
+        "Total Votes": 246,
+        "Vote %": 0.53
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 420,
+        "Postal Votes": 4,
+        "Total Votes": 424,
+        "Vote %": 0.91
+      }
+    ]
+  },
+  {
+    "ac_no": 3,
+    "ac_name": "Gangotri",
+    "candidates": [
+      {
+        "Candidate": "GOPAL SINGH RAWAT",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 24733,
+        "Postal Votes": 950,
+        "Total Votes": 25683,
+        "Vote %": 46.94
+      },
+      {
+        "Candidate": "VIJAYPAL SINGH SAJWAN",
+        "Party": "Indian National Congress",
+        "EVM Votes": 15651,
+        "Postal Votes": 422,
+        "Total Votes": 16073,
+        "Vote %": 29.37
+      },
+      {
+        "Candidate": "SURATRAM NAUTIYAL",
+        "Party": "Independent",
+        "EVM Votes": 9205,
+        "Postal Votes": 286,
+        "Total Votes": 9491,
+        "Vote %": 17.34
+      },
+      {
+        "Candidate": "BHUPENDRA SINGH",
+        "Party": "Independent",
+        "EVM Votes": 1462,
+        "Postal Votes": 64,
+        "Total Votes": 1526,
+        "Vote %": 2.79
+      },
+      {
+        "Candidate": "VIJAYPAL TANGANI",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 545,
+        "Postal Votes": 31,
+        "Total Votes": 576,
+        "Vote %": 1.05
+      },
+      {
+        "Candidate": "MAHAVEER PRASAD",
+        "Party": "Communist Party of India",
+        "EVM Votes": 541,
+        "Postal Votes": 12,
+        "Total Votes": 553,
+        "Vote %": 1.01
+      },
+      {
+        "Candidate": "RAJBEER SINGH PARMAR",
+        "Party": "Rashtriya Jan Sahay Dal",
+        "EVM Votes": 410,
+        "Postal Votes": 2,
+        "Total Votes": 412,
+        "Vote %": 0.75
+      },
+      {
+        "Candidate": "RATAN LAL VERMA",
+        "Party": "Independent",
+        "EVM Votes": 209,
+        "Postal Votes": 4,
+        "Total Votes": 213,
+        "Vote %": 0.39
+      },
+      {
+        "Candidate": "VISHNUPAL SINGH RAWAT",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 187,
+        "Postal Votes": 5,
+        "Total Votes": 192,
+        "Vote %": 0.35
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 933,
+        "Postal Votes": 4,
+        "Total Votes": 937,
+        "Vote %": 1.71
+      }
+    ]
+  },
+  {
+    "ac_no": 4,
+    "ac_name": "Badrinath",
+    "candidates": [
+      {
+        "Candidate": "MAHENDRA BHATT",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 28385,
+        "Postal Votes": 1291,
+        "Total Votes": 29676,
+        "Vote %": 47.32
+      },
+      {
+        "Candidate": "RAJENDRA SINGH BHANDARI",
+        "Party": "Indian National Congress",
+        "EVM Votes": 23370,
+        "Postal Votes": 672,
+        "Total Votes": 24042,
+        "Vote %": 38.33
+      },
+      {
+        "Candidate": "BHARAT SINGH KUNWAR",
+        "Party": "Communist Party of India",
+        "EVM Votes": 2342,
+        "Postal Votes": 38,
+        "Total Votes": 2380,
+        "Vote %": 3.79
+      },
+      {
+        "Candidate": "VINOD FONIA",
+        "Party": "Independent",
+        "EVM Votes": 2286,
+        "Postal Votes": 84,
+        "Total Votes": 2370,
+        "Vote %": 3.78
+      },
+      {
+        "Candidate": "MUKESH LAL KOSHWAL",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 1579,
+        "Postal Votes": 73,
+        "Total Votes": 1652,
+        "Vote %": 2.63
+      },
+      {
+        "Candidate": "ARUNA DANWASHI",
+        "Party": "Independent",
+        "EVM Votes": 886,
+        "Postal Votes": 30,
+        "Total Votes": 916,
+        "Vote %": 1.46
+      },
+      {
+        "Candidate": "KEERAT SINGH BHANDARI",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 846,
+        "Postal Votes": 13,
+        "Total Votes": 859,
+        "Vote %": 1.37
+      },
+      {
+        "Candidate": "DEVENDRA SINGH NEGI",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 473,
+        "Postal Votes": 14,
+        "Total Votes": 487,
+        "Vote %": 0.78
+      },
+      {
+        "Candidate": "LAXMI PRASAD SATI",
+        "Party": "Independent",
+        "EVM Votes": 331,
+        "Postal Votes": 4,
+        "Total Votes": 335,
+        "Vote %": 0.53
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 681,
+        "Postal Votes": 10,
+        "Total Votes": 691,
+        "Vote %": 1.1
+      }
+    ]
+  },
+  {
+    "ac_no": 5,
+    "ac_name": "Tharali  (SC)",
+    "candidates": [
+      {
+        "Candidate": "MAGAN LAL SHAH",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 24602,
+        "Postal Votes": 1329,
+        "Total Votes": 25931,
+        "Vote %": 45.37
+      },
+      {
+        "Candidate": "DR. JEET RAM",
+        "Party": "Indian National Congress",
+        "EVM Votes": 20795,
+        "Postal Votes": 278,
+        "Total Votes": 21073,
+        "Vote %": 36.87
+      },
+      {
+        "Candidate": "GUDDU LAL",
+        "Party": "Independent",
+        "EVM Votes": 7035,
+        "Postal Votes": 54,
+        "Total Votes": 7089,
+        "Vote %": 12.4
+      },
+      {
+        "Candidate": "MOHAN LAL KANYAL",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 837,
+        "Postal Votes": 13,
+        "Total Votes": 850,
+        "Vote %": 1.49
+      },
+      {
+        "Candidate": "RAJPAL KANYAL",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 739,
+        "Postal Votes": 13,
+        "Total Votes": 752,
+        "Vote %": 1.32
+      },
+      {
+        "Candidate": "CAPT. (RETD) GANESH ",
+        "Party": "Independent",
+        "EVM Votes": 583,
+        "Postal Votes": 10,
+        "Total Votes": 593,
+        "Vote %": 1.04
+      },
+      {
+        "Candidate": "KASBI LAL SHAH",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 330,
+        "Postal Votes": 7,
+        "Total Votes": 337,
+        "Vote %": 0.59
+      },
+      {
+        "Candidate": "BIRENDRA LAL TAMTA",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 266,
+        "Postal Votes": 4,
+        "Total Votes": 270,
+        "Vote %": 0.47
+      },
+      {
+        "Candidate": "RADHA BALLABH KANYAL",
+        "Party": "Prajamandal Party",
+        "EVM Votes": 250,
+        "Postal Votes": 5,
+        "Total Votes": 255,
+        "Vote %": 0.45
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 1758,
+        "Postal Votes": 3,
+        "Total Votes": 1761,
+        "Vote %": 3.08
+      }
+    ]
+  },
+  {
+    "ac_no": 6,
+    "ac_name": "Karnprayag",
+    "candidates": [
+      {
+        "Candidate": "SURENDRA SINGH NEGI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 28018,
+        "Postal Votes": 141,
+        "Total Votes": 28159,
+        "Vote %": 52.5
+      },
+      {
+        "Candidate": "DR. ANSUYA PARSAD ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 20486,
+        "Postal Votes": 124,
+        "Total Votes": 20610,
+        "Vote %": 38.43
+      },
+      {
+        "Candidate": "INDRESH MAIKHURI",
+        "Party": "Communist Party of India  (Marxist-Leninist)  (Liberation)",
+        "EVM Votes": 1329,
+        "Postal Votes": 2,
+        "Total Votes": 1331,
+        "Vote %": 2.48
+      },
+      {
+        "Candidate": "BALWANT SINGH NEGI",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 1232,
+        "Postal Votes": 0,
+        "Total Votes": 1232,
+        "Vote %": 2.3
+      },
+      {
+        "Candidate": "JYOTI KANWASI",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 848,
+        "Postal Votes": 9,
+        "Total Votes": 857,
+        "Vote %": 1.6
+      },
+      {
+        "Candidate": "BHAGAT SINGH NEGI",
+        "Party": "Independent",
+        "EVM Votes": 673,
+        "Postal Votes": 0,
+        "Total Votes": 673,
+        "Vote %": 1.25
+      },
+      {
+        "Candidate": "MOHAN SINGH NEGI",
+        "Party": "Independent",
+        "EVM Votes": 300,
+        "Postal Votes": 0,
+        "Total Votes": 300,
+        "Vote %": 0.56
+      },
+      {
+        "Candidate": "PADAM SINGH",
+        "Party": "Independent",
+        "EVM Votes": 280,
+        "Postal Votes": 1,
+        "Total Votes": 281,
+        "Vote %": 0.52
+      },
+      {
+        "Candidate": "ANANDMANI DUTT JOSHI ",
+        "Party": "Independent",
+        "EVM Votes": 189,
+        "Postal Votes": 0,
+        "Total Votes": 189,
+        "Vote %": 0.35
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 809,
+        "Postal Votes": 1,
+        "Total Votes": 810,
+        "Vote %": 1.51
+      }
+    ]
+  },
+  {
+    "ac_no": 7,
+    "ac_name": "Kedarnath",
+    "candidates": [
+      {
+        "Candidate": "MANOJ RAWAT",
+        "Party": "Indian National Congress",
+        "EVM Votes": 13373,
+        "Postal Votes": 533,
+        "Total Votes": 13906,
+        "Vote %": 25.06
+      },
+      {
+        "Candidate": "KULDEEP SINGH RAWAT",
+        "Party": "Independent",
+        "EVM Votes": 12737,
+        "Postal Votes": 300,
+        "Total Votes": 13037,
+        "Vote %": 23.49
+      },
+      {
+        "Candidate": "ASHA",
+        "Party": "Independent",
+        "EVM Votes": 11511,
+        "Postal Votes": 275,
+        "Total Votes": 11786,
+        "Vote %": 21.24
+      },
+      {
+        "Candidate": "SHAILA RANI RAWAT",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 10289,
+        "Postal Votes": 1183,
+        "Total Votes": 11472,
+        "Vote %": 20.67
+      },
+      {
+        "Candidate": "GANGADHAR",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 2641,
+        "Postal Votes": 93,
+        "Total Votes": 2734,
+        "Vote %": 4.93
+      },
+      {
+        "Candidate": "GANGADHAR",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 995,
+        "Postal Votes": 6,
+        "Total Votes": 1001,
+        "Vote %": 1.8
+      },
+      {
+        "Candidate": "SHAMBHU PRASAD BHATT",
+        "Party": "Independent",
+        "EVM Votes": 645,
+        "Postal Votes": 5,
+        "Total Votes": 650,
+        "Vote %": 1.17
+      },
+      {
+        "Candidate": "VIKRAM SINGH",
+        "Party": "Sainik Samaj Party",
+        "EVM Votes": 447,
+        "Postal Votes": 9,
+        "Total Votes": 456,
+        "Vote %": 0.82
+      },
+      {
+        "Candidate": "KUNDAN LAL",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 420,
+        "Postal Votes": 27,
+        "Total Votes": 447,
+        "Vote %": 0.81
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 709,
+        "Postal Votes": 6,
+        "Total Votes": 715,
+        "Vote %": 1.29
+      }
+    ]
+  },
+  {
+    "ac_no": 8,
+    "ac_name": "Rudraprayag",
+    "candidates": [
+      {
+        "Candidate": "BHARAT SINGH",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 28267,
+        "Postal Votes": 1066,
+        "Total Votes": 29333,
+        "Vote %": 51.54
+      },
+      {
+        "Candidate": "LAXMI SINGH RANA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 14276,
+        "Postal Votes": 425,
+        "Total Votes": 14701,
+        "Vote %": 25.83
+      },
+      {
+        "Candidate": "PRADEEP PRASAD ",
+        "Party": "Independent",
+        "EVM Votes": 5740,
+        "Postal Votes": 78,
+        "Total Votes": 5818,
+        "Vote %": 10.22
+      },
+      {
+        "Candidate": "JAGMOHAN SINGH RAUTHAN",
+        "Party": "Independent",
+        "EVM Votes": 3271,
+        "Postal Votes": 71,
+        "Total Votes": 3342,
+        "Vote %": 5.87
+      },
+      {
+        "Candidate": "SURJEET LAL",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 751,
+        "Postal Votes": 50,
+        "Total Votes": 801,
+        "Vote %": 1.41
+      },
+      {
+        "Candidate": "LALITA PRASAD",
+        "Party": "Communist Party of India",
+        "EVM Votes": 744,
+        "Postal Votes": 2,
+        "Total Votes": 746,
+        "Vote %": 1.31
+      },
+      {
+        "Candidate": "BHAGWATI PRASAD",
+        "Party": "Independent",
+        "EVM Votes": 709,
+        "Postal Votes": 2,
+        "Total Votes": 711,
+        "Vote %": 1.25
+      },
+      {
+        "Candidate": "JAI OM PRAKASH",
+        "Party": "Independent",
+        "EVM Votes": 636,
+        "Postal Votes": 6,
+        "Total Votes": 642,
+        "Vote %": 1.13
+      },
+      {
+        "Candidate": "JAGDISH SINGH",
+        "Party": "Independent",
+        "EVM Votes": 356,
+        "Postal Votes": 3,
+        "Total Votes": 359,
+        "Vote %": 0.63
+      },
+      {
+        "Candidate": "DEVENDRA PRASAD",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 233,
+        "Postal Votes": 4,
+        "Total Votes": 237,
+        "Vote %": 0.42
+      },
+      {
+        "Candidate": "ANIL RAWAT",
+        "Party": "Independent",
+        "EVM Votes": 217,
+        "Postal Votes": 3,
+        "Total Votes": 220,
+        "Vote %": 0.39
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 1259,
+        "Postal Votes": 7,
+        "Total Votes": 1266,
+        "Vote %": 2.22
+      }
+    ]
+  },
+  {
+    "ac_no": 9,
+    "ac_name": "Ghanshali  (SC)",
+    "candidates": [
+      {
+        "Candidate": "SHAKTI LAL SHAH",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 21801,
+        "Postal Votes": 302,
+        "Total Votes": 22103,
+        "Vote %": 50.46
+      },
+      {
+        "Candidate": "DHANILAL SHAH",
+        "Party": "Independent",
+        "EVM Votes": 10307,
+        "Postal Votes": 143,
+        "Total Votes": 10450,
+        "Vote %": 23.86
+      },
+      {
+        "Candidate": "BHEEM LAL ARYA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 4909,
+        "Postal Votes": 54,
+        "Total Votes": 4963,
+        "Vote %": 11.33
+      },
+      {
+        "Candidate": "PREM LAL",
+        "Party": "Independent",
+        "EVM Votes": 3041,
+        "Postal Votes": 21,
+        "Total Votes": 3062,
+        "Vote %": 6.99
+      },
+      {
+        "Candidate": "MAKAN LAL",
+        "Party": "Uttarakhand Raksha Morcha",
+        "EVM Votes": 1452,
+        "Postal Votes": 6,
+        "Total Votes": 1458,
+        "Vote %": 3.33
+      },
+      {
+        "Candidate": "KAMAL DAS",
+        "Party": "Independent",
+        "EVM Votes": 713,
+        "Postal Votes": 2,
+        "Total Votes": 715,
+        "Vote %": 1.63
+      },
+      {
+        "Candidate": "PINGAL DASS",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 650,
+        "Postal Votes": 3,
+        "Total Votes": 653,
+        "Vote %": 1.49
+      },
+      {
+        "Candidate": "SIMAN LAL ARYA",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 395,
+        "Postal Votes": 0,
+        "Total Votes": 395,
+        "Vote %": 0.9
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 994,
+        "Postal Votes": 1,
+        "Total Votes": 995,
+        "Vote %": 2.27
+      }
+    ]
+  },
+  {
+    "ac_no": 10,
+    "ac_name": "Devprayag",
+    "candidates": [
+      {
+        "Candidate": "VINOD KANDARI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 13433,
+        "Postal Votes": 391,
+        "Total Votes": 13824,
+        "Vote %": 31.97
+      },
+      {
+        "Candidate": "DIWAKAR BHATT",
+        "Party": "Independent",
+        "EVM Votes": 10204,
+        "Postal Votes": 121,
+        "Total Votes": 10325,
+        "Vote %": 23.87
+      },
+      {
+        "Candidate": "MANTRI PRASAD NAITHANI",
+        "Party": "Indian National Congress",
+        "EVM Votes": 8629,
+        "Postal Votes": 113,
+        "Total Votes": 8742,
+        "Vote %": 20.21
+      },
+      {
+        "Candidate": "SHOORBEER SINGH SAJWAN",
+        "Party": "Independent",
+        "EVM Votes": 6603,
+        "Postal Votes": 78,
+        "Total Votes": 6681,
+        "Vote %": 15.45
+      },
+      {
+        "Candidate": "SAMEER RATURI",
+        "Party": "Prajamandal Party",
+        "EVM Votes": 722,
+        "Postal Votes": 6,
+        "Total Votes": 728,
+        "Vote %": 1.68
+      },
+      {
+        "Candidate": "GANESH BHATT",
+        "Party": "Uttarakhand Kranti Dal (Democratic)",
+        "EVM Votes": 695,
+        "Postal Votes": 7,
+        "Total Votes": 702,
+        "Vote %": 1.62
+      },
+      {
+        "Candidate": "SUNDAR SINGH RANA",
+        "Party": "Independent",
+        "EVM Votes": 545,
+        "Postal Votes": 2,
+        "Total Votes": 547,
+        "Vote %": 1.26
+      },
+      {
+        "Candidate": "SITARAM RANAKOTI",
+        "Party": "Sainik Samaj Party",
+        "EVM Votes": 451,
+        "Postal Votes": 3,
+        "Total Votes": 454,
+        "Vote %": 1.05
+      },
+      {
+        "Candidate": "ANIL BAHUGUNA",
+        "Party": "Indian Business Party",
+        "EVM Votes": 315,
+        "Postal Votes": 4,
+        "Total Votes": 319,
+        "Vote %": 0.74
+      },
+      {
+        "Candidate": "DEENA DEVI",
+        "Party": "Independent",
+        "EVM Votes": 308,
+        "Postal Votes": 1,
+        "Total Votes": 309,
+        "Vote %": 0.71
+      },
+      {
+        "Candidate": "GAUREE SANKER",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 201,
+        "Postal Votes": 3,
+        "Total Votes": 204,
+        "Vote %": 0.47
+      },
+      {
+        "Candidate": "JAMUNA PRASAD RAIWANI",
+        "Party": "Sarv Vikas Party",
+        "EVM Votes": 170,
+        "Postal Votes": 1,
+        "Total Votes": 171,
+        "Vote %": 0.4
+      },
+      {
+        "Candidate": "RAJU MAURYA",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 155,
+        "Postal Votes": 1,
+        "Total Votes": 156,
+        "Vote %": 0.36
+      },
+      {
+        "Candidate": "RAGHUNANDAN PRASAD ",
+        "Party": "Shivsena",
+        "EVM Votes": 83,
+        "Postal Votes": 2,
+        "Total Votes": 85,
+        "Vote %": 0.2
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 292,
+        "Postal Votes": 2,
+        "Total Votes": 294,
+        "Vote %": 0.68
+      }
+    ]
+  },
+  {
+    "ac_no": 11,
+    "ac_name": "Narendranagar",
+    "candidates": [
+      {
+        "Candidate": "SUBODH UNIYAL",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 23699,
+        "Postal Votes": 405,
+        "Total Votes": 24104,
+        "Vote %": 46.37
+      },
+      {
+        "Candidate": "OM GOPAL RAWAT",
+        "Party": "Independent",
+        "EVM Votes": 18877,
+        "Postal Votes": 255,
+        "Total Votes": 19132,
+        "Vote %": 36.81
+      },
+      {
+        "Candidate": "HIMANSHU BIJALWAN",
+        "Party": "Indian National Congress",
+        "EVM Votes": 4295,
+        "Postal Votes": 33,
+        "Total Votes": 4328,
+        "Vote %": 8.33
+      },
+      {
+        "Candidate": "SARDAR SINGH",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 3302,
+        "Postal Votes": 12,
+        "Total Votes": 3314,
+        "Vote %": 6.38
+      },
+      {
+        "Candidate": "JAGDISH KULIYAL",
+        "Party": "Communist Party of India",
+        "EVM Votes": 423,
+        "Postal Votes": 4,
+        "Total Votes": 427,
+        "Vote %": 0.82
+      },
+      {
+        "Candidate": "HAKIM SINGH",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 414,
+        "Postal Votes": 3,
+        "Total Votes": 417,
+        "Vote %": 0.8
+      },
+      {
+        "Candidate": "USHA NEGI",
+        "Party": "Sainik Samaj Party",
+        "EVM Votes": 255,
+        "Postal Votes": 5,
+        "Total Votes": 260,
+        "Vote %": 0.5
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 563,
+        "Postal Votes": 0,
+        "Total Votes": 563,
+        "Vote %": 1.08
+      }
+    ]
+  },
+  {
+    "ac_no": 12,
+    "ac_name": "Pratapnagar",
+    "candidates": [
+      {
+        "Candidate": "VIJAY SINGH ",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 14759,
+        "Postal Votes": 299,
+        "Total Votes": 15058,
+        "Vote %": 36.93
+      },
+      {
+        "Candidate": "VIKRAM SINGH NEGI",
+        "Party": "Indian National Congress",
+        "EVM Votes": 13015,
+        "Postal Votes": 104,
+        "Total Votes": 13119,
+        "Vote %": 32.17
+      },
+      {
+        "Candidate": "RAJESHWAR PRASAD ",
+        "Party": "Indian Business Party",
+        "EVM Votes": 5551,
+        "Postal Votes": 43,
+        "Total Votes": 5594,
+        "Vote %": 13.72
+      },
+      {
+        "Candidate": "MURARI LAL KHANDWAL",
+        "Party": "Independent",
+        "EVM Votes": 3734,
+        "Postal Votes": 40,
+        "Total Votes": 3774,
+        "Vote %": 9.26
+      },
+      {
+        "Candidate": "PANKAJ VYAS",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 1073,
+        "Postal Votes": 5,
+        "Total Votes": 1078,
+        "Vote %": 2.64
+      },
+      {
+        "Candidate": "VIJAYPAL SINGH RAWAT",
+        "Party": "Independent",
+        "EVM Votes": 1017,
+        "Postal Votes": 8,
+        "Total Votes": 1025,
+        "Vote %": 2.51
+      },
+      {
+        "Candidate": "MOHAN SINGH NEGI",
+        "Party": "Independent",
+        "EVM Votes": 501,
+        "Postal Votes": 2,
+        "Total Votes": 503,
+        "Vote %": 1.23
+      },
+      {
+        "Candidate": "KEDAR LAL",
+        "Party": "Independent",
+        "EVM Votes": 316,
+        "Postal Votes": 0,
+        "Total Votes": 316,
+        "Vote %": 0.78
+      },
+      {
+        "Candidate": "KANAK PAL SINGH",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 305,
+        "Postal Votes": 2,
+        "Total Votes": 307,
+        "Vote %": 0.75
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 556,
+        "Postal Votes": 0,
+        "Total Votes": 556,
+        "Vote %": 1.36
+      }
+    ]
+  },
+  {
+    "ac_no": 13,
+    "ac_name": "Tehri",
+    "candidates": [
+      {
+        "Candidate": "DHAN SINGH NEGI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 20291,
+        "Postal Votes": 605,
+        "Total Votes": 20896,
+        "Vote %": 47.62
+      },
+      {
+        "Candidate": "DINESH DHANAI",
+        "Party": "Independent",
+        "EVM Votes": 13694,
+        "Postal Votes": 362,
+        "Total Votes": 14056,
+        "Vote %": 32.03
+      },
+      {
+        "Candidate": "NARENDRA CHAND RAMOLA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 4377,
+        "Postal Votes": 89,
+        "Total Votes": 4466,
+        "Vote %": 10.18
+      },
+      {
+        "Candidate": "SUSHIL CHANDRA ",
+        "Party": "Hamari Janmanch Party",
+        "EVM Votes": 1054,
+        "Postal Votes": 13,
+        "Total Votes": 1067,
+        "Vote %": 2.43
+      },
+      {
+        "Candidate": "SANJAY KUMAR MAITHANI",
+        "Party": "Independent",
+        "EVM Votes": 966,
+        "Postal Votes": 18,
+        "Total Votes": 984,
+        "Vote %": 2.24
+      },
+      {
+        "Candidate": "TRILOK SINGH NEGI",
+        "Party": "Independent",
+        "EVM Votes": 710,
+        "Postal Votes": 12,
+        "Total Votes": 722,
+        "Vote %": 1.65
+      },
+      {
+        "Candidate": "GOPAL DUTT CHAMOLI",
+        "Party": "Independent",
+        "EVM Votes": 579,
+        "Postal Votes": 6,
+        "Total Votes": 585,
+        "Vote %": 1.33
+      },
+      {
+        "Candidate": "BUDHI SINGH PUNDIR",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 504,
+        "Postal Votes": 3,
+        "Total Votes": 507,
+        "Vote %": 1.16
+      },
+      {
+        "Candidate": "BHAGWAN SINGH RANA",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 278,
+        "Postal Votes": 7,
+        "Total Votes": 285,
+        "Vote %": 0.65
+      },
+      {
+        "Candidate": "GANESH KUDIYAL",
+        "Party": "Independent",
+        "EVM Votes": 179,
+        "Postal Votes": 1,
+        "Total Votes": 180,
+        "Vote %": 0.41
+      },
+      {
+        "Candidate": "SOMI LAL",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 123,
+        "Postal Votes": 10,
+        "Total Votes": 133,
+        "Vote %": 0.3
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 471,
+        "Postal Votes": 5,
+        "Total Votes": 476,
+        "Vote %": 1.08
+      }
+    ]
+  },
+  {
+    "ac_no": 14,
+    "ac_name": "Dhanolti",
+    "candidates": [
+      {
+        "Candidate": "PRITAM SINGH PANWAR",
+        "Party": "Independent",
+        "EVM Votes": 17649,
+        "Postal Votes": 162,
+        "Total Votes": 17811,
+        "Vote %": 36.45
+      },
+      {
+        "Candidate": "NARAYAN SINGH RANA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 16015,
+        "Postal Votes": 181,
+        "Total Votes": 16196,
+        "Vote %": 33.14
+      },
+      {
+        "Candidate": "MANMOHAN SINGH MALL ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 12126,
+        "Postal Votes": 67,
+        "Total Votes": 12193,
+        "Vote %": 24.95
+      },
+      {
+        "Candidate": "RAKESH SEMWAL",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 786,
+        "Postal Votes": 3,
+        "Total Votes": 789,
+        "Vote %": 1.61
+      },
+      {
+        "Candidate": "DINESH",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 547,
+        "Postal Votes": 4,
+        "Total Votes": 551,
+        "Vote %": 1.13
+      },
+      {
+        "Candidate": "UTTAM SINGH",
+        "Party": "Independent",
+        "EVM Votes": 531,
+        "Postal Votes": 3,
+        "Total Votes": 534,
+        "Vote %": 1.09
+      },
+      {
+        "Candidate": "CHAMAN NAUTIYAL",
+        "Party": "Independent",
+        "EVM Votes": 461,
+        "Postal Votes": 2,
+        "Total Votes": 463,
+        "Vote %": 0.95
+      },
+      {
+        "Candidate": "PREM DUTT",
+        "Party": "Indian Business Party",
+        "EVM Votes": 332,
+        "Postal Votes": 0,
+        "Total Votes": 332,
+        "Vote %": 0.68
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 640,
+        "Postal Votes": 0,
+        "Total Votes": 640,
+        "Vote %": 1.31
+      }
+    ]
+  },
+  {
+    "ac_no": 15,
+    "ac_name": "Chakrata  (ST)",
+    "candidates": [
+      {
+        "Candidate": "PRITAM SINGH",
+        "Party": "Indian National Congress",
+        "EVM Votes": 34828,
+        "Postal Votes": 140,
+        "Total Votes": 34968,
+        "Vote %": 48.91
+      },
+      {
+        "Candidate": "MADHU CHAUHAN",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 33182,
+        "Postal Votes": 243,
+        "Total Votes": 33425,
+        "Vote %": 46.75
+      },
+      {
+        "Candidate": "DAULAT KUNWAR",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 2368,
+        "Postal Votes": 7,
+        "Total Votes": 2375,
+        "Vote %": 3.32
+      },
+      {
+        "Candidate": "SWARAJ SINGH",
+        "Party": "Independent",
+        "EVM Votes": 723,
+        "Postal Votes": 0,
+        "Total Votes": 723,
+        "Vote %": 1.01
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 391,
+        "Postal Votes": 0,
+        "Total Votes": 391,
+        "Vote %": 0.55
+      }
+    ]
+  },
+  {
+    "ac_no": 16,
+    "ac_name": "Vikasnagar",
+    "candidates": [
+      {
+        "Candidate": "MUNNA SINGH CHAUHAN",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 38622,
+        "Postal Votes": 273,
+        "Total Votes": 38895,
+        "Vote %": 50.77
+      },
+      {
+        "Candidate": "NAVPRABHAT",
+        "Party": "Indian National Congress",
+        "EVM Votes": 32337,
+        "Postal Votes": 140,
+        "Total Votes": 32477,
+        "Vote %": 42.39
+      },
+      {
+        "Candidate": "VIPUL JAIN",
+        "Party": "Independent",
+        "EVM Votes": 2402,
+        "Postal Votes": 10,
+        "Total Votes": 2412,
+        "Vote %": 3.15
+      },
+      {
+        "Candidate": "GIREESH KUMAR",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 585,
+        "Postal Votes": 9,
+        "Total Votes": 594,
+        "Vote %": 0.78
+      },
+      {
+        "Candidate": "SANDEEP DUBEY",
+        "Party": "Independent",
+        "EVM Votes": 499,
+        "Postal Votes": 0,
+        "Total Votes": 499,
+        "Vote %": 0.65
+      },
+      {
+        "Candidate": "DIGAMBAR SINGH",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 390,
+        "Postal Votes": 2,
+        "Total Votes": 392,
+        "Vote %": 0.51
+      },
+      {
+        "Candidate": "RAJEEV KUMAR",
+        "Party": "Independent",
+        "EVM Votes": 367,
+        "Postal Votes": 2,
+        "Total Votes": 369,
+        "Vote %": 0.48
+      },
+      {
+        "Candidate": "GURUMEL SINGH",
+        "Party": "Independent",
+        "EVM Votes": 332,
+        "Postal Votes": 0,
+        "Total Votes": 332,
+        "Vote %": 0.43
+      },
+      {
+        "Candidate": "KAUSHAL KISHOR GAUTAM",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 258,
+        "Postal Votes": 0,
+        "Total Votes": 258,
+        "Vote %": 0.34
+      },
+      {
+        "Candidate": "BHASKAR CHUG",
+        "Party": "All India Forward Bloc",
+        "EVM Votes": 197,
+        "Postal Votes": 0,
+        "Total Votes": 197,
+        "Vote %": 0.26
+      },
+      {
+        "Candidate": "ASHOK SINGH",
+        "Party": "Independent",
+        "EVM Votes": 102,
+        "Postal Votes": 1,
+        "Total Votes": 103,
+        "Vote %": 0.13
+      },
+      {
+        "Candidate": "DINESH KUMAR SHARMA",
+        "Party": "Independent",
+        "EVM Votes": 89,
+        "Postal Votes": 0,
+        "Total Votes": 89,
+        "Vote %": 0.12
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 464,
+        "Postal Votes": 2,
+        "Total Votes": 466,
+        "Vote %": 0.61
+      }
+    ]
+  },
+  {
+    "ac_no": 17,
+    "ac_name": "Sahaspur",
+    "candidates": [
+      {
+        "Candidate": "SAHDEV SINGH PUNDIR",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 43749,
+        "Postal Votes": 306,
+        "Total Votes": 44055,
+        "Vote %": 40.75
+      },
+      {
+        "Candidate": "KISHORE UPADHAYA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 25115,
+        "Postal Votes": 77,
+        "Total Votes": 25192,
+        "Vote %": 23.3
+      },
+      {
+        "Candidate": "ARYENDRA SHARMA",
+        "Party": "Independent",
+        "EVM Votes": 21843,
+        "Postal Votes": 45,
+        "Total Votes": 21888,
+        "Vote %": 20.25
+      },
+      {
+        "Candidate": "LAXMI AGARWAL",
+        "Party": "Independent",
+        "EVM Votes": 8604,
+        "Postal Votes": 24,
+        "Total Votes": 8628,
+        "Vote %": 7.98
+      },
+      {
+        "Candidate": "GAURAV PUNDIR",
+        "Party": "Independent",
+        "EVM Votes": 2961,
+        "Postal Votes": 2,
+        "Total Votes": 2963,
+        "Vote %": 2.74
+      },
+      {
+        "Candidate": "PRAKASH JOSHI",
+        "Party": "Independent",
+        "EVM Votes": 1407,
+        "Postal Votes": 3,
+        "Total Votes": 1410,
+        "Vote %": 1.3
+      },
+      {
+        "Candidate": "SHIV PRASAD DEVLI",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 1105,
+        "Postal Votes": 5,
+        "Total Votes": 1110,
+        "Vote %": 1.03
+      },
+      {
+        "Candidate": "ILTAF",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 827,
+        "Postal Votes": 4,
+        "Total Votes": 831,
+        "Vote %": 0.77
+      },
+      {
+        "Candidate": "ADESH KUMAR",
+        "Party": "Sarv Vikas Party",
+        "EVM Votes": 518,
+        "Postal Votes": 2,
+        "Total Votes": 520,
+        "Vote %": 0.48
+      },
+      {
+        "Candidate": "MANJU SINGH",
+        "Party": "Rashtriya Lok Dal",
+        "EVM Votes": 398,
+        "Postal Votes": 3,
+        "Total Votes": 401,
+        "Vote %": 0.37
+      },
+      {
+        "Candidate": "RAM VACHAN RAM",
+        "Party": "Independent",
+        "EVM Votes": 332,
+        "Postal Votes": 0,
+        "Total Votes": 332,
+        "Vote %": 0.31
+      },
+      {
+        "Candidate": "OMPRAKASH SHARMA",
+        "Party": "Independent",
+        "EVM Votes": 315,
+        "Postal Votes": 0,
+        "Total Votes": 315,
+        "Vote %": 0.29
+      },
+      {
+        "Candidate": "SHASHTRI PAWAN MALETHA",
+        "Party": "Uttarakhand Kranti Dal (Democratic)",
+        "EVM Votes": 293,
+        "Postal Votes": 1,
+        "Total Votes": 294,
+        "Vote %": 0.27
+      },
+      {
+        "Candidate": "CHAITANYA ANIL",
+        "Party": "Shivsena",
+        "EVM Votes": 165,
+        "Postal Votes": 0,
+        "Total Votes": 165,
+        "Vote %": 0.15
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 671,
+        "Postal Votes": 2,
+        "Total Votes": 673,
+        "Vote %": 0.62
+      }
+    ]
+  },
+  {
+    "ac_no": 18,
+    "ac_name": "Dharampur",
+    "candidates": [
+      {
+        "Candidate": "VINOD CHAMOLI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 53157,
+        "Postal Votes": 671,
+        "Total Votes": 53828,
+        "Vote %": 50.96
+      },
+      {
+        "Candidate": "DINESH AGARWAL",
+        "Party": "Indian National Congress",
+        "EVM Votes": 42641,
+        "Postal Votes": 234,
+        "Total Votes": 42875,
+        "Vote %": 40.59
+      },
+      {
+        "Candidate": "NOOR HASSAN",
+        "Party": "Independent",
+        "EVM Votes": 4113,
+        "Postal Votes": 4,
+        "Total Votes": 4117,
+        "Vote %": 3.9
+      },
+      {
+        "Candidate": "SALEEM AHMED",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 942,
+        "Postal Votes": 9,
+        "Total Votes": 951,
+        "Vote %": 0.9
+      },
+      {
+        "Candidate": "JOGENDRA RAWAT",
+        "Party": "Independent",
+        "EVM Votes": 575,
+        "Postal Votes": 2,
+        "Total Votes": 577,
+        "Vote %": 0.55
+      },
+      {
+        "Candidate": "RAJANI RAWAT",
+        "Party": "Independent",
+        "EVM Votes": 539,
+        "Postal Votes": 2,
+        "Total Votes": 541,
+        "Vote %": 0.51
+      },
+      {
+        "Candidate": "RAMSUKH",
+        "Party": "Independent",
+        "EVM Votes": 475,
+        "Postal Votes": 0,
+        "Total Votes": 475,
+        "Vote %": 0.45
+      },
+      {
+        "Candidate": "BAHADUR SINGH RAWAT",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 430,
+        "Postal Votes": 9,
+        "Total Votes": 439,
+        "Vote %": 0.42
+      },
+      {
+        "Candidate": "MOHAMMAD ISMAIL",
+        "Party": "Independent",
+        "EVM Votes": 355,
+        "Postal Votes": 1,
+        "Total Votes": 356,
+        "Vote %": 0.34
+      },
+      {
+        "Candidate": "RUPENDRA KUMAR TOMAR",
+        "Party": "Independent",
+        "EVM Votes": 236,
+        "Postal Votes": 0,
+        "Total Votes": 236,
+        "Vote %": 0.22
+      },
+      {
+        "Candidate": "NIRAJ SINGHAL",
+        "Party": "Independent",
+        "EVM Votes": 188,
+        "Postal Votes": 0,
+        "Total Votes": 188,
+        "Vote %": 0.18
+      },
+      {
+        "Candidate": "GULISTA KHANAM",
+        "Party": "Independent",
+        "EVM Votes": 180,
+        "Postal Votes": 0,
+        "Total Votes": 180,
+        "Vote %": 0.17
+      },
+      {
+        "Candidate": "PRITAM SINGH KULVANSHI",
+        "Party": "Independent",
+        "EVM Votes": 163,
+        "Postal Votes": 0,
+        "Total Votes": 163,
+        "Vote %": 0.15
+      },
+      {
+        "Candidate": "ANIL KUMAR GUPTA",
+        "Party": "Independent",
+        "EVM Votes": 137,
+        "Postal Votes": 0,
+        "Total Votes": 137,
+        "Vote %": 0.13
+      },
+      {
+        "Candidate": "BRIJ BHUSHAN KARANWAL",
+        "Party": "Independent",
+        "EVM Votes": 131,
+        "Postal Votes": 0,
+        "Total Votes": 131,
+        "Vote %": 0.12
+      },
+      {
+        "Candidate": "MEHERBAN",
+        "Party": "Independent",
+        "EVM Votes": 113,
+        "Postal Votes": 0,
+        "Total Votes": 113,
+        "Vote %": 0.11
+      },
+      {
+        "Candidate": "SANJAY SRIVASTAVA",
+        "Party": "Independent",
+        "EVM Votes": 111,
+        "Postal Votes": 0,
+        "Total Votes": 111,
+        "Vote %": 0.11
+      },
+      {
+        "Candidate": "HRIDAY BHUSHAN DIMRI",
+        "Party": "Sarv Vikas Party",
+        "EVM Votes": 109,
+        "Postal Votes": 0,
+        "Total Votes": 109,
+        "Vote %": 0.1
+      },
+      {
+        "Candidate": "MAN MOHAN LAKHERA",
+        "Party": "Hamari Janmanch Party",
+        "EVM Votes": 99,
+        "Postal Votes": 0,
+        "Total Votes": 99,
+        "Vote %": 0.09
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 373,
+        "Postal Votes": 4,
+        "Total Votes": 377,
+        "Vote %": 0.36
+      }
+    ]
+  },
+  {
+    "ac_no": 19,
+    "ac_name": "Raipur",
+    "candidates": [
+      {
+        "Candidate": "UMESH SHARMA KAU",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 59227,
+        "Postal Votes": 537,
+        "Total Votes": 59764,
+        "Vote %": 61.08
+      },
+      {
+        "Candidate": "PRABHU LAL",
+        "Party": "Indian National Congress",
+        "EVM Votes": 22831,
+        "Postal Votes": 162,
+        "Total Votes": 22993,
+        "Vote %": 23.5
+      },
+      {
+        "Candidate": "RAJNI RAWAT",
+        "Party": "Independent",
+        "EVM Votes": 7549,
+        "Postal Votes": 20,
+        "Total Votes": 7569,
+        "Vote %": 7.74
+      },
+      {
+        "Candidate": "MAHENDER SINGH NEGI",
+        "Party": "Independent",
+        "EVM Votes": 2682,
+        "Postal Votes": 32,
+        "Total Votes": 2714,
+        "Vote %": 2.77
+      },
+      {
+        "Candidate": "HARI SINGH KHORWAL",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 1659,
+        "Postal Votes": 21,
+        "Total Votes": 1680,
+        "Vote %": 1.72
+      },
+      {
+        "Candidate": "TEJENDRA SINGH RAWAT",
+        "Party": "Independent",
+        "EVM Votes": 1067,
+        "Postal Votes": 12,
+        "Total Votes": 1079,
+        "Vote %": 1.1
+      },
+      {
+        "Candidate": "RAKESH BARTHWAL",
+        "Party": "Independent",
+        "EVM Votes": 392,
+        "Postal Votes": 0,
+        "Total Votes": 392,
+        "Vote %": 0.4
+      },
+      {
+        "Candidate": "NIRMALA BISHT",
+        "Party": "Independent",
+        "EVM Votes": 326,
+        "Postal Votes": 5,
+        "Total Votes": 331,
+        "Vote %": 0.34
+      },
+      {
+        "Candidate": "ANIL DOBHAL",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 289,
+        "Postal Votes": 4,
+        "Total Votes": 293,
+        "Vote %": 0.3
+      },
+      {
+        "Candidate": "YAGYA BHUSAN SHARMA",
+        "Party": "Independent",
+        "EVM Votes": 197,
+        "Postal Votes": 0,
+        "Total Votes": 197,
+        "Vote %": 0.2
+      },
+      {
+        "Candidate": "NAGENDER SINGH",
+        "Party": "Independent",
+        "EVM Votes": 154,
+        "Postal Votes": 1,
+        "Total Votes": 155,
+        "Vote %": 0.16
+      },
+      {
+        "Candidate": "RUKHSHAR MANSOORI",
+        "Party": "Independent",
+        "EVM Votes": 126,
+        "Postal Votes": 0,
+        "Total Votes": 126,
+        "Vote %": 0.13
+      },
+      {
+        "Candidate": "RAJENDRA PRASAD ",
+        "Party": "Rashtriya Uttarakhand Party",
+        "EVM Votes": 122,
+        "Postal Votes": 1,
+        "Total Votes": 123,
+        "Vote %": 0.13
+      },
+      {
+        "Candidate": "USHA NAGAR",
+        "Party": "Rashtriya Adarsh Party",
+        "EVM Votes": 93,
+        "Postal Votes": 0,
+        "Total Votes": 93,
+        "Vote %": 0.1
+      },
+      {
+        "Candidate": "MOHD. EHSAAN",
+        "Party": "Independent",
+        "EVM Votes": 79,
+        "Postal Votes": 2,
+        "Total Votes": 81,
+        "Vote %": 0.08
+      },
+      {
+        "Candidate": "RAJKUMAR TYAGI",
+        "Party": "UTTARAKHAND PARIVARTAN PARTY",
+        "EVM Votes": 77,
+        "Postal Votes": 0,
+        "Total Votes": 77,
+        "Vote %": 0.08
+      },
+      {
+        "Candidate": "MAA PRABHA KIRAN",
+        "Party": "Sarv Vikas Party",
+        "EVM Votes": 74,
+        "Postal Votes": 0,
+        "Total Votes": 74,
+        "Vote %": 0.08
+      },
+      {
+        "Candidate": "DHAN SINGH",
+        "Party": "Bhartiya Sarvodaya Party",
+        "EVM Votes": 66,
+        "Postal Votes": 1,
+        "Total Votes": 67,
+        "Vote %": 0.07
+      },
+      {
+        "Candidate": "VIJAYNATH",
+        "Party": "Independent",
+        "EVM Votes": 41,
+        "Postal Votes": 1,
+        "Total Votes": 42,
+        "Vote %": 0.04
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 540,
+        "Postal Votes": 8,
+        "Total Votes": 548,
+        "Vote %": 0.56
+      }
+    ]
+  },
+  {
+    "ac_no": 20,
+    "ac_name": "Rajpur Road  (SC)",
+    "candidates": [
+      {
+        "Candidate": "KHAJAN DASS",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 36448,
+        "Postal Votes": 153,
+        "Total Votes": 36601,
+        "Vote %": 53.23
+      },
+      {
+        "Candidate": "RAJ KUMAR",
+        "Party": "Indian National Congress",
+        "EVM Votes": 27829,
+        "Postal Votes": 140,
+        "Total Votes": 27969,
+        "Vote %": 40.68
+      },
+      {
+        "Candidate": "JAG RAM SINGH",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 1949,
+        "Postal Votes": 10,
+        "Total Votes": 1959,
+        "Vote %": 2.85
+      },
+      {
+        "Candidate": "AJAY SONKAR",
+        "Party": "Independent",
+        "EVM Votes": 1479,
+        "Postal Votes": 5,
+        "Total Votes": 1484,
+        "Vote %": 2.16
+      },
+      {
+        "Candidate": "MANOJ KUMAR",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 297,
+        "Postal Votes": 0,
+        "Total Votes": 297,
+        "Vote %": 0.43
+      },
+      {
+        "Candidate": "T C BHARTI",
+        "Party": "Independent",
+        "EVM Votes": 228,
+        "Postal Votes": 0,
+        "Total Votes": 228,
+        "Vote %": 0.33
+      },
+      {
+        "Candidate": "HARI CHAND",
+        "Party": "Bhartiya Sarvodaya Party",
+        "EVM Votes": 125,
+        "Postal Votes": 0,
+        "Total Votes": 125,
+        "Vote %": 0.18
+      },
+      {
+        "Candidate": "SANDEEP KUMAR PAL",
+        "Party": "UTTARAKHAND PARIVARTAN PARTY",
+        "EVM Votes": 98,
+        "Postal Votes": 1,
+        "Total Votes": 99,
+        "Vote %": 0.14
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 694,
+        "Postal Votes": 3,
+        "Total Votes": 697,
+        "Vote %": 1.01
+      }
+    ]
+  },
+  {
+    "ac_no": 21,
+    "ac_name": "Dehradun Cantt.",
+    "candidates": [
+      {
+        "Candidate": "SHRI HARBANS KAPOOR",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 40874,
+        "Postal Votes": 268,
+        "Total Votes": 41142,
+        "Vote %": 56.99
+      },
+      {
+        "Candidate": "SHRI SURYAKANT ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 24312,
+        "Postal Votes": 160,
+        "Total Votes": 24472,
+        "Vote %": 33.9
+      },
+      {
+        "Candidate": "SHRI ANOOP NAUTIYAL",
+        "Party": "Independent",
+        "EVM Votes": 3262,
+        "Postal Votes": 23,
+        "Total Votes": 3285,
+        "Vote %": 4.55
+      },
+      {
+        "Candidate": "SHRI NAVEEN BISHT",
+        "Party": "Independent",
+        "EVM Votes": 1302,
+        "Postal Votes": 1,
+        "Total Votes": 1303,
+        "Vote %": 1.8
+      },
+      {
+        "Candidate": "SHRI DEVENDRA KUMAR",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 789,
+        "Postal Votes": 13,
+        "Total Votes": 802,
+        "Vote %": 1.11
+      },
+      {
+        "Candidate": "KUNWAR JAPENDRA SINGH ",
+        "Party": "Rashtriya Lok Dal",
+        "EVM Votes": 323,
+        "Postal Votes": 2,
+        "Total Votes": 325,
+        "Vote %": 0.45
+      },
+      {
+        "Candidate": "SHRI LAXMAN SINGH NEGI ( ",
+        "Party": "Nationalist Congress Party",
+        "EVM Votes": 277,
+        "Postal Votes": 6,
+        "Total Votes": 283,
+        "Vote %": 0.39
+      },
+      {
+        "Candidate": "SHRI KAPIL BHATIA",
+        "Party": "Independent",
+        "EVM Votes": 159,
+        "Postal Votes": 0,
+        "Total Votes": 159,
+        "Vote %": 0.22
+      },
+      {
+        "Candidate": "SHRI SANJAY GOYAL",
+        "Party": "Independent",
+        "EVM Votes": 149,
+        "Postal Votes": 0,
+        "Total Votes": 149,
+        "Vote %": 0.21
+      },
+      {
+        "Candidate": "DR. R.K. PATHAK",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 109,
+        "Postal Votes": 1,
+        "Total Votes": 110,
+        "Vote %": 0.15
+      },
+      {
+        "Candidate": "SHRI SRIBILASH",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 103,
+        "Postal Votes": 0,
+        "Total Votes": 103,
+        "Vote %": 0.14
+      },
+      {
+        "Candidate": "SHRI ARUN KHANNA",
+        "Party": "Independent",
+        "EVM Votes": 64,
+        "Postal Votes": 0,
+        "Total Votes": 64,
+        "Vote %": 0.09
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 637,
+        "Postal Votes": 4,
+        "Total Votes": 641,
+        "Vote %": 0.89
+      }
+    ]
+  },
+  {
+    "ac_no": 22,
+    "ac_name": "Mussoorie",
+    "candidates": [
+      {
+        "Candidate": "GANESH JOSHI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 41092,
+        "Postal Votes": 230,
+        "Total Votes": 41322,
+        "Vote %": 55.14
+      },
+      {
+        "Candidate": "GODAWARI THAPLI",
+        "Party": "Indian National Congress",
+        "EVM Votes": 29084,
+        "Postal Votes": 161,
+        "Total Votes": 29245,
+        "Vote %": 39.03
+      },
+      {
+        "Candidate": "RAJKUMAR JAISWAL",
+        "Party": "Independent",
+        "EVM Votes": 1689,
+        "Postal Votes": 3,
+        "Total Votes": 1692,
+        "Vote %": 2.26
+      },
+      {
+        "Candidate": "ASHOK PANWAR",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 859,
+        "Postal Votes": 3,
+        "Total Votes": 862,
+        "Vote %": 1.15
+      },
+      {
+        "Candidate": "JAI PRAKASH UPADHYAY",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 464,
+        "Postal Votes": 7,
+        "Total Votes": 471,
+        "Vote %": 0.63
+      },
+      {
+        "Candidate": "SANJAY KUNDALIYA",
+        "Party": "Independent",
+        "EVM Votes": 400,
+        "Postal Votes": 4,
+        "Total Votes": 404,
+        "Vote %": 0.54
+      },
+      {
+        "Candidate": "ANIRUDDHA SHARMA",
+        "Party": "Uttarakhand Kranti Dal (Democratic)",
+        "EVM Votes": 253,
+        "Postal Votes": 0,
+        "Total Votes": 253,
+        "Vote %": 0.34
+      },
+      {
+        "Candidate": "SUSHIL KUMAR MALHOTRA",
+        "Party": "Independent",
+        "EVM Votes": 212,
+        "Postal Votes": 0,
+        "Total Votes": 212,
+        "Vote %": 0.28
+      },
+      {
+        "Candidate": "SARIKA PRADHAN",
+        "Party": "Independent",
+        "EVM Votes": 158,
+        "Postal Votes": 5,
+        "Total Votes": 163,
+        "Vote %": 0.22
+      },
+      {
+        "Candidate": "GYANVEER TYAGI",
+        "Party": "UTTARAKHAND PARIVARTAN PARTY",
+        "EVM Votes": 137,
+        "Postal Votes": 0,
+        "Total Votes": 137,
+        "Vote %": 0.18
+      },
+      {
+        "Candidate": "CAROL ALICK ROGERS",
+        "Party": "Independent",
+        "EVM Votes": 104,
+        "Postal Votes": 0,
+        "Total Votes": 104,
+        "Vote %": 0.14
+      },
+      {
+        "Candidate": "YESHVEER ARYA",
+        "Party": "Independent",
+        "EVM Votes": 72,
+        "Postal Votes": 1,
+        "Total Votes": 73,
+        "Vote %": 0.1
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 629,
+        "Postal Votes": 5,
+        "Total Votes": 634,
+        "Vote %": 0.85
+      }
+    ]
+  },
+  {
+    "ac_no": 23,
+    "ac_name": "Doiwala",
+    "candidates": [
+      {
+        "Candidate": "TRIVENDRA SINGH RAWAT",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 58027,
+        "Postal Votes": 475,
+        "Total Votes": 58502,
+        "Vote %": 61.08
+      },
+      {
+        "Candidate": "HIRA SINGH BISHT",
+        "Party": "Indian National Congress",
+        "EVM Votes": 33419,
+        "Postal Votes": 214,
+        "Total Votes": 33633,
+        "Vote %": 35.12
+      },
+      {
+        "Candidate": "A.HAMEED",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 1562,
+        "Postal Votes": 7,
+        "Total Votes": 1569,
+        "Vote %": 1.64
+      },
+      {
+        "Candidate": "SUBHASH CHANDRA ",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 472,
+        "Postal Votes": 3,
+        "Total Votes": 475,
+        "Vote %": 0.5
+      },
+      {
+        "Candidate": "GAJENDRA SINGH",
+        "Party": "Bhartiya Sarvodaya Party",
+        "EVM Votes": 312,
+        "Postal Votes": 1,
+        "Total Votes": 313,
+        "Vote %": 0.33
+      },
+      {
+        "Candidate": "ARUN",
+        "Party": "Independent",
+        "EVM Votes": 304,
+        "Postal Votes": 0,
+        "Total Votes": 304,
+        "Vote %": 0.32
+      },
+      {
+        "Candidate": "USHA RANI",
+        "Party": "Independent",
+        "EVM Votes": 274,
+        "Postal Votes": 0,
+        "Total Votes": 274,
+        "Vote %": 0.29
+      },
+      {
+        "Candidate": "PRAKASH CHANDRA TIWARI",
+        "Party": "Independent",
+        "EVM Votes": 221,
+        "Postal Votes": 1,
+        "Total Votes": 222,
+        "Vote %": 0.23
+      },
+      {
+        "Candidate": "BALWENDRA SINGH NEGI",
+        "Party": "Uttarakhand Kranti Dal (Democratic)",
+        "EVM Votes": 212,
+        "Postal Votes": 1,
+        "Total Votes": 213,
+        "Vote %": 0.22
+      },
+      {
+        "Candidate": "SURENDRA DUTT PETWAL",
+        "Party": "Hamari Janmanch Party",
+        "EVM Votes": 140,
+        "Postal Votes": 2,
+        "Total Votes": 142,
+        "Vote %": 0.15
+      },
+      {
+        "Candidate": "SHIKHA NEGI",
+        "Party": "Rashtriya Adarsh Party",
+        "EVM Votes": 127,
+        "Postal Votes": 1,
+        "Total Votes": 128,
+        "Vote %": 0.13
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 990,
+        "Postal Votes": 4,
+        "Total Votes": 994,
+        "Vote %": 1.04
+      }
+    ]
+  },
+  {
+    "ac_no": 24,
+    "ac_name": "Rishikesh",
+    "candidates": [
+      {
+        "Candidate": "PREMCHAND AGGARWAL",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 44845,
+        "Postal Votes": 237,
+        "Total Votes": 45082,
+        "Vote %": 46.2
+      },
+      {
+        "Candidate": "RAJPAL SINGH KHAROLA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 30162,
+        "Postal Votes": 119,
+        "Total Votes": 30281,
+        "Vote %": 31.03
+      },
+      {
+        "Candidate": "SANDEEP GUPTA",
+        "Party": "Independent",
+        "EVM Votes": 17110,
+        "Postal Votes": 39,
+        "Total Votes": 17149,
+        "Vote %": 17.58
+      },
+      {
+        "Candidate": "LALLAN BHARDWAJ ",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 2863,
+        "Postal Votes": 3,
+        "Total Votes": 2866,
+        "Vote %": 2.94
+      },
+      {
+        "Candidate": "VIVEK TIWARI",
+        "Party": "Independent",
+        "EVM Votes": 888,
+        "Postal Votes": 1,
+        "Total Votes": 889,
+        "Vote %": 0.91
+      },
+      {
+        "Candidate": "RAJENDRA PRASAD GAIROLA",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 344,
+        "Postal Votes": 0,
+        "Total Votes": 344,
+        "Vote %": 0.35
+      },
+      {
+        "Candidate": "VIJAYLAXMI GUSAIN",
+        "Party": "Independent",
+        "EVM Votes": 239,
+        "Postal Votes": 1,
+        "Total Votes": 240,
+        "Vote %": 0.25
+      },
+      {
+        "Candidate": "MOHIT KUMAR",
+        "Party": "Independent",
+        "EVM Votes": 229,
+        "Postal Votes": 1,
+        "Total Votes": 230,
+        "Vote %": 0.24
+      },
+      {
+        "Candidate": "GURUCHARAN",
+        "Party": "Nationalist Congress Party",
+        "EVM Votes": 214,
+        "Postal Votes": 3,
+        "Total Votes": 217,
+        "Vote %": 0.22
+      },
+      {
+        "Candidate": "RAM KRISHANA TIWARI",
+        "Party": "Sarv Vikas Party",
+        "EVM Votes": 167,
+        "Postal Votes": 1,
+        "Total Votes": 168,
+        "Vote %": 0.17
+      },
+      {
+        "Candidate": "USHA ASWAL",
+        "Party": "Independent",
+        "EVM Votes": 107,
+        "Postal Votes": 0,
+        "Total Votes": 107,
+        "Vote %": 0.11
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 771,
+        "Postal Votes": 4,
+        "Total Votes": 775,
+        "Vote %": 0.79
+      }
+    ]
+  },
+  {
+    "ac_no": 25,
+    "ac_name": "Hardwar",
+    "candidates": [
+      {
+        "Candidate": "MADAN KAUSHIK",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 61541,
+        "Postal Votes": 201,
+        "Total Votes": 61742,
+        "Vote %": 66.45
+      },
+      {
+        "Candidate": "BRAHMSWROOP ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 25739,
+        "Postal Votes": 76,
+        "Total Votes": 25815,
+        "Vote %": 27.78
+      },
+      {
+        "Candidate": "ANJU MITTAL",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 2646,
+        "Postal Votes": 15,
+        "Total Votes": 2661,
+        "Vote %": 2.86
+      },
+      {
+        "Candidate": "RAVISH BHATIJA",
+        "Party": "Independent",
+        "EVM Votes": 1568,
+        "Postal Votes": 3,
+        "Total Votes": 1571,
+        "Vote %": 1.69
+      },
+      {
+        "Candidate": "RAJKUMAR AGGRWAL",
+        "Party": "Independent",
+        "EVM Votes": 363,
+        "Postal Votes": 1,
+        "Total Votes": 364,
+        "Vote %": 0.39
+      },
+      {
+        "Candidate": "ADESH",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 328,
+        "Postal Votes": 1,
+        "Total Votes": 329,
+        "Vote %": 0.35
+      },
+      {
+        "Candidate": "VIJAY LAXMI",
+        "Party": "Independent",
+        "EVM Votes": 232,
+        "Postal Votes": 0,
+        "Total Votes": 232,
+        "Vote %": 0.25
+      },
+      {
+        "Candidate": "ADESH KUMAR",
+        "Party": "AARAKSHAN VIRODHI PARTY",
+        "EVM Votes": 124,
+        "Postal Votes": 1,
+        "Total Votes": 125,
+        "Vote %": 0.13
+      },
+      {
+        "Candidate": "MANOJ KUMAR SHARMA",
+        "Party": "Independent",
+        "EVM Votes": 78,
+        "Postal Votes": 0,
+        "Total Votes": 78,
+        "Vote %": 0.08
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 628,
+        "Postal Votes": 4,
+        "Total Votes": 632,
+        "Vote %": 0.68
+      }
+    ]
+  },
+  {
+    "ac_no": 26,
+    "ac_name": "B.H.E.L. ranipur",
+    "candidates": [
+      {
+        "Candidate": "ADESH CHAUHAN",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 55975,
+        "Postal Votes": 669,
+        "Total Votes": 56644,
+        "Vote %": 54.84
+      },
+      {
+        "Candidate": "AMBRISH KUMAR",
+        "Party": "Indian National Congress",
+        "EVM Votes": 34209,
+        "Postal Votes": 195,
+        "Total Votes": 34404,
+        "Vote %": 33.31
+      },
+      {
+        "Candidate": "PRASHANT RAI",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 9883,
+        "Postal Votes": 88,
+        "Total Votes": 9971,
+        "Vote %": 9.65
+      },
+      {
+        "Candidate": "PITAMBAR DUTT BALUNI",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 322,
+        "Postal Votes": 0,
+        "Total Votes": 322,
+        "Vote %": 0.31
+      },
+      {
+        "Candidate": "NAVEEN KAUSHIK",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 281,
+        "Postal Votes": 1,
+        "Total Votes": 282,
+        "Vote %": 0.27
+      },
+      {
+        "Candidate": "TIRATH PAL",
+        "Party": "Independent",
+        "EVM Votes": 249,
+        "Postal Votes": 4,
+        "Total Votes": 253,
+        "Vote %": 0.24
+      },
+      {
+        "Candidate": "SANJAY KUMAR",
+        "Party": "Bahujan Mukti Party",
+        "EVM Votes": 210,
+        "Postal Votes": 1,
+        "Total Votes": 211,
+        "Vote %": 0.2
+      },
+      {
+        "Candidate": "DHANESH KUMAR",
+        "Party": "Independent",
+        "EVM Votes": 202,
+        "Postal Votes": 2,
+        "Total Votes": 204,
+        "Vote %": 0.2
+      },
+      {
+        "Candidate": "FAIZAN",
+        "Party": "Independent",
+        "EVM Votes": 187,
+        "Postal Votes": 0,
+        "Total Votes": 187,
+        "Vote %": 0.18
+      },
+      {
+        "Candidate": "IRFAN ALI",
+        "Party": "Independent",
+        "EVM Votes": 160,
+        "Postal Votes": 1,
+        "Total Votes": 161,
+        "Vote %": 0.16
+      },
+      {
+        "Candidate": "GULSHAN KHATRI",
+        "Party": "Independent",
+        "EVM Votes": 154,
+        "Postal Votes": 2,
+        "Total Votes": 156,
+        "Vote %": 0.15
+      },
+      {
+        "Candidate": "TOUFEEQ AHMAD",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 154,
+        "Postal Votes": 0,
+        "Total Votes": 154,
+        "Vote %": 0.15
+      },
+      {
+        "Candidate": "UMESH CHANDR MISHRA",
+        "Party": "Independent",
+        "EVM Votes": 150,
+        "Postal Votes": 2,
+        "Total Votes": 152,
+        "Vote %": 0.15
+      },
+      {
+        "Candidate": "PANKAJ KUMAR",
+        "Party": "Independent",
+        "EVM Votes": 98,
+        "Postal Votes": 0,
+        "Total Votes": 98,
+        "Vote %": 0.09
+      },
+      {
+        "Candidate": "ANAND KUMAR VERMA",
+        "Party": "Bharatiya Momin Front",
+        "EVM Votes": 96,
+        "Postal Votes": 0,
+        "Total Votes": 96,
+        "Vote %": 0.09
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 509,
+        "Postal Votes": 8,
+        "Total Votes": 517,
+        "Vote %": 0.5
+      }
+    ]
+  },
+  {
+    "ac_no": 27,
+    "ac_name": "Jwalapur  (SC)",
+    "candidates": [
+      {
+        "Candidate": "SURESH RATHOR",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 29420,
+        "Postal Votes": 93,
+        "Total Votes": 29513,
+        "Vote %": 34.22
+      },
+      {
+        "Candidate": "S.P.SINGH ENGINEER",
+        "Party": "Indian National Congress",
+        "EVM Votes": 24710,
+        "Postal Votes": 15,
+        "Total Votes": 24725,
+        "Vote %": 28.67
+      },
+      {
+        "Candidate": "MULKI RAJ",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 19457,
+        "Postal Votes": 26,
+        "Total Votes": 19483,
+        "Vote %": 22.59
+      },
+      {
+        "Candidate": "BRAJ RANI",
+        "Party": "Independent",
+        "EVM Votes": 9333,
+        "Postal Votes": 5,
+        "Total Votes": 9338,
+        "Vote %": 10.83
+      },
+      {
+        "Candidate": "SUBHASH CHANCHAL",
+        "Party": "Independent",
+        "EVM Votes": 1544,
+        "Postal Votes": 0,
+        "Total Votes": 1544,
+        "Vote %": 1.79
+      },
+      {
+        "Candidate": "MADAN LAL",
+        "Party": "Independent",
+        "EVM Votes": 1076,
+        "Postal Votes": 1,
+        "Total Votes": 1077,
+        "Vote %": 1.25
+      },
+      {
+        "Candidate": "ARVIND KUMAR",
+        "Party": "Independent",
+        "EVM Votes": 559,
+        "Postal Votes": 0,
+        "Total Votes": 559,
+        "Vote %": 0.65
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 638,
+        "Postal Votes": 0,
+        "Total Votes": 638,
+        "Vote %": 0.74
+      }
+    ]
+  },
+  {
+    "ac_no": 28,
+    "ac_name": "Bhagwanpur  (SC)",
+    "candidates": [
+      {
+        "Candidate": "MAMTA RAKESH",
+        "Party": "Indian National Congress",
+        "EVM Votes": 44834,
+        "Postal Votes": 48,
+        "Total Votes": 44882,
+        "Vote %": 48.36
+      },
+      {
+        "Candidate": "SUBODH RAKESH",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 42250,
+        "Postal Votes": 119,
+        "Total Votes": 42369,
+        "Vote %": 45.66
+      },
+      {
+        "Candidate": "RAM KUMAR RANA",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 4066,
+        "Postal Votes": 3,
+        "Total Votes": 4069,
+        "Vote %": 4.38
+      },
+      {
+        "Candidate": "PREMPATI",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 889,
+        "Postal Votes": 0,
+        "Total Votes": 889,
+        "Vote %": 0.96
+      },
+      {
+        "Candidate": "BISHAMBER SINGH",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 167,
+        "Postal Votes": 0,
+        "Total Votes": 167,
+        "Vote %": 0.18
+      },
+      {
+        "Candidate": "ADESH KUMAR",
+        "Party": "Independent",
+        "EVM Votes": 154,
+        "Postal Votes": 0,
+        "Total Votes": 154,
+        "Vote %": 0.17
+      },
+      {
+        "Candidate": "PREM SINGH",
+        "Party": "Independent",
+        "EVM Votes": 153,
+        "Postal Votes": 0,
+        "Total Votes": 153,
+        "Vote %": 0.16
+      },
+      {
+        "Candidate": "SURENDRA KUMAR",
+        "Party": "Bahujan Mukti Party",
+        "EVM Votes": 119,
+        "Postal Votes": 0,
+        "Total Votes": 119,
+        "Vote %": 0.13
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 349,
+        "Postal Votes": 0,
+        "Total Votes": 349,
+        "Vote %": 0.38
+      }
+    ]
+  },
+  {
+    "ac_no": 29,
+    "ac_name": "Jhabrera  (SC)",
+    "candidates": [
+      {
+        "Candidate": "DESRAJ KARANWAL",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 32009,
+        "Postal Votes": 137,
+        "Total Votes": 32146,
+        "Vote %": 38.25
+      },
+      {
+        "Candidate": "RAJPAL SINGH",
+        "Party": "Indian National Congress",
+        "EVM Votes": 29822,
+        "Postal Votes": 71,
+        "Total Votes": 29893,
+        "Vote %": 35.57
+      },
+      {
+        "Candidate": "BHAGAVAT SINGH",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 20427,
+        "Postal Votes": 41,
+        "Total Votes": 20468,
+        "Vote %": 24.35
+      },
+      {
+        "Candidate": "VIMLA",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 469,
+        "Postal Votes": 1,
+        "Total Votes": 470,
+        "Vote %": 0.56
+      },
+      {
+        "Candidate": "ATAR SINGH",
+        "Party": "Rashtriya Lok Dal",
+        "EVM Votes": 408,
+        "Postal Votes": 1,
+        "Total Votes": 409,
+        "Vote %": 0.49
+      },
+      {
+        "Candidate": "MEMPAL",
+        "Party": "Independent",
+        "EVM Votes": 151,
+        "Postal Votes": 0,
+        "Total Votes": 151,
+        "Vote %": 0.18
+      },
+      {
+        "Candidate": "TEJPAL SINGH",
+        "Party": "Bharat Kaumi Dal",
+        "EVM Votes": 148,
+        "Postal Votes": 1,
+        "Total Votes": 149,
+        "Vote %": 0.18
+      },
+      {
+        "Candidate": "REETA",
+        "Party": "Independent",
+        "EVM Votes": 139,
+        "Postal Votes": 0,
+        "Total Votes": 139,
+        "Vote %": 0.17
+      },
+      {
+        "Candidate": "KOMAL RANI",
+        "Party": "Independent",
+        "EVM Votes": 121,
+        "Postal Votes": 0,
+        "Total Votes": 121,
+        "Vote %": 0.14
+      },
+      {
+        "Candidate": "HAV. HARPAL SINGH",
+        "Party": "Shivsena",
+        "EVM Votes": 96,
+        "Postal Votes": 0,
+        "Total Votes": 96,
+        "Vote %": 0.11
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 373,
+        "Postal Votes": 0,
+        "Total Votes": 373,
+        "Vote %": 0.44
+      }
+    ]
+  },
+  {
+    "ac_no": 30,
+    "ac_name": "Pirankaliyar",
+    "candidates": [
+      {
+        "Candidate": "FURKAN AHMAD",
+        "Party": "Indian National Congress",
+        "EVM Votes": 29205,
+        "Postal Votes": 38,
+        "Total Votes": 29243,
+        "Vote %": 32.43
+      },
+      {
+        "Candidate": "JAIBHAGWAN",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 27788,
+        "Postal Votes": 106,
+        "Total Votes": 27894,
+        "Vote %": 30.93
+      },
+      {
+        "Candidate": "SHAHZAD",
+        "Party": "Independent",
+        "EVM Votes": 23813,
+        "Postal Votes": 30,
+        "Total Votes": 23843,
+        "Vote %": 26.44
+      },
+      {
+        "Candidate": "RAO SAJID",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 6183,
+        "Postal Votes": 5,
+        "Total Votes": 6188,
+        "Vote %": 6.86
+      },
+      {
+        "Candidate": "NETRA PAL",
+        "Party": "Independent",
+        "EVM Votes": 1366,
+        "Postal Votes": 1,
+        "Total Votes": 1367,
+        "Vote %": 1.52
+      },
+      {
+        "Candidate": "MOTI LAL MAURYA",
+        "Party": "Independent",
+        "EVM Votes": 519,
+        "Postal Votes": 0,
+        "Total Votes": 519,
+        "Vote %": 0.58
+      },
+      {
+        "Candidate": "MAHAK SINGH SAINI",
+        "Party": "Independent",
+        "EVM Votes": 328,
+        "Postal Votes": 1,
+        "Total Votes": 329,
+        "Vote %": 0.36
+      },
+      {
+        "Candidate": "SAMEER ALVI",
+        "Party": "Independent",
+        "EVM Votes": 226,
+        "Postal Votes": 1,
+        "Total Votes": 227,
+        "Vote %": 0.25
+      },
+      {
+        "Candidate": "AFZAL AHMED",
+        "Party": "Bhartiya Sarvodaya Party",
+        "EVM Votes": 215,
+        "Postal Votes": 0,
+        "Total Votes": 215,
+        "Vote %": 0.24
+      },
+      {
+        "Candidate": "NITIN",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 197,
+        "Postal Votes": 0,
+        "Total Votes": 197,
+        "Vote %": 0.22
+      },
+      {
+        "Candidate": "SUSHMA",
+        "Party": "Independent",
+        "EVM Votes": 157,
+        "Postal Votes": 0,
+        "Total Votes": 157,
+        "Vote %": 0.17
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 350,
+        "Postal Votes": 0,
+        "Total Votes": 350,
+        "Vote %": 0.39
+      }
+    ]
+  },
+  {
+    "ac_no": 31,
+    "ac_name": "Roorkee",
+    "candidates": [
+      {
+        "Candidate": "PRADEEP BATRA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 39768,
+        "Postal Votes": 232,
+        "Total Votes": 40000,
+        "Vote %": 55.58
+      },
+      {
+        "Candidate": "SURESH CHAND JAIN",
+        "Party": "Indian National Congress",
+        "EVM Votes": 27374,
+        "Postal Votes": 84,
+        "Total Votes": 27458,
+        "Vote %": 38.16
+      },
+      {
+        "Candidate": "RAM SUBHAG SINGH",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 3221,
+        "Postal Votes": 18,
+        "Total Votes": 3239,
+        "Vote %": 4.5
+      },
+      {
+        "Candidate": "SUNITA SINGH",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 913,
+        "Postal Votes": 5,
+        "Total Votes": 918,
+        "Vote %": 1.28
+      },
+      {
+        "Candidate": "ADESH KUMAR SHARMA",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 169,
+        "Postal Votes": 0,
+        "Total Votes": 169,
+        "Vote %": 0.23
+      },
+      {
+        "Candidate": "SHARAD PANDEY",
+        "Party": "People\u2019s Party",
+        "EVM Votes": 72,
+        "Postal Votes": 0,
+        "Total Votes": 72,
+        "Vote %": 0.1
+      },
+      {
+        "Candidate": "YUDHVIJAY SINGH",
+        "Party": "Independent",
+        "EVM Votes": 65,
+        "Postal Votes": 0,
+        "Total Votes": 65,
+        "Vote %": 0.09
+      },
+      {
+        "Candidate": "NARENDRA SINGH",
+        "Party": "Independent",
+        "EVM Votes": 43,
+        "Postal Votes": 0,
+        "Total Votes": 43,
+        "Vote %": 0.06
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 297,
+        "Postal Votes": 6,
+        "Total Votes": 303,
+        "Vote %": 0.42
+      }
+    ]
+  },
+  {
+    "ac_no": 32,
+    "ac_name": "Khanpur",
+    "candidates": [
+      {
+        "Candidate": "KUNWAR PARNAV SINGH ",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 53020,
+        "Postal Votes": 172,
+        "Total Votes": 53192,
+        "Vote %": 49.89
+      },
+      {
+        "Candidate": "MUFTI RIYASAT ALI",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 39419,
+        "Postal Votes": 38,
+        "Total Votes": 39457,
+        "Vote %": 37.01
+      },
+      {
+        "Candidate": "CHOUDHARY YASHVEER ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 6888,
+        "Postal Votes": 6,
+        "Total Votes": 6894,
+        "Vote %": 6.47
+      },
+      {
+        "Candidate": "RAVINDER SINGH",
+        "Party": "Independent",
+        "EVM Votes": 4856,
+        "Postal Votes": 0,
+        "Total Votes": 4856,
+        "Vote %": 4.55
+      },
+      {
+        "Candidate": "SUNIL",
+        "Party": "Independent",
+        "EVM Votes": 729,
+        "Postal Votes": 0,
+        "Total Votes": 729,
+        "Vote %": 0.68
+      },
+      {
+        "Candidate": "PALLAVI KUKRETI",
+        "Party": "Sainik Samaj Party",
+        "EVM Votes": 373,
+        "Postal Votes": 0,
+        "Total Votes": 373,
+        "Vote %": 0.35
+      },
+      {
+        "Candidate": "VIRENDER SINGH",
+        "Party": "Independent",
+        "EVM Votes": 338,
+        "Postal Votes": 0,
+        "Total Votes": 338,
+        "Vote %": 0.32
+      },
+      {
+        "Candidate": "SANJAY SINGH",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 267,
+        "Postal Votes": 0,
+        "Total Votes": 267,
+        "Vote %": 0.25
+      },
+      {
+        "Candidate": "RISHIRAM",
+        "Party": "Independent",
+        "EVM Votes": 134,
+        "Postal Votes": 0,
+        "Total Votes": 134,
+        "Vote %": 0.13
+      },
+      {
+        "Candidate": "MOHD. ARSHAD",
+        "Party": "Independent",
+        "EVM Votes": 132,
+        "Postal Votes": 0,
+        "Total Votes": 132,
+        "Vote %": 0.12
+      },
+      {
+        "Candidate": "RAJVEER",
+        "Party": "Independent",
+        "EVM Votes": 115,
+        "Postal Votes": 0,
+        "Total Votes": 115,
+        "Vote %": 0.11
+      },
+      {
+        "Candidate": "PEHAL SINGH",
+        "Party": "Independent",
+        "EVM Votes": 82,
+        "Postal Votes": 0,
+        "Total Votes": 82,
+        "Vote %": 0.08
+      },
+      {
+        "Candidate": "ANIL KUMAR",
+        "Party": "Independent",
+        "EVM Votes": 42,
+        "Postal Votes": 0,
+        "Total Votes": 42,
+        "Vote %": 0.04
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 523,
+        "Postal Votes": 0,
+        "Total Votes": 523,
+        "Vote %": 0.49
+      }
+    ]
+  },
+  {
+    "ac_no": 33,
+    "ac_name": "Manglore",
+    "candidates": [
+      {
+        "Candidate": "QAZI MOHD NIZAMUDDIN",
+        "Party": "Indian National Congress",
+        "EVM Votes": 31308,
+        "Postal Votes": 44,
+        "Total Votes": 31352,
+        "Vote %": 38.75
+      },
+      {
+        "Candidate": "SARWAT KAREEM ANSARI",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 28628,
+        "Postal Votes": 56,
+        "Total Votes": 28684,
+        "Vote %": 35.45
+      },
+      {
+        "Candidate": "RISHIPAL BALIYAN",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 16896,
+        "Postal Votes": 68,
+        "Total Votes": 16964,
+        "Vote %": 20.97
+      },
+      {
+        "Candidate": "LETESH KUMAR",
+        "Party": "Rashtriya Lok Dal",
+        "EVM Votes": 3263,
+        "Postal Votes": 2,
+        "Total Votes": 3265,
+        "Vote %": 4.04
+      },
+      {
+        "Candidate": "USHA",
+        "Party": "Independent",
+        "EVM Votes": 333,
+        "Postal Votes": 0,
+        "Total Votes": 333,
+        "Vote %": 0.41
+      },
+      {
+        "Candidate": "SUNIL KUMAR",
+        "Party": "Bahujan Mukti Party",
+        "EVM Votes": 171,
+        "Postal Votes": 1,
+        "Total Votes": 172,
+        "Vote %": 0.21
+      },
+      {
+        "Candidate": "UBERDUR RAHAMAN",
+        "Party": "Independent",
+        "EVM Votes": 143,
+        "Postal Votes": 0,
+        "Total Votes": 143,
+        "Vote %": 0.18
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 278,
+        "Postal Votes": 0,
+        "Total Votes": 278,
+        "Vote %": 0.34
+      }
+    ]
+  },
+  {
+    "ac_no": 34,
+    "ac_name": "Laksar",
+    "candidates": [
+      {
+        "Candidate": "SANJAY GUPTA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 25207,
+        "Postal Votes": 41,
+        "Total Votes": 25248,
+        "Vote %": 32.46
+      },
+      {
+        "Candidate": "HAJI TASLEEM AHMAD",
+        "Party": "Indian National Congress",
+        "EVM Votes": 23601,
+        "Postal Votes": 43,
+        "Total Votes": 23644,
+        "Vote %": 30.4
+      },
+      {
+        "Candidate": "SUBHASH SINGH ",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 19616,
+        "Postal Votes": 40,
+        "Total Votes": 19656,
+        "Vote %": 25.27
+      },
+      {
+        "Candidate": "KUSHALPAL SINGH",
+        "Party": "Independent",
+        "EVM Votes": 6075,
+        "Postal Votes": 12,
+        "Total Votes": 6087,
+        "Vote %": 7.83
+      },
+      {
+        "Candidate": "SUMIT",
+        "Party": "Independent",
+        "EVM Votes": 2414,
+        "Postal Votes": 1,
+        "Total Votes": 2415,
+        "Vote %": 3.1
+      },
+      {
+        "Candidate": "NARENDRA",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 282,
+        "Postal Votes": 0,
+        "Total Votes": 282,
+        "Vote %": 0.36
+      },
+      {
+        "Candidate": "RATENDRA TIWARI",
+        "Party": "Independent",
+        "EVM Votes": 198,
+        "Postal Votes": 1,
+        "Total Votes": 199,
+        "Vote %": 0.26
+      },
+      {
+        "Candidate": "MEMPAL",
+        "Party": "Shivsena",
+        "EVM Votes": 96,
+        "Postal Votes": 0,
+        "Total Votes": 96,
+        "Vote %": 0.12
+      },
+      {
+        "Candidate": "JULFUKAR ANSARI",
+        "Party": "Independent",
+        "EVM Votes": 94,
+        "Postal Votes": 0,
+        "Total Votes": 94,
+        "Vote %": 0.12
+      },
+      {
+        "Candidate": "NIDHI SINGH",
+        "Party": "Independent",
+        "EVM Votes": 62,
+        "Postal Votes": 0,
+        "Total Votes": 62,
+        "Vote %": 0.08
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 287,
+        "Postal Votes": 0,
+        "Total Votes": 287,
+        "Vote %": 0.37
+      }
+    ]
+  },
+  {
+    "ac_no": 35,
+    "ac_name": "Hardwar Rural",
+    "candidates": [
+      {
+        "Candidate": "YATISHWARANAND",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 44872,
+        "Postal Votes": 92,
+        "Total Votes": 44964,
+        "Vote %": 46.08
+      },
+      {
+        "Candidate": "HARISH CHANDRA SINGH ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 32645,
+        "Postal Votes": 41,
+        "Total Votes": 32686,
+        "Vote %": 33.5
+      },
+      {
+        "Candidate": "MUKARRAM",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 18371,
+        "Postal Votes": 12,
+        "Total Votes": 18383,
+        "Vote %": 18.84
+      },
+      {
+        "Candidate": "SUBASH CHAND",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 514,
+        "Postal Votes": 0,
+        "Total Votes": 514,
+        "Vote %": 0.53
+      },
+      {
+        "Candidate": "RENU NOTIYAL",
+        "Party": "Independent",
+        "EVM Votes": 339,
+        "Postal Votes": 0,
+        "Total Votes": 339,
+        "Vote %": 0.35
+      },
+      {
+        "Candidate": "VASIM AHMAD",
+        "Party": "Independent",
+        "EVM Votes": 334,
+        "Postal Votes": 0,
+        "Total Votes": 334,
+        "Vote %": 0.34
+      },
+      {
+        "Candidate": "MUSTAFA",
+        "Party": "Independent",
+        "EVM Votes": 201,
+        "Postal Votes": 0,
+        "Total Votes": 201,
+        "Vote %": 0.21
+      },
+      {
+        "Candidate": "NAGENDRA SINGH",
+        "Party": "Independent",
+        "EVM Votes": 147,
+        "Postal Votes": 0,
+        "Total Votes": 147,
+        "Vote %": 0.15
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 645,
+        "Postal Votes": 0,
+        "Total Votes": 645,
+        "Vote %": 0.66
+      }
+    ]
+  },
+  {
+    "ac_no": 36,
+    "ac_name": "Yamkeshwar",
+    "candidates": [
+      {
+        "Candidate": "RITU KHANDURI BHUSHAN",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 18769,
+        "Postal Votes": 902,
+        "Total Votes": 19671,
+        "Vote %": 43.96
+      },
+      {
+        "Candidate": "RENU BISHT",
+        "Party": "Independent",
+        "EVM Votes": 10597,
+        "Postal Votes": 92,
+        "Total Votes": 10689,
+        "Vote %": 23.89
+      },
+      {
+        "Candidate": "SHAILENDRA SINGH RAWAT",
+        "Party": "Indian National Congress",
+        "EVM Votes": 10160,
+        "Postal Votes": 123,
+        "Total Votes": 10283,
+        "Vote %": 22.98
+      },
+      {
+        "Candidate": "PRASHANT BADONI",
+        "Party": "Independent",
+        "EVM Votes": 2687,
+        "Postal Votes": 11,
+        "Total Votes": 2698,
+        "Vote %": 6.03
+      },
+      {
+        "Candidate": "SHANTI PRASAD BHATT",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 536,
+        "Postal Votes": 6,
+        "Total Votes": 542,
+        "Vote %": 1.21
+      },
+      {
+        "Candidate": "JAGPAL SINGH NEGI",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 369,
+        "Postal Votes": 6,
+        "Total Votes": 375,
+        "Vote %": 0.84
+      },
+      {
+        "Candidate": "KIRSHAN CHANDRA",
+        "Party": "Independent",
+        "EVM Votes": 245,
+        "Postal Votes": 5,
+        "Total Votes": 250,
+        "Vote %": 0.56
+      },
+      {
+        "Candidate": "(BRIG) GOVIND PRASAD ",
+        "Party": "Independent",
+        "EVM Votes": 232,
+        "Postal Votes": 3,
+        "Total Votes": 235,
+        "Vote %": 0.53
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 987,
+        "Postal Votes": 1,
+        "Total Votes": 988,
+        "Vote %": 2.21
+      }
+    ]
+  },
+  {
+    "ac_no": 37,
+    "ac_name": "Pauri  (SC)",
+    "candidates": [
+      {
+        "Candidate": "MUKESH SINGH KOLI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 25569,
+        "Postal Votes": 900,
+        "Total Votes": 26469,
+        "Vote %": 55.19
+      },
+      {
+        "Candidate": "NAVAL KISHOR",
+        "Party": "Indian National Congress",
+        "EVM Votes": 18982,
+        "Postal Votes": 457,
+        "Total Votes": 19439,
+        "Vote %": 40.53
+      },
+      {
+        "Candidate": "HARI KUMAR",
+        "Party": "Independent",
+        "EVM Votes": 593,
+        "Postal Votes": 0,
+        "Total Votes": 593,
+        "Vote %": 1.24
+      },
+      {
+        "Candidate": "RAMESH CHANDER",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 352,
+        "Postal Votes": 12,
+        "Total Votes": 364,
+        "Vote %": 0.76
+      },
+      {
+        "Candidate": "VIR PRATAP SINGH",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 313,
+        "Postal Votes": 10,
+        "Total Votes": 323,
+        "Vote %": 0.67
+      },
+      {
+        "Candidate": "DEVAKI NANDAN SHAH",
+        "Party": "Independent",
+        "EVM Votes": 276,
+        "Postal Votes": 6,
+        "Total Votes": 282,
+        "Vote %": 0.59
+      },
+      {
+        "Candidate": "ANIL KUMAR",
+        "Party": "Uttarakhand Kranti Dal (Democratic)",
+        "EVM Votes": 181,
+        "Postal Votes": 3,
+        "Total Votes": 184,
+        "Vote %": 0.38
+      },
+      {
+        "Candidate": "VIJAY SINGH",
+        "Party": "Independent",
+        "EVM Votes": 152,
+        "Postal Votes": 1,
+        "Total Votes": 153,
+        "Vote %": 0.32
+      },
+      {
+        "Candidate": "MANOHAR LAL PAHARI",
+        "Party": "Uttarakhand Raksha Morcha",
+        "EVM Votes": 147,
+        "Postal Votes": 4,
+        "Total Votes": 151,
+        "Vote %": 0.31
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 688,
+        "Postal Votes": 5,
+        "Total Votes": 693,
+        "Vote %": 1.45
+      }
+    ]
+  },
+  {
+    "ac_no": 38,
+    "ac_name": "Srinagar",
+    "candidates": [
+      {
+        "Candidate": "DR. DHAN SINGH RAWAT",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 29833,
+        "Postal Votes": 983,
+        "Total Votes": 30816,
+        "Vote %": 51.84
+      },
+      {
+        "Candidate": "GANESH GODIYAL",
+        "Party": "Indian National Congress",
+        "EVM Votes": 21828,
+        "Postal Votes": 290,
+        "Total Votes": 22118,
+        "Vote %": 37.21
+      },
+      {
+        "Candidate": "MOHAN PRASAD KALA",
+        "Party": "Independent",
+        "EVM Votes": 4779,
+        "Postal Votes": 75,
+        "Total Votes": 4854,
+        "Vote %": 8.17
+      },
+      {
+        "Candidate": "NAVEEN PRAKASH NAUTIYAL",
+        "Party": "Independent",
+        "EVM Votes": 602,
+        "Postal Votes": 6,
+        "Total Votes": 608,
+        "Vote %": 1.02
+      },
+      {
+        "Candidate": "GANESH PRASAD",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 509,
+        "Postal Votes": 23,
+        "Total Votes": 532,
+        "Vote %": 0.89
+      },
+      {
+        "Candidate": "DHIRENDRA SINGH BISHT",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 511,
+        "Postal Votes": 5,
+        "Total Votes": 516,
+        "Vote %": 0.87
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 693,
+        "Postal Votes": 4,
+        "Total Votes": 697,
+        "Vote %": 1.17
+      }
+    ]
+  },
+  {
+    "ac_no": 39,
+    "ac_name": "Chaubattakhal",
+    "candidates": [
+      {
+        "Candidate": "SATPAL MAHARAJ",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 19622,
+        "Postal Votes": 1299,
+        "Total Votes": 20921,
+        "Vote %": 49.06
+      },
+      {
+        "Candidate": "RAJPAL SINGH BISHT",
+        "Party": "Indian National Congress",
+        "EVM Votes": 13428,
+        "Postal Votes": 139,
+        "Total Votes": 13567,
+        "Vote %": 31.82
+      },
+      {
+        "Candidate": "SUNDER SINGH CHAUHAN",
+        "Party": "Independent",
+        "EVM Votes": 2537,
+        "Postal Votes": 8,
+        "Total Votes": 2545,
+        "Vote %": 5.97
+      },
+      {
+        "Candidate": "KAVINDER ISTWAL",
+        "Party": "Independent",
+        "EVM Votes": 2323,
+        "Postal Votes": 16,
+        "Total Votes": 2339,
+        "Vote %": 5.49
+      },
+      {
+        "Candidate": "SATENDRA SINGH",
+        "Party": "Independent",
+        "EVM Votes": 965,
+        "Postal Votes": 0,
+        "Total Votes": 965,
+        "Vote %": 2.26
+      },
+      {
+        "Candidate": "NANDAN SINGH RAWAT",
+        "Party": "Independent",
+        "EVM Votes": 426,
+        "Postal Votes": 7,
+        "Total Votes": 433,
+        "Vote %": 1.02
+      },
+      {
+        "Candidate": "RAMENDRA SINGH ",
+        "Party": "Independent",
+        "EVM Votes": 322,
+        "Postal Votes": 1,
+        "Total Votes": 323,
+        "Vote %": 0.76
+      },
+      {
+        "Candidate": "ANU PANT",
+        "Party": "Uttarakhand Kranti Dal (Democratic)",
+        "EVM Votes": 314,
+        "Postal Votes": 2,
+        "Total Votes": 316,
+        "Vote %": 0.74
+      },
+      {
+        "Candidate": "MANJU RAWAT",
+        "Party": "Independent",
+        "EVM Votes": 236,
+        "Postal Votes": 5,
+        "Total Votes": 241,
+        "Vote %": 0.57
+      },
+      {
+        "Candidate": "POONAM KAINTURA",
+        "Party": "Prajamandal Party",
+        "EVM Votes": 205,
+        "Postal Votes": 7,
+        "Total Votes": 212,
+        "Vote %": 0.5
+      },
+      {
+        "Candidate": "BHARTENDU",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 205,
+        "Postal Votes": 6,
+        "Total Votes": 211,
+        "Vote %": 0.49
+      },
+      {
+        "Candidate": "SUBODH POKHRIYAL",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 194,
+        "Postal Votes": 2,
+        "Total Votes": 196,
+        "Vote %": 0.46
+      },
+      {
+        "Candidate": "SUSHIL CHANDRA",
+        "Party": "Rashtriya Adarsh Party",
+        "EVM Votes": 160,
+        "Postal Votes": 2,
+        "Total Votes": 162,
+        "Vote %": 0.38
+      },
+      {
+        "Candidate": "PREM SUNDRIYAL",
+        "Party": "UTTARAKHAND PARIVARTAN PARTY",
+        "EVM Votes": 118,
+        "Postal Votes": 3,
+        "Total Votes": 121,
+        "Vote %": 0.28
+      },
+      {
+        "Candidate": "CHNDRA MOHAN MUNDEPI",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 88,
+        "Postal Votes": 0,
+        "Total Votes": 88,
+        "Vote %": 0.21
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 207,
+        "Postal Votes": 3,
+        "Total Votes": 210,
+        "Vote %": 0.49
+      }
+    ]
+  },
+  {
+    "ac_no": 40,
+    "ac_name": "Lansdowne",
+    "candidates": [
+      {
+        "Candidate": "DALEEP SINGH RAWAT",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 21110,
+        "Postal Votes": 1136,
+        "Total Votes": 22246,
+        "Vote %": 56.62
+      },
+      {
+        "Candidate": "LT. GEN(RETD) TEJPAL ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 15507,
+        "Postal Votes": 264,
+        "Total Votes": 15771,
+        "Vote %": 40.14
+      },
+      {
+        "Candidate": "VIKRAM SINGH RAWAT",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 434,
+        "Postal Votes": 16,
+        "Total Votes": 450,
+        "Vote %": 1.15
+      },
+      {
+        "Candidate": "VED PRAKASH ARYA",
+        "Party": "Independent",
+        "EVM Votes": 423,
+        "Postal Votes": 11,
+        "Total Votes": 434,
+        "Vote %": 1.1
+      },
+      {
+        "Candidate": "JAGMOHAN SINGH BISHT",
+        "Party": "Independent",
+        "EVM Votes": 218,
+        "Postal Votes": 8,
+        "Total Votes": 226,
+        "Vote %": 0.58
+      },
+      {
+        "Candidate": "MANISH SUNDRIYAL",
+        "Party": "Independent",
+        "EVM Votes": 161,
+        "Postal Votes": 3,
+        "Total Votes": 164,
+        "Vote %": 0.42
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 483,
+        "Postal Votes": 2,
+        "Total Votes": 485,
+        "Vote %": 1.23
+      }
+    ]
+  },
+  {
+    "ac_no": 41,
+    "ac_name": "Kotdwar",
+    "candidates": [
+      {
+        "Candidate": "(DR) HARAK SINGH RAWAT",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 39253,
+        "Postal Votes": 606,
+        "Total Votes": 39859,
+        "Vote %": 56.44
+      },
+      {
+        "Candidate": "SURENDRA SINGH NEGI",
+        "Party": "Indian National Congress",
+        "EVM Votes": 28236,
+        "Postal Votes": 305,
+        "Total Votes": 28541,
+        "Vote %": 40.41
+      },
+      {
+        "Candidate": "RENU AGARWAL",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 748,
+        "Postal Votes": 16,
+        "Total Votes": 764,
+        "Vote %": 1.08
+      },
+      {
+        "Candidate": "(DR) DINESH",
+        "Party": "UTTARAKHAND PARIVARTAN PARTY",
+        "EVM Votes": 353,
+        "Postal Votes": 2,
+        "Total Votes": 355,
+        "Vote %": 0.5
+      },
+      {
+        "Candidate": "SUDHIR KUMAR BAHUGUNA",
+        "Party": "Independent",
+        "EVM Votes": 264,
+        "Postal Votes": 3,
+        "Total Votes": 267,
+        "Vote %": 0.38
+      },
+      {
+        "Candidate": "SUDHA PATWAL",
+        "Party": "Independent",
+        "EVM Votes": 264,
+        "Postal Votes": 2,
+        "Total Votes": 266,
+        "Vote %": 0.38
+      },
+      {
+        "Candidate": "HARISH CHANDER DWIVEDI",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 164,
+        "Postal Votes": 4,
+        "Total Votes": 168,
+        "Vote %": 0.24
+      },
+      {
+        "Candidate": "SHAMMI KAPOOR",
+        "Party": "Independent",
+        "EVM Votes": 137,
+        "Postal Votes": 1,
+        "Total Votes": 138,
+        "Vote %": 0.2
+      },
+      {
+        "Candidate": "SHYAM LAL",
+        "Party": "Independent",
+        "EVM Votes": 136,
+        "Postal Votes": 1,
+        "Total Votes": 137,
+        "Vote %": 0.19
+      },
+      {
+        "Candidate": "ANOOP THAPLIYAL",
+        "Party": "Independent",
+        "EVM Votes": 68,
+        "Postal Votes": 0,
+        "Total Votes": 68,
+        "Vote %": 0.1
+      },
+      {
+        "Candidate": "MAHITAB SINGH RAWAT",
+        "Party": "Independent",
+        "EVM Votes": 62,
+        "Postal Votes": 2,
+        "Total Votes": 64,
+        "Vote %": 0.09
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 455,
+        "Postal Votes": 4,
+        "Total Votes": 459,
+        "Vote %": 0.65
+      }
+    ]
+  },
+  {
+    "ac_no": 42,
+    "ac_name": "Dharchula",
+    "candidates": [
+      {
+        "Candidate": "HARISH SINGH",
+        "Party": "Indian National Congress",
+        "EVM Votes": 25207,
+        "Postal Votes": 390,
+        "Total Votes": 25597,
+        "Vote %": 48.0
+      },
+      {
+        "Candidate": "VIRENDRA SINGH PAL",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 21946,
+        "Postal Votes": 566,
+        "Total Votes": 22512,
+        "Vote %": 42.22
+      },
+      {
+        "Candidate": "DURGA PRASHAD",
+        "Party": "Independent",
+        "EVM Votes": 2668,
+        "Postal Votes": 49,
+        "Total Votes": 2717,
+        "Vote %": 5.1
+      },
+      {
+        "Candidate": "LAL SINGH",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 876,
+        "Postal Votes": 7,
+        "Total Votes": 883,
+        "Vote %": 1.66
+      },
+      {
+        "Candidate": "DEVINDRA SINGH",
+        "Party": "Independent",
+        "EVM Votes": 630,
+        "Postal Votes": 1,
+        "Total Votes": 631,
+        "Vote %": 1.18
+      },
+      {
+        "Candidate": "VIRENDRA SINGH",
+        "Party": "Independent",
+        "EVM Votes": 538,
+        "Postal Votes": 2,
+        "Total Votes": 540,
+        "Vote %": 1.01
+      },
+      {
+        "Candidate": "JITENDRA KUMAR",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 437,
+        "Postal Votes": 8,
+        "Total Votes": 445,
+        "Vote %": 0.83
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 490,
+        "Postal Votes": 10,
+        "Total Votes": 500,
+        "Vote %": 0.94
+      }
+    ]
+  },
+  {
+    "ac_no": 43,
+    "ac_name": "Didihat",
+    "candidates": [
+      {
+        "Candidate": "VISHAN SINGH",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 16875,
+        "Postal Votes": 517,
+        "Total Votes": 17392,
+        "Vote %": 34.15
+      },
+      {
+        "Candidate": "KISHAN  BHANDARI",
+        "Party": "Independent",
+        "EVM Votes": 14667,
+        "Postal Votes": 357,
+        "Total Votes": 15024,
+        "Vote %": 29.5
+      },
+      {
+        "Candidate": "PRADEEP SINGH PAL",
+        "Party": "Indian National Congress",
+        "EVM Votes": 14275,
+        "Postal Votes": 195,
+        "Total Votes": 14470,
+        "Vote %": 28.41
+      },
+      {
+        "Candidate": "KASHI SINGH AIRY",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 2843,
+        "Postal Votes": 53,
+        "Total Votes": 2896,
+        "Vote %": 5.69
+      },
+      {
+        "Candidate": "HAR GOVIND PANT",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 625,
+        "Postal Votes": 6,
+        "Total Votes": 631,
+        "Vote %": 1.24
+      },
+      {
+        "Candidate": "BIKRANT PANDAY",
+        "Party": "Independent",
+        "EVM Votes": 518,
+        "Postal Votes": 2,
+        "Total Votes": 520,
+        "Vote %": 1.02
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 732,
+        "Postal Votes": 5,
+        "Total Votes": 737,
+        "Vote %": 1.45
+      }
+    ]
+  },
+  {
+    "ac_no": 44,
+    "ac_name": "Pithoragarh",
+    "candidates": [
+      {
+        "Candidate": "PRAKASH PANT",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 32108,
+        "Postal Votes": 833,
+        "Total Votes": 32941,
+        "Vote %": 50.23
+      },
+      {
+        "Candidate": "MAYUKH MAHAR",
+        "Party": "Indian National Congress",
+        "EVM Votes": 29460,
+        "Postal Votes": 797,
+        "Total Votes": 30257,
+        "Vote %": 46.13
+      },
+      {
+        "Candidate": "LALIT MOHAN BHATT",
+        "Party": "Independent",
+        "EVM Votes": 612,
+        "Postal Votes": 1,
+        "Total Votes": 613,
+        "Vote %": 0.93
+      },
+      {
+        "Candidate": "MAHENDRA SINGH",
+        "Party": "Independent",
+        "EVM Votes": 525,
+        "Postal Votes": 4,
+        "Total Votes": 529,
+        "Vote %": 0.81
+      },
+      {
+        "Candidate": "RAGHUVAR RAM",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 501,
+        "Postal Votes": 18,
+        "Total Votes": 519,
+        "Vote %": 0.79
+      },
+      {
+        "Candidate": "SUSHMA MATHUR",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 290,
+        "Postal Votes": 14,
+        "Total Votes": 304,
+        "Vote %": 0.46
+      },
+      {
+        "Candidate": "MANOJ KUMAR JOSHI",
+        "Party": "Independent",
+        "EVM Votes": 124,
+        "Postal Votes": 2,
+        "Total Votes": 126,
+        "Vote %": 0.19
+      },
+      {
+        "Candidate": "KRISHNANAND KAPRI",
+        "Party": "Independent",
+        "EVM Votes": 105,
+        "Postal Votes": 6,
+        "Total Votes": 111,
+        "Vote %": 0.17
+      },
+      {
+        "Candidate": "RAMESH BISHT",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 105,
+        "Postal Votes": 3,
+        "Total Votes": 108,
+        "Vote %": 0.16
+      },
+      {
+        "Candidate": "GULAJAR",
+        "Party": "Independent",
+        "EVM Votes": 75,
+        "Postal Votes": 3,
+        "Total Votes": 78,
+        "Vote %": 0.12
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 1062,
+        "Postal Votes": 10,
+        "Total Votes": 1072,
+        "Vote %": 1.63
+      }
+    ]
+  },
+  {
+    "ac_no": 45,
+    "ac_name": "Gangolihat  (SC)",
+    "candidates": [
+      {
+        "Candidate": "MEENA GANGOLA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 19960,
+        "Postal Votes": 458,
+        "Total Votes": 20418,
+        "Vote %": 37.94
+      },
+      {
+        "Candidate": "NARAYAN RAM ARYA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 19289,
+        "Postal Votes": 324,
+        "Total Votes": 19613,
+        "Vote %": 36.45
+      },
+      {
+        "Candidate": "KHAJAN CHANDRA",
+        "Party": "Independent",
+        "EVM Votes": 10621,
+        "Postal Votes": 142,
+        "Total Votes": 10763,
+        "Vote %": 20.0
+      },
+      {
+        "Candidate": "DINESH KUMAR",
+        "Party": "Bahujan Sangharshh Dal",
+        "EVM Votes": 957,
+        "Postal Votes": 1,
+        "Total Votes": 958,
+        "Vote %": 1.78
+      },
+      {
+        "Candidate": "SUMITRA DEVI",
+        "Party": "Independent",
+        "EVM Votes": 839,
+        "Postal Votes": 2,
+        "Total Votes": 841,
+        "Vote %": 1.56
+      },
+      {
+        "Candidate": "DEEPAK KUMAR",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 652,
+        "Postal Votes": 16,
+        "Total Votes": 668,
+        "Vote %": 1.24
+      },
+      {
+        "Candidate": "HARISH PRASAD",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 547,
+        "Postal Votes": 3,
+        "Total Votes": 550,
+        "Vote %": 1.02
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 855,
+        "Postal Votes": 10,
+        "Total Votes": 865,
+        "Vote %": 1.61
+      }
+    ]
+  },
+  {
+    "ac_no": 46,
+    "ac_name": "Kapkot",
+    "candidates": [
+      {
+        "Candidate": "BALWANT SINGH BHOURIYAL",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 26829,
+        "Postal Votes": 384,
+        "Total Votes": 27213,
+        "Vote %": 46.39
+      },
+      {
+        "Candidate": "LALIT FARSWAN",
+        "Party": "Indian National Congress",
+        "EVM Votes": 20704,
+        "Postal Votes": 527,
+        "Total Votes": 21231,
+        "Vote %": 36.19
+      },
+      {
+        "Candidate": "BHOOPESH UPADHYAY",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 6890,
+        "Postal Votes": 74,
+        "Total Votes": 6964,
+        "Vote %": 11.87
+      },
+      {
+        "Candidate": "BHAGWAT SINGH DASILA",
+        "Party": "Independent",
+        "EVM Votes": 1229,
+        "Postal Votes": 13,
+        "Total Votes": 1242,
+        "Vote %": 2.12
+      },
+      {
+        "Candidate": "RAM SINGH AITHANI",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 939,
+        "Postal Votes": 12,
+        "Total Votes": 951,
+        "Vote %": 1.62
+      },
+      {
+        "Candidate": "DAYAL SINGH KAPKOTI",
+        "Party": "Independent",
+        "EVM Votes": 641,
+        "Postal Votes": 0,
+        "Total Votes": 641,
+        "Vote %": 1.09
+      },
+      {
+        "Candidate": "GOVIND LAL",
+        "Party": "Independent",
+        "EVM Votes": 219,
+        "Postal Votes": 1,
+        "Total Votes": 220,
+        "Vote %": 0.38
+      },
+      {
+        "Candidate": "KARAM SINGH DANU",
+        "Party": "Independent",
+        "EVM Votes": 195,
+        "Postal Votes": 1,
+        "Total Votes": 196,
+        "Vote %": 0.33
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 1112,
+        "Postal Votes": 4,
+        "Total Votes": 1116,
+        "Vote %": 1.9
+      }
+    ]
+  },
+  {
+    "ac_no": 47,
+    "ac_name": "Bageshwar  (SC)",
+    "candidates": [
+      {
+        "Candidate": "CHANDAN RAM DASS",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 33018,
+        "Postal Votes": 774,
+        "Total Votes": 33792,
+        "Vote %": 51.25
+      },
+      {
+        "Candidate": "BALKRISHAN",
+        "Party": "Indian National Congress",
+        "EVM Votes": 18794,
+        "Postal Votes": 431,
+        "Total Votes": 19225,
+        "Vote %": 29.16
+      },
+      {
+        "Candidate": "BASANT KUMAR",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 10780,
+        "Postal Votes": 258,
+        "Total Votes": 11038,
+        "Vote %": 16.74
+      },
+      {
+        "Candidate": "JEEVAN LAL",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 1193,
+        "Postal Votes": 14,
+        "Total Votes": 1207,
+        "Vote %": 1.83
+      },
+      {
+        "Candidate": "BACHI LAL",
+        "Party": "Independent",
+        "EVM Votes": 673,
+        "Postal Votes": 3,
+        "Total Votes": 676,
+        "Vote %": 1.03
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 1510,
+        "Postal Votes": 31,
+        "Total Votes": 1541,
+        "Vote %": 2.34
+      }
+    ]
+  },
+  {
+    "ac_no": 48,
+    "ac_name": "Dwarahat",
+    "candidates": [
+      {
+        "Candidate": "MAHESH SINGH NEGI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 19937,
+        "Postal Votes": 284,
+        "Total Votes": 20221,
+        "Vote %": 43.77
+      },
+      {
+        "Candidate": "MADAN SINGH BISHT",
+        "Party": "Indian National Congress",
+        "EVM Votes": 13517,
+        "Postal Votes": 111,
+        "Total Votes": 13628,
+        "Vote %": 29.5
+      },
+      {
+        "Candidate": "PUSHPESH TRIPATHI",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 6518,
+        "Postal Votes": 63,
+        "Total Votes": 6581,
+        "Vote %": 14.24
+      },
+      {
+        "Candidate": "KUBER SINGH KATHAYAT",
+        "Party": "Independent",
+        "EVM Votes": 2116,
+        "Postal Votes": 10,
+        "Total Votes": 2126,
+        "Vote %": 4.6
+      },
+      {
+        "Candidate": "BHUPAL SINGH ALIAS PAPPU ",
+        "Party": "Independent",
+        "EVM Votes": 1194,
+        "Postal Votes": 2,
+        "Total Votes": 1196,
+        "Vote %": 2.59
+      },
+      {
+        "Candidate": "GIRISH CHAUDHARY",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 819,
+        "Postal Votes": 11,
+        "Total Votes": 830,
+        "Vote %": 1.8
+      },
+      {
+        "Candidate": "NANDAN GIRI",
+        "Party": "Independent",
+        "EVM Votes": 773,
+        "Postal Votes": 3,
+        "Total Votes": 776,
+        "Vote %": 1.68
+      },
+      {
+        "Candidate": "KUNDAN SINGH RAWAT",
+        "Party": "Bharat Ki Lok Jimmedar Party",
+        "EVM Votes": 503,
+        "Postal Votes": 0,
+        "Total Votes": 503,
+        "Vote %": 1.09
+      },
+      {
+        "Candidate": "JAY PRAKASH KANDPAL",
+        "Party": "Independent",
+        "EVM Votes": 340,
+        "Postal Votes": 2,
+        "Total Votes": 342,
+        "Vote %": 0.74
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 594,
+        "Postal Votes": 3,
+        "Total Votes": 597,
+        "Vote %": 1.29
+      }
+    ]
+  },
+  {
+    "ac_no": 49,
+    "ac_name": "Salt",
+    "candidates": [
+      {
+        "Candidate": "SURENDER SINGH JEENA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 21375,
+        "Postal Votes": 206,
+        "Total Votes": 21581,
+        "Vote %": 50.09
+      },
+      {
+        "Candidate": "GANGA PANCHOLI",
+        "Party": "Indian National Congress",
+        "EVM Votes": 18535,
+        "Postal Votes": 142,
+        "Total Votes": 18677,
+        "Vote %": 43.35
+      },
+      {
+        "Candidate": "BHUVAN JOSHI",
+        "Party": "Independent",
+        "EVM Votes": 669,
+        "Postal Votes": 0,
+        "Total Votes": 669,
+        "Vote %": 1.55
+      },
+      {
+        "Candidate": "BHOLE SHANKAR",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 645,
+        "Postal Votes": 19,
+        "Total Votes": 664,
+        "Vote %": 1.54
+      },
+      {
+        "Candidate": "GANGA DEVI",
+        "Party": "Uttarakhand Kranti Dal (Democratic)",
+        "EVM Votes": 459,
+        "Postal Votes": 0,
+        "Total Votes": 459,
+        "Vote %": 1.07
+      },
+      {
+        "Candidate": "NARAYAN SINGH",
+        "Party": "UTTARAKHAND PARIVARTAN PARTY",
+        "EVM Votes": 265,
+        "Postal Votes": 3,
+        "Total Votes": 268,
+        "Vote %": 0.62
+      },
+      {
+        "Candidate": "MAHIPAL SINGH",
+        "Party": "Independent",
+        "EVM Votes": 262,
+        "Postal Votes": 0,
+        "Total Votes": 262,
+        "Vote %": 0.61
+      },
+      {
+        "Candidate": "RAKESH SINGH BISHT",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 184,
+        "Postal Votes": 3,
+        "Total Votes": 187,
+        "Vote %": 0.43
+      },
+      {
+        "Candidate": "BHAGAWAT SINGH",
+        "Party": "Independent",
+        "EVM Votes": 184,
+        "Postal Votes": 0,
+        "Total Votes": 184,
+        "Vote %": 0.43
+      },
+      {
+        "Candidate": "KUBER SINGH MANRAL",
+        "Party": "Independent",
+        "EVM Votes": 132,
+        "Postal Votes": 0,
+        "Total Votes": 132,
+        "Vote %": 0.31
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 811,
+        "Postal Votes": 1,
+        "Total Votes": 812,
+        "Vote %": 1.88
+      }
+    ]
+  },
+  {
+    "ac_no": 50,
+    "ac_name": "Ranikhet",
+    "candidates": [
+      {
+        "Candidate": "KARAN  MAHARA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 18769,
+        "Postal Votes": 266,
+        "Total Votes": 19035,
+        "Vote %": 47.15
+      },
+      {
+        "Candidate": "AJAY BHATT",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 13816,
+        "Postal Votes": 238,
+        "Total Votes": 14054,
+        "Vote %": 34.81
+      },
+      {
+        "Candidate": "PRAMOD NAINWAL",
+        "Party": "Independent",
+        "EVM Votes": 5681,
+        "Postal Votes": 20,
+        "Total Votes": 5701,
+        "Vote %": 14.12
+      },
+      {
+        "Candidate": "KRIPAL RAM",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 1143,
+        "Postal Votes": 26,
+        "Total Votes": 1169,
+        "Vote %": 2.9
+      },
+      {
+        "Candidate": "PRATAP SINGH SHAHI",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 413,
+        "Postal Votes": 1,
+        "Total Votes": 414,
+        "Vote %": 1.03
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 635,
+        "Postal Votes": 2,
+        "Total Votes": 637,
+        "Vote %": 1.58
+      }
+    ]
+  },
+  {
+    "ac_no": 51,
+    "ac_name": "Someshwar (s.c.)  (SC)",
+    "candidates": [
+      {
+        "Candidate": "REKHA ARYA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 21604,
+        "Postal Votes": 176,
+        "Total Votes": 21780,
+        "Vote %": 48.62
+      },
+      {
+        "Candidate": "RAJENDRA BARAKOTI",
+        "Party": "Indian National Congress",
+        "EVM Votes": 20914,
+        "Postal Votes": 156,
+        "Total Votes": 21070,
+        "Vote %": 47.04
+      },
+      {
+        "Candidate": "PRADEEP KUMAR ARYA",
+        "Party": "Independent",
+        "EVM Votes": 839,
+        "Postal Votes": 2,
+        "Total Votes": 841,
+        "Vote %": 1.88
+      },
+      {
+        "Candidate": "HIMANSHU KOHLI",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 615,
+        "Postal Votes": 7,
+        "Total Votes": 622,
+        "Vote %": 1.39
+      },
+      {
+        "Candidate": "PURAN CHANDRA",
+        "Party": "Independent",
+        "EVM Votes": 260,
+        "Postal Votes": 3,
+        "Total Votes": 263,
+        "Vote %": 0.59
+      },
+      {
+        "Candidate": "CHANDRA PRAKASH ARYA",
+        "Party": "Independent",
+        "EVM Votes": 217,
+        "Postal Votes": 1,
+        "Total Votes": 218,
+        "Vote %": 0.49
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 1084,
+        "Postal Votes": 5,
+        "Total Votes": 1089,
+        "Vote %": 2.43
+      }
+    ]
+  },
+  {
+    "ac_no": 52,
+    "ac_name": "Almora",
+    "candidates": [
+      {
+        "Candidate": "RAGHUNATH SINGH ",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 25954,
+        "Postal Votes": 510,
+        "Total Votes": 26464,
+        "Vote %": 51.54
+      },
+      {
+        "Candidate": "MANOJ TEWARI",
+        "Party": "Indian National Congress",
+        "EVM Votes": 20690,
+        "Postal Votes": 395,
+        "Total Votes": 21085,
+        "Vote %": 41.07
+      },
+      {
+        "Candidate": "DR.SANJAY TAMTA",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 1616,
+        "Postal Votes": 38,
+        "Total Votes": 1654,
+        "Vote %": 3.22
+      },
+      {
+        "Candidate": "VIRENDRA KUMAR",
+        "Party": "Independent",
+        "EVM Votes": 517,
+        "Postal Votes": 0,
+        "Total Votes": 517,
+        "Vote %": 1.01
+      },
+      {
+        "Candidate": "MOHD HABIB",
+        "Party": "Independent",
+        "EVM Votes": 513,
+        "Postal Votes": 1,
+        "Total Votes": 514,
+        "Vote %": 1.0
+      },
+      {
+        "Candidate": "DINESH PANDE",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 420,
+        "Postal Votes": 5,
+        "Total Votes": 425,
+        "Vote %": 0.83
+      },
+      {
+        "Candidate": "BHUWAN CHANDRA JOSHI",
+        "Party": "Independent",
+        "EVM Votes": 217,
+        "Postal Votes": 2,
+        "Total Votes": 219,
+        "Vote %": 0.43
+      },
+      {
+        "Candidate": "REKHA DHASMANA",
+        "Party": "UTTARAKHAND PARIVARTAN PARTY",
+        "EVM Votes": 155,
+        "Postal Votes": 2,
+        "Total Votes": 157,
+        "Vote %": 0.31
+      },
+      {
+        "Candidate": "KUNDAN SINGH BISHT",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 128,
+        "Postal Votes": 2,
+        "Total Votes": 130,
+        "Vote %": 0.25
+      },
+      {
+        "Candidate": "PRAKASH CHANDRA BHATT",
+        "Party": "Independent",
+        "EVM Votes": 104,
+        "Postal Votes": 2,
+        "Total Votes": 106,
+        "Vote %": 0.21
+      },
+      {
+        "Candidate": "JASWANT SINGH",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 72,
+        "Postal Votes": 0,
+        "Total Votes": 72,
+        "Vote %": 0.14
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 619,
+        "Postal Votes": 4,
+        "Total Votes": 623,
+        "Vote %": 1.21
+      }
+    ]
+  },
+  {
+    "ac_no": 53,
+    "ac_name": "Jageshwar",
+    "candidates": [
+      {
+        "Candidate": "GOVIND SINGH KUNJWAL",
+        "Party": "Indian National Congress",
+        "EVM Votes": 23992,
+        "Postal Votes": 140,
+        "Total Votes": 24132,
+        "Vote %": 48.26
+      },
+      {
+        "Candidate": "SUBHASH PANDEY",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 23531,
+        "Postal Votes": 202,
+        "Total Votes": 23733,
+        "Vote %": 47.46
+      },
+      {
+        "Candidate": "TARADATT PANDEY",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 1336,
+        "Postal Votes": 9,
+        "Total Votes": 1345,
+        "Vote %": 2.69
+      },
+      {
+        "Candidate": "MAHENDRA SINGH RAWAT",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 790,
+        "Postal Votes": 3,
+        "Total Votes": 793,
+        "Vote %": 1.59
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 896,
+        "Postal Votes": 0,
+        "Total Votes": 896,
+        "Vote %": 1.79
+      }
+    ]
+  },
+  {
+    "ac_no": 54,
+    "ac_name": "Lohaghat",
+    "candidates": [
+      {
+        "Candidate": "PURAN SINGH FARTYAL",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 27318,
+        "Postal Votes": 367,
+        "Total Votes": 27685,
+        "Vote %": 48.5
+      },
+      {
+        "Candidate": "KHUSHAL SINGH",
+        "Party": "Indian National Congress",
+        "EVM Votes": 26666,
+        "Postal Votes": 185,
+        "Total Votes": 26851,
+        "Vote %": 47.04
+      },
+      {
+        "Candidate": "PRAKASH SINGH",
+        "Party": "Independent",
+        "EVM Votes": 723,
+        "Postal Votes": 2,
+        "Total Votes": 725,
+        "Vote %": 1.27
+      },
+      {
+        "Candidate": "JYOTI PRAKASH TAMTA",
+        "Party": "Independent",
+        "EVM Votes": 723,
+        "Postal Votes": 1,
+        "Total Votes": 724,
+        "Vote %": 1.27
+      },
+      {
+        "Candidate": "DEVILAL SHARMA ALIAS ",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 710,
+        "Postal Votes": 3,
+        "Total Votes": 713,
+        "Vote %": 1.25
+      },
+      {
+        "Candidate": "RAJENDRA SINGH",
+        "Party": "Independent",
+        "EVM Votes": 378,
+        "Postal Votes": 1,
+        "Total Votes": 379,
+        "Vote %": 0.66
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 1256,
+        "Postal Votes": 5,
+        "Total Votes": 1261,
+        "Vote %": 2.21
+      }
+    ]
+  },
+  {
+    "ac_no": 55,
+    "ac_name": "Champawat",
+    "candidates": [
+      {
+        "Candidate": "KAILASH CHANDRA GAHTORI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 36117,
+        "Postal Votes": 484,
+        "Total Votes": 36601,
+        "Vote %": 63.42
+      },
+      {
+        "Candidate": "HEMESH KHARKWAL",
+        "Party": "Indian National Congress",
+        "EVM Votes": 18960,
+        "Postal Votes": 281,
+        "Total Votes": 19241,
+        "Vote %": 33.34
+      },
+      {
+        "Candidate": "TRILOK CHAND SORARI",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 932,
+        "Postal Votes": 7,
+        "Total Votes": 939,
+        "Vote %": 1.63
+      },
+      {
+        "Candidate": "DINESH CHANDRA",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 918,
+        "Postal Votes": 10,
+        "Total Votes": 928,
+        "Vote %": 1.61
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 1035,
+        "Postal Votes": 9,
+        "Total Votes": 1044,
+        "Vote %": 1.81
+      }
+    ]
+  },
+  {
+    "ac_no": 56,
+    "ac_name": "Lalkuwa",
+    "candidates": [
+      {
+        "Candidate": "NAVEEN CHANDRA DUMKA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 44073,
+        "Postal Votes": 220,
+        "Total Votes": 44293,
+        "Vote %": 55.65
+      },
+      {
+        "Candidate": "HARISH CHANDRA ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 17050,
+        "Postal Votes": 135,
+        "Total Votes": 17185,
+        "Vote %": 21.59
+      },
+      {
+        "Candidate": "HARENDRA SINGH BORA",
+        "Party": "Independent",
+        "EVM Votes": 14678,
+        "Postal Votes": 31,
+        "Total Votes": 14709,
+        "Vote %": 18.48
+      },
+      {
+        "Candidate": "RAJEEV MOHAN",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 962,
+        "Postal Votes": 2,
+        "Total Votes": 964,
+        "Vote %": 1.21
+      },
+      {
+        "Candidate": "PURUSHOTTAM SHARMA",
+        "Party": "Communist Party of India  (Marxist-Leninist)  (Liberation)",
+        "EVM Votes": 792,
+        "Postal Votes": 1,
+        "Total Votes": 793,
+        "Vote %": 1.0
+      },
+      {
+        "Candidate": "VIRENDRA PURI MAHARAJ",
+        "Party": "Independent",
+        "EVM Votes": 592,
+        "Postal Votes": 0,
+        "Total Votes": 592,
+        "Vote %": 0.74
+      },
+      {
+        "Candidate": "CHANDAN SINGH RANA",
+        "Party": "Shivsena",
+        "EVM Votes": 407,
+        "Postal Votes": 0,
+        "Total Votes": 407,
+        "Vote %": 0.51
+      },
+      {
+        "Candidate": "VIJAY JOSHI",
+        "Party": "Independent",
+        "EVM Votes": 238,
+        "Postal Votes": 0,
+        "Total Votes": 238,
+        "Vote %": 0.3
+      },
+      {
+        "Candidate": "DEEPA BHATT",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 221,
+        "Postal Votes": 3,
+        "Total Votes": 224,
+        "Vote %": 0.28
+      },
+      {
+        "Candidate": "RAJENDER SINGH BISHT",
+        "Party": "Independent",
+        "EVM Votes": 191,
+        "Postal Votes": 0,
+        "Total Votes": 191,
+        "Vote %": 0.24
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 1214,
+        "Postal Votes": 2,
+        "Total Votes": 1216,
+        "Vote %": 1.53
+      }
+    ]
+  },
+  {
+    "ac_no": 57,
+    "ac_name": "Bhimtal",
+    "candidates": [
+      {
+        "Candidate": "RAM SINGH KAIRA",
+        "Party": "Independent",
+        "EVM Votes": 18774,
+        "Postal Votes": 104,
+        "Total Votes": 18878,
+        "Vote %": 31.32
+      },
+      {
+        "Candidate": "GOVIND SINGH BISHT",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 15283,
+        "Postal Votes": 149,
+        "Total Votes": 15432,
+        "Vote %": 25.61
+      },
+      {
+        "Candidate": "DAN SINGH BHANDARI",
+        "Party": "Indian National Congress",
+        "EVM Votes": 14586,
+        "Postal Votes": 116,
+        "Total Votes": 14702,
+        "Vote %": 24.39
+      },
+      {
+        "Candidate": "TARA DATT PANDEY",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 8402,
+        "Postal Votes": 42,
+        "Total Votes": 8444,
+        "Vote %": 14.01
+      },
+      {
+        "Candidate": "GOVIND SINGH BISHT",
+        "Party": "Independent",
+        "EVM Votes": 703,
+        "Postal Votes": 0,
+        "Total Votes": 703,
+        "Vote %": 1.17
+      },
+      {
+        "Candidate": "SUHAIL AHMAD",
+        "Party": "Independent",
+        "EVM Votes": 614,
+        "Postal Votes": 0,
+        "Total Votes": 614,
+        "Vote %": 1.02
+      },
+      {
+        "Candidate": "KAMAL PATHAK",
+        "Party": "Lok Shahi Party (Secular)",
+        "EVM Votes": 460,
+        "Postal Votes": 0,
+        "Total Votes": 460,
+        "Vote %": 0.76
+      },
+      {
+        "Candidate": "KRISHNANAND KANDPAL",
+        "Party": "Independent",
+        "EVM Votes": 389,
+        "Postal Votes": 13,
+        "Total Votes": 402,
+        "Vote %": 0.67
+      },
+      {
+        "Candidate": "AAN SINGH",
+        "Party": "Independent",
+        "EVM Votes": 355,
+        "Postal Votes": 2,
+        "Total Votes": 357,
+        "Vote %": 0.59
+      },
+      {
+        "Candidate": "NAVEEN CHANDRA",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 271,
+        "Postal Votes": 4,
+        "Total Votes": 275,
+        "Vote %": 0.46
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 961,
+        "Postal Votes": 2,
+        "Total Votes": 963,
+        "Vote %": 1.6
+      }
+    ]
+  },
+  {
+    "ac_no": 58,
+    "ac_name": "Nainital  (SC)",
+    "candidates": [
+      {
+        "Candidate": "SANJEEV ARYA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 29730,
+        "Postal Votes": 306,
+        "Total Votes": 30036,
+        "Vote %": 49.76
+      },
+      {
+        "Candidate": "SARITA ARYA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 22486,
+        "Postal Votes": 303,
+        "Total Votes": 22789,
+        "Vote %": 37.75
+      },
+      {
+        "Candidate": "HEM CHANDRA ARYA",
+        "Party": "Independent",
+        "EVM Votes": 5446,
+        "Postal Votes": 59,
+        "Total Votes": 5505,
+        "Vote %": 9.12
+      },
+      {
+        "Candidate": "K.L ARYA",
+        "Party": "Independent",
+        "EVM Votes": 1033,
+        "Postal Votes": 2,
+        "Total Votes": 1035,
+        "Vote %": 1.71
+      },
+      {
+        "Candidate": "SUNDER LAL ARYA",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 982,
+        "Postal Votes": 15,
+        "Total Votes": 997,
+        "Vote %": 1.65
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 893,
+        "Postal Votes": 6,
+        "Total Votes": 899,
+        "Vote %": 1.49
+      }
+    ]
+  },
+  {
+    "ac_no": 59,
+    "ac_name": "Haldwani",
+    "candidates": [
+      {
+        "Candidate": "INDIRA HRIDAYESH",
+        "Party": "Indian National Congress",
+        "EVM Votes": 43524,
+        "Postal Votes": 262,
+        "Total Votes": 43786,
+        "Vote %": 46.82
+      },
+      {
+        "Candidate": "JOGENDRA PAL SINGH ",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 36956,
+        "Postal Votes": 273,
+        "Total Votes": 37229,
+        "Vote %": 39.81
+      },
+      {
+        "Candidate": "SHOEB AHMED",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 10336,
+        "Postal Votes": 1,
+        "Total Votes": 10337,
+        "Vote %": 11.05
+      },
+      {
+        "Candidate": "SHAKEEL AHMAD",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 1314,
+        "Postal Votes": 10,
+        "Total Votes": 1324,
+        "Vote %": 1.42
+      },
+      {
+        "Candidate": "BHUWAN CHANDRA JOSHI",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 266,
+        "Postal Votes": 2,
+        "Total Votes": 268,
+        "Vote %": 0.29
+      },
+      {
+        "Candidate": "LALIT MOHAN JOSHI",
+        "Party": "Shivsena",
+        "EVM Votes": 225,
+        "Postal Votes": 1,
+        "Total Votes": 226,
+        "Vote %": 0.24
+      },
+      {
+        "Candidate": "VINOD KUMAR SHARMA",
+        "Party": "Independent",
+        "EVM Votes": 201,
+        "Postal Votes": 0,
+        "Total Votes": 201,
+        "Vote %": 0.21
+      },
+      {
+        "Candidate": "TOFIK AHMAD",
+        "Party": "Independent",
+        "EVM Votes": 156,
+        "Postal Votes": 0,
+        "Total Votes": 156,
+        "Vote %": 0.17
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 651,
+        "Postal Votes": 4,
+        "Total Votes": 655,
+        "Vote %": 0.7
+      }
+    ]
+  },
+  {
+    "ac_no": 60,
+    "ac_name": "Kaladhungi",
+    "candidates": [
+      {
+        "Candidate": "BANSIDHAR BHAGAT",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 45170,
+        "Postal Votes": 534,
+        "Total Votes": 45704,
+        "Vote %": 45.39
+      },
+      {
+        "Candidate": "PRAKASH JOSHI",
+        "Party": "Indian National Congress",
+        "EVM Votes": 24829,
+        "Postal Votes": 278,
+        "Total Votes": 25107,
+        "Vote %": 24.94
+      },
+      {
+        "Candidate": "MAHESH CHANDRA",
+        "Party": "Independent",
+        "EVM Votes": 20004,
+        "Postal Votes": 210,
+        "Total Votes": 20214,
+        "Vote %": 20.08
+      },
+      {
+        "Candidate": "HARENDRA SINGH DARMWAL",
+        "Party": "Independent",
+        "EVM Votes": 4278,
+        "Postal Votes": 16,
+        "Total Votes": 4294,
+        "Vote %": 4.26
+      },
+      {
+        "Candidate": "VARUN PRATAP SINGH ",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 2368,
+        "Postal Votes": 16,
+        "Total Votes": 2384,
+        "Vote %": 2.37
+      },
+      {
+        "Candidate": "MAHENDRA KUMAR ",
+        "Party": "Independent",
+        "EVM Votes": 1095,
+        "Postal Votes": 2,
+        "Total Votes": 1097,
+        "Vote %": 1.09
+      },
+      {
+        "Candidate": "DR. SURESH DALAKOTI",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 875,
+        "Postal Votes": 14,
+        "Total Votes": 889,
+        "Vote %": 0.88
+      },
+      {
+        "Candidate": "SURENDRA SINGH ",
+        "Party": "UTTARAKHAND PARIVARTAN PARTY",
+        "EVM Votes": 624,
+        "Postal Votes": 1,
+        "Total Votes": 625,
+        "Vote %": 0.62
+      },
+      {
+        "Candidate": "SUMAN LATA",
+        "Party": "Independent",
+        "EVM Votes": 367,
+        "Postal Votes": 0,
+        "Total Votes": 367,
+        "Vote %": 0.36
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 1111,
+        "Postal Votes": 8,
+        "Total Votes": 1119,
+        "Vote %": 1.11
+      }
+    ]
+  },
+  {
+    "ac_no": 61,
+    "ac_name": "Ramnagar",
+    "candidates": [
+      {
+        "Candidate": "DIWAN SINGH BISHT",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 35595,
+        "Postal Votes": 244,
+        "Total Votes": 35839,
+        "Vote %": 46.84
+      },
+      {
+        "Candidate": "RANJEET RAWAT",
+        "Party": "Indian National Congress",
+        "EVM Votes": 27133,
+        "Postal Votes": 95,
+        "Total Votes": 27228,
+        "Vote %": 35.59
+      },
+      {
+        "Candidate": "RAJEEV AGARWAL",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 10714,
+        "Postal Votes": 52,
+        "Total Votes": 10766,
+        "Vote %": 14.07
+      },
+      {
+        "Candidate": "PRABHAT DHYANI",
+        "Party": "UTTARAKHAND PARIVARTAN PARTY",
+        "EVM Votes": 1216,
+        "Postal Votes": 13,
+        "Total Votes": 1229,
+        "Vote %": 1.61
+      },
+      {
+        "Candidate": "DHANESHWARI GHILDIYAL",
+        "Party": "Independent",
+        "EVM Votes": 397,
+        "Postal Votes": 0,
+        "Total Votes": 397,
+        "Vote %": 0.52
+      },
+      {
+        "Candidate": "VIJAY",
+        "Party": "Independent",
+        "EVM Votes": 364,
+        "Postal Votes": 0,
+        "Total Votes": 364,
+        "Vote %": 0.48
+      },
+      {
+        "Candidate": "VICHITRA SINGH",
+        "Party": "Independent",
+        "EVM Votes": 318,
+        "Postal Votes": 0,
+        "Total Votes": 318,
+        "Vote %": 0.42
+      },
+      {
+        "Candidate": "AKEEL",
+        "Party": "Peace Party",
+        "EVM Votes": 216,
+        "Postal Votes": 0,
+        "Total Votes": 216,
+        "Vote %": 0.28
+      },
+      {
+        "Candidate": "TANJEEM",
+        "Party": "Independent",
+        "EVM Votes": 153,
+        "Postal Votes": 0,
+        "Total Votes": 153,
+        "Vote %": 0.2
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 882,
+        "Postal Votes": 5,
+        "Total Votes": 887,
+        "Vote %": 1.16
+      }
+    ]
+  },
+  {
+    "ac_no": 62,
+    "ac_name": "Jaspur",
+    "candidates": [
+      {
+        "Candidate": "ADESH SINGH CHAUHAN",
+        "Party": "Indian National Congress",
+        "EVM Votes": 42234,
+        "Postal Votes": 317,
+        "Total Votes": 42551,
+        "Vote %": 46.68
+      },
+      {
+        "Candidate": "DR. SHAILENDRA MOHAN ",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 38079,
+        "Postal Votes": 268,
+        "Total Votes": 38347,
+        "Vote %": 42.07
+      },
+      {
+        "Candidate": "MOHAMMAD UMAR",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 8607,
+        "Postal Votes": 59,
+        "Total Votes": 8666,
+        "Vote %": 9.51
+      },
+      {
+        "Candidate": "KM. SEEMA CHAUHAN",
+        "Party": "Independent",
+        "EVM Votes": 575,
+        "Postal Votes": 3,
+        "Total Votes": 578,
+        "Vote %": 0.63
+      },
+      {
+        "Candidate": "JAMEEL AHMAD MANSOORI",
+        "Party": "Peace Party",
+        "EVM Votes": 337,
+        "Postal Votes": 0,
+        "Total Votes": 337,
+        "Vote %": 0.37
+      },
+      {
+        "Candidate": "SANJAY DUTT",
+        "Party": "Independent",
+        "EVM Votes": 196,
+        "Postal Votes": 0,
+        "Total Votes": 196,
+        "Vote %": 0.22
+      },
+      {
+        "Candidate": "LALMAN SINGH",
+        "Party": "Independent",
+        "EVM Votes": 144,
+        "Postal Votes": 0,
+        "Total Votes": 144,
+        "Vote %": 0.16
+      },
+      {
+        "Candidate": "MOHAMMAD AJMAL SIDDIQI",
+        "Party": "Uttarakhand Kranti Dal (Democratic)",
+        "EVM Votes": 137,
+        "Postal Votes": 1,
+        "Total Votes": 138,
+        "Vote %": 0.15
+      },
+      {
+        "Candidate": "RAKESH KUMAR",
+        "Party": "Independent",
+        "EVM Votes": 100,
+        "Postal Votes": 0,
+        "Total Votes": 100,
+        "Vote %": 0.11
+      },
+      {
+        "Candidate": "MAHENDER SINGH",
+        "Party": "Shivsena",
+        "EVM Votes": 96,
+        "Postal Votes": 1,
+        "Total Votes": 97,
+        "Vote %": 0.11
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 644,
+        "Postal Votes": 0,
+        "Total Votes": 644,
+        "Vote %": 0.71
+      }
+    ]
+  },
+  {
+    "ac_no": 63,
+    "ac_name": "Kashipur",
+    "candidates": [
+      {
+        "Candidate": "HARBHAJAN SINGH CHEEMA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 49936,
+        "Postal Votes": 220,
+        "Total Votes": 50156,
+        "Vote %": 48.11
+      },
+      {
+        "Candidate": "MANOJ JOSHI",
+        "Party": "Indian National Congress",
+        "EVM Votes": 29856,
+        "Postal Votes": 186,
+        "Total Votes": 30042,
+        "Vote %": 28.81
+      },
+      {
+        "Candidate": "MOHD ASHRAF SIDDIQUI",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 15392,
+        "Postal Votes": 34,
+        "Total Votes": 15426,
+        "Vote %": 14.8
+      },
+      {
+        "Candidate": "RAJEEV KUMAR AGARWAL",
+        "Party": "Independent",
+        "EVM Votes": 7075,
+        "Postal Votes": 31,
+        "Total Votes": 7106,
+        "Vote %": 6.82
+      },
+      {
+        "Candidate": "SHIV SINGH RAWAT",
+        "Party": "Independent",
+        "EVM Votes": 415,
+        "Postal Votes": 1,
+        "Total Votes": 416,
+        "Vote %": 0.4
+      },
+      {
+        "Candidate": "MOHD. ANAS",
+        "Party": "Rashtriya Lok Dal",
+        "EVM Votes": 301,
+        "Postal Votes": 0,
+        "Total Votes": 301,
+        "Vote %": 0.29
+      },
+      {
+        "Candidate": "JAKIR",
+        "Party": "Peace Party",
+        "EVM Votes": 214,
+        "Postal Votes": 0,
+        "Total Votes": 214,
+        "Vote %": 0.21
+      },
+      {
+        "Candidate": "SHIV KUMAR SINGH",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 208,
+        "Postal Votes": 0,
+        "Total Votes": 208,
+        "Vote %": 0.2
+      },
+      {
+        "Candidate": "GOHAR ALI",
+        "Party": "Independent",
+        "EVM Votes": 197,
+        "Postal Votes": 1,
+        "Total Votes": 198,
+        "Vote %": 0.19
+      },
+      {
+        "Candidate": "SURENDRA CHAUDHARY",
+        "Party": "Uttarakhand Kranti Dal (Democratic)",
+        "EVM Votes": 101,
+        "Postal Votes": 0,
+        "Total Votes": 101,
+        "Vote %": 0.1
+      },
+      {
+        "Candidate": "ASHOK KUMAR",
+        "Party": "Independent",
+        "EVM Votes": 95,
+        "Postal Votes": 0,
+        "Total Votes": 95,
+        "Vote %": 0.09
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 651,
+        "Postal Votes": 4,
+        "Total Votes": 655,
+        "Vote %": 0.63
+      }
+    ]
+  },
+  {
+    "ac_no": 64,
+    "ac_name": "Bajpur  (SC)",
+    "candidates": [
+      {
+        "Candidate": "YASHPAL ARYA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 54776,
+        "Postal Votes": 189,
+        "Total Votes": 54965,
+        "Vote %": 53.22
+      },
+      {
+        "Candidate": "SUNEETA TAMTA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 42184,
+        "Postal Votes": 145,
+        "Total Votes": 42329,
+        "Vote %": 40.98
+      },
+      {
+        "Candidate": "RAMAVATAR",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 4482,
+        "Postal Votes": 29,
+        "Total Votes": 4511,
+        "Vote %": 4.37
+      },
+      {
+        "Candidate": "MANISHA",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 650,
+        "Postal Votes": 1,
+        "Total Votes": 651,
+        "Vote %": 0.63
+      },
+      {
+        "Candidate": "GAUTAM KUMAR",
+        "Party": "Shivsena",
+        "EVM Votes": 488,
+        "Postal Votes": 0,
+        "Total Votes": 488,
+        "Vote %": 0.47
+      },
+      {
+        "Candidate": "MADAN SINGH",
+        "Party": "Independent",
+        "EVM Votes": 340,
+        "Postal Votes": 0,
+        "Total Votes": 340,
+        "Vote %": 0.33
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 908,
+        "Postal Votes": 0,
+        "Total Votes": 908,
+        "Vote %": 0.88
+      }
+    ]
+  },
+  {
+    "ac_no": 65,
+    "ac_name": "Gadarpur",
+    "candidates": [
+      {
+        "Candidate": "ARVIND PANDEY",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 41402,
+        "Postal Votes": 128,
+        "Total Votes": 41530,
+        "Vote %": 42.68
+      },
+      {
+        "Candidate": "RAJENDRA PAL SINGH",
+        "Party": "Indian National Congress",
+        "EVM Votes": 27343,
+        "Postal Votes": 81,
+        "Total Votes": 27424,
+        "Vote %": 28.18
+      },
+      {
+        "Candidate": "JARNAIL SINGH (KALI)",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 26046,
+        "Postal Votes": 69,
+        "Total Votes": 26115,
+        "Vote %": 26.84
+      },
+      {
+        "Candidate": "SHANKAR SINGH NAGARKOTI",
+        "Party": "Independent",
+        "EVM Votes": 832,
+        "Postal Votes": 3,
+        "Total Votes": 835,
+        "Vote %": 0.86
+      },
+      {
+        "Candidate": "SHAHEROOM",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 804,
+        "Postal Votes": 3,
+        "Total Votes": 807,
+        "Vote %": 0.83
+      },
+      {
+        "Candidate": "PARAMJEET KAUR",
+        "Party": "Independent",
+        "EVM Votes": 308,
+        "Postal Votes": 0,
+        "Total Votes": 308,
+        "Vote %": 0.32
+      },
+      {
+        "Candidate": "ANAND VISHWAS",
+        "Party": "Independent",
+        "EVM Votes": 174,
+        "Postal Votes": 0,
+        "Total Votes": 174,
+        "Vote %": 0.18
+      },
+      {
+        "Candidate": "KAMLESH",
+        "Party": "Independent",
+        "EVM Votes": 109,
+        "Postal Votes": 0,
+        "Total Votes": 109,
+        "Vote %": 0.11
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 758,
+        "Postal Votes": 0,
+        "Total Votes": 758,
+        "Vote %": 0.78
+      }
+    ]
+  },
+  {
+    "ac_no": 66,
+    "ac_name": "Rudrapur",
+    "candidates": [
+      {
+        "Candidate": "RAJKUMAR THUKRAL",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 68176,
+        "Postal Votes": 578,
+        "Total Votes": 68754,
+        "Vote %": 59.19
+      },
+      {
+        "Candidate": "TILAK RAJ BEHAR",
+        "Party": "Indian National Congress",
+        "EVM Votes": 43307,
+        "Postal Votes": 676,
+        "Total Votes": 43983,
+        "Vote %": 37.87
+      },
+      {
+        "Candidate": "JASWANT SINGH",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 1445,
+        "Postal Votes": 26,
+        "Total Votes": 1471,
+        "Vote %": 1.27
+      },
+      {
+        "Candidate": "B.D.KANDPAL",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 423,
+        "Postal Votes": 4,
+        "Total Votes": 427,
+        "Vote %": 0.37
+      },
+      {
+        "Candidate": "SANJAY SAHNI",
+        "Party": "Independent",
+        "EVM Votes": 420,
+        "Postal Votes": 0,
+        "Total Votes": 420,
+        "Vote %": 0.36
+      },
+      {
+        "Candidate": "HIMAN SINGH NEGI",
+        "Party": "Independent",
+        "EVM Votes": 332,
+        "Postal Votes": 0,
+        "Total Votes": 332,
+        "Vote %": 0.29
+      },
+      {
+        "Candidate": "SURENDRA UPADHYAY",
+        "Party": "Independent",
+        "EVM Votes": 249,
+        "Postal Votes": 0,
+        "Total Votes": 249,
+        "Vote %": 0.21
+      },
+      {
+        "Candidate": "VINOD KUMAR",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 188,
+        "Postal Votes": 0,
+        "Total Votes": 188,
+        "Vote %": 0.16
+      },
+      {
+        "Candidate": "KAILASH CHANDRA",
+        "Party": "Independent",
+        "EVM Votes": 132,
+        "Postal Votes": 0,
+        "Total Votes": 132,
+        "Vote %": 0.11
+      },
+      {
+        "Candidate": "SURENDRA SINGHAL",
+        "Party": "Rashtriya Lok Dal",
+        "EVM Votes": 107,
+        "Postal Votes": 0,
+        "Total Votes": 107,
+        "Vote %": 0.09
+      },
+      {
+        "Candidate": "MANPREET SINGH",
+        "Party": "Independent",
+        "EVM Votes": 93,
+        "Postal Votes": 1,
+        "Total Votes": 94,
+        "Vote %": 0.08
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 585,
+        "Postal Votes": 11,
+        "Total Votes": 596,
+        "Vote %": 0.51
+      }
+    ]
+  },
+  {
+    "ac_no": 67,
+    "ac_name": "Kichha",
+    "candidates": [
+      {
+        "Candidate": "RAJESH SHUKLA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 39996,
+        "Postal Votes": 367,
+        "Total Votes": 40363,
+        "Vote %": 46.07
+      },
+      {
+        "Candidate": "HARISH RAWAT",
+        "Party": "Indian National Congress",
+        "EVM Votes": 37842,
+        "Postal Votes": 394,
+        "Total Votes": 38236,
+        "Vote %": 43.64
+      },
+      {
+        "Candidate": "RAJESH PRATAP SINGH",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 7511,
+        "Postal Votes": 243,
+        "Total Votes": 7754,
+        "Vote %": 8.85
+      },
+      {
+        "Candidate": "SANJAY SINGH",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 456,
+        "Postal Votes": 3,
+        "Total Votes": 459,
+        "Vote %": 0.52
+      },
+      {
+        "Candidate": "MOHD. JALEES",
+        "Party": "Independent",
+        "EVM Votes": 404,
+        "Postal Votes": 1,
+        "Total Votes": 405,
+        "Vote %": 0.46
+      },
+      {
+        "Candidate": "SANJAY GROVER",
+        "Party": "Independent",
+        "EVM Votes": 254,
+        "Postal Votes": 0,
+        "Total Votes": 254,
+        "Vote %": 0.29
+      },
+      {
+        "Candidate": "ANIL KUMAR SHARMA",
+        "Party": "Independent",
+        "EVM Votes": 149,
+        "Postal Votes": 0,
+        "Total Votes": 149,
+        "Vote %": 0.17
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 555,
+        "Postal Votes": 3,
+        "Total Votes": 558,
+        "Vote %": 0.64
+      }
+    ]
+  },
+  {
+    "ac_no": 68,
+    "ac_name": "Sitarganj",
+    "candidates": [
+      {
+        "Candidate": "SAURABH BAHUGUNA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 50469,
+        "Postal Votes": 128,
+        "Total Votes": 50597,
+        "Vote %": 58.24
+      },
+      {
+        "Candidate": "MALTI  BISWAS",
+        "Party": "Indian National Congress",
+        "EVM Votes": 22039,
+        "Postal Votes": 108,
+        "Total Votes": 22147,
+        "Vote %": 25.49
+      },
+      {
+        "Candidate": "NAVTEJ PAL SINGH",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 11862,
+        "Postal Votes": 30,
+        "Total Votes": 11892,
+        "Vote %": 13.69
+      },
+      {
+        "Candidate": "YOGENDRA KUMAR YADAV",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 810,
+        "Postal Votes": 1,
+        "Total Votes": 811,
+        "Vote %": 0.93
+      },
+      {
+        "Candidate": "BINDA BISWAS",
+        "Party": "Independent",
+        "EVM Votes": 436,
+        "Postal Votes": 1,
+        "Total Votes": 437,
+        "Vote %": 0.5
+      },
+      {
+        "Candidate": "MOBEEN ALI",
+        "Party": "Independent",
+        "EVM Votes": 400,
+        "Postal Votes": 0,
+        "Total Votes": 400,
+        "Vote %": 0.46
+      },
+      {
+        "Candidate": "ABDUL VAHEED",
+        "Party": "Independent",
+        "EVM Votes": 178,
+        "Postal Votes": 0,
+        "Total Votes": 178,
+        "Vote %": 0.2
+      },
+      {
+        "Candidate": "AKHTAYAR AHAMAD",
+        "Party": "Independent",
+        "EVM Votes": 155,
+        "Postal Votes": 0,
+        "Total Votes": 155,
+        "Vote %": 0.18
+      },
+      {
+        "Candidate": "HEM CHANDRA",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 136,
+        "Postal Votes": 0,
+        "Total Votes": 136,
+        "Vote %": 0.16
+      },
+      {
+        "Candidate": "RAGHUVIR",
+        "Party": "Bharatiya Subhash Sena",
+        "EVM Votes": 126,
+        "Postal Votes": 1,
+        "Total Votes": 127,
+        "Vote %": 0.15
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 578,
+        "Postal Votes": 2,
+        "Total Votes": 580,
+        "Vote %": 0.67
+      }
+    ]
+  },
+  {
+    "ac_no": 69,
+    "ac_name": "Nanak matta  (ST)",
+    "candidates": [
+      {
+        "Candidate": "DR. PREM SINGH",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 42590,
+        "Postal Votes": 195,
+        "Total Votes": 42785,
+        "Vote %": 52.16
+      },
+      {
+        "Candidate": "GOPAL SINGH RANA",
+        "Party": "Indian National Congress",
+        "EVM Votes": 33076,
+        "Postal Votes": 178,
+        "Total Votes": 33254,
+        "Vote %": 40.54
+      },
+      {
+        "Candidate": "SHISH RAM RANA",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 3155,
+        "Postal Votes": 19,
+        "Total Votes": 3174,
+        "Vote %": 3.87
+      },
+      {
+        "Candidate": "SUNEETA RANA",
+        "Party": "Independent",
+        "EVM Votes": 1300,
+        "Postal Votes": 5,
+        "Total Votes": 1305,
+        "Vote %": 1.59
+      },
+      {
+        "Candidate": "RITA WATI",
+        "Party": "Independent",
+        "EVM Votes": 899,
+        "Postal Votes": 0,
+        "Total Votes": 899,
+        "Vote %": 1.1
+      },
+      {
+        "Candidate": "MAHESH CHANDRA",
+        "Party": "Independent",
+        "EVM Votes": 385,
+        "Postal Votes": 1,
+        "Total Votes": 386,
+        "Vote %": 0.47
+      },
+      {
+        "Candidate": "ANSUIYA",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 225,
+        "Postal Votes": 3,
+        "Total Votes": 228,
+        "Vote %": 0.28
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 807,
+        "Postal Votes": 1,
+        "Total Votes": 808,
+        "Vote %": 0.98
+      }
+    ]
+  },
+  {
+    "ac_no": 70,
+    "ac_name": "Khatima",
+    "candidates": [
+      {
+        "Candidate": "PUSHKAR SINGH DHAMI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 29383,
+        "Postal Votes": 156,
+        "Total Votes": 29539,
+        "Vote %": 36.92
+      },
+      {
+        "Candidate": "BHUWAN CHANDRA KAPRI",
+        "Party": "Indian National Congress",
+        "EVM Votes": 26734,
+        "Postal Votes": 96,
+        "Total Votes": 26830,
+        "Vote %": 33.53
+      },
+      {
+        "Candidate": "RAMESH SINGH RANA",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 17770,
+        "Postal Votes": 34,
+        "Total Votes": 17804,
+        "Vote %": 22.25
+      },
+      {
+        "Candidate": "DR. LALIT SINGH",
+        "Party": "Independent",
+        "EVM Votes": 4452,
+        "Postal Votes": 64,
+        "Total Votes": 4516,
+        "Vote %": 5.64
+      },
+      {
+        "Candidate": "RAMESH CHANDRA RANA",
+        "Party": "Independent",
+        "EVM Votes": 451,
+        "Postal Votes": 1,
+        "Total Votes": 452,
+        "Vote %": 0.56
+      },
+      {
+        "Candidate": "ABDUL FAREED SIDDIQUI",
+        "Party": "Uttarakhand Kranti Dal",
+        "EVM Votes": 269,
+        "Postal Votes": 0,
+        "Total Votes": 269,
+        "Vote %": 0.34
+      },
+      {
+        "Candidate": "RAMESH KUMAR MAX",
+        "Party": "Independent",
+        "EVM Votes": 214,
+        "Postal Votes": 1,
+        "Total Votes": 215,
+        "Vote %": 0.27
+      },
+      {
+        "Candidate": "BHUWAL SINGH KUSHWAHA",
+        "Party": "Bharatiya Subhash Sena",
+        "EVM Votes": 156,
+        "Postal Votes": 0,
+        "Total Votes": 156,
+        "Vote %": 0.19
+      },
+      {
+        "Candidate": "ANIL KUMAR RASTOGI",
+        "Party": "Shivsena",
+        "EVM Votes": 121,
+        "Postal Votes": 0,
+        "Total Votes": 121,
+        "Vote %": 0.15
+      },
+      {
+        "Candidate": "VINOD BHATT",
+        "Party": "Samajwadi Party",
+        "EVM Votes": 115,
+        "Postal Votes": 0,
+        "Total Votes": 115,
+        "Vote %": 0.14
+      },
+      {
+        "Candidate": "NOTA",
+        "Party": "None of the Above",
+        "EVM Votes": 890,
+        "Postal Votes": 0,
+        "Total Votes": 890,
+        "Vote %": 1.11
+      }
+    ]
+  }
+]

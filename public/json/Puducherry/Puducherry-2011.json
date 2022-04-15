@@ -1,0 +1,1678 @@
+[
+  {
+    "ac_no": 1,
+    "ac_name": "Mannadipet",
+    "candidates": [
+      {
+        "Candidate": "T.P.R. SELVAM",
+        "Party": "All India N.R. Congress",
+        "EVM Votes": 12329,
+        "Postal Votes": 83,
+        "Total Votes": 12412,
+        "Vote %": 49.56
+      },
+      {
+        "Candidate": "K.P.K. ARUL MURUGAN",
+        "Party": "Pattali Makkal Katchi",
+        "EVM Votes": 7661,
+        "Postal Votes": 35,
+        "Total Votes": 7696,
+        "Vote %": 30.73
+      },
+      {
+        "Candidate": "N. RAJARAM",
+        "Party": "Independent",
+        "EVM Votes": 4072,
+        "Postal Votes": 10,
+        "Total Votes": 4082,
+        "Vote %": 16.3
+      },
+      {
+        "Candidate": "D. GUNASHAKARAN",
+        "Party": "Independent",
+        "EVM Votes": 329,
+        "Postal Votes": 0,
+        "Total Votes": 329,
+        "Vote %": 1.31
+      },
+      {
+        "Candidate": "M. LATCHUMANAN",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 156,
+        "Postal Votes": 0,
+        "Total Votes": 156,
+        "Vote %": 0.62
+      },
+      {
+        "Candidate": "PA. VADIVELAN",
+        "Party": "Janata Dal  (United)",
+        "EVM Votes": 152,
+        "Postal Votes": 0,
+        "Total Votes": 152,
+        "Vote %": 0.61
+      },
+      {
+        "Candidate": "V. MURUGANANDHAM",
+        "Party": "Independent",
+        "EVM Votes": 127,
+        "Postal Votes": 0,
+        "Total Votes": 127,
+        "Vote %": 0.51
+      },
+      {
+        "Candidate": "N.R. TANDAPANY",
+        "Party": "Independent",
+        "EVM Votes": 91,
+        "Postal Votes": 0,
+        "Total Votes": 91,
+        "Vote %": 0.36
+      }
+    ]
+  },
+  {
+    "ac_no": 2,
+    "ac_name": "Thirubhuvanai  (SC)",
+    "candidates": [
+      {
+        "Candidate": "P. ANGALANE",
+        "Party": "All India N.R. Congress",
+        "EVM Votes": 13676,
+        "Postal Votes": 57,
+        "Total Votes": 13733,
+        "Vote %": 59.02
+      },
+      {
+        "Candidate": "K. JAYARAJ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 8935,
+        "Postal Votes": 30,
+        "Total Votes": 8965,
+        "Vote %": 38.53
+      },
+      {
+        "Candidate": "M. DHANDAPANI",
+        "Party": "Independent",
+        "EVM Votes": 241,
+        "Postal Votes": 0,
+        "Total Votes": 241,
+        "Vote %": 1.04
+      },
+      {
+        "Candidate": "M. SUNDARAMOORTHY",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 212,
+        "Postal Votes": 0,
+        "Total Votes": 212,
+        "Vote %": 0.91
+      },
+      {
+        "Candidate": "V.M. VELMURUGAN",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 118,
+        "Postal Votes": 0,
+        "Total Votes": 118,
+        "Vote %": 0.51
+      }
+    ]
+  },
+  {
+    "ac_no": 3,
+    "ac_name": "Oussudu  (SC)",
+    "candidates": [
+      {
+        "Candidate": "P. KARTHIKEYAN",
+        "Party": "All India N.R. Congress",
+        "EVM Votes": 13274,
+        "Postal Votes": 53,
+        "Total Votes": 13327,
+        "Vote %": 58.78
+      },
+      {
+        "Candidate": "A. ELUMALAI",
+        "Party": "Dravida Munnetra Kazhagam",
+        "EVM Votes": 8141,
+        "Postal Votes": 28,
+        "Total Votes": 8169,
+        "Vote %": 36.03
+      },
+      {
+        "Candidate": "P. SUNDARARASU PONNAS",
+        "Party": "Independent",
+        "EVM Votes": 753,
+        "Postal Votes": 3,
+        "Total Votes": 756,
+        "Vote %": 3.33
+      },
+      {
+        "Candidate": "M. PITCHEKARANE @ ",
+        "Party": "Lok Jan Shakti Party",
+        "EVM Votes": 224,
+        "Postal Votes": 0,
+        "Total Votes": 224,
+        "Vote %": 0.99
+      },
+      {
+        "Candidate": "S.T. CALE",
+        "Party": "Puratchi Bharatham",
+        "EVM Votes": 77,
+        "Postal Votes": 0,
+        "Total Votes": 77,
+        "Vote %": 0.34
+      },
+      {
+        "Candidate": "A. SELVALATCHOUMY",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 67,
+        "Postal Votes": 0,
+        "Total Votes": 67,
+        "Vote %": 0.3
+      },
+      {
+        "Candidate": "S. SARAGANABAVA",
+        "Party": "Independent",
+        "EVM Votes": 52,
+        "Postal Votes": 0,
+        "Total Votes": 52,
+        "Vote %": 0.23
+      }
+    ]
+  },
+  {
+    "ac_no": 4,
+    "ac_name": "Mangalam",
+    "candidates": [
+      {
+        "Candidate": "C. DJEACOUMAR",
+        "Party": "Indian National Congress",
+        "EVM Votes": 13998,
+        "Postal Votes": 54,
+        "Total Votes": 14052,
+        "Vote %": 52.59
+      },
+      {
+        "Candidate": "P. ANANDABASKARAN",
+        "Party": "All India N.R. Congress",
+        "EVM Votes": 11701,
+        "Postal Votes": 58,
+        "Total Votes": 11759,
+        "Vote %": 44.01
+      },
+      {
+        "Candidate": "ABOOBAKKAR",
+        "Party": "Independent",
+        "EVM Votes": 305,
+        "Postal Votes": 0,
+        "Total Votes": 305,
+        "Vote %": 1.14
+      },
+      {
+        "Candidate": "PARANDAMANE",
+        "Party": "Independent",
+        "EVM Votes": 177,
+        "Postal Votes": 0,
+        "Total Votes": 177,
+        "Vote %": 0.66
+      },
+      {
+        "Candidate": "P. CANNANE",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 169,
+        "Postal Votes": 2,
+        "Total Votes": 171,
+        "Vote %": 0.64
+      },
+      {
+        "Candidate": "T. SIVASUBRAMANIAN",
+        "Party": "Independent",
+        "EVM Votes": 105,
+        "Postal Votes": 0,
+        "Total Votes": 105,
+        "Vote %": 0.39
+      },
+      {
+        "Candidate": "P. PAVADAISAMY",
+        "Party": "Lok Jan Shakti Party",
+        "EVM Votes": 87,
+        "Postal Votes": 0,
+        "Total Votes": 87,
+        "Vote %": 0.33
+      },
+      {
+        "Candidate": "P. MURUGESAN",
+        "Party": "Indiya Jananayaka Katchi",
+        "EVM Votes": 43,
+        "Postal Votes": 0,
+        "Total Votes": 43,
+        "Vote %": 0.16
+      },
+      {
+        "Candidate": "S. MANAVALADASS",
+        "Party": "Janata Dal  (United)",
+        "EVM Votes": 19,
+        "Postal Votes": 0,
+        "Total Votes": 19,
+        "Vote %": 0.07
+      }
+    ]
+  },
+  {
+    "ac_no": 5,
+    "ac_name": "Villianur",
+    "candidates": [
+      {
+        "Candidate": "A. NAMASSIVAYAM",
+        "Party": "Indian National Congress",
+        "EVM Votes": 13011,
+        "Postal Votes": 94,
+        "Total Votes": 13105,
+        "Vote %": 52.03
+      },
+      {
+        "Candidate": "NADARAJAN .K",
+        "Party": "All India N.R. Congress",
+        "EVM Votes": 11506,
+        "Postal Votes": 58,
+        "Total Votes": 11564,
+        "Vote %": 45.91
+      },
+      {
+        "Candidate": "M.S. PERUMAL",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 184,
+        "Postal Votes": 2,
+        "Total Votes": 186,
+        "Vote %": 0.74
+      },
+      {
+        "Candidate": "SIVAKUMAR",
+        "Party": "Independent",
+        "EVM Votes": 155,
+        "Postal Votes": 0,
+        "Total Votes": 155,
+        "Vote %": 0.62
+      },
+      {
+        "Candidate": "K. ATHIRIYEN",
+        "Party": "Independent",
+        "EVM Votes": 136,
+        "Postal Votes": 0,
+        "Total Votes": 136,
+        "Vote %": 0.54
+      },
+      {
+        "Candidate": "KATHIRVELU",
+        "Party": "Independent",
+        "EVM Votes": 42,
+        "Postal Votes": 0,
+        "Total Votes": 42,
+        "Vote %": 0.17
+      }
+    ]
+  },
+  {
+    "ac_no": 6,
+    "ac_name": "Ozhukarai",
+    "candidates": [
+      {
+        "Candidate": "N.G. PANNIR SELVAM",
+        "Party": "All India N.R. Congress",
+        "EVM Votes": 8998,
+        "Postal Votes": 73,
+        "Total Votes": 9071,
+        "Vote %": 37.77
+      },
+      {
+        "Candidate": "A.N. BALANE",
+        "Party": "Independent",
+        "EVM Votes": 7441,
+        "Postal Votes": 64,
+        "Total Votes": 7505,
+        "Vote %": 31.25
+      },
+      {
+        "Candidate": "A. JOHNKUMAR",
+        "Party": "Dravida Munnetra Kazhagam",
+        "EVM Votes": 6751,
+        "Postal Votes": 82,
+        "Total Votes": 6833,
+        "Vote %": 28.45
+      },
+      {
+        "Candidate": "V. SANTHI",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 215,
+        "Postal Votes": 1,
+        "Total Votes": 216,
+        "Vote %": 0.9
+      },
+      {
+        "Candidate": "N. BALU",
+        "Party": "Independent",
+        "EVM Votes": 95,
+        "Postal Votes": 0,
+        "Total Votes": 95,
+        "Vote %": 0.4
+      },
+      {
+        "Candidate": "V. SIVARAMAN",
+        "Party": "Independent",
+        "EVM Votes": 90,
+        "Postal Votes": 0,
+        "Total Votes": 90,
+        "Vote %": 0.37
+      },
+      {
+        "Candidate": "S. SATHIYAVEL",
+        "Party": "Indiya Jananayaka Katchi",
+        "EVM Votes": 78,
+        "Postal Votes": 0,
+        "Total Votes": 78,
+        "Vote %": 0.32
+      },
+      {
+        "Candidate": "JOHN BOSCO",
+        "Party": "Independent",
+        "EVM Votes": 75,
+        "Postal Votes": 0,
+        "Total Votes": 75,
+        "Vote %": 0.31
+      },
+      {
+        "Candidate": "B.A. MOUROUGAYEN",
+        "Party": "Independent",
+        "EVM Votes": 54,
+        "Postal Votes": 0,
+        "Total Votes": 54,
+        "Vote %": 0.22
+      }
+    ]
+  },
+  {
+    "ac_no": 7,
+    "ac_name": "Kadirgamam",
+    "candidates": [
+      {
+        "Candidate": "N. RANGASAMY",
+        "Party": "All India N.R. Congress",
+        "EVM Votes": 16156,
+        "Postal Votes": 167,
+        "Total Votes": 16323,
+        "Vote %": 70.02
+      },
+      {
+        "Candidate": "V. PETHAPERUMAL",
+        "Party": "Indian National Congress",
+        "EVM Votes": 6509,
+        "Postal Votes": 57,
+        "Total Votes": 6566,
+        "Vote %": 28.16
+      },
+      {
+        "Candidate": "B. JAYANTHIMALA",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 252,
+        "Postal Votes": 2,
+        "Total Votes": 254,
+        "Vote %": 1.09
+      },
+      {
+        "Candidate": "B.A. MOUROUGAYEN",
+        "Party": "Independent",
+        "EVM Votes": 169,
+        "Postal Votes": 1,
+        "Total Votes": 170,
+        "Vote %": 0.73
+      }
+    ]
+  },
+  {
+    "ac_no": 8,
+    "ac_name": "Indira Nagar",
+    "candidates": [
+      {
+        "Candidate": "N. RANGASAMY",
+        "Party": "All India N.R. Congress",
+        "EVM Votes": 20433,
+        "Postal Votes": 252,
+        "Total Votes": 20685,
+        "Vote %": 83.77
+      },
+      {
+        "Candidate": "V. AROUMOUGAM",
+        "Party": "Indian National Congress",
+        "EVM Votes": 3932,
+        "Postal Votes": 76,
+        "Total Votes": 4008,
+        "Vote %": 16.23
+      }
+    ]
+  },
+  {
+    "ac_no": 9,
+    "ac_name": "Thattanchavady",
+    "candidates": [
+      {
+        "Candidate": "ASHOK ANAND",
+        "Party": "All India N.R. Congress",
+        "EVM Votes": 14464,
+        "Postal Votes": 133,
+        "Total Votes": 14597,
+        "Vote %": 67.99
+      },
+      {
+        "Candidate": "N. ARJUNAN",
+        "Party": "Independent",
+        "EVM Votes": 4086,
+        "Postal Votes": 5,
+        "Total Votes": 4091,
+        "Vote %": 19.05
+      },
+      {
+        "Candidate": "A. ILANGO",
+        "Party": "Dravida Munnetra Kazhagam",
+        "EVM Votes": 1740,
+        "Postal Votes": 5,
+        "Total Votes": 1745,
+        "Vote %": 8.13
+      },
+      {
+        "Candidate": "P. SIVANANDAME",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 571,
+        "Postal Votes": 6,
+        "Total Votes": 577,
+        "Vote %": 2.69
+      },
+      {
+        "Candidate": "E. BASTIAN",
+        "Party": "Independent",
+        "EVM Votes": 192,
+        "Postal Votes": 0,
+        "Total Votes": 192,
+        "Vote %": 0.89
+      },
+      {
+        "Candidate": "MASTHANJI MOHAMED ",
+        "Party": "Independent",
+        "EVM Votes": 179,
+        "Postal Votes": 0,
+        "Total Votes": 179,
+        "Vote %": 0.83
+      },
+      {
+        "Candidate": "S. JOHN KENNADY",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 88,
+        "Postal Votes": 1,
+        "Total Votes": 89,
+        "Vote %": 0.41
+      }
+    ]
+  },
+  {
+    "ac_no": 10,
+    "ac_name": "Kamaraj Nagar",
+    "candidates": [
+      {
+        "Candidate": "V. VAITHILINGAM",
+        "Party": "Indian National Congress",
+        "EVM Votes": 12475,
+        "Postal Votes": 95,
+        "Total Votes": 12570,
+        "Vote %": 59.01
+      },
+      {
+        "Candidate": "NARA. KALAINATHAN",
+        "Party": "Communist Party of India",
+        "EVM Votes": 6507,
+        "Postal Votes": 34,
+        "Total Votes": 6541,
+        "Vote %": 30.7
+      },
+      {
+        "Candidate": "S. RAVICHANDRAN",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 994,
+        "Postal Votes": 15,
+        "Total Votes": 1009,
+        "Vote %": 4.74
+      },
+      {
+        "Candidate": "R. BARTHASSARADY",
+        "Party": "Independent",
+        "EVM Votes": 355,
+        "Postal Votes": 1,
+        "Total Votes": 356,
+        "Vote %": 1.67
+      },
+      {
+        "Candidate": "K. SAKTHIVELU",
+        "Party": "Independent",
+        "EVM Votes": 328,
+        "Postal Votes": 0,
+        "Total Votes": 328,
+        "Vote %": 1.54
+      },
+      {
+        "Candidate": "A. BASKARAN",
+        "Party": "Independent",
+        "EVM Votes": 255,
+        "Postal Votes": 1,
+        "Total Votes": 256,
+        "Vote %": 1.2
+      },
+      {
+        "Candidate": "M. PAVADAI @ RAJA",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 104,
+        "Postal Votes": 0,
+        "Total Votes": 104,
+        "Vote %": 0.49
+      },
+      {
+        "Candidate": "K. SUNDAR RAAJAN",
+        "Party": "Lok Jan Shakti Party",
+        "EVM Votes": 93,
+        "Postal Votes": 0,
+        "Total Votes": 93,
+        "Vote %": 0.44
+      },
+      {
+        "Candidate": "M. SELVAMANIKANDAN",
+        "Party": "Independent",
+        "EVM Votes": 46,
+        "Postal Votes": 0,
+        "Total Votes": 46,
+        "Vote %": 0.22
+      }
+    ]
+  },
+  {
+    "ac_no": 11,
+    "ac_name": "Lawspet",
+    "candidates": [
+      {
+        "Candidate": "M. VAITHIANATHAN",
+        "Party": "All India N.R. Congress",
+        "EVM Votes": 10103,
+        "Postal Votes": 86,
+        "Total Votes": 10189,
+        "Vote %": 51.79
+      },
+      {
+        "Candidate": "V.P. SIVAKOLUNTHU",
+        "Party": "Indian National Congress",
+        "EVM Votes": 4718,
+        "Postal Votes": 39,
+        "Total Votes": 4757,
+        "Vote %": 24.18
+      },
+      {
+        "Candidate": "NANDHA JAYA SRIDARAN",
+        "Party": "Independent",
+        "EVM Votes": 2221,
+        "Postal Votes": 9,
+        "Total Votes": 2230,
+        "Vote %": 11.34
+      },
+      {
+        "Candidate": "R.V. SAMINATHAN",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 1641,
+        "Postal Votes": 31,
+        "Total Votes": 1672,
+        "Vote %": 8.5
+      },
+      {
+        "Candidate": "CH. BALAMOHANAN",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 628,
+        "Postal Votes": 19,
+        "Total Votes": 647,
+        "Vote %": 3.29
+      },
+      {
+        "Candidate": "G. SATHIARAJ",
+        "Party": "Independent",
+        "EVM Votes": 105,
+        "Postal Votes": 3,
+        "Total Votes": 108,
+        "Vote %": 0.55
+      },
+      {
+        "Candidate": "J. POUVARAGHAVAN",
+        "Party": "Independent",
+        "EVM Votes": 70,
+        "Postal Votes": 0,
+        "Total Votes": 70,
+        "Vote %": 0.36
+      }
+    ]
+  },
+  {
+    "ac_no": 12,
+    "ac_name": "Kalapet",
+    "candidates": [
+      {
+        "Candidate": "P.M.L. KALYANA SUNDARAM",
+        "Party": "All India N.R. Congress",
+        "EVM Votes": 13981,
+        "Postal Votes": 151,
+        "Total Votes": 14132,
+        "Vote %": 62.43
+      },
+      {
+        "Candidate": "M.O.H.F SHAHJAHAN",
+        "Party": "Indian National Congress",
+        "EVM Votes": 7715,
+        "Postal Votes": 51,
+        "Total Votes": 7766,
+        "Vote %": 34.31
+      },
+      {
+        "Candidate": "L. KARUNAKARAN",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 211,
+        "Postal Votes": 3,
+        "Total Votes": 214,
+        "Vote %": 0.95
+      },
+      {
+        "Candidate": "U. KALYANASUNDARAM",
+        "Party": "Independent",
+        "EVM Votes": 197,
+        "Postal Votes": 0,
+        "Total Votes": 197,
+        "Vote %": 0.87
+      },
+      {
+        "Candidate": "SUBRAMANIAN",
+        "Party": "Independent",
+        "EVM Votes": 120,
+        "Postal Votes": 0,
+        "Total Votes": 120,
+        "Vote %": 0.53
+      },
+      {
+        "Candidate": "I.M.S. BALAJI",
+        "Party": "Independent",
+        "EVM Votes": 82,
+        "Postal Votes": 0,
+        "Total Votes": 82,
+        "Vote %": 0.36
+      },
+      {
+        "Candidate": "SEGAR",
+        "Party": "Independent",
+        "EVM Votes": 57,
+        "Postal Votes": 0,
+        "Total Votes": 57,
+        "Vote %": 0.25
+      },
+      {
+        "Candidate": "R. KALYANASUNDARAM",
+        "Party": "Independent",
+        "EVM Votes": 44,
+        "Postal Votes": 1,
+        "Total Votes": 45,
+        "Vote %": 0.2
+      },
+      {
+        "Candidate": "P. KALYANASUNDARAM",
+        "Party": "Independent",
+        "EVM Votes": 24,
+        "Postal Votes": 0,
+        "Total Votes": 24,
+        "Vote %": 0.11
+      }
+    ]
+  },
+  {
+    "ac_no": 13,
+    "ac_name": "Muthialpet",
+    "candidates": [
+      {
+        "Candidate": "NANDHA. T. SARAVANAN",
+        "Party": "Dravida Munnetra Kazhagam",
+        "EVM Votes": 10275,
+        "Postal Votes": 89,
+        "Total Votes": 10364,
+        "Vote %": 47.82
+      },
+      {
+        "Candidate": "A. KASILINGAM",
+        "Party": "All India Anna Dravida Munnetra Kazhagam",
+        "EVM Votes": 7360,
+        "Postal Votes": 28,
+        "Total Votes": 7388,
+        "Vote %": 34.09
+      },
+      {
+        "Candidate": "A. PARAMASIVAM",
+        "Party": "Independent",
+        "EVM Votes": 3412,
+        "Postal Votes": 15,
+        "Total Votes": 3427,
+        "Vote %": 15.81
+      },
+      {
+        "Candidate": "KRISHNAKANTHAN @ ",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 251,
+        "Postal Votes": 6,
+        "Total Votes": 257,
+        "Vote %": 1.19
+      },
+      {
+        "Candidate": "S. MOTHILAL",
+        "Party": "Communist Party of India  (Marxist-Leninist)  (Liberation)",
+        "EVM Votes": 148,
+        "Postal Votes": 0,
+        "Total Votes": 148,
+        "Vote %": 0.68
+      },
+      {
+        "Candidate": "R. KUMARAN @ PAVADAISAMI",
+        "Party": "Independent",
+        "EVM Votes": 87,
+        "Postal Votes": 0,
+        "Total Votes": 87,
+        "Vote %": 0.4
+      }
+    ]
+  },
+  {
+    "ac_no": 14,
+    "ac_name": "Raj bhavan",
+    "candidates": [
+      {
+        "Candidate": "K. LAKSHMINARAYANAN",
+        "Party": "Indian National Congress",
+        "EVM Votes": 11350,
+        "Postal Votes": 48,
+        "Total Votes": 11398,
+        "Vote %": 59.57
+      },
+      {
+        "Candidate": "M. SARAVANAKUMAR",
+        "Party": "All India Anna Dravida Munnetra Kazhagam",
+        "EVM Votes": 4321,
+        "Postal Votes": 6,
+        "Total Votes": 4327,
+        "Vote %": 22.62
+      },
+      {
+        "Candidate": "ANNIBAL NEHRU",
+        "Party": "Independent",
+        "EVM Votes": 2520,
+        "Postal Votes": 16,
+        "Total Votes": 2536,
+        "Vote %": 13.25
+      },
+      {
+        "Candidate": "S.P. LALLU",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 553,
+        "Postal Votes": 2,
+        "Total Votes": 555,
+        "Vote %": 2.9
+      },
+      {
+        "Candidate": "I.M. SEKAR NAICKER",
+        "Party": "Independent",
+        "EVM Votes": 227,
+        "Postal Votes": 0,
+        "Total Votes": 227,
+        "Vote %": 1.19
+      },
+      {
+        "Candidate": "M. ARUMAI SELVAM",
+        "Party": "Independent",
+        "EVM Votes": 90,
+        "Postal Votes": 0,
+        "Total Votes": 90,
+        "Vote %": 0.47
+      }
+    ]
+  },
+  {
+    "ac_no": 15,
+    "ac_name": "Oupalam",
+    "candidates": [
+      {
+        "Candidate": "A. ANBALAGAN",
+        "Party": "All India Anna Dravida Munnetra Kazhagam",
+        "EVM Votes": 9496,
+        "Postal Votes": 40,
+        "Total Votes": 9536,
+        "Vote %": 42.59
+      },
+      {
+        "Candidate": "N. ANAND",
+        "Party": "Independent",
+        "EVM Votes": 6293,
+        "Postal Votes": 39,
+        "Total Votes": 6332,
+        "Vote %": 28.28
+      },
+      {
+        "Candidate": "ANNIBAL KENNEDY",
+        "Party": "Dravida Munnetra Kazhagam",
+        "EVM Votes": 6085,
+        "Postal Votes": 37,
+        "Total Votes": 6122,
+        "Vote %": 27.35
+      },
+      {
+        "Candidate": "MOULANA ABDUL KHADIR",
+        "Party": "Independent",
+        "EVM Votes": 159,
+        "Postal Votes": 0,
+        "Total Votes": 159,
+        "Vote %": 0.71
+      },
+      {
+        "Candidate": "R. ANAND",
+        "Party": "Independent",
+        "EVM Votes": 111,
+        "Postal Votes": 1,
+        "Total Votes": 112,
+        "Vote %": 0.5
+      },
+      {
+        "Candidate": "IROUDHAYARAZ JULE",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 50,
+        "Postal Votes": 0,
+        "Total Votes": 50,
+        "Vote %": 0.22
+      },
+      {
+        "Candidate": "MANIVANNAN",
+        "Party": "Independent",
+        "EVM Votes": 47,
+        "Postal Votes": 0,
+        "Total Votes": 47,
+        "Vote %": 0.21
+      },
+      {
+        "Candidate": "ANGAPPIN @ ROUSSEAU ",
+        "Party": "Lok Jan Shakti Party",
+        "EVM Votes": 18,
+        "Postal Votes": 0,
+        "Total Votes": 18,
+        "Vote %": 0.08
+      },
+      {
+        "Candidate": "S. ANTHONI",
+        "Party": "Independent",
+        "EVM Votes": 12,
+        "Postal Votes": 0,
+        "Total Votes": 12,
+        "Vote %": 0.05
+      }
+    ]
+  },
+  {
+    "ac_no": 16,
+    "ac_name": "Orleampeth",
+    "candidates": [
+      {
+        "Candidate": "G. NEHRU @ KUPPUSAMY",
+        "Party": "All India N.R. Congress",
+        "EVM Votes": 10913,
+        "Postal Votes": 73,
+        "Total Votes": 10986,
+        "Vote %": 55.26
+      },
+      {
+        "Candidate": "R. SIVA",
+        "Party": "Dravida Munnetra Kazhagam",
+        "EVM Votes": 8300,
+        "Postal Votes": 68,
+        "Total Votes": 8368,
+        "Vote %": 42.09
+      },
+      {
+        "Candidate": "S. NEHRU",
+        "Party": "Independent",
+        "EVM Votes": 246,
+        "Postal Votes": 1,
+        "Total Votes": 247,
+        "Vote %": 1.24
+      },
+      {
+        "Candidate": "K. RAMALINGAM",
+        "Party": "Independent",
+        "EVM Votes": 76,
+        "Postal Votes": 0,
+        "Total Votes": 76,
+        "Vote %": 0.38
+      },
+      {
+        "Candidate": "M. NEHRU",
+        "Party": "Independent",
+        "EVM Votes": 59,
+        "Postal Votes": 0,
+        "Total Votes": 59,
+        "Vote %": 0.3
+      },
+      {
+        "Candidate": "N. SIVARAJ",
+        "Party": "Independent",
+        "EVM Votes": 53,
+        "Postal Votes": 0,
+        "Total Votes": 53,
+        "Vote %": 0.27
+      },
+      {
+        "Candidate": "D. SURESH NANDHA",
+        "Party": "Janata Dal  (United)",
+        "EVM Votes": 51,
+        "Postal Votes": 1,
+        "Total Votes": 52,
+        "Vote %": 0.26
+      },
+      {
+        "Candidate": "K. VAITHIANATHAN",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 39,
+        "Postal Votes": 0,
+        "Total Votes": 39,
+        "Vote %": 0.2
+      }
+    ]
+  },
+  {
+    "ac_no": 17,
+    "ac_name": "Nellithope",
+    "candidates": [
+      {
+        "Candidate": "OMSAKTHI SEKAR",
+        "Party": "All India Anna Dravida Munnetra Kazhagam",
+        "EVM Votes": 13235,
+        "Postal Votes": 66,
+        "Total Votes": 13301,
+        "Vote %": 58.51
+      },
+      {
+        "Candidate": "R.V.JANAKIRAMAN",
+        "Party": "Dravida Munnetra Kazhagam",
+        "EVM Votes": 8718,
+        "Postal Votes": 65,
+        "Total Votes": 8783,
+        "Vote %": 38.63
+      },
+      {
+        "Candidate": "A.VELAYUTHAM",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 299,
+        "Postal Votes": 2,
+        "Total Votes": 301,
+        "Vote %": 1.32
+      },
+      {
+        "Candidate": "M.CHITTY BABU",
+        "Party": "Independent",
+        "EVM Votes": 112,
+        "Postal Votes": 0,
+        "Total Votes": 112,
+        "Vote %": 0.49
+      },
+      {
+        "Candidate": "D. JANAKIRAMAN",
+        "Party": "Independent",
+        "EVM Votes": 93,
+        "Postal Votes": 0,
+        "Total Votes": 93,
+        "Vote %": 0.41
+      },
+      {
+        "Candidate": "VIJAYAN @ POORVATHANAN",
+        "Party": "Independent",
+        "EVM Votes": 83,
+        "Postal Votes": 0,
+        "Total Votes": 83,
+        "Vote %": 0.37
+      },
+      {
+        "Candidate": "M.P. MANOHARAN",
+        "Party": "Independent",
+        "EVM Votes": 61,
+        "Postal Votes": 0,
+        "Total Votes": 61,
+        "Vote %": 0.27
+      }
+    ]
+  },
+  {
+    "ac_no": 18,
+    "ac_name": "Mudaliarpet",
+    "candidates": [
+      {
+        "Candidate": "A. BASKAR",
+        "Party": "All India Anna Dravida Munnetra Kazhagam",
+        "EVM Votes": 16834,
+        "Postal Votes": 182,
+        "Total Votes": 17016,
+        "Vote %": 67.15
+      },
+      {
+        "Candidate": "DR. M.A.S. SUBRAMANIAN",
+        "Party": "Dravida Munnetra Kazhagam",
+        "EVM Votes": 7208,
+        "Postal Votes": 81,
+        "Total Votes": 7289,
+        "Vote %": 28.76
+      },
+      {
+        "Candidate": "PADMANABAN",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 572,
+        "Postal Votes": 3,
+        "Total Votes": 575,
+        "Vote %": 2.27
+      },
+      {
+        "Candidate": "E. JEGAN @ JEGANADHANE",
+        "Party": "Indiya Jananayaka Katchi",
+        "EVM Votes": 231,
+        "Postal Votes": 0,
+        "Total Votes": 231,
+        "Vote %": 0.91
+      },
+      {
+        "Candidate": "M. SUBRAMANI",
+        "Party": "Independent",
+        "EVM Votes": 122,
+        "Postal Votes": 1,
+        "Total Votes": 123,
+        "Vote %": 0.49
+      },
+      {
+        "Candidate": "LENIN .K",
+        "Party": "Revolutionary Socialist Party",
+        "EVM Votes": 103,
+        "Postal Votes": 3,
+        "Total Votes": 106,
+        "Vote %": 0.42
+      }
+    ]
+  },
+  {
+    "ac_no": 19,
+    "ac_name": "Ariankuppam",
+    "candidates": [
+      {
+        "Candidate": "V.SABAPATHY @ ",
+        "Party": "All India N.R. Congress",
+        "EVM Votes": 13230,
+        "Postal Votes": 151,
+        "Total Votes": 13381,
+        "Vote %": 49.12
+      },
+      {
+        "Candidate": "T.DJEAMOURTHY",
+        "Party": "Indian National Congress",
+        "EVM Votes": 10652,
+        "Postal Votes": 98,
+        "Total Votes": 10750,
+        "Vote %": 39.47
+      },
+      {
+        "Candidate": "S. KUMARAVELU",
+        "Party": "Independent",
+        "EVM Votes": 2576,
+        "Postal Votes": 5,
+        "Total Votes": 2581,
+        "Vote %": 9.48
+      },
+      {
+        "Candidate": "G.C. CHANDRAN",
+        "Party": "Independent",
+        "EVM Votes": 225,
+        "Postal Votes": 0,
+        "Total Votes": 225,
+        "Vote %": 0.83
+      },
+      {
+        "Candidate": "P. NAGARADJOU",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 176,
+        "Postal Votes": 0,
+        "Total Votes": 176,
+        "Vote %": 0.65
+      },
+      {
+        "Candidate": "G.SATHIYANANDHAM",
+        "Party": "Indiya Jananayaka Katchi",
+        "EVM Votes": 126,
+        "Postal Votes": 0,
+        "Total Votes": 126,
+        "Vote %": 0.46
+      }
+    ]
+  },
+  {
+    "ac_no": 20,
+    "ac_name": "Manavely",
+    "candidates": [
+      {
+        "Candidate": "P.PURUSHOTHAMAN",
+        "Party": "All India Anna Dravida Munnetra Kazhagam",
+        "EVM Votes": 13903,
+        "Postal Votes": 76,
+        "Total Votes": 13979,
+        "Vote %": 57.98
+      },
+      {
+        "Candidate": "R.K.R. ANANTHARAMAN",
+        "Party": "Pattali Makkal Katchi",
+        "EVM Votes": 9554,
+        "Postal Votes": 92,
+        "Total Votes": 9646,
+        "Vote %": 40.01
+      },
+      {
+        "Candidate": "S.KUMAR",
+        "Party": "Independent",
+        "EVM Votes": 244,
+        "Postal Votes": 0,
+        "Total Votes": 244,
+        "Vote %": 1.01
+      },
+      {
+        "Candidate": "J. VEERASEKARAN",
+        "Party": "Indiya Jananayaka Katchi",
+        "EVM Votes": 241,
+        "Postal Votes": 0,
+        "Total Votes": 241,
+        "Vote %": 1.0
+      }
+    ]
+  },
+  {
+    "ac_no": 21,
+    "ac_name": "Embalam  (SC)",
+    "candidates": [
+      {
+        "Candidate": "P. RAJAVELU",
+        "Party": "All India N.R. Congress",
+        "EVM Votes": 12849,
+        "Postal Votes": 84,
+        "Total Votes": 12933,
+        "Vote %": 51.95
+      },
+      {
+        "Candidate": "M. CANDASSAMY",
+        "Party": "Indian National Congress",
+        "EVM Votes": 11432,
+        "Postal Votes": 33,
+        "Total Votes": 11465,
+        "Vote %": 46.06
+      },
+      {
+        "Candidate": "N. ETHIRAJAN",
+        "Party": "Independent",
+        "EVM Votes": 351,
+        "Postal Votes": 0,
+        "Total Votes": 351,
+        "Vote %": 1.41
+      },
+      {
+        "Candidate": "J. SACTIVELOU",
+        "Party": "Communist Party of India  (Marxist-Leninist)  (Liberation)",
+        "EVM Votes": 144,
+        "Postal Votes": 0,
+        "Total Votes": 144,
+        "Vote %": 0.58
+      }
+    ]
+  },
+  {
+    "ac_no": 22,
+    "ac_name": "Nettapakkam  (SC)",
+    "candidates": [
+      {
+        "Candidate": "L. PERIYASAMY",
+        "Party": "All India Anna Dravida Munnetra Kazhagam",
+        "EVM Votes": 14641,
+        "Postal Votes": 45,
+        "Total Votes": 14686,
+        "Vote %": 59.8
+      },
+      {
+        "Candidate": "S. MUTHUKUMARASAMY",
+        "Party": "Indian National Congress",
+        "EVM Votes": 9182,
+        "Postal Votes": 37,
+        "Total Votes": 9219,
+        "Vote %": 37.54
+      },
+      {
+        "Candidate": "A. VISWAMOHAN",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 235,
+        "Postal Votes": 2,
+        "Total Votes": 237,
+        "Vote %": 0.96
+      },
+      {
+        "Candidate": "M. SOMASUNDARAM",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 129,
+        "Postal Votes": 0,
+        "Total Votes": 129,
+        "Vote %": 0.53
+      },
+      {
+        "Candidate": "P. VIRAGANABADY",
+        "Party": "Independent",
+        "EVM Votes": 110,
+        "Postal Votes": 0,
+        "Total Votes": 110,
+        "Vote %": 0.45
+      },
+      {
+        "Candidate": "M. SELVAM",
+        "Party": "Independent",
+        "EVM Votes": 93,
+        "Postal Votes": 0,
+        "Total Votes": 93,
+        "Vote %": 0.38
+      },
+      {
+        "Candidate": "DR. A. COUMAR",
+        "Party": "Independent",
+        "EVM Votes": 86,
+        "Postal Votes": 0,
+        "Total Votes": 86,
+        "Vote %": 0.35
+      }
+    ]
+  },
+  {
+    "ac_no": 23,
+    "ac_name": "Bahour",
+    "candidates": [
+      {
+        "Candidate": "T. THIAGARAJAN",
+        "Party": "All India N.R. Congress",
+        "EVM Votes": 12202,
+        "Postal Votes": 82,
+        "Total Votes": 12284,
+        "Vote %": 53.42
+      },
+      {
+        "Candidate": "R. RADHAKRISHNAN",
+        "Party": "Indian National Congress",
+        "EVM Votes": 10173,
+        "Postal Votes": 56,
+        "Total Votes": 10229,
+        "Vote %": 44.49
+      },
+      {
+        "Candidate": "B.R. SUNDARAMOORTHY",
+        "Party": "Independent",
+        "EVM Votes": 315,
+        "Postal Votes": 0,
+        "Total Votes": 315,
+        "Vote %": 1.37
+      },
+      {
+        "Candidate": "THANGA. VIKRAMAN",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 166,
+        "Postal Votes": 0,
+        "Total Votes": 166,
+        "Vote %": 0.72
+      }
+    ]
+  },
+  {
+    "ac_no": 24,
+    "ac_name": "Nedungadu  (SC)",
+    "candidates": [
+      {
+        "Candidate": "M.CHANDHRAKASU",
+        "Party": "All India N.R. Congress",
+        "EVM Votes": 12372,
+        "Postal Votes": 102,
+        "Total Votes": 12474,
+        "Vote %": 55.05
+      },
+      {
+        "Candidate": "A. MARIMUTHU",
+        "Party": "Independent",
+        "EVM Votes": 4940,
+        "Postal Votes": 44,
+        "Total Votes": 4984,
+        "Vote %": 22.0
+      },
+      {
+        "Candidate": "R. VADIVELU",
+        "Party": "Independent",
+        "EVM Votes": 4311,
+        "Postal Votes": 29,
+        "Total Votes": 4340,
+        "Vote %": 19.15
+      },
+      {
+        "Candidate": "N. RAMESH KUMAR",
+        "Party": "Independent",
+        "EVM Votes": 325,
+        "Postal Votes": 5,
+        "Total Votes": 330,
+        "Vote %": 1.46
+      },
+      {
+        "Candidate": "SANKAR",
+        "Party": "Independent",
+        "EVM Votes": 311,
+        "Postal Votes": 0,
+        "Total Votes": 311,
+        "Vote %": 1.37
+      },
+      {
+        "Candidate": "N. RAVICHANDIRAN",
+        "Party": "Independent",
+        "EVM Votes": 218,
+        "Postal Votes": 1,
+        "Total Votes": 219,
+        "Vote %": 0.97
+      }
+    ]
+  },
+  {
+    "ac_no": 25,
+    "ac_name": "Thirunallar",
+    "candidates": [
+      {
+        "Candidate": "P.R. SIVA",
+        "Party": "All India N.R. Congress",
+        "EVM Votes": 11621,
+        "Postal Votes": 81,
+        "Total Votes": 11702,
+        "Vote %": 50.77
+      },
+      {
+        "Candidate": "R. KAMALAKANNAN",
+        "Party": "Indian National Congress",
+        "EVM Votes": 10792,
+        "Postal Votes": 70,
+        "Total Votes": 10862,
+        "Vote %": 47.12
+      },
+      {
+        "Candidate": "G. CHANDRASEKARAN",
+        "Party": "Independent",
+        "EVM Votes": 198,
+        "Postal Votes": 0,
+        "Total Votes": 198,
+        "Vote %": 0.86
+      },
+      {
+        "Candidate": "M. SRINIVASAN",
+        "Party": "Independent",
+        "EVM Votes": 174,
+        "Postal Votes": 0,
+        "Total Votes": 174,
+        "Vote %": 0.75
+      },
+      {
+        "Candidate": "V. MAHESWARI",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 114,
+        "Postal Votes": 0,
+        "Total Votes": 114,
+        "Vote %": 0.49
+      }
+    ]
+  },
+  {
+    "ac_no": 26,
+    "ac_name": "Karaikal North",
+    "candidates": [
+      {
+        "Candidate": "P.R.N. THIRUMURUGAN",
+        "Party": "Indian National Congress",
+        "EVM Votes": 12033,
+        "Postal Votes": 122,
+        "Total Votes": 12155,
+        "Vote %": 55.69
+      },
+      {
+        "Candidate": "V. OMALINGAM",
+        "Party": "All India Anna Dravida Munnetra Kazhagam",
+        "EVM Votes": 8682,
+        "Postal Votes": 113,
+        "Total Votes": 8795,
+        "Vote %": 40.29
+      },
+      {
+        "Candidate": "M. ARUL MURUGAN",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 637,
+        "Postal Votes": 9,
+        "Total Votes": 646,
+        "Vote %": 2.96
+      },
+      {
+        "Candidate": "E. JAYABAL",
+        "Party": "Communist Party of India  (Marxist-Leninist)  (Liberation)",
+        "EVM Votes": 231,
+        "Postal Votes": 0,
+        "Total Votes": 231,
+        "Vote %": 1.06
+      }
+    ]
+  },
+  {
+    "ac_no": 27,
+    "ac_name": "Karaikal South",
+    "candidates": [
+      {
+        "Candidate": "A.M.H. NAZEEM",
+        "Party": "Dravida Munnetra Kazhagam",
+        "EVM Votes": 8299,
+        "Postal Votes": 78,
+        "Total Votes": 8377,
+        "Vote %": 39.37
+      },
+      {
+        "Candidate": "V.K. GANAPATHY",
+        "Party": "Independent",
+        "EVM Votes": 6727,
+        "Postal Votes": 74,
+        "Total Votes": 6801,
+        "Vote %": 31.96
+      },
+      {
+        "Candidate": "K.A.U. ASSANA",
+        "Party": "Desiya Murpokku Dravida Kazhagam",
+        "EVM Votes": 5941,
+        "Postal Votes": 25,
+        "Total Votes": 5966,
+        "Vote %": 28.04
+      },
+      {
+        "Candidate": "SELVAMANI",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 134,
+        "Postal Votes": 0,
+        "Total Votes": 134,
+        "Vote %": 0.63
+      }
+    ]
+  },
+  {
+    "ac_no": 28,
+    "ac_name": "Neravy T.R. Pattinam",
+    "candidates": [
+      {
+        "Candidate": "V.M.C. SIVAKKUMAR",
+        "Party": "Independent",
+        "EVM Votes": 8793,
+        "Postal Votes": 67,
+        "Total Votes": 8860,
+        "Vote %": 39.3
+      },
+      {
+        "Candidate": "A. GEETHA",
+        "Party": "Dravida Munnetra Kazhagam",
+        "EVM Votes": 8449,
+        "Postal Votes": 53,
+        "Total Votes": 8502,
+        "Vote %": 37.72
+      },
+      {
+        "Candidate": "V.M.C.V. GANAPATHY",
+        "Party": "Independent",
+        "EVM Votes": 2779,
+        "Postal Votes": 30,
+        "Total Votes": 2809,
+        "Vote %": 12.46
+      },
+      {
+        "Candidate": "ER. M. SELVARAJ",
+        "Party": "All India Anna Dravida Munnetra Kazhagam",
+        "EVM Votes": 2057,
+        "Postal Votes": 8,
+        "Total Votes": 2065,
+        "Vote %": 9.16
+      },
+      {
+        "Candidate": "H. BADOUROUDINE",
+        "Party": "SOCIAL DEMOCRATIC PARTY OF INDIA",
+        "EVM Votes": 243,
+        "Postal Votes": 0,
+        "Total Votes": 243,
+        "Vote %": 1.08
+      },
+      {
+        "Candidate": "SENTAMILSELVAN",
+        "Party": "Bahujan Samaj Party",
+        "EVM Votes": 63,
+        "Postal Votes": 0,
+        "Total Votes": 63,
+        "Vote %": 0.28
+      }
+    ]
+  },
+  {
+    "ac_no": 29,
+    "ac_name": "Mahe",
+    "candidates": [
+      {
+        "Candidate": "E.VALSARAJ",
+        "Party": "Indian National Congress",
+        "EVM Votes": 13272,
+        "Postal Votes": 25,
+        "Total Votes": 13297,
+        "Vote %": 60.51
+      },
+      {
+        "Candidate": "T.K.GANGADHARAN",
+        "Party": "Communist Party of India  (Marxist)",
+        "EVM Votes": 7179,
+        "Postal Votes": 14,
+        "Total Votes": 7193,
+        "Vote %": 32.73
+      },
+      {
+        "Candidate": "RAJEENDRAN.N.K.",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 1481,
+        "Postal Votes": 3,
+        "Total Votes": 1484,
+        "Vote %": 6.75
+      }
+    ]
+  },
+  {
+    "ac_no": 30,
+    "ac_name": "Yanam",
+    "candidates": [
+      {
+        "Candidate": "MALLADI KRISHNA RAO",
+        "Party": "Indian National Congress",
+        "EVM Votes": 23974,
+        "Postal Votes": 11,
+        "Total Votes": 23985,
+        "Vote %": 80.95
+      },
+      {
+        "Candidate": "MANCHALA SATYA SAI ",
+        "Party": "All India Anna Dravida Munnetra Kazhagam",
+        "EVM Votes": 4867,
+        "Postal Votes": 0,
+        "Total Votes": 4867,
+        "Vote %": 16.43
+      },
+      {
+        "Candidate": "NALLA NAGA RAJU",
+        "Party": "Independent",
+        "EVM Votes": 154,
+        "Postal Votes": 0,
+        "Total Votes": 154,
+        "Vote %": 0.52
+      },
+      {
+        "Candidate": "KALLA VENKATA RATNAM",
+        "Party": "Independent",
+        "EVM Votes": 153,
+        "Postal Votes": 0,
+        "Total Votes": 153,
+        "Vote %": 0.52
+      },
+      {
+        "Candidate": "MELLAM SRINIVASA RAO",
+        "Party": "Independent",
+        "EVM Votes": 134,
+        "Postal Votes": 0,
+        "Total Votes": 134,
+        "Vote %": 0.45
+      },
+      {
+        "Candidate": "KAMICHETTY SRIRAMA ",
+        "Party": "Bharatiya Janata Party",
+        "EVM Votes": 119,
+        "Postal Votes": 0,
+        "Total Votes": 119,
+        "Vote %": 0.4
+      },
+      {
+        "Candidate": "DOMA KANNA RAO",
+        "Party": "Independent",
+        "EVM Votes": 79,
+        "Postal Votes": 0,
+        "Total Votes": 79,
+        "Vote %": 0.27
+      },
+      {
+        "Candidate": "BONDA NAGESWARA RAO",
+        "Party": "Independent",
+        "EVM Votes": 76,
+        "Postal Votes": 0,
+        "Total Votes": 76,
+        "Vote %": 0.26
+      },
+      {
+        "Candidate": "DHULIPUDI MADHAVA ",
+        "Party": "Independent",
+        "EVM Votes": 32,
+        "Postal Votes": 0,
+        "Total Votes": 32,
+        "Vote %": 0.11
+      },
+      {
+        "Candidate": "MALLADI UDHAYALAKSHMI",
+        "Party": "Independent",
+        "EVM Votes": 31,
+        "Postal Votes": 1,
+        "Total Votes": 32,
+        "Vote %": 0.11
+      }
+    ]
+  }
+]

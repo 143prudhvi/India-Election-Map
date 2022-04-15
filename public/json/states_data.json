@@ -1212,7 +1212,54 @@
   {
     "id": 27,
     "state_name": "Puducherry",
-    "election_years" : []
+    "election_years" : {
+      "2011" : [
+        {
+          "party_code": "AINRC",
+          "party_name": "All India N.R. Congress",
+          "seats": 15
+        },
+        { "party_code": "INC", "party_name": "Indian National Congress", "seats": 7 },
+        {
+          "party_code": "AIADMK",
+          "party_name": "All India Anna Dravida Munnetra Kazhagam",
+          "seats": 5
+        },
+        {
+          "party_code": "DMK",
+          "party_name": "Dravida Munnetra Kazhagam",
+          "seats": 2
+        },
+        { "party_code": "IND", "party_name": "Independent", "seats": 1 }
+      ],
+      "2016" : [
+        {
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 15
+        },
+        {
+          "party_code": "AINRC",
+          "party_name": "All India N.R. Congress",
+          "seats": 8
+        },
+        {
+          "party_code": "ADMK",
+          "party_name": "All India Anna Dravida Munnetra Kazhagam",
+          "seats": 4
+        },
+        {
+          "party_code": "DMK",
+          "party_name": "Dravida Munnetra Kazhagam",
+          "seats": 2
+        },
+        { "party_code": "IND", "party_name": "Independent", "seats": 1 }
+      ]
+      
+      
+    },
+    "center" : [79.5,11.8],
+    "scale" : 50000
   },
   {
     "id": 28,

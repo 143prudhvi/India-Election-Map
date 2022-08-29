@@ -20,28 +20,30 @@
           "party_code" : "YSRCP",
           "party_name" : "Yuvajana Sramika Rythu Congress Party",
           "seats" : 151,
-          "votes" : 316573,
-          "vote %" : 33.31
+          "votes" : 15688569,
+          "vote %" : 49.95
         },
         {
           "party_code" : "TDP",
           "party_name" : "Telugu Desam",
           "seats" : 23,
-          "votes" : 222948,
-          "vote %" : 23.46
+          "votes" : 12304668,
+          "vote %" : 39.17
         },
         {
           "party_code" : "JSP",
           "party_name" : "Janasena Party",
           "seats" : 1,
-          "votes" : 72269,
-          "vote %" : 7.6
+          "votes" : 1736811,
+          "vote %" : 5.53
         }
       ]
       
     },
-    "center" : [80,16],
-    "scale" : 5000
+    "center" : [80.5,16],
+    "scale" : 5000,
+    "x" : 492,
+    "y" : 419
   },
   {
     "id": 3,
@@ -149,8 +151,8 @@
         }
       ]            
     },
-    "center" : [93.38,26.44],
-    "scale" : 7000
+    "center" : [93,26],
+    "scale" : 8000
   },
   {
     "id": 5,
@@ -227,8 +229,8 @@
       ]
       
     },
-    "center" : [86,26],
-    "scale" : 10000
+    "center" : [85.8,25.9],
+    "scale" : 9000
   },
   {
     "id": 7,
@@ -262,7 +264,7 @@
       
       
     },
-    "center" : [82,21.2],
+    "center" : [82,21],
     "scale" : 5000
   },
   {
@@ -302,7 +304,7 @@
         {
           "party_code" : "BJP",
           "party_name" : "Bharatiya Janata Party",
-          "seats" : 32
+          "seats" : 31
         },
         {
           "party_code" : "AAP",
@@ -320,6 +322,11 @@
           "seats" : 1
         },
         {
+          "party_code" : "SAD",
+          "party_name" : "Shiromani Akali Dal",
+          "seats" : 1
+        },
+        {
           "party_code" : "IND",
           "party_name" : "Independent",
           "seats" : 1
@@ -327,8 +334,8 @@
         
       ]
     },
-    "center" : [77.16,28.7],
-    "scale" : 50000
+    "center" : [77.16,28.65],
+    "scale" : 60000
   },
   {
     "id": 10,
@@ -407,8 +414,8 @@
       ]
       
     },
-    "center" : [74,15.4],
-    "scale" : 25000
+    "center" : [74,15.35],
+    "scale" : 35000
   },
   {
     "id": 11,
@@ -432,8 +439,8 @@
       ]
       
     },
-    "center" : [72,22.7],
-    "scale" : 7000
+    "center" : [72,22.3],
+    "scale" : 6500
   },
   {
     "id": 12,
@@ -479,7 +486,7 @@
       ]
       
     },
-    "center" : [76,29.5],
+    "center" : [76,29.2],
     "scale" : 9000
   },
   {
@@ -510,7 +517,7 @@
       
       
     },
-    "center" : [77.3,32],
+    "center" : [77.3,31.8],
     "scale" : 10000
   },
   {
@@ -637,7 +644,7 @@
       ]
       
     },
-    "center" : [75,15],
+    "center" : [76.5,15],
     "scale" : 5000
   },
   {
@@ -745,8 +752,8 @@
         { "party_code": "KEC(B)", "party_name": "Kerala Congress (B)", "seats": 1 }
       ]      
     },
-    "center" : [76,10.75],
-    "scale" : 7500
+    "center" : [76,10.5],
+    "scale" : 8000
   },
   {
     "id": 20,
@@ -776,8 +783,8 @@
       ]
       
     },
-    "center" : [78.5,24.5],
-    "scale" : 5000
+    "center" : [78.5,24],
+    "scale" : 5500
   },
   {
     "id": 21,
@@ -1010,7 +1017,7 @@
       
     },
     "center" : [94,24.8],
-    "scale" : 15000
+    "scale" : 17000
   },
   {
     "id": 23,
@@ -1111,7 +1118,7 @@
             
     },
     "center" : [92.7,23.3],
-    "scale" : 12000
+    "scale" : 13000
   },
   {
     "id": 25,
@@ -1145,8 +1152,8 @@
       
       
     },
-    "center" : [94.5,26.2],
-    "scale" : 15000
+    "center" : [94.5,26.1],
+    "scale" : 16000
   },
   {
     "id": 26,
@@ -1207,7 +1214,7 @@
       
     },
     "center" : [84,20.4],
-    "scale" : 7000
+    "scale" : 6500
   },
   {
     "id": 27,
@@ -1331,7 +1338,7 @@
       ]
       
     },
-    "center" : [75.4,31.2],
+    "center" : [75.4,31],
     "scale" : 10000
   },
   {
@@ -1382,8 +1389,8 @@
         }
       ]            
     },
-    "center" : [74,27],
-    "scale" : 4500
+    "center" : [74,26.5],
+    "scale" : 4400
   },
   {
     "id": 30,
@@ -1454,8 +1461,8 @@
       ]
         
     },
-    "center" : [78.5,11],
-    "scale" : 6000
+    "center" : [78.5,10.8],
+    "scale" : 6500
   },
   {
     "id": 32,
@@ -1516,8 +1523,8 @@
         }
       ]            
     },
-    "center" : [79,18],
-    "scale" : 8000
+    "center" : [79,17.85],
+    "scale" : 8500
   },
   {
     "id": 33,
@@ -1554,7 +1561,7 @@
       
       
     },
-    "center" : [91.8,23.8],
+    "center" : [91.8,23.7],
     "scale" : 20000
   },
   {
@@ -1665,7 +1672,7 @@
       ]
             
     },
-    "center" : [80.90,27.4],
+    "center" : [80.90,27.2],
     "scale" : 5000
   },
   {
@@ -1727,8 +1734,8 @@
       ]
       
     },
-    "center" : [79.2,30.2],
-    "scale" : 10000
+    "center" : [79.2,30.1],
+    "scale" : 11000
   },
   {
     "id": 36,
@@ -1829,7 +1836,7 @@
       ]
       
     },
-    "center" : [88,24.5],
-    "scale" : 5000
+    "center" : [88,24.3],
+    "scale" : 5800
   }
 ]

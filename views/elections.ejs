@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Elections Data</title>
+    <link rel="stylesheet" href="/css/elections.css">
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/topojson.v0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="page-title">India Elections Data</h1>
+        <select name="state" id="state">
+            <option>State</option>
+        </select>
+        <select name="year" id="year">
+            <option>Year</option>
+        </select>
+        <button class="get-data">Get</button>
+    </header>
+    <main>
+        <div class="data">
+            <div class="parties-data"></div>
+            <div class="assembly-name"></div>
+            <div class="candidates-data">
+                <div class="candidates"></div>
+            </div>
+        </div>
+        <div class="state-map"></div>
+    </main>
+    <script>
+        var states;
+        var selectedState;
+        var selectedStateId = '<%=state%>' || "2"
+        var selectedYear = '<%=year%>' || "2014"
+        var electionData = []
+        var width = window.innerWidth - 320 ;
+        var height = window.innerHeight -48;
+
+        d3.json("/json/states_data.json", function(error, result){
+            states = result
+
+            for(var i = 0; i<states.length; i++ ){
+                if(Number(selectedStateId == states[i].id)){
+                    selectedState = states[i]
+                    var partiesDiv = d3.select(".parties-data");
+                    var partyDiv = partiesDiv.selectAll(".party")
+                    partyDiv.data(sortParties(selectedState.election_years[selectedYear])).enter().append("div").attr('class' , function(d,i){ return "party " +  d.party_name.replaceAll(' ','_') })
+                            .html(function(d){ return '<div class="partyColor"></div><div class="partyName">' + d.party_code + '</div><div class="number">' + d['seats'] + '</div><div class="percent">' + (d['vote %'] || "NA") + '</div>'})
+                    break
+                }
+            } 
+
+            d3.json("/json/" + selectedState.state_name + "/" + selectedState.state_name + "-" + selectedYear + ".json", function(error, result){
+                electionData = result
+
+
+                for(var i = 0 ; i<= electionData.length ; i++){
+                    if(electionData[i].ac_no == 1){
+                    d3.select('.assembly-name').text(electionData[i].ac_no + " - " +electionData[i].ac_name)
+                    var candidatesDiv = d3.select(".candidates");
+                    candidateDiv = candidatesDiv.selectAll(".candidate")
+                    candidateDiv.data(sortCandidates(electionData[i].candidates)).enter().append("div").attr('class' , function(d,i){ return "candidate " +  d.Party.replaceAll(' ','_') })
+                                .html(function(d){ return '<div class="partyName">' + d.Party + '</div><div class="candidateName">' + d.Candidate + '</div><div class="candidateDetails"><div class="votes"><div class="caption">Votes</div><div class="number">' + d['Total Votes'] + '</div></div><div class="votepercent"><div class="caption">Vote %</div><div class="number">' + d['Vote %'] + '</div></div></div>'})
+                    candidateDiv.attr('class' , function(d,i){ return "candidate " + d.Party.replaceAll(' ','_') } )        
+                    break
+                    }
+                }
+
+
+                var projection = d3.geo.mercator().center(selectedState.center).scale(selectedState.scale ).translate([width/2 , height/2]);
+                var svg = d3.select(".state-map").append("svg")
+                    .attr("viewBox","0 0 " + width + " " +  height)
+                var path = d3.geo.path()
+                    .projection(projection);
+                var g = svg.append("g");
+                d3.json("/json/" + selectedState.state_name + "/" + selectedState.state_name + ".json", function(error, topology) {
+                    g.selectAll("path")
+                        .data(topojson.object(topology, topology.objects[selectedState.state_name])
+                            .geometries)
+                    .enter()
+                        .append("path")
+                        .attr("d", path)
+                        .attr("stroke","black")
+                        .attr("stroke-width" , '0.7px')
+                        .style("fill", function(d) { return getWinnerPartyColor(d.properties.ac_no);} )
+                        .on('mouseover', handleMouseOver)
+                        .on('mouseout', handleMouseOut)
+                        .on('click', function(d) { handleClick(d.properties.ac_no)})
+                    drawLabels(topology, g,path)
+
+                });
+            })
+
+            var state = d3.select('#state')
+            state.selectAll('option').remove()
+            state.selectAll('option').data(result)
+                .enter()
+                .append('option')
+                .attr('value', function(d){return d.id})
+                .text(function(d){return d.state_name}) 
+
+            $('#state option[value="'+ selectedStateId  + '"]').prop('selected', true)
+            var year = d3.select('#year')
+            year.selectAll('option').remove()
+            year.selectAll('option').data(function(){ 
+                for(var i = 0; i<states.length; i++ ){
+                    if(Number(selectedStateId == states[i].id)){
+                        return Object.keys(states[i].election_years)
+                    }
+                } 
+            }).enter().append('option').attr('value', function(d){return d}).text(function(d){return d})
+            $('#year option[value="'+ selectedYear  + '"]').prop('selected', true)
+        })
+
+        $('#state').change((event) => {
+            var year = d3.select('#year')
+            year.selectAll('option').remove()
+            year.selectAll('option').data(function(){ 
+                for(var i = 0; i<states.length; i++ ){
+                    if(Number(event.target.value == states[i].id)){
+                        return Object.keys(states[i].election_years)
+                    }
+                } 
+            }).enter().append('option').attr('value', function(d){return d}).text(function(d){return d})
+        })
+
+        $('.get-data').click(() => {
+            var state = $('#state').val()
+            var year = $('#year').val()
+            var url = '?state=' + state + '&year=' + year
+            window.location.href = url
+        })
+
+        function drawLabels(data, g,path) {
+            g.selectAll('.subunit-label')
+              .data(topojson.object(data, data.objects[selectedState.state_name]).geometries)
+              .enter()
+              .append('text')
+              .attr('class', 'subunit-label')
+              .attr('transform', function (d) {
+                const [locx, locy] = path.centroid(d);
+                console.log(d.properties.ac_name + " - " + path.area(d))
+                const fin = [locx, locy];
+                return 'translate(' + fin + ')';
+              })
+              .attr('dy', '.35em')
+              .attr('text-anchor', 'middle')
+              .attr('cursor','pointer')
+              .style('font-size', function (d) {
+                const area = path.area(d);
+                const [[left, top], [right, bottom]] = path.bounds(d);
+                const wid = right - left;
+                if (wid < 200) {
+                  const mappedf = map(wid, 20, 200, 0.2, 1);
+                  const confx = constrain(mappedf, 0.2, 1);
+                  return confx * 1.3 + 'em';
+                } else {
+                  const mappedf = map(wid, 200, 2000, 1, 1.8);
+                  const confx = constrain(mappedf, 1, 1.8);
+                  return confx + 'em';
+                }
+              })
+              .style('fill', (d) => '#222')
+              .text(function (d) {
+                return d.properties.ac_name || d.properties.ac_no;
+              })
+              .on('click', function(d) { handleClick(d.properties.ac_no)});
+        }
+
+        function map(n, start1, stop1, start2, stop2) {
+            return ((n - start1) / (stop1 - start1)) * (stop2 - start2) + start2;
+        }
+          
+        function constrain(n, low, high) {
+        return Math.max(Math.min(n, high), low);
+        }
+
+        function handleMouseOver(d, i) {  
+        }
+        
+        function handleMouseOut(d, i) {
+        }
+
+        function handleClick(d) {
+            for(var i = 0 ; i<= electionData.length ; i++){
+                if(electionData[i].ac_no == Number(d)){
+                d3.select('.assembly-name').text(electionData[i].ac_no + " - " +electionData[i].ac_name)
+                var candidatesDiv = d3.select(".candidates");
+                var candidateDiv = candidatesDiv.selectAll(".candidate")
+                candidateDiv.remove()
+                candidateDiv = candidatesDiv.selectAll(".candidate")
+                candidateDiv.data(sortCandidates(electionData[i].candidates)).enter().append("div").attr('class' , function(d,i){ return "candidate " +  d.Party.replaceAll(' ','_') })
+                            .html(function(d){ return '<div class="partyName">' + d.Party + '</div><div class="candidateName">' + d.Candidate + '</div><div class="candidateDetails"><div class="votes"><div class="caption">Votes</div><div class="number">' + d['Total Votes'] + '</div></div><div class="votepercent"><div class="caption">Vote %</div><div class="number">' + d['Vote %'] + '</div></div></div>'})
+                candidateDiv.attr('class' , function(d,i){ return "candidate " + d.Party.replaceAll(' ','_') } )        
+                break
+                }
+            }
+        }
+        
+        function sortCandidates(candidates){
+            candidates.sort((a,b) => {return b['Total Votes'] - a['Total Votes']})
+            return candidates
+        }
+        
+        function sortParties(parties){
+            parties.sort((a,b) => {return b['seats'] - a['seats']})
+            return parties
+        }
+
+        function getWinnerPartyColor(ac_no){
+            var candidates;
+            for(var i = 0; i<electionData.length; i++){
+                if(electionData[i]['ac_no'] == ac_no){
+                    candidates = electionData[i]['candidates']
+                    candidates.sort((a,b) => {return b['Total Votes'] - a['Total Votes']})
+                    return color(candidates[0]['Party'])
+                }
+            }
+        }
+
+        function color(party){
+            if(party === "Aam Aadmi Party"){
+                return "#0066A4";
+            }else if(party === "Indian National Congress"){
+                return "#19AAED";
+            }else if(party === "Bharatiya Janata Party"){
+                return "#FF9933";
+            }else if(party === "Shiromani Akali Dal"){
+                return "#ebc634";
+            }else if(party === "Bahujan Samaj Party"){
+                return "#22409A";
+            }else if(party === "Samajwadi Party"){
+                return "red";
+            }else if(party === "Apna Dal (Soneylal)"){
+                return "#9500ff"
+            }else if(party === "Rashtriya Lok Dal"){
+                return "green"
+            }
+            else if(party === "Rashtriya Janata Dal"){
+                return "#008000"
+            }
+            else if(party == "Suheldev Bharatiya Samaj Party"){
+                return "#ffd500"
+            }else if(party == "Nirbal Indian Shoshit Hamara Aam Dal"){
+                return "#823426"
+            }else if(party == "Jansatta Dal Loktantrik"){
+                return "#eaff00"
+            }
+            else if(party == "Telugu Desam"){
+                return "#FFFF00"
+            }
+            else if(party == "Yuvajana Sramika Rythu Congress Party"){
+                return "blue"
+            }
+            else if(party == "Janasena Party"){
+                return "red"
+            }
+            else if(party == "Janata Dal  (Secular)"){
+                return "#138808"
+            }
+            else if(party == "Janata Dal (United)" || party == "Janata Dal  (United)"){
+                return "#003366"
+            }
+            else if(party == "Biju Janata Dal"){
+                return '#006400'
+            }
+            else if(party == "Communist Party of India  (Marxist)"){
+                return '#FF1D15'
+            }
+            else if(party == "Communist Party of India"){
+                return '#FF0000'
+            }
+            else if(party == "Communist Party of India  (Marxist-Leninist)  (Liberation)"){
+                return '#FF1D15'
+            }
+            else if(party == "All India Trinamool Congress"){
+                return '#20C646'
+            }
+            else if(party == "All India United Democratic Front"){
+                return '#348017'
+            }
+            else if(party == "Bodoland Peoples Front"){
+                return '#FF6600'
+            }
+            else if(party == "United People’s Party, Liberal"){
+                return '#F3ED13'
+            }
+            else if(party == "Asom Gana Parishad"){
+                return '#99CCFF'
+            }
+            else if(party == "All India Majlis-E-Ittehadul Muslimeen"){
+                return '#136B4B'
+            }
+            else if(party == "Vikassheel Insaan Party"){
+                return '#0000ff'
+            }
+            else if(party == "Hindustani Awam Morcha (Secular)"){
+                return '#C9120C'
+            }
+            else if(party == "Lok Jan Shakti Party"){
+                return '#0093DD'
+            }
+            else if(party == "Jannayak Janta Party"){
+                return '#FFFF00'
+            }
+            else if(party == "Jharkhand Mukti Morcha"){
+                return '#215B30'
+            }
+            else if(party == "Jharkhand Vikas Morcha (Prajatantrik)"){
+                return '#EDFB06'
+            }
+            else if(party == "AJSU Party"){
+                return '#FF33FF'
+            }
+            else if(party == "Nationalist Congress Party"){
+                return '#00B2B2'
+            }
+            else if(party == "Shiv Sena" || party ==  "Shivsena"){
+                return '#F26F21'
+            }
+            else if(party == "Telangana Rashtra Samithi"){
+                return '#FF0274'
+            }
+            else if(party == "Janta Congress Chhattisgarh (J)"){
+                return '#FFC0DB'
+            }
+            else if(party == "Indian National Lok Dal"){
+                return '#336600'
+            }
+            else if(party == "Indian Union Muslim League" || party == "Muslim League Kerala State Committee"){
+                return '#228B22'
+            }
+            else if(party == "Kerala Congress  (M)"){
+                return '#CC9900'
+            }
+            else if(party == "Naga Peoples Front"){
+                return '#990066'
+            }
+            else if(party == "National People's Party"){
+                return '#DB7093'
+            }
+            else if(party == "Kuki People’s Alliance"){
+                return '#FF0000'
+            }
+            else if(party == "Manipur State Congress Party"){
+                return '#99CC99'
+            }
+            else if(party == "United Democratic Party"){
+                return '#CEF2E0'
+            }
+            else if(party == "People's Democratic Front"){
+                return 'yellow'
+            }
+            else if(party == "Hill State People’s Democratic Party"){
+                return 'blue'
+            }
+            else if(party == "Mizo National Front"){
+                return '#2E5694'
+            }
+            else if(party == "Nationalist Democratic Progressive Party"){
+                return '#ED1B24'
+            }
+            else if(party == "Rashtriya Loktantrik Party"){
+                return '#dbe934'
+            }
+            else if(party == "Dravida Munnetra Kazhagam"){
+                return '#dd1100'
+            }
+            else if(party == "All India Anna Dravida Munnetra Kazhagam"){
+                return '#138808'
+            }
+            else if(party == "Desiya Murpokku Dravida Kazhagam"){
+                return '#ffea19'
+            }
+            else if(party == "Indigenousn People's Front Of Tripura"){
+                return '#008000'
+            }
+            else if(party == "Revolutionary Socialist Party"){
+                return '#FF4A4A'
+            }
+            else if(party == "All India Forward Bloc"){
+                return '#D70000'
+            }
+            else if(party == "Gorkha Janmukti Morcha"){
+                return '#52D017'
+            }
+            
+        
+            else{
+                return "#bdbdbd";
+            }
+        }
+    </script>
+</body>
+</html>

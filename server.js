@@ -10,16 +10,26 @@ app.use(function(req, res, next) {
     next();
 });
 
-app.get('/' , (req , res) => {
+app.get('/elections' , (req , res) => {
     var state = req.query.state
     var year = req.query.year
     res.render('grid' , {state , year})
+})
+
+app.get('/' , (req , res) => {
+    var state = req.query.state
+    var year = req.query.year
+    res.render('elections' , {state , year})
 })
 
 app.get('/electionmap' , (req , res) => {
     var stateId = req.query.stateId
     var electionYear = req.query.electionYear
     res.render('index' , {stateId , electionYear})
+})
+
+app.get('/indiamap' , (req , res) => {
+    res.render('india')
 })
 
 app.listen(process.env.PORT || 5000, () => {

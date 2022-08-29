@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(247, 159, 159, 0.5);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(243, 185, 185);
+}
+
+/* Start of Header*/
+
+header{
+    height: 48px;
+    background-color: #0066A4;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.page-title{
+    margin: 0;
+    color: white;
+    padding-left: 20px;
+}
+
+.get-data{
+    width: 50px;
+    height: 80%;
+    background-color: white;
+    color: #0066A4;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+#state{
+    margin-left: auto;
+    width: 200px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-right: 0.5px solid #0066A4;
+    text-align: right;
+}
+
+#year {
+    margin-right: 20px;
+    width: 100px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-left: 0.5px solid #0066A4;
+    text-align: left;
+}
+
+select{
+    margin: 0;
+    border: 0;
+    height: 80%;
+    color: #0066A4;
+    font-size: 18px;
+}
+
+option{
+    font-size: 16px;
+    height: 32px;
+}
+
+/* End of Header*/
+
+/* Start of Main*/
+
+main{
+    height: calc(100vh - 48px);
+    box-sizing: border-box;
+}
+
+.state-map{
+    width: calc(100% - 323px);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.data{
+    width: 320px;
+    background-color: antiquewhite;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.candidates-data{
+    overflow: auto;
+    height: calc(100% - 120px);
+}
+
+.assembly-name{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+.candidates{
+    padding: 10px 0;
+}
+
+.candidate{
+    display: grid;
+    grid-template-rows: 20% 20% 60% ;
+    padding: 5px 0;
+}
+
+.partyName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    padding: 10px;
+}
+
+.candidateName{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    font-size: medium;
+}
+
+.candidateDetails{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+ .number{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.percent{
+    text-align: center;
+    font-size: medium;
+    padding: 5px;
+}
+
+.caption{
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+}
+
+.parties-data{
+    background-color: antiquewhite;
+    align-items: center;
+    right: 0;
+    overflow-x: auto;
+    display: flex;
+}
+
+.party{
+    min-width: 80px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+/* End of Main*/
+
+/* Start of Parties*/
+
+.Aam_Aadmi_Party .partyName{
+    background-color: #0066A4;
+}
+
+.Indian_National_Congress .partyName{
+    background-color: #19AAED;
+}
+
+.Shiromani_Akali_Dal .partyName{
+    background-color: #ebc634;
+}
+
+.Bahujan_Samaj_Party .partyName{
+    background-color: #22409A;
+}
+
+.partyName{
+    background-color: #bdbdbd;
+}
+
+.Bharatiya_Janata_Party .partyName{
+    background-color: #FF9933;
+}
+
+.Samajwadi_Party .partyName{
+    background-color: red;
+}
+
+.Telugu_Desam .partyName{
+    background-color: #FFFF00;
+}
+
+.Yuvajana_Sramika_Rythu_Congress_Party .partyName{
+    background-color: blue;
+}
+
+.Janasena_Party .partyName{
+    background-color: red;
+}
+
+.All_India_Trinamool_Congress .partyName{
+    background-color: #20C646;
+}
+
+.Biju_Janata_Dal .partyName{
+    background-color: #006400;
+}
+.Telangana_Rashtra_Samithi .partyName{
+    background-color: #FF0274;
+}
+
+/* End of Parties*/

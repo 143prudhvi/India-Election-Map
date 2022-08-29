@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid layout</title>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/topojson.v0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <div class="map"></div>
+<script>
+    var width = window.innerWidth ;
+    var height = window.innerHeight;
+    var color = d3.scale.linear()
+    .domain([0, 1000, 30000])
+    .range(['#229954','#F1C40F','#E74C3C'])
+    var projection = d3.geo.mercator().center([79,22]).scale(1000).translate([width/6 , height/2]);
+    var svg = d3.select(".map").append("svg")
+        .attr("viewBox","0 0 " + width + " " +  height)
+    var path = d3.geo.path()
+        .projection(projection);
+    var g = svg.append("g");
+    d3.json("/json/Arms.json", function(error , result){
+        var crimes = result
+        d3.json("/json/states_map.json", function(error, topology) {
+            g.selectAll("path")
+                .data(topojson.object(topology, topology.objects.India)
+                    .geometries)
+            .enter()
+                .append("path")
+                .attr("d", path)
+                .attr("stroke","black")
+                .attr("stroke-width" , '0.7px')
+                .style("fill", function(d) { return getColor(d)} )
+        })
+        function getColor(d){
+            console.log(d.properties.State_Name)
+            for(var i =0; i<crimes.length; i++){
+                if(crimes[i]['State/UT'].toLowerCase() == d.properties.State_Name.toLowerCase()){
+                    return color(crimes[i]['Total Ammuntion'])
+                }
+            }
+            return color(0)
+        }
+    });
+    
+</script>
+</body>
+</html>

@@ -116,10 +116,17 @@ main{
 }
 
 .assembly-name{
-    font-size: 24px;
     font-weight: bold;
-    margin: 10px 0 0;
+    margin: 4px 0 0;
 }
+
+#ac{
+    width: 100%;
+    height: 32px;
+    font-size: 24px;
+    text-align: center;
+}
+
 
 .candidates{
     padding: 10px 0;
@@ -238,6 +245,14 @@ main{
 }
 .Telangana_Rashtra_Samithi .partyName{
     background-color: #FF0274;
+}
+
+.All_India_Anna_Dravida_Munnetra_Kazhagam{
+    background-color: #138808;
+}
+
+.Dravida_Munnetra_Kazhagam{
+    background-color: #dd1100;
 }
 
 /* End of Parties*/

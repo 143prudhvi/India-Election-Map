@@ -2,168 +2,231 @@
   {
     "id": 2,
     "state_name": "Andhra Pradesh",
-    "total_seats" : 175,
-    "election_years" : {
-      "2014" : [
+    "total_seats": 175,
+    "election_years": {
+      "2014": [
         { "party_code": "TDP", "party_name": "Telugu Desam", "seats": 102 },
         {
           "party_code": "YSRCP",
           "party_name": "Yuvajana Sramika Rythu Congress Party",
           "seats": 67
         },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 4 },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 4
+        },
         { "party_code": "IND", "party_name": "Independent", "seats": 1 },
         { "party_code": "NPT", "party_name": "Navodyam Party", "seats": 1 }
       ],
-      "2019" : [
+      "2019": [
         {
-          "party_code" : "YSRCP",
-          "party_name" : "Yuvajana Sramika Rythu Congress Party",
-          "seats" : 151,
-          "votes" : 15688569,
-          "vote %" : 49.95
+          "party_code": "YSRCP",
+          "party_name": "Yuvajana Sramika Rythu Congress Party",
+          "seats": 151,
+          "votes": 15688569,
+          "vote %": 49.95
         },
         {
-          "party_code" : "TDP",
-          "party_name" : "Telugu Desam",
-          "seats" : 23,
-          "votes" : 12304668,
-          "vote %" : 39.17
+          "party_code": "TDP",
+          "party_name": "Telugu Desam",
+          "seats": 23,
+          "votes": 12304668,
+          "vote %": 39.17
         },
         {
-          "party_code" : "JSP",
-          "party_name" : "Janasena Party",
-          "seats" : 1,
-          "votes" : 1736811,
-          "vote %" : 5.53
+          "party_code": "JSP",
+          "party_name": "Janasena Party",
+          "seats": 1,
+          "votes": 1736811,
+          "vote %": 5.53
         }
       ]
-      
     },
-    "center" : [80.5,16],
-    "scale" : 5000,
-    "x" : 492,
-    "y" : 419
+    "center": [80.5, 16],
+    "scale": 5000,
+    "x": 492,
+    "y": 419
   },
   {
     "id": 3,
     "state_name": "Arunachal Pradesh",
-    "election_years" : []
+    "election_years": []
   },
   {
     "id": 4,
     "state_name": "Assam",
-    "total_seats" : 126,
-    "election_years" : {
-      "2021" : [
+    "total_seats": 126,
+    "election_years": {
+      "2021": [
         {
-          "party_code" : "BJP",
-          "party_name" : "Bharatiya Janata Party",
-          "seats" : 60,
-          "votes" : 316573,
-          "vote %" : 33.31
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 60,
+          "votes": 6384538,
+          "vote %": 33.21
         },
         {
-          "party_code" : "AGP",
-          "party_name" : "Asom Gana Parishad",
-          "seats" : 9,
-          "votes" : 316573,
-          "vote %" : 33.31
+          "party_code": "AGP",
+          "party_name": "Asom Gana Parishad",
+          "seats": 9,
+          "votes": 1519777,
+          "vote %": 7.91
         },
         {
-          "party_code" : "UPPL",
-          "party_name" : "United People’s Party, Liberal",
-          "seats" : 6,
-          "votes" : 316573,
-          "vote %" : 33.31
+          "party_code": "UPPL",
+          "party_name": "United People’s Party, Liberal",
+          "seats": 6,
+          "votes": 651744,
+          "vote %": 3.39
         },
         {
-          "party_code" : "INC",
-          "party_name" : "Indian National Congress",
-          "seats" : 29,
-          "votes" : 316573,
-          "vote %" : 33.31
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 29,
+          "votes": 5703341,
+          "vote %": 29.67
         },
         {
-          "party_code" : "AIUDF",
-          "party_name" : "All India United Democratic Front",
-          "seats" : 16,
-          "votes" : 316573,
-          "vote %" : 33.31
+          "party_code": "AIUDF",
+          "party_name": "All India United Democratic Front",
+          "seats": 16,
+          "votes": 1786551,
+          "vote %": 9.29
         },
         {
-          "party_code" : "BPF",
-          "party_name" : "Bodoland Peoples Front",
-          "seats" : 4,
-          "votes" : 316573,
-          "vote %" : 33.31
+          "party_code": "BOPF",
+          "party_name": "Bodoland Peoples Front",
+          "seats": 4,
+          "votes": 651073,
+          "vote %": 3.39
         },
         {
-          "party_code" : "CPI(M)",
-          "party_name" : "Communist Party of India (Marxist)",
-          "seats" : 1,
-          "votes" : 316573,
-          "vote %" : 33.31
+          "party_code": "CPI(M)",
+          "party_name": "Communist Party of India (Marxist)",
+          "seats": 1,
+          "votes": 160758,
+          "vote %": 0.84
         },
         {
-          "party_code" : "IND",
-          "party_name" : "Independent",
-          "seats" : 1,
-          "votes" : 316573,
-          "vote %" : 33.31
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 1
         }
       ],
-      "2016" : [
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 60 },
+      "2016": [
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 60,
+          "votes": 4992185,
+          "vote %": 29.51
+        },
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
-          "seats": 26
+          "seats": 26,
+          "votes": 5238655,
+          "vote %": 30.96
         },
-        { "party_code": "AGP", "party_name": "Asom Gana Parishad", "seats": 14 },
+        {
+          "party_code": "AGP",
+          "party_name": "Asom Gana Parishad",
+          "seats": 14,
+          "votes": 1377482,
+          "vote %": 8.14
+        },
         {
           "party_code": "AIUDF",
           "party_name": "All India United Democratic Front",
-          "seats": 13
+          "seats": 13,
+          "votes": 2207945,
+          "vote %": 13.05
         },
-        { "party_code": "BOPF", "party_name": "Bodoland Peoples Front", "seats": 12 },
+        {
+          "party_code": "BOPF",
+          "party_name": "Bodoland Peoples Front",
+          "seats": 12,
+          "votes": 666057,
+          "vote %": 3.94
+        },
         { "party_code": "IND", "party_name": "Independent", "seats": 1 }
       ],
-      "2011"  : [
+      "2011": [
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
-          "seats": 78
+          "seats": 78,
+          "votes": 5443781,
+          "vote %": 39.39
         },
         {
           "party_code": "AIUDF",
           "party_name": "All India United Democratic Front",
-          "seats": 18
+          "seats": 18,
+          "votes": 1737415,
+          "vote %": 12.57
         },
-        { "party_code": "BOPF", "party_name": "Bodoland Peoples Front", "seats": 12 },
-        { "party_code": "AGP", "party_name": "Asom Gana Parishad", "seats": 10 },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 5 },
+        {
+          "party_code": "BOPF",
+          "party_name": "Bodoland Peoples Front",
+          "seats": 12,
+          "votes": 847520,
+          "vote %": 6.13
+        },
+        {
+          "party_code": "AGP",
+          "party_name": "Asom Gana Parishad",
+          "seats": 10,
+          "votes": 2251935,
+          "vote %": 16.29
+        },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 5,
+          "votes": 1584895,
+          "vote %": 11.47
+        },
         { "party_code": "IND", "party_name": "Independent", "seats": 2 },
         {
           "party_code": "AITC",
           "party_name": "All India Trinamool Congress",
-          "seats": 1
+          "seats": 1,
+          "votes": 283683,
+          "vote %": 2.05
         }
-      ]            
+      ]
     },
-    "center" : [93,26],
-    "scale" : 8000
+    "center": [93, 26],
+    "scale": 8000
   },
   {
     "id": 5,
     "state_name": "Bihar",
-    "total_seats" : 243,
-    "election_years" : {
-      "2020" : [
-        { "party_code": "RJD", "party_name": "Rashtriya Janata Dal", "seats": 75 },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 74 },
-        { "party_code": "JD(U)", "party_name": "Janata Dal (United)", "seats": 43 },
-        { "party_code": "INC", "party_name": "Indian National Congress", "seats": 19 },
+    "total_seats": 243,
+    "election_years": {
+      "2020": [
+        {
+          "party_code": "RJD",
+          "party_name": "Rashtriya Janata Dal",
+          "seats": 75
+        },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 74
+        },
+        {
+          "party_code": "JD(U)",
+          "party_name": "Janata Dal (United)",
+          "seats": 43
+        },
+        {
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 19
+        },
         {
           "party_code": "CPI(ML)(L)",
           "party_name": "Communist Party of India  (Marxist-Leninist)  (Liberation)",
@@ -174,7 +237,11 @@
           "party_name": "All India Majlis-E-Ittehadul Muslimeen",
           "seats": 5
         },
-        { "party_code": "VIP", "party_name": "Vikassheel Insaan Party", "seats": 4 },
+        {
+          "party_code": "VIP",
+          "party_name": "Vikassheel Insaan Party",
+          "seats": 4
+        },
         {
           "party_code": "HAMS",
           "party_name": "Hindustani Awam Morcha (Secular)",
@@ -185,15 +252,39 @@
           "party_name": "Communist Party of India  (Marxist)",
           "seats": 2
         },
-        { "party_code": "CPI", "party_name": "Communist Party of India", "seats": 2 },
-        { "party_code": "LJP", "party_name": "Lok Jan Shakti Party", "seats": 1 },
-        { "party_code": "BSP", "party_name": "Bahujan Samaj Party", "seats": 1 },
+        {
+          "party_code": "CPI",
+          "party_name": "Communist Party of India",
+          "seats": 2
+        },
+        {
+          "party_code": "LJP",
+          "party_name": "Lok Jan Shakti Party",
+          "seats": 1
+        },
+        {
+          "party_code": "BSP",
+          "party_name": "Bahujan Samaj Party",
+          "seats": 1
+        },
         { "party_code": "IND", "party_name": "Independent", "seats": 1 }
       ],
-      "2015" : [
-        { "party_code": "RJD", "party_name": "Rashtriya Janata Dal", "seats": 80 },
-        { "party_code": "JD(U)", "party_name": "Janata Dal  (United)", "seats": 71 },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 53 },
+      "2015": [
+        {
+          "party_code": "RJD",
+          "party_name": "Rashtriya Janata Dal",
+          "seats": 80
+        },
+        {
+          "party_code": "JD(U)",
+          "party_name": "Janata Dal  (United)",
+          "seats": 71
+        },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 53
+        },
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
@@ -205,7 +296,11 @@
           "party_name": "Communist Party of India  (Marxist-Leninist)  (Liberation)",
           "seats": 3
         },
-        { "party_code": "LJP", "party_name": "Lok Jan Shakti Party", "seats": 2 },
+        {
+          "party_code": "LJP",
+          "party_name": "Lok Jan Shakti Party",
+          "seats": 2
+        },
         {
           "party_code": "BLSP",
           "party_name": "Rashtriya Lok Samta Party",
@@ -217,33 +312,64 @@
           "seats": 1
         }
       ],
-      "2010" : [
-        { "party_code": "JD(U)", "party_name": "Janata Dal  (United)", "seats": 115 },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 91 },
-        { "party_code": "RJD", "party_name": "Rashtriya Janata Dal", "seats": 22 },
+      "2010": [
+        {
+          "party_code": "JD(U)",
+          "party_name": "Janata Dal  (United)",
+          "seats": 115
+        },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 91
+        },
+        {
+          "party_code": "RJD",
+          "party_name": "Rashtriya Janata Dal",
+          "seats": 22
+        },
         { "party_code": "IND", "party_name": "Independent", "seats": 6 },
-        { "party_code": "INC", "party_name": "Indian National Congress", "seats": 4 },
-        { "party_code": "LJP", "party_name": "Lok Jan Shakti Party", "seats": 3 },
-        { "party_code": "CPI", "party_name": "Communist Party of India", "seats": 1 },
-        { "party_code": "JMM", "party_name": "Jharkhand Mukti Morcha", "seats": 1 }
+        {
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 4
+        },
+        {
+          "party_code": "LJP",
+          "party_name": "Lok Jan Shakti Party",
+          "seats": 3
+        },
+        {
+          "party_code": "CPI",
+          "party_name": "Communist Party of India",
+          "seats": 1
+        },
+        {
+          "party_code": "JMM",
+          "party_name": "Jharkhand Mukti Morcha",
+          "seats": 1
+        }
       ]
-      
     },
-    "center" : [85.8,25.9],
-    "scale" : 9000
+    "center": [85.8, 25.9],
+    "scale": 9000
   },
   {
     "id": 7,
     "state_name": "Chhattisgarh",
-    "total_seats" : 90,
-    "election_years" : {
-      "2018" : [
+    "total_seats": 90,
+    "election_years": {
+      "2018": [
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
           "seats": 67
         },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 15 },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 15
+        },
         {
           "party_code": "JCCJ",
           "party_name": "Janta Congress Chhattisgarh (J)",
@@ -251,152 +377,165 @@
         },
         { "party_code": "BSP", "party_name": "Bahujan Samaj Party", "seats": 2 }
       ],
-      "2013" : [
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 49 },
+      "2013": [
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 49
+        },
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
           "seats": 39
         },
-        { "party_code": "BSP", "party_name": "Bahujan Samaj Party", "seats": 1 },
+        {
+          "party_code": "BSP",
+          "party_name": "Bahujan Samaj Party",
+          "seats": 1
+        },
         { "party_code": "IND", "party_name": "Independent", "seats": 1 }
       ]
-      
-      
     },
-    "center" : [82,21],
-    "scale" : 5000
+    "center": [82, 21],
+    "scale": 5000
   },
   {
     "id": 9,
     "state_name": "Delhi",
-    "total_seats" : 70,
-    "election_years" : {
-      "2020" : [
+    "total_seats": 70,
+    "election_years": {
+      "2020": [
         {
-          "party_code" : "AAP",
-          "party_name" : "Aam Aadmi Party",
-          "seats" : 62,
-          "votes" : 316573,
-          "vote %" : 33.31
+          "party_code": "AAP",
+          "party_name": "Aam Aadmi Party",
+          "seats": 62,
+          "votes": 316573,
+          "vote %": 33.31
         },
         {
-          "party_code" : "BJP",
-          "party_name" : "Bharatiya Janata Party",
-          "seats" : 8,
-          "votes" : 316573,
-          "vote %" : 33.31
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 8,
+          "votes": 316573,
+          "vote %": 33.31
         }
       ],
-      "2015" : [
+      "2015": [
         {
-          "party_code" : "AAP",
-          "party_name" : "Aam Aadmi Party",
-          "seats" : 67
+          "party_code": "AAP",
+          "party_name": "Aam Aadmi Party",
+          "seats": 67
         },
         {
-          "party_code" : "BJP",
-          "party_name" : "Bharatiya Janata Party",
-          "seats" : 3
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 3
         }
       ],
-      "2013" : [
+      "2013": [
         {
-          "party_code" : "BJP",
-          "party_name" : "Bharatiya Janata Party",
-          "seats" : 31
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 31
         },
         {
-          "party_code" : "AAP",
-          "party_name" : "Aam Aadmi Party",
-          "seats" : 28
+          "party_code": "AAP",
+          "party_name": "Aam Aadmi Party",
+          "seats": 28
         },
         {
-          "party_code" : "INC",
-          "party_name" : "Indian National Congress",
-          "seats" : 8
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 8
         },
         {
-          "party_code" : "JD(U)",
-          "party_name" : "Janata Dal (United)",
-          "seats" : 1
+          "party_code": "JD(U)",
+          "party_name": "Janata Dal (United)",
+          "seats": 1
         },
         {
-          "party_code" : "SAD",
-          "party_name" : "Shiromani Akali Dal",
-          "seats" : 1
+          "party_code": "SAD",
+          "party_name": "Shiromani Akali Dal",
+          "seats": 1
         },
         {
-          "party_code" : "IND",
-          "party_name" : "Independent",
-          "seats" : 1
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 1
         }
-        
       ]
     },
-    "center" : [77.16,28.65],
-    "scale" : 60000
+    "center": [77.16, 28.65],
+    "scale": 60000
   },
   {
     "id": 10,
     "state_name": "Goa",
-    "total_seats" : 40,
-    "election_years" : {
-      "2022" : [
+    "total_seats": 40,
+    "election_years": {
+      "2022": [
         {
-          "party_code" : "BJP",
-          "party_name" : "Bharatiya Janata Party",
-          "seats" : 20,
-          "votes" : 316573,
-          "vote %" : 33.31
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 20,
+          "votes": 316573,
+          "vote %": 33.31
         },
         {
-          "party_code" : "INC",
-          "party_name" : "Indian National Congress",
-          "seats" : 11,
-          "votes" : 222948,
-          "vote %" : 23.46
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 11,
+          "votes": 222948,
+          "vote %": 23.46
         },
         {
-          "party_code" : "MAG",
-          "party_name" : "Maharashtrawadi Gomantak",
-          "seats" : 2,
-          "votes" : 72269,
-          "vote %" : 7.6
+          "party_code": "MAG",
+          "party_name": "Maharashtrawadi Gomantak",
+          "seats": 2,
+          "votes": 72269,
+          "vote %": 7.6
         },
         {
-          "party_code" : "AAP",
-          "party_name" : "Aam Aadmi Party",
-          "seats" : 2,
-          "votes" : 64354,
-          "vote %" : 6.77
+          "party_code": "AAP",
+          "party_name": "Aam Aadmi Party",
+          "seats": 2,
+          "votes": 64354,
+          "vote %": 6.77
         },
         {
-          "party_code" : "GFP",
-          "party_name" : "Goa Forward Party",
-          "seats" : 1,
-          "votes" : 17477,
-          "vote %" : 1.84
+          "party_code": "GFP",
+          "party_name": "Goa Forward Party",
+          "seats": 1,
+          "votes": 17477,
+          "vote %": 1.84
         },
         {
-          "party_code" : "RGP",
-          "party_name" : "Revolutionary Goans Party",
-          "seats" : 1
+          "party_code": "RGP",
+          "party_name": "Revolutionary Goans Party",
+          "seats": 1
         },
         {
-          "party_code" : "IND",
-          "party_name" : "Independent",
-          "seats" : 3
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 3
         }
       ],
-      "2017" : [
+      "2017": [
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
           "seats": 17
         },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 13 },
-        { "party_code": "MAG", "party_name": "Maharashtrawadi Gomantak", "seats": 3 },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 13
+        },
+        {
+          "party_code": "MAG",
+          "party_name": "Maharashtrawadi Gomantak",
+          "seats": 3
+        },
         { "party_code": "GFP", "party_name": "Goa Forward Party", "seats": 3 },
         { "party_code": "IND", "party_name": "Independent", "seats": 3 },
         {
@@ -404,67 +543,89 @@
           "party_name": "Nationalist Congress Party",
           "seats": 1
         }
-      ],      
-      "2012" : [
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 21 },
-        { "party_code": "INC", "party_name": "Indian National Congress", "seats": 9 },
+      ],
+      "2012": [
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 21
+        },
+        {
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 9
+        },
         { "party_code": "IND", "party_name": "Independent", "seats": 5 },
-        { "party_code": "MAG", "party_name": "Maharashtrawadi Gomantak", "seats": 3 },
+        {
+          "party_code": "MAG",
+          "party_name": "Maharashtrawadi Gomantak",
+          "seats": 3
+        },
         { "party_code": "GVP", "party_name": "Goa Vikas Party", "seats": 2 }
       ]
-      
     },
-    "center" : [74,15.35],
-    "scale" : 35000
+    "center": [74, 15.35],
+    "scale": 35000
   },
   {
     "id": 11,
     "state_name": "Gujarat",
-    "total_seats" : 182,
-    "election_years" : {
-      "2017" : [
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 99 },
+    "total_seats": 182,
+    "election_years": {
+      "2017": [
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 99
+        },
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
           "seats": 77
         },
         { "party_code": "IND", "party_name": "Independent", "seats": 3 },
-        { "party_code": "BTP", "party_name": "Bhartiya Tribal Party", "seats": 2 },
+        {
+          "party_code": "BTP",
+          "party_name": "Bhartiya Tribal Party",
+          "seats": 2
+        },
         {
           "party_code": "NCP",
           "party_name": "Nationalist Congress Party",
           "seats": 1
         }
       ]
-      
     },
-    "center" : [72,22.3],
-    "scale" : 6500
+    "center": [72, 22.3],
+    "scale": 6500
   },
   {
     "id": 12,
     "state_name": "Haryana",
-    "total_seats" : 90,
-    "election_years" : {
-      "2019" : [
+    "total_seats": 90,
+    "election_years": {
+      "2019": [
         {
-          "party_code" : "BJP",
-          "party_name" : "Bharatiya Janata Party",
-          "seats" : 40,
-          "votes" : 316573,
-          "vote %" : 33.31
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 40,
+          "votes": 316573,
+          "vote %": 33.31
         },
         {
-          "party_code" : "INC",
-          "party_name" : "Indian National Congress",
-          "seats" : 31,
-          "votes" : 316573,
-          "vote %" : 33.31
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 31,
+          "votes": 316573,
+          "vote %": 33.31
         }
       ],
-      "2014" : [
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 47 },
+      "2014": [
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 47
+        },
         {
           "party_code": "INLD",
           "party_name": "Indian National Lok Dal",
@@ -481,21 +642,28 @@
           "party_name": "Haryana Janhit Congress (BL)",
           "seats": 2
         },
-        { "party_code": "SAD", "party_name": "Shiromani Akali Dal", "seats": 1 },
+        {
+          "party_code": "SAD",
+          "party_name": "Shiromani Akali Dal",
+          "seats": 1
+        },
         { "party_code": "BSP", "party_name": "Bahujan Samaj Party", "seats": 1 }
       ]
-      
     },
-    "center" : [76,29.2],
-    "scale" : 9000
+    "center": [76, 29.2],
+    "scale": 9000
   },
   {
     "id": 13,
     "state_name": "Himachal Pradesh",
-    "total_seats" : 68,
-    "election_years" : {
-      "2017" : [
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 44 },
+    "total_seats": 68,
+    "election_years": {
+      "2017": [
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 44
+        },
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
@@ -508,133 +676,179 @@
           "seats": 1
         }
       ],
-      "2012" : [
-        { "party_code": "INC", "party_name": "Indian National Congress", "seats": 36 },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 26 },
+      "2012": [
+        {
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 36
+        },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 26
+        },
         { "party_code": "IND", "party_name": "Independent", "seats": 5 },
-        { "party_code": "HLP", "party_name": "Himachal Lokhit Party", "seats": 1 }
+        {
+          "party_code": "HLP",
+          "party_name": "Himachal Lokhit Party",
+          "seats": 1
+        }
       ]
-      
-      
     },
-    "center" : [77.3,31.8],
-    "scale" : 10000
+    "center": [77.3, 31.8],
+    "scale": 10000
   },
   {
     "id": 14,
     "state_name": "Jammu and Kashmir",
-    "election_years" : []
+    "election_years": []
   },
   {
     "id": 15,
     "state_name": "Jharkhand",
-    "total_seats" : 81,
-    "election_years" : {
-      "2019" : [
+    "total_seats": 81,
+    "election_years": {
+      "2019": [
         {
-          "party_code" : "BJP",
-          "party_name" : "Bharatiya Janata Party",
-          "seats" : 40,
-          "votes" : 316573,
-          "vote %" : 33.31
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 40,
+          "votes": 316573,
+          "vote %": 33.31
         },
         {
-          "party_code" : "INC",
-          "party_name" : "Indian National Congress",
-          "seats" : 31,
-          "votes" : 316573,
-          "vote %" : 33.31
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 31,
+          "votes": 316573,
+          "vote %": 33.31
         },
         {
-          "party_code" : "BSP",
-          "party_name" : "Bahujan Samaj Party",
-          "seats" : 1,
-          "votes" : 316573,
-          "vote %" : 33.31
+          "party_code": "BSP",
+          "party_name": "Bahujan Samaj Party",
+          "seats": 1,
+          "votes": 316573,
+          "vote %": 33.31
         },
         {
-          "party_code" : "IND",
-          "party_name" : "Independent",
-          "seats" : 1
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 1
         }
       ],
-      "2014" : [
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 37 },
-        { "party_code": "JMM", "party_name": "Jharkhand Mukti Morcha", "seats": 19 },
+      "2014": [
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 37
+        },
+        {
+          "party_code": "JMM",
+          "party_name": "Jharkhand Mukti Morcha",
+          "seats": 19
+        },
         {
           "party_code": "JVM",
           "party_name": "Jharkhand Vikas Morcha (Prajatantrik)",
           "seats": 8
         },
-        { "party_code": "INC", "party_name": "Indian National Congress", "seats": 6 },
+        {
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 6
+        },
         { "party_code": "AJSUP", "party_name": "AJSU Party", "seats": 5 },
         {
           "party_code": "CPI(ML)(L)",
           "party_name": "Communist Party of India  (Marxist-Leninist)  (Liberation)",
           "seats": 1
         },
-        { "party_code": "MCO", "party_name": "Marxist Co-Ordination", "seats": 1 },
+        {
+          "party_code": "MCO",
+          "party_name": "Marxist Co-Ordination",
+          "seats": 1
+        },
         {
           "party_code": "JBSP",
           "party_name": "Jai Bharat Samanta Party",
           "seats": 1
         },
         { "party_code": "JKP", "party_name": "Jharkhand Party", "seats": 1 },
-        { "party_code": "BSP", "party_name": "Bahujan Samaj Party", "seats": 1 },
+        {
+          "party_code": "BSP",
+          "party_name": "Bahujan Samaj Party",
+          "seats": 1
+        },
         {
           "party_code": "NSAM",
           "party_name": "Navjawan Sangharsh Morcha",
           "seats": 1
         }
-      ]      
+      ]
     },
-    "center" : [85.6,23.7],
-    "scale" : 9000
+    "center": [85.6, 23.7],
+    "scale": 9000
   },
   {
     "id": 16,
     "state_name": "Karnataka",
-    "total_seats" : 224,
-    "election_years" : {
-      "2018" : [
+    "total_seats": 224,
+    "election_years": {
+      "2018": [
         {
-          "party_code" : "BJP",
-          "party_name" : "Bharatiya Janata Party",
-          "seats" : 104,
-          "votes" : 316573,
-          "vote %" : 33.31
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 104,
+          "votes": 316573,
+          "vote %": 33.31
         },
         {
-          "party_code" : "INC",
-          "party_name" : "Indian National Congress",
-          "seats" : 80,
-          "votes" : 316573,
-          "vote %" : 33.31
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 80,
+          "votes": 316573,
+          "vote %": 33.31
         },
         {
-          "party_code" : "JD(S)",
-          "party_name" : "Janata Dal  (Secular)",
-          "seats" : 37,
-          "votes" : 316573,
-          "vote %" : 33.31
+          "party_code": "JD(S)",
+          "party_name": "Janata Dal  (Secular)",
+          "seats": 37,
+          "votes": 316573,
+          "vote %": 33.31
         }
       ],
-      "2013" : [
+      "2013": [
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
           "seats": 122
         },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 40 },
-        { "party_code": "JD(S)", "party_name": "Janata Dal  (Secular)", "seats": 40 },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 40
+        },
+        {
+          "party_code": "JD(S)",
+          "party_name": "Janata Dal  (Secular)",
+          "seats": 40
+        },
         { "party_code": "IND", "party_name": "Independent", "seats": 9 },
-        { "party_code": "KJP", "party_name": "Karnataka Jantha Paksha", "seats": 6 },
+        {
+          "party_code": "KJP",
+          "party_name": "Karnataka Jantha Paksha",
+          "seats": 6
+        },
         {
           "party_code": "BSRCP",
           "party_name": "Badavara Shramikara Raitara Congress Party",
           "seats": 4
         },
-        { "party_code": "KMP", "party_name": "Karnataka Makkala Paksha", "seats": 1 },
+        {
+          "party_code": "KMP",
+          "party_name": "Karnataka Makkala Paksha",
+          "seats": 1
+        },
         { "party_code": "SP", "party_name": "Samajwadi Party", "seats": 1 },
         {
           "party_code": "SKP",
@@ -642,17 +856,16 @@
           "seats": 1
         }
       ]
-      
     },
-    "center" : [76.5,15],
-    "scale" : 5000
+    "center": [76.5, 15],
+    "scale": 5000
   },
   {
     "id": 17,
     "state_name": "Kerala",
-    "total_seats" : 140,
-    "election_years" : {
-      "2016" : [
+    "total_seats": 140,
+    "election_years": {
+      "2016": [
         {
           "party_code": "CPM",
           "party_name": "Communist Party of India  (Marxist)",
@@ -674,14 +887,26 @@
           "seats": 18
         },
         { "party_code": "IND", "party_name": "Independent", "seats": 6 },
-        { "party_code": "KEC(M)", "party_name": "Kerala Congress  (M)", "seats": 6 },
-        { "party_code": "JD(S)", "party_name": "Janata Dal  (Secular)", "seats": 3 },
+        {
+          "party_code": "KEC(M)",
+          "party_name": "Kerala Congress  (M)",
+          "seats": 6
+        },
+        {
+          "party_code": "JD(S)",
+          "party_name": "Janata Dal  (Secular)",
+          "seats": 3
+        },
         {
           "party_code": "NCP",
           "party_name": "Nationalist Congress Party",
           "seats": 2
         },
-        { "party_code": "C(S)", "party_name": "Congress  (Secular)", "seats": 1 },
+        {
+          "party_code": "C(S)",
+          "party_name": "Congress  (Secular)",
+          "seats": 1
+        },
         {
           "party_code": "NSC",
           "party_name": "National Secular Conference",
@@ -697,10 +922,18 @@
           "party_name": "Communist Marxist Party Kerala State Committee",
           "seats": 1
         },
-        { "party_code": "KEC(B)", "party_name": "Kerala Congress (B)", "seats": 1 },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 1 }
+        {
+          "party_code": "KEC(B)",
+          "party_name": "Kerala Congress (B)",
+          "seats": 1
+        },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 1
+        }
       ],
-      "2011" : [
+      "2011": [
         {
           "party_code": "CPM",
           "party_name": "Communist Party of India  (Marxist)",
@@ -721,8 +954,16 @@
           "party_name": "Communist Party of India",
           "seats": 13
         },
-        { "party_code": "KEC(M)", "party_name": "Kerala Congress  (M)", "seats": 9 },
-        { "party_code": "JD(S)", "party_name": "Janata Dal  (Secular)", "seats": 4 },
+        {
+          "party_code": "KEC(M)",
+          "party_name": "Kerala Congress  (M)",
+          "seats": 9
+        },
+        {
+          "party_code": "JD(S)",
+          "party_name": "Janata Dal  (Secular)",
+          "seats": 4
+        },
         {
           "party_code": "SJD",
           "party_name": "SOCIALIST JANTA (DEMOCRATIC)",
@@ -749,132 +990,155 @@
           "party_name": "Kerala Revolutionary Socialist Party(Baby John)",
           "seats": 1
         },
-        { "party_code": "KEC(B)", "party_name": "Kerala Congress (B)", "seats": 1 }
-      ]      
+        {
+          "party_code": "KEC(B)",
+          "party_name": "Kerala Congress (B)",
+          "seats": 1
+        }
+      ]
     },
-    "center" : [76,10.5],
-    "scale" : 8000
+    "center": [76, 10.5],
+    "scale": 8000
   },
   {
     "id": 20,
     "state_name": "Madhya Pradesh",
-    "total_seats" : 230,
-    "election_years" : {
-      "2018" : [
+    "total_seats": 230,
+    "election_years": {
+      "2018": [
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
           "seats": 114
         },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 109 },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 109
+        },
         { "party_code": "IND", "party_name": "Independent", "seats": 4 },
-        { "party_code": "BSP", "party_name": "Bahujan Samaj Party", "seats": 2 },
+        {
+          "party_code": "BSP",
+          "party_name": "Bahujan Samaj Party",
+          "seats": 2
+        },
         { "party_code": "SP", "party_name": "Samajwadi Party", "seats": 1 }
-      ],      
-      "2013" : [
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 165 },
+      ],
+      "2013": [
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 165
+        },
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
           "seats": 58
         },
-        { "party_code": "BSP", "party_name": "Bahujan Samaj Party", "seats": 4 },
+        {
+          "party_code": "BSP",
+          "party_name": "Bahujan Samaj Party",
+          "seats": 4
+        },
         { "party_code": "IND", "party_name": "Independent", "seats": 3 }
       ]
-      
     },
-    "center" : [78.5,24],
-    "scale" : 5500
+    "center": [78.5, 24],
+    "scale": 5500
   },
   {
     "id": 21,
     "state_name": "Maharashtra",
-    "total_seats" : 288,
-    "election_years" : {
-      "2019" : [
+    "total_seats": 288,
+    "election_years": {
+      "2019": [
         {
-          "party_code" : "BJP",
-          "party_name" : "Bharatiya Janata Party",
-          "seats" : 105
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 105
         },
         {
-          "party_code" : "SHS",
-          "party_name" : "Shiv Sena",
-          "seats" : 56
+          "party_code": "SHS",
+          "party_name": "Shiv Sena",
+          "seats": 56
         },
         {
-          "party_code" : "NCP",
-          "party_name" : "Nationalist Congress Party",
-          "seats" : 54
+          "party_code": "NCP",
+          "party_name": "Nationalist Congress Party",
+          "seats": 54
         },
         {
-          "party_code" : "INC",
-          "party_name" : "Indian National Congress",
-          "seats" : 44
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 44
         },
         {
-          "party_code" : "BVA",
-          "party_name" : "Bahujan Vikas Aaghadi",
-          "seats" : 3
+          "party_code": "BVA",
+          "party_name": "Bahujan Vikas Aaghadi",
+          "seats": 3
         },
         {
-          "party_code" : "AIMIM",
-          "party_name" : "All India Majlis-E-Ittehadul Muslimeen",
-          "seats" : 2
+          "party_code": "AIMIM",
+          "party_name": "All India Majlis-E-Ittehadul Muslimeen",
+          "seats": 2
         },
         {
-          "party_code" : "SP",
-          "party_name" : "Samajwadi Party",
-          "seats" : 2
+          "party_code": "SP",
+          "party_name": "Samajwadi Party",
+          "seats": 2
         },
         {
-          "party_code" : "PHJSP",
-          "party_name" : "Prahar Janshakti Party",
-          "seats" : 2
+          "party_code": "PHJSP",
+          "party_name": "Prahar Janshakti Party",
+          "seats": 2
         },
         {
-          "party_code" : "CPIM",
-          "party_name" : "Communist Party of India (Marxist-Leninist) Red Star",
-          "seats" : 1
+          "party_code": "CPIM",
+          "party_name": "Communist Party of India (Marxist-Leninist) Red Star",
+          "seats": 1
         },
         {
-          "party_code" : "MNS",
-          "party_name" : "Maharashtra Navnirman sena",
-          "seats" : 1
+          "party_code": "MNS",
+          "party_name": "Maharashtra Navnirman sena",
+          "seats": 1
         },
         {
-          "party_code" : "PWPI",
-          "party_name" : "Peasants And Workers Party of India",
-          "seats" : 1
+          "party_code": "PWPI",
+          "party_name": "Peasants And Workers Party of India",
+          "seats": 1
         },
         {
-          "party_code" : "SWP",
-          "party_name" : "Swabhimani Paksha",
-          "seats" : 1
+          "party_code": "SWP",
+          "party_name": "Swabhimani Paksha",
+          "seats": 1
         },
         {
-          "party_code" : "JSS",
-          "party_name" : "Jan Surajya Shakti",
-          "seats" : 1
+          "party_code": "JSS",
+          "party_name": "Jan Surajya Shakti",
+          "seats": 1
         },
         {
-          "party_code" : "KTSTP",
-          "party_name" : "Krantikari Shetkari Party",
-          "seats" : 1
+          "party_code": "KTSTP",
+          "party_name": "Krantikari Shetkari Party",
+          "seats": 1
         },
         {
-          "party_code" : "RSPS",
-          "party_name" : "Rashtriya Samaj Paksha",
-          "seats" : 1
+          "party_code": "RSPS",
+          "party_name": "Rashtriya Samaj Paksha",
+          "seats": 1
         },
         {
-          "party_code" : "IND",
-          "party_name" : "Independent",
-          "seats" : 13
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 13
         }
       ],
-      "2014" : [
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 122 },
+      "2014": [
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 122
+        },
         { "party_code": "SHS", "party_name": "Shivsena", "seats": 63 },
         {
           "party_code": "INC",
@@ -887,7 +1151,11 @@
           "seats": 41
         },
         { "party_code": "IND", "party_name": "Independent", "seats": 7 },
-        { "party_code": "BVA", "party_name": "Bahujan Vikas Aaghadi", "seats": 3 },
+        {
+          "party_code": "BVA",
+          "party_name": "Bahujan Vikas Aaghadi",
+          "seats": 3
+        },
         {
           "party_code": "PWPI",
           "party_name": "Peasants And Workers Party of India",
@@ -914,75 +1182,90 @@
           "party_name": "Maharashtra Navnirman sena",
           "seats": 1
         },
-        { "party_code": "RSPS", "party_name": "Rashtriya Samaj Paksha", "seats": 1 }
+        {
+          "party_code": "RSPS",
+          "party_name": "Rashtriya Samaj Paksha",
+          "seats": 1
+        }
       ]
-      
     },
-    "center" : [77,19],
-    "scale" : 5000
+    "center": [77, 19],
+    "scale": 5000
   },
   {
     "id": 22,
     "state_name": "Manipur",
-    "total_seats" : 60,
-    "election_years" : {
-      "2022" : [
+    "total_seats": 60,
+    "election_years": {
+      "2022": [
         {
-          "party_code" : "BJP",
-          "party_name" : "Bharatiya Janata Party",
-          "seats" : 32,
-          "votes" : 702632,
-          "vote %" : 37.83
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 32,
+          "votes": 702632,
+          "vote %": 37.83
         },
         {
-          "party_code" : "NPP",
-          "party_name" : "National People's Party",
-          "seats" : 7,
-          "votes" : 321224,
-          "vote %" : 17.29
+          "party_code": "NPP",
+          "party_name": "National People's Party",
+          "seats": 7,
+          "votes": 321224,
+          "vote %": 17.29
         },
         {
-          "party_code" : "JD(U)",
-          "party_name" : "Janata Dal (United)",
-          "seats" : 6,
-          "votes" : 200100,
-          "vote %" : 10.77
+          "party_code": "JD(U)",
+          "party_name": "Janata Dal (United)",
+          "seats": 6,
+          "votes": 200100,
+          "vote %": 10.77
         },
         {
-          "party_code" : "INC",
-          "party_name" : "Indian National Congress",
-          "seats" : 5,
-          "votes" : 312659,
-          "vote %" : 16.83
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 5,
+          "votes": 312659,
+          "vote %": 16.83
         },
         {
-          "party_code" : "NPF",
-          "party_name" : "Naga Peoples Front",
-          "seats" : 5,
-          "votes" : 150209,
-          "vote %" : 8.09
+          "party_code": "NPF",
+          "party_name": "Naga Peoples Front",
+          "seats": 5,
+          "votes": 150209,
+          "vote %": 8.09
         },
         {
-          "party_code" : "KPA",
-          "party_name" : "Kuki People’s Alliance",
-          "seats" : 2
+          "party_code": "KPA",
+          "party_name": "Kuki People’s Alliance",
+          "seats": 2
         },
         {
-          "party_code" : "IND",
-          "party_name" : "Independent",
-          "seats" : 3
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 3
         }
       ],
-      "2017" : [
+      "2017": [
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
           "seats": 28
         },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 21 },
-        { "party_code": "NPEP", "party_name": "National People's Party", "seats": 4 },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 21
+        },
+        {
+          "party_code": "NPEP",
+          "party_name": "National People's Party",
+          "seats": 4
+        },
         { "party_code": "NPF", "party_name": "Naga Peoples Front", "seats": 4 },
-        { "party_code": "LJP", "party_name": "Lok Jan Shakti Party", "seats": 1 },
+        {
+          "party_code": "LJP",
+          "party_name": "Lok Jan Shakti Party",
+          "seats": 1
+        },
         {
           "party_code": "AITC",
           "party_name": "All India Trinamool Congress",
@@ -990,7 +1273,7 @@
         },
         { "party_code": "IND", "party_name": "Independent", "seats": 1 }
       ],
-      "2012" : [
+      "2012": [
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
@@ -1012,19 +1295,22 @@
           "party_name": "Nationalist Congress Party",
           "seats": 1
         },
-        { "party_code": "LJP", "party_name": "Lok Jan Shakti Party", "seats": 1 }
-      ]      
-      
+        {
+          "party_code": "LJP",
+          "party_name": "Lok Jan Shakti Party",
+          "seats": 1
+        }
+      ]
     },
-    "center" : [94,24.8],
-    "scale" : 17000
+    "center": [94, 24.8],
+    "scale": 17000
   },
   {
     "id": 23,
     "state_name": "Meghalaya",
-    "total_seats" : 60,
-    "election_years" : {
-      "2018" : [
+    "total_seats": 60,
+    "election_years": {
+      "2018": [
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
@@ -1035,14 +1321,22 @@
           "party_name": "National People's Party",
           "seats": 20
         },
-        { "party_code": "UDP", "party_name": "United Democratic Party", "seats": 6 },
+        {
+          "party_code": "UDP",
+          "party_name": "United Democratic Party",
+          "seats": 6
+        },
         {
           "party_code": "PDF",
           "party_name": "People's Democratic Front",
           "seats": 4
         },
         { "party_code": "IND", "party_name": "Independent", "seats": 3 },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 2 },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 2
+        },
         {
           "party_code": "HSPDP",
           "party_name": "Hill State People’s Democratic Party",
@@ -1059,14 +1353,18 @@
           "seats": 1
         }
       ],
-      "2013" : [
+      "2013": [
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
           "seats": 29
         },
         { "party_code": "IND", "party_name": "Independent", "seats": 13 },
-        { "party_code": "UDP", "party_name": "United Democratic Party", "seats": 8 },
+        {
+          "party_code": "UDP",
+          "party_name": "United Democratic Party",
+          "seats": 8
+        },
         {
           "party_code": "HSPDP",
           "party_name": "Hill State People’s Democratic Party",
@@ -1077,132 +1375,187 @@
           "party_name": "Nationalist Congress Party",
           "seats": 2
         },
-        { "party_code": "NPP", "party_name": "National People's Party", "seats": 2 },
+        {
+          "party_code": "NPP",
+          "party_name": "National People's Party",
+          "seats": 2
+        },
         {
           "party_code": "NESDP",
           "party_name": "North East Social Democratic Party",
           "seats": 1
         },
-        { "party_code": "GNC", "party_name": "Garo National Council", "seats": 1 }
+        {
+          "party_code": "GNC",
+          "party_name": "Garo National Council",
+          "seats": 1
+        }
       ]
-           
     },
-    "center" : [91.3,25.5],
-    "scale" : 18000
+    "center": [91.3, 25.5],
+    "scale": 18000
   },
-  
-  
+
   {
     "id": 24,
     "state_name": "Mizoram",
-    "election_years" : {
-      "2018" : [
-        { "party_code": "MNF", "party_name": "Mizo National Front", "seats": 27 },
+    "election_years": {
+      "2018": [
+        {
+          "party_code": "MNF",
+          "party_name": "Mizo National Front",
+          "seats": 27
+        },
         { "party_code": "IND", "party_name": "Independent", "seats": 8 },
-        { "party_code": "INC", "party_name": "Indian National Congress", "seats": 4 },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 1 }
+        {
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 4
+        },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 1
+        }
       ],
-      "2013" : [
+      "2013": [
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
           "seats": 34
         },
-        { "party_code": "MNF", "party_name": "Mizo National Front", "seats": 5 },
+        {
+          "party_code": "MNF",
+          "party_name": "Mizo National Front",
+          "seats": 5
+        },
         {
           "party_code": "MPC",
           "party_name": "Mizoram People's Conference",
           "seats": 1
         }
       ]
-            
     },
-    "center" : [92.7,23.3],
-    "scale" : 13000
+    "center": [92.7, 23.3],
+    "scale": 13000
   },
   {
     "id": 25,
     "state_name": "Nagaland",
-    "total_seats" : 60,
-    "election_years" : {
-      "2018" : [
-        { "party_code": "NPF", "party_name": "Naga Peoples Front", "seats": 26 },
+    "total_seats": 60,
+    "election_years": {
+      "2018": [
+        {
+          "party_code": "NPF",
+          "party_name": "Naga Peoples Front",
+          "seats": 26
+        },
         {
           "party_code": "NDPP",
           "party_name": "Nationalist Democratic Progressive Party",
           "seats": 18
         },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 12 },
-        { "party_code": "NPEP", "party_name": "National People's Party", "seats": 2 },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 12
+        },
+        {
+          "party_code": "NPEP",
+          "party_name": "National People's Party",
+          "seats": 2
+        },
         { "party_code": "IND", "party_name": "Independent", "seats": 1 },
-        { "party_code": "JD(U)", "party_name": "Janata Dal  (United)", "seats": 1 }
+        {
+          "party_code": "JD(U)",
+          "party_name": "Janata Dal  (United)",
+          "seats": 1
+        }
       ],
       "2013": [
-        { "party_code": "NPF", "party_name": "Naga Peoples Front", "seats": 38 },
-        { "party_code": "INC", "party_name": "Indian National Congress", "seats": 8 },
+        {
+          "party_code": "NPF",
+          "party_name": "Naga Peoples Front",
+          "seats": 38
+        },
+        {
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 8
+        },
         { "party_code": "IND", "party_name": "Independent", "seats": 8 },
         {
           "party_code": "NCP",
           "party_name": "Nationalist Congress Party",
           "seats": 4
         },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 1 },
-        { "party_code": "JD(U)", "party_name": "Janata Dal  (United)", "seats": 1 }
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 1
+        },
+        {
+          "party_code": "JD(U)",
+          "party_name": "Janata Dal  (United)",
+          "seats": 1
+        }
       ]
-      
-      
     },
-    "center" : [94.5,26.1],
-    "scale" : 16000
+    "center": [94.5, 26.1],
+    "scale": 16000
   },
   {
     "id": 26,
     "state_name": "Odisha",
-    "total_seats" : 147,
-    "election_years" :  {
-      "2019" : [
-          {
-            "party_code" : "BJD",
-            "party_name" : "Biju Janata Dal",
-            "seats" : 113,
-            "votes" : 6538783,
-            "vote %" : 42.01
-          },
-          {
-            "party_code" : "BJP",
-            "party_name" : "Bharatiya Janata Party",
-            "seats" : 23,
-            "votes" : 3576684,
-            "vote %" : 22.98
-          },
-          {
-            "party_code" : "INC",
-            "party_name" : "Indian National Congress",
-            "seats" : 9,
-            "votes" : 2861286,
-            "vote %" :18.38
-          },
-          {
-            "party_code" : "CPM",
-            "party_name" : "Communist Party of India  (Marxist)",
-            "seats" : 1,
-            "votes" : 275232,
-            "vote %" : 1.77
-          },
-          {
-            "party_code" : "IND",
-            "party_name" : "Independent",
-            "seats" : 1
-          }
+    "total_seats": 147,
+    "election_years": {
+      "2019": [
+        {
+          "party_code": "BJD",
+          "party_name": "Biju Janata Dal",
+          "seats": 113,
+          "votes": 6538783,
+          "vote %": 42.01
+        },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 23,
+          "votes": 3576684,
+          "vote %": 22.98
+        },
+        {
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 9,
+          "votes": 2861286,
+          "vote %": 18.38
+        },
+        {
+          "party_code": "CPM",
+          "party_name": "Communist Party of India  (Marxist)",
+          "seats": 1,
+          "votes": 275232,
+          "vote %": 1.77
+        },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 1
+        }
       ],
-      "2014" : [
+      "2014": [
         { "party_code": "BJD", "party_name": "Biju Janata Dal", "seats": 117 },
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
           "seats": 16
         },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 10 },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 10
+        },
         { "party_code": "IND", "party_name": "Independent", "seats": 2 },
         { "party_code": "SKD", "party_name": "Samata Kranti Dal", "seats": 1 },
         {
@@ -1211,22 +1564,25 @@
           "seats": 1
         }
       ]
-      
     },
-    "center" : [84,20.4],
-    "scale" : 6500
+    "center": [84, 20.4],
+    "scale": 6500
   },
   {
     "id": 27,
     "state_name": "Puducherry",
-    "election_years" : {
-      "2011" : [
+    "election_years": {
+      "2011": [
         {
           "party_code": "AINRC",
           "party_name": "All India N.R. Congress",
           "seats": 15
         },
-        { "party_code": "INC", "party_name": "Indian National Congress", "seats": 7 },
+        {
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 7
+        },
         {
           "party_code": "AIADMK",
           "party_name": "All India Anna Dravida Munnetra Kazhagam",
@@ -1239,7 +1595,7 @@
         },
         { "party_code": "IND", "party_name": "Independent", "seats": 1 }
       ],
-      "2016" : [
+      "2016": [
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
@@ -1262,99 +1618,120 @@
         },
         { "party_code": "IND", "party_name": "Independent", "seats": 1 }
       ]
-      
-      
     },
-    "center" : [79.5,11.8],
-    "scale" : 50000
+    "center": [79.5, 11.8],
+    "scale": 50000
   },
   {
     "id": 28,
     "state_name": "Punjab",
-    "total_seats" : 117,
-    "election_years" : {
-      "2022" : [
-          {
-            "party_code" : "AAP",
-            "party_name" : "Aam Aadmi Party",
-            "seats" : 92,
-            "votes" : 6538783,
-            "vote %" : 42.01
-          },
-          {
-            "party_code" : "INC",
-            "party_name" : "Indian National Congress",
-            "seats" : 18,
-            "votes" : 3576684,
-            "vote %" : 22.98
-          },
-          {
-            "party_code" : "SAD",
-            "party_name" : "Shiromani Akali Dal",
-            "seats" : 3,
-            "votes" : 2861286,
-            "vote %" :18.38
-          },
-          {
-            "party_code" : "BJP",
-            "party_name" : "Bharatiya Janata Party",
-            "seats" : 2,
-            "votes" : 1027143,
-            "vote %" : 6.6
-          },
-          {
-            "party_code" : "BSP",
-            "party_name" : "Bahujan Samaj Party",
-            "seats" : 1,
-            "votes" : 275232,
-            "vote %" : 1.77
-          },
-          {
-            "party_code" : "IND",
-            "party_name" : "Independent",
-            "seats" : 1
-          }
+    "total_seats": 117,
+    "election_years": {
+      "2022": [
+        {
+          "party_code": "AAP",
+          "party_name": "Aam Aadmi Party",
+          "seats": 92,
+          "votes": 6538783,
+          "vote %": 42.01
+        },
+        {
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 18,
+          "votes": 3576684,
+          "vote %": 22.98
+        },
+        {
+          "party_code": "SAD",
+          "party_name": "Shiromani Akali Dal",
+          "seats": 3,
+          "votes": 2861286,
+          "vote %": 18.38
+        },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 2,
+          "votes": 1027143,
+          "vote %": 6.6
+        },
+        {
+          "party_code": "BSP",
+          "party_name": "Bahujan Samaj Party",
+          "seats": 1,
+          "votes": 275232,
+          "vote %": 1.77
+        },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 1
+        }
       ],
-      "2017" : [
+      "2017": [
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
           "seats": 77
         },
         { "party_code": "AAAP", "party_name": "Aam Aadmi Party", "seats": 20 },
-        { "party_code": "SAD", "party_name": "Shiromani Akali Dal", "seats": 15 },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 3 },
+        {
+          "party_code": "SAD",
+          "party_name": "Shiromani Akali Dal",
+          "seats": 15
+        },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 3
+        },
         { "party_code": "LIP", "party_name": "Lok Insaaf Party", "seats": 2 }
-      ],      
-      "2012" : [
-        { "party_code": "SAD", "party_name": "Shiromani Akali Dal", "seats": 56 },
+      ],
+      "2012": [
+        {
+          "party_code": "SAD",
+          "party_name": "Shiromani Akali Dal",
+          "seats": 56
+        },
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
           "seats": 46
         },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 12 },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 12
+        },
         { "party_code": "IND", "party_name": "Independent", "seats": 3 }
       ]
-      
     },
-    "center" : [75.4,31],
-    "scale" : 10000
+    "center": [75.4, 31],
+    "scale": 10000
   },
   {
     "id": 29,
     "state_name": "Rajasthan",
-    "total_seats" : 200,
-    "election_years" : {
-      "2018" : [
+    "total_seats": 200,
+    "election_years": {
+      "2018": [
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
           "seats": 100
         },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 73 },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 73
+        },
         { "party_code": "IND", "party_name": "Independent", "seats": 13 },
-        { "party_code": "BSP", "party_name": "Bahujan Samaj Party", "seats": 6 },
+        {
+          "party_code": "BSP",
+          "party_name": "Bahujan Samaj Party",
+          "seats": 6
+        },
         {
           "party_code": "RLTP",
           "party_name": "Rashtriya Loktantrik Party",
@@ -1365,11 +1742,19 @@
           "party_name": "Communist Party of India  (Marxist)",
           "seats": 2
         },
-        { "party_code": "BTP", "party_name": "Bhartiya Tribal Party", "seats": 2 },
+        {
+          "party_code": "BTP",
+          "party_name": "Bhartiya Tribal Party",
+          "seats": 2
+        },
         { "party_code": "RLD", "party_name": "Rashtriya Lok Dal", "seats": 1 }
       ],
-      "2013" : [
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 163 },
+      "2013": [
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 163
+        },
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
@@ -1381,35 +1766,46 @@
           "party_name": "National People\u2019s Party",
           "seats": 4
         },
-        { "party_code": "BSP", "party_name": "Bahujan Samaj Party", "seats": 3 },
+        {
+          "party_code": "BSP",
+          "party_name": "Bahujan Samaj Party",
+          "seats": 3
+        },
         {
           "party_code": "NUZP",
           "party_name": "National Unionist Zamindara Party",
           "seats": 2
         }
-      ]            
+      ]
     },
-    "center" : [74,26.5],
-    "scale" : 4400
+    "center": [74, 26.5],
+    "scale": 4400
   },
   {
     "id": 30,
     "state_name": "Sikkim",
-    "election_years" : {
-      "2014" : [
-        { "party_code": "SDF", "party_name": "Sikkim Democratic Front", "seats": 22 },
-        { "party_code": "SKM", "party_name": "Sikkim Krantikari Morcha", "seats": 10 }
+    "election_years": {
+      "2014": [
+        {
+          "party_code": "SDF",
+          "party_name": "Sikkim Democratic Front",
+          "seats": 22
+        },
+        {
+          "party_code": "SKM",
+          "party_name": "Sikkim Krantikari Morcha",
+          "seats": 10
+        }
       ]
-      
     }
   },
-  
+
   {
     "id": 31,
     "state_name": "Tamil Nadu",
-    "total_seats" : 234,
-    "election_years" : {
-      "2016" : [
+    "total_seats": 234,
+    "election_years": {
+      "2016": [
         {
           "party_code": "ADMK",
           "party_name": "All India Anna Dravida Munnetra Kazhagam",
@@ -1420,14 +1816,18 @@
           "party_name": "Dravida Munnetra Kazhagam",
           "seats": 89
         },
-        { "party_code": "INC", "party_name": "Indian National Congress", "seats": 8 },
+        {
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 8
+        },
         {
           "party_code": "IUML",
           "party_name": "Indian Union Muslim League",
           "seats": 1
         }
       ],
-      "2011" : [
+      "2011": [
         {
           "party_code": "AIADMK",
           "party_name": "All India Anna Dravida Munnetra Kazhagam",
@@ -1448,28 +1848,43 @@
           "party_name": "Communist Party of India  (Marxist)",
           "seats": 10
         },
-        { "party_code": "CPI", "party_name": "Communist Party of India", "seats": 9 },
-        { "party_code": "INC", "party_name": "Indian National Congress", "seats": 5 },
-        { "party_code": "PMK", "party_name": "Pattali Makkal Katchi", "seats": 3 },
+        {
+          "party_code": "CPI",
+          "party_name": "Communist Party of India",
+          "seats": 9
+        },
+        {
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 5
+        },
+        {
+          "party_code": "PMK",
+          "party_name": "Pattali Makkal Katchi",
+          "seats": 3
+        },
         {
           "party_code": "MAMAK",
           "party_name": "Manithaneya Makkal Katchi",
           "seats": 2
         },
         { "party_code": "PT", "party_name": "Puthiya Tamilagam", "seats": 2 },
-        { "party_code": "AIFB", "party_name": "All India Forward Bloc", "seats": 1 }
+        {
+          "party_code": "AIFB",
+          "party_name": "All India Forward Bloc",
+          "seats": 1
+        }
       ]
-        
     },
-    "center" : [78.5,10.8],
-    "scale" : 6500
+    "center": [78.5, 10.8],
+    "scale": 6500
   },
   {
     "id": 32,
     "state_name": "Telangana",
-    "total_seats" : 119,
-    "election_years" : {
-      "2018" : [
+    "total_seats": 119,
+    "election_years": {
+      "2018": [
         {
           "party_code": "TRS",
           "party_name": "Telangana Rashtra Samithi",
@@ -1486,11 +1901,19 @@
           "seats": 7
         },
         { "party_code": "TDP", "party_name": "Telugu Desam", "seats": 2 },
-        { "party_code": "AIFB", "party_name": "All India Forward Bloc", "seats": 1 },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 1 },
+        {
+          "party_code": "AIFB",
+          "party_name": "All India Forward Bloc",
+          "seats": 1
+        },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 1
+        },
         { "party_code": "IND", "party_name": "Independent", "seats": 1 }
-      ],      
-      "2014" : [
+      ],
+      "2014": [
         {
           "party_code": "TRS",
           "party_name": "Telangana Rashtra Samithi",
@@ -1507,32 +1930,48 @@
           "party_name": "All India Majlis-E-Ittehadul Muslimeen",
           "seats": 7
         },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 5 },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 5
+        },
         {
           "party_code": "YSRCP",
           "party_name": "Yuvajana Sramika Rythu Congress Party",
           "seats": 3
         },
-        { "party_code": "BSP", "party_name": "Bahujan Samaj Party", "seats": 2 },
-        { "party_code": "CPI", "party_name": "Communist Party of India", "seats": 1 },
+        {
+          "party_code": "BSP",
+          "party_name": "Bahujan Samaj Party",
+          "seats": 2
+        },
+        {
+          "party_code": "CPI",
+          "party_name": "Communist Party of India",
+          "seats": 1
+        },
         { "party_code": "IND", "party_name": "Independent", "seats": 1 },
         {
           "party_code": "CPM",
           "party_name": "Communist Party of India  (Marxist)",
           "seats": 1
         }
-      ]            
+      ]
     },
-    "center" : [79,17.85],
-    "scale" : 8500
+    "center": [79, 17.85],
+    "scale": 8500
   },
   {
     "id": 33,
     "state_name": "Tripura",
-    "total_seats" : 60,
-    "election_years" : {
-      "2018" : [
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 36 },
+    "total_seats": 60,
+    "election_years": {
+      "2018": [
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 36
+        },
         {
           "party_code": "CPM",
           "party_name": "Communist Party of India  (Marxist)",
@@ -1544,7 +1983,7 @@
           "seats": 8
         }
       ],
-      "2013" : [
+      "2013": [
         {
           "party_code": "CPM",
           "party_name": "Communist Party of India  (Marxist)",
@@ -1555,83 +1994,100 @@
           "party_name": "Indian National Congress",
           "seats": 10
         },
-        { "party_code": "CPI", "party_name": "Communist Party of India", "seats": 1 }
+        {
+          "party_code": "CPI",
+          "party_name": "Communist Party of India",
+          "seats": 1
+        }
       ]
-      
-      
-      
     },
-    "center" : [91.8,23.7],
-    "scale" : 20000
+    "center": [91.8, 23.7],
+    "scale": 20000
   },
   {
     "id": 34,
     "state_name": "Uttar Pradesh",
-    "total_seats" : 403,
-    "election_years" : {
-      "2022" : [
+    "total_seats": 403,
+    "election_years": {
+      "2022": [
         {
-          "party_code" : "BJP",
-          "party_name" : "Bharatiya Janata Party",
-          "seats" : 255,
-          "votes" : 38051721,
-          "vote %" : 41.29
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 255,
+          "votes": 38051721,
+          "vote %": 41.29
         },
         {
-          "party_code" : "SP",
-          "party_name" : "Samajwadi Party",
-          "seats" : 111,
-          "votes" : 29543934,
-          "vote %" : 32.06
+          "party_code": "SP",
+          "party_name": "Samajwadi Party",
+          "seats": 111,
+          "votes": 29543934,
+          "vote %": 32.06
         },
         {
-          "party_code" : "AD(S)",
-          "party_name" : "Apna Dal (Soneylal)",
-          "seats" : 12
+          "party_code": "AD(S)",
+          "party_name": "Apna Dal (Soneylal)",
+          "seats": 12
         },
         {
-          "party_code" : "RLD",
-          "party_name" : "Rashtriya Lok Dal",
-          "seats" : 8,
-          "votes" : 2630168,
-          "vote %" : 2.85
+          "party_code": "RLD",
+          "party_name": "Rashtriya Lok Dal",
+          "seats": 8,
+          "votes": 2630168,
+          "vote %": 2.85
         },
         {
-          "party_code" : "NISHAD",
-          "party_name" : "Nirbal Indian Shoshit Hamara Aam Dal",
-          "seats" : 6
+          "party_code": "NISHAD",
+          "party_name": "Nirbal Indian Shoshit Hamara Aam Dal",
+          "seats": 6
         },
         {
-          "party_code" : "SBSP",
-          "party_name" : "Suheldev Bharatiya Samaj Party",
-          "seats" : 6
+          "party_code": "SBSP",
+          "party_name": "Suheldev Bharatiya Samaj Party",
+          "seats": 6
         },
         {
-          "party_code" : "INC",
-          "party_name" : "Indian National Congress",
-          "seats" : 2,
-          "votes" : 2151234,
-          "vote %" : 2.33
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 2,
+          "votes": 2151234,
+          "vote %": 2.33
         },
         {
-          "party_code" : "JDL",
-          "party_name" : "Jansatta Dal Loktantrik",
-          "seats" : 2
+          "party_code": "JDL",
+          "party_name": "Jansatta Dal Loktantrik",
+          "seats": 2
         },
         {
-          "party_code" : "BSP",
-          "party_name" : "Bahujan Samaj Party",
-          "seats" : 1,
-          "votes" : 11873137,
-          "vote %" : 12.88
+          "party_code": "BSP",
+          "party_name": "Bahujan Samaj Party",
+          "seats": 1,
+          "votes": 11873137,
+          "vote %": 12.88
         }
       ],
-      "2017" : [
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 312 },
+      "2017": [
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 312
+        },
         { "party_code": "SP", "party_name": "Samajwadi Party", "seats": 47 },
-        { "party_code": "BSP", "party_name": "Bahujan Samaj Party", "seats": 19 },
-        { "party_code": "ADAL", "party_name": "Apna Dal (Soneylal)", "seats": 9 },
-        { "party_code": "INC", "party_name": "Indian National Congress", "seats": 7 },
+        {
+          "party_code": "BSP",
+          "party_name": "Bahujan Samaj Party",
+          "seats": 19
+        },
+        {
+          "party_code": "ADAL",
+          "party_name": "Apna Dal (Soneylal)",
+          "seats": 9
+        },
+        {
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 7
+        },
         {
           "party_code": "SBSP",
           "party_name": "Suheldev Bhartiya Samaj Party",
@@ -1645,10 +2101,18 @@
           "seats": 1
         }
       ],
-      "2012" : [
+      "2012": [
         { "party_code": "SP", "party_name": "Samajwadi Party", "seats": 224 },
-        { "party_code": "BSP", "party_name": "Bahujan Samaj Party", "seats": 80 },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 47 },
+        {
+          "party_code": "BSP",
+          "party_name": "Bahujan Samaj Party",
+          "seats": 80
+        },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 47
+        },
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
@@ -1670,107 +2134,117 @@
         },
         { "party_code": "AD", "party_name": "Apna Dal", "seats": 1 }
       ]
-            
     },
-    "center" : [80.90,27.2],
-    "scale" : 5000
+    "center": [80.9, 27.2],
+    "scale": 5000
   },
   {
     "id": 35,
     "state_name": "Uttarakhand",
-    "total_seats" : 70,
-    "election_years" : {
-      "2022" : [
+    "total_seats": 70,
+    "election_years": {
+      "2022": [
         {
-          "party_code" : "BJP",
-          "party_name" : "Bharatiya Janata Party",
-          "seats" : 47,
-          "votes" : 2383838,
-          "vote %" : 44.33
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 47,
+          "votes": 2383838,
+          "vote %": 44.33
         },
         {
-          "party_code" : "INC",
-          "party_name" : "Indian National Congress",
-          "seats" : 19,
-          "votes" : 2038509,
-          "vote %" : 37.91
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 19,
+          "votes": 2038509,
+          "vote %": 37.91
         },
         {
-          "party_code" : "BSP",
-          "party_name" : "Bahujan Samaj Party",
-          "seats" : 2,
-          "votes" : 259371,
-          "vote %" : 4.82
+          "party_code": "BSP",
+          "party_name": "Bahujan Samaj Party",
+          "seats": 2,
+          "votes": 259371,
+          "vote %": 4.82
         },
         {
-          "party_code" : "IND",
-          "party_name" : "Independent",
-          "seats" : 2
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 2
         }
       ],
-      "2017" : [
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 57 },
+      "2017": [
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 57
+        },
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
           "seats": 11
         },
         { "party_code": "IND", "party_name": "Independent", "seats": 2 }
-      ],      
-      "2012" : [
+      ],
+      "2012": [
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
           "seats": 32
         },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 31 },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 31
+        },
         { "party_code": "IND", "party_name": "Independent", "seats": 3 },
-        { "party_code": "BSP", "party_name": "Bahujan Samaj Party", "seats": 3 },
+        {
+          "party_code": "BSP",
+          "party_name": "Bahujan Samaj Party",
+          "seats": 3
+        },
         {
           "party_code": "UKDP",
           "party_name": "Uttarakhand Kranti Dal(P)",
           "seats": 1
         }
       ]
-      
     },
-    "center" : [79.2,30.1],
-    "scale" : 11000
+    "center": [79.2, 30.1],
+    "scale": 11000
   },
   {
     "id": 36,
     "state_name": "West Bengal",
-    "total_seats" : 294,
-    "election_years" : {
-      "2021" : [
+    "total_seats": 294,
+    "election_years": {
+      "2021": [
         {
-          "party_code" : "AITC",
-          "party_name" : "All India Trinamool Congress",
-          "seats" : 215,
-          "votes" : 2383838,
-          "vote %" : 44.33
+          "party_code": "AITC",
+          "party_name": "All India Trinamool Congress",
+          "seats": 215,
+          "votes": 2383838,
+          "vote %": 44.33
         },
         {
-          "party_code" : "BJP",
-          "party_name" : "Bharatiya Janata Party",
-          "seats" : 77,
-          "votes" : 2038509,
-          "vote %" : 37.91
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 77,
+          "votes": 2038509,
+          "vote %": 37.91
         },
         {
-          "party_code" : "RSSCMJP",
-          "party_name" : "Rashtriya Secular Majlis Party",
-          "seats" : 1,
-          "votes" : 259371,
-          "vote %" : 4.82
+          "party_code": "RSSCMJP",
+          "party_name": "Rashtriya Secular Majlis Party",
+          "seats": 1,
+          "votes": 259371,
+          "vote %": 4.82
         },
         {
-          "party_code" : "IND",
-          "party_name" : "Independent",
-          "seats" : 1
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 1
         }
       ],
-      "2016" : [
+      "2016": [
         {
           "party_code": "AITC",
           "party_name": "All India Trinamool Congress",
@@ -1786,18 +2260,34 @@
           "party_name": "Communist Party of India  (Marxist)",
           "seats": 26
         },
-        { "party_code": "BJP", "party_name": "Bharatiya Janata Party", "seats": 3 },
-        { "party_code": "GOJAM", "party_name": "Gorkha Janmukti Morcha", "seats": 3 },
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 3
+        },
+        {
+          "party_code": "GOJAM",
+          "party_name": "Gorkha Janmukti Morcha",
+          "seats": 3
+        },
         {
           "party_code": "RSP",
           "party_name": "Revolutionary Socialist Party",
           "seats": 3
         },
-        { "party_code": "AIFB", "party_name": "All India Forward Bloc", "seats": 2 },
+        {
+          "party_code": "AIFB",
+          "party_name": "All India Forward Bloc",
+          "seats": 2
+        },
         { "party_code": "IND", "party_name": "Independent", "seats": 1 },
-        { "party_code": "CPI", "party_name": "Communist Party of India", "seats": 1 }
-      ],      
-      "2011" : [
+        {
+          "party_code": "CPI",
+          "party_name": "Communist Party of India",
+          "seats": 1
+        }
+      ],
+      "2011": [
         {
           "party_code": "AITC",
           "party_name": "All India Trinamool Congress",
@@ -1813,15 +2303,27 @@
           "party_name": "Communist Party of India  (Marxist)",
           "seats": 40
         },
-        { "party_code": "AIFB", "party_name": "All India Forward Bloc", "seats": 11 },
+        {
+          "party_code": "AIFB",
+          "party_name": "All India Forward Bloc",
+          "seats": 11
+        },
         {
           "party_code": "RSP",
           "party_name": "Revolutionary Socialist Party",
           "seats": 7
         },
-        { "party_code": "GOJAM", "party_name": "Gorkha Janmukti Morcha", "seats": 3 },
+        {
+          "party_code": "GOJAM",
+          "party_name": "Gorkha Janmukti Morcha",
+          "seats": 3
+        },
         { "party_code": "IND", "party_name": "Independent", "seats": 2 },
-        { "party_code": "CPI", "party_name": "Communist Party of India", "seats": 2 },
+        {
+          "party_code": "CPI",
+          "party_name": "Communist Party of India",
+          "seats": 2
+        },
         { "party_code": "SP", "party_name": "Samajwadi Party", "seats": 1 },
         {
           "party_code": "SUCI",
@@ -1834,9 +2336,8 @@
           "seats": 1
         }
       ]
-      
     },
-    "center" : [88,24.3],
-    "scale" : 5800
+    "center": [88, 24.3],
+    "scale": 5800
   }
 ]

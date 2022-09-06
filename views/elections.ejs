@@ -26,7 +26,11 @@
     <main>
         <div class="data">
             <div class="parties-data"></div>
-            <div class="assembly-name"></div>
+            <div class="assembly-name">
+                <select name="ac" id="ac">
+                    <option>Assembly</option>
+                </select>
+            </div>
             <div class="candidates-data">
                 <div class="candidates"></div>
             </div>
@@ -58,11 +62,12 @@
 
             d3.json("/json/" + selectedState.state_name + "/" + selectedState.state_name + "-" + selectedYear + ".json", function(error, result){
                 electionData = result
-
-
+                var ac = d3.select('#ac')
+                ac.selectAll('option').remove()
+                ac.selectAll('option').data(electionData).enter().append('option').attr('value', function(d){return d.ac_no}).text(function(d){return d.ac_no + " - " + d.ac_name})
+                $('#ac option[value="'+ 1  + '"]').prop('selected', true)
                 for(var i = 0 ; i<= electionData.length ; i++){
                     if(electionData[i].ac_no == 1){
-                    d3.select('.assembly-name').text(electionData[i].ac_no + " - " +electionData[i].ac_name)
                     var candidatesDiv = d3.select(".candidates");
                     candidateDiv = candidatesDiv.selectAll(".candidate")
                     candidateDiv.data(sortCandidates(electionData[i].candidates)).enter().append("div").attr('class' , function(d,i){ return "candidate " +  d.Party.replaceAll(' ','_') })
@@ -137,6 +142,11 @@
             window.location.href = url
         })
 
+        $('#ac').change((event) => {
+            console.log("AC")
+            handleClick(event.target.value)
+        })
+
         function drawLabels(data, g,path) {
             g.selectAll('.subunit-label')
               .data(topojson.object(data, data.objects[selectedState.state_name]).geometries)
@@ -145,7 +155,6 @@
               .attr('class', 'subunit-label')
               .attr('transform', function (d) {
                 const [locx, locy] = path.centroid(d);
-                console.log(d.properties.ac_name + " - " + path.area(d))
                 const fin = [locx, locy];
                 return 'translate(' + fin + ')';
               })
@@ -190,7 +199,7 @@
         function handleClick(d) {
             for(var i = 0 ; i<= electionData.length ; i++){
                 if(electionData[i].ac_no == Number(d)){
-                d3.select('.assembly-name').text(electionData[i].ac_no + " - " +electionData[i].ac_name)
+                $('#ac option[value="'+ d  + '"]').prop('selected', true)
                 var candidatesDiv = d3.select(".candidates");
                 var candidateDiv = candidatesDiv.selectAll(".candidate")
                 candidateDiv.remove()

@@ -5,7 +5,11 @@
     "total_seats": 175,
     "election_years": {
       "2014": [
-        { "party_code": "TDP", "party_name": "Telugu Desam", "seats": 102 },
+        {
+          "party_code": "TDP",
+          "party_name": "Telugu Desam",
+          "seats": 102
+        },
         {
           "party_code": "YSRCP",
           "party_name": "Yuvajana Sramika Rythu Congress Party",
@@ -16,8 +20,16 @@
           "party_name": "Bharatiya Janata Party",
           "seats": 4
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 1 },
-        { "party_code": "NPT", "party_name": "Navodyam Party", "seats": 1 }
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 1
+        },
+        {
+          "party_code": "NPT",
+          "party_name": "Navodyam Party",
+          "seats": 1
+        }
       ],
       "2019": [
         {
@@ -43,7 +55,10 @@
         }
       ]
     },
-    "center": [80.5, 16],
+    "center": [
+      80.5,
+      16
+    ],
     "scale": 5000,
     "x": 492,
     "y": 419
@@ -150,7 +165,11 @@
           "votes": 666057,
           "vote %": 3.94
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 1 }
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 1
+        }
       ],
       "2011": [
         {
@@ -188,7 +207,11 @@
           "votes": 1584895,
           "vote %": 11.47
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 2 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 2
+        },
         {
           "party_code": "AITC",
           "party_name": "All India Trinamool Congress",
@@ -198,7 +221,10 @@
         }
       ]
     },
-    "center": [93, 26],
+    "center": [
+      93,
+      26
+    ],
     "scale": 8000
   },
   {
@@ -267,7 +293,11 @@
           "party_name": "Bahujan Samaj Party",
           "seats": 1
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 1 }
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 1
+        }
       ],
       "2015": [
         {
@@ -290,7 +320,11 @@
           "party_name": "Indian National Congress",
           "seats": 27
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 4 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 4
+        },
         {
           "party_code": "CPI(ML)(L)",
           "party_name": "Communist Party of India  (Marxist-Leninist)  (Liberation)",
@@ -328,7 +362,11 @@
           "party_name": "Rashtriya Janata Dal",
           "seats": 22
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 6 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 6
+        },
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
@@ -351,7 +389,10 @@
         }
       ]
     },
-    "center": [85.8, 25.9],
+    "center": [
+      85.8,
+      25.9
+    ],
     "scale": 9000
   },
   {
@@ -375,7 +416,11 @@
           "party_name": "Janta Congress Chhattisgarh (J)",
           "seats": 5
         },
-        { "party_code": "BSP", "party_name": "Bahujan Samaj Party", "seats": 2 }
+        {
+          "party_code": "BSP",
+          "party_name": "Bahujan Samaj Party",
+          "seats": 2
+        }
       ],
       "2013": [
         {
@@ -393,10 +438,17 @@
           "party_name": "Bahujan Samaj Party",
           "seats": 1
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 1 }
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 1
+        }
       ]
     },
-    "center": [82, 21],
+    "center": [
+      82,
+      21
+    ],
     "scale": 5000
   },
   {
@@ -465,7 +517,10 @@
         }
       ]
     },
-    "center": [77.16, 28.65],
+    "center": [
+      77.16,
+      28.65
+    ],
     "scale": 60000
   },
   {
@@ -536,8 +591,16 @@
           "party_name": "Maharashtrawadi Gomantak",
           "seats": 3
         },
-        { "party_code": "GFP", "party_name": "Goa Forward Party", "seats": 3 },
-        { "party_code": "IND", "party_name": "Independent", "seats": 3 },
+        {
+          "party_code": "GFP",
+          "party_name": "Goa Forward Party",
+          "seats": 3
+        },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 3
+        },
         {
           "party_code": "NCP",
           "party_name": "Nationalist Congress Party",
@@ -555,16 +618,27 @@
           "party_name": "Indian National Congress",
           "seats": 9
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 5 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 5
+        },
         {
           "party_code": "MAG",
           "party_name": "Maharashtrawadi Gomantak",
           "seats": 3
         },
-        { "party_code": "GVP", "party_name": "Goa Vikas Party", "seats": 2 }
+        {
+          "party_code": "GVP",
+          "party_name": "Goa Vikas Party",
+          "seats": 2
+        }
       ]
     },
-    "center": [74, 15.35],
+    "center": [
+      74,
+      15.35
+    ],
     "scale": 35000
   },
   {
@@ -583,7 +657,11 @@
           "party_name": "Indian National Congress",
           "seats": 77
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 3 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 3
+        },
         {
           "party_code": "BTP",
           "party_name": "Bhartiya Tribal Party",
@@ -594,9 +672,56 @@
           "party_name": "Nationalist Congress Party",
           "seats": 1
         }
+      ],
+      "2012": [
+        {
+          "party_code": "BJP",
+          "party_name": "Bharatiya Janata Party",
+          "seats": 115,
+          "votes": 13119579,
+          "vote %": 47.85
+        },
+        {
+          "party_code": "INC",
+          "party_name": "Indian National Congress",
+          "seats": 61,
+          "votes": 10674767,
+          "vote %": 38.93
+        },
+        {
+          "party_code": "GPP",
+          "party_name" : "Gujarat Parivartan Party",
+          "seats": 2,
+          "votes": 995297,
+          "vote %": 3.63
+        },
+        {
+          "party_code": "NCP",
+          "party_name": "Nationalist Congress Party",
+          "seats": 2,
+          "votes": 259957,
+          "vote %": 0.95
+        },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 1,
+          "votes": 1597589,
+          "vote %": 5.83
+        },
+        {
+          "party_code": "JD(U)",
+          "party_name": "Janata Dal (United)",
+          "seats": 1,
+          "votes": 183114,
+          "vote %": 0.67
+        }
       ]
     },
-    "center": [72, 22.3],
+    "center": [
+      72,
+      22.3
+    ],
     "scale": 6500
   },
   {
@@ -636,7 +761,11 @@
           "party_name": "Indian National Congress",
           "seats": 15
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 5 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 5
+        },
         {
           "party_code": "HJCBL",
           "party_name": "Haryana Janhit Congress (BL)",
@@ -647,10 +776,17 @@
           "party_name": "Shiromani Akali Dal",
           "seats": 1
         },
-        { "party_code": "BSP", "party_name": "Bahujan Samaj Party", "seats": 1 }
+        {
+          "party_code": "BSP",
+          "party_name": "Bahujan Samaj Party",
+          "seats": 1
+        }
       ]
     },
-    "center": [76, 29.2],
+    "center": [
+      76,
+      29.2
+    ],
     "scale": 9000
   },
   {
@@ -669,7 +805,11 @@
           "party_name": "Indian National Congress",
           "seats": 21
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 2 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 2
+        },
         {
           "party_code": "CPM",
           "party_name": "Communist Party of India  (Marxist)",
@@ -687,7 +827,11 @@
           "party_name": "Bharatiya Janata Party",
           "seats": 26
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 5 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 5
+        },
         {
           "party_code": "HLP",
           "party_name": "Himachal Lokhit Party",
@@ -695,7 +839,10 @@
         }
       ]
     },
-    "center": [77.3, 31.8],
+    "center": [
+      77.3,
+      31.8
+    ],
     "scale": 10000
   },
   {
@@ -757,7 +904,11 @@
           "party_name": "Indian National Congress",
           "seats": 6
         },
-        { "party_code": "AJSUP", "party_name": "AJSU Party", "seats": 5 },
+        {
+          "party_code": "AJSUP",
+          "party_name": "AJSU Party",
+          "seats": 5
+        },
         {
           "party_code": "CPI(ML)(L)",
           "party_name": "Communist Party of India  (Marxist-Leninist)  (Liberation)",
@@ -773,7 +924,11 @@
           "party_name": "Jai Bharat Samanta Party",
           "seats": 1
         },
-        { "party_code": "JKP", "party_name": "Jharkhand Party", "seats": 1 },
+        {
+          "party_code": "JKP",
+          "party_name": "Jharkhand Party",
+          "seats": 1
+        },
         {
           "party_code": "BSP",
           "party_name": "Bahujan Samaj Party",
@@ -786,7 +941,10 @@
         }
       ]
     },
-    "center": [85.6, 23.7],
+    "center": [
+      85.6,
+      23.7
+    ],
     "scale": 9000
   },
   {
@@ -833,7 +991,11 @@
           "party_name": "Janata Dal  (Secular)",
           "seats": 40
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 9 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 9
+        },
         {
           "party_code": "KJP",
           "party_name": "Karnataka Jantha Paksha",
@@ -849,7 +1011,11 @@
           "party_name": "Karnataka Makkala Paksha",
           "seats": 1
         },
-        { "party_code": "SP", "party_name": "Samajwadi Party", "seats": 1 },
+        {
+          "party_code": "SP",
+          "party_name": "Samajwadi Party",
+          "seats": 1
+        },
         {
           "party_code": "SKP",
           "party_name": "Sarvodaya Karnataka Paksha",
@@ -857,7 +1023,10 @@
         }
       ]
     },
-    "center": [76.5, 15],
+    "center": [
+      76.5,
+      15
+    ],
     "scale": 5000
   },
   {
@@ -886,7 +1055,11 @@
           "party_name": "Indian Union Muslim League",
           "seats": 18
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 6 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 6
+        },
         {
           "party_code": "KEC(M)",
           "party_name": "Kerala Congress  (M)",
@@ -974,7 +1147,11 @@
           "party_name": "Nationalist Congress Party",
           "seats": 2
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 2 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 2
+        },
         {
           "party_code": "RSP",
           "party_name": "Revolutionary Socialist Party",
@@ -997,7 +1174,10 @@
         }
       ]
     },
-    "center": [76, 10.5],
+    "center": [
+      76,
+      10.5
+    ],
     "scale": 8000
   },
   {
@@ -1016,13 +1196,21 @@
           "party_name": "Bharatiya Janata Party",
           "seats": 109
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 4 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 4
+        },
         {
           "party_code": "BSP",
           "party_name": "Bahujan Samaj Party",
           "seats": 2
         },
-        { "party_code": "SP", "party_name": "Samajwadi Party", "seats": 1 }
+        {
+          "party_code": "SP",
+          "party_name": "Samajwadi Party",
+          "seats": 1
+        }
       ],
       "2013": [
         {
@@ -1040,10 +1228,17 @@
           "party_name": "Bahujan Samaj Party",
           "seats": 4
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 3 }
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 3
+        }
       ]
     },
-    "center": [78.5, 24],
+    "center": [
+      78.5,
+      24
+    ],
     "scale": 5500
   },
   {
@@ -1139,7 +1334,11 @@
           "party_name": "Bharatiya Janata Party",
           "seats": 122
         },
-        { "party_code": "SHS", "party_name": "Shivsena", "seats": 63 },
+        {
+          "party_code": "SHS",
+          "party_name": "Shivsena",
+          "seats": 63
+        },
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
@@ -1150,7 +1349,11 @@
           "party_name": "Nationalist Congress Party",
           "seats": 41
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 7 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 7
+        },
         {
           "party_code": "BVA",
           "party_name": "Bahujan Vikas Aaghadi",
@@ -1176,7 +1379,11 @@
           "party_name": "Communist Party of India  (Marxist)",
           "seats": 1
         },
-        { "party_code": "SP", "party_name": "Samajwadi Party", "seats": 1 },
+        {
+          "party_code": "SP",
+          "party_name": "Samajwadi Party",
+          "seats": 1
+        },
         {
           "party_code": "MNS",
           "party_name": "Maharashtra Navnirman sena",
@@ -1189,7 +1396,10 @@
         }
       ]
     },
-    "center": [77, 19],
+    "center": [
+      77,
+      19
+    ],
     "scale": 5000
   },
   {
@@ -1260,7 +1470,11 @@
           "party_name": "National People's Party",
           "seats": 4
         },
-        { "party_code": "NPF", "party_name": "Naga Peoples Front", "seats": 4 },
+        {
+          "party_code": "NPF",
+          "party_name": "Naga Peoples Front",
+          "seats": 4
+        },
         {
           "party_code": "LJP",
           "party_name": "Lok Jan Shakti Party",
@@ -1271,7 +1485,11 @@
           "party_name": "All India Trinamool Congress",
           "seats": 1
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 1 }
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 1
+        }
       ],
       "2012": [
         {
@@ -1289,7 +1507,11 @@
           "party_name": "Manipur State Congress Party",
           "seats": 5
         },
-        { "party_code": "NPF", "party_name": "Naga Peoples Front", "seats": 4 },
+        {
+          "party_code": "NPF",
+          "party_name": "Naga Peoples Front",
+          "seats": 4
+        },
         {
           "party_code": "NCP",
           "party_name": "Nationalist Congress Party",
@@ -1302,7 +1524,10 @@
         }
       ]
     },
-    "center": [94, 24.8],
+    "center": [
+      94,
+      24.8
+    ],
     "scale": 17000
   },
   {
@@ -1331,7 +1556,11 @@
           "party_name": "People's Democratic Front",
           "seats": 4
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 3 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 3
+        },
         {
           "party_code": "BJP",
           "party_name": "Bharatiya Janata Party",
@@ -1359,7 +1588,11 @@
           "party_name": "Indian National Congress",
           "seats": 29
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 13 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 13
+        },
         {
           "party_code": "UDP",
           "party_name": "United Democratic Party",
@@ -1392,10 +1625,12 @@
         }
       ]
     },
-    "center": [91.3, 25.5],
+    "center": [
+      91.3,
+      25.5
+    ],
     "scale": 18000
   },
-
   {
     "id": 24,
     "state_name": "Mizoram",
@@ -1406,7 +1641,11 @@
           "party_name": "Mizo National Front",
           "seats": 27
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 8 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 8
+        },
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
@@ -1436,7 +1675,10 @@
         }
       ]
     },
-    "center": [92.7, 23.3],
+    "center": [
+      92.7,
+      23.3
+    ],
     "scale": 13000
   },
   {
@@ -1465,7 +1707,11 @@
           "party_name": "National People's Party",
           "seats": 2
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 1 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 1
+        },
         {
           "party_code": "JD(U)",
           "party_name": "Janata Dal  (United)",
@@ -1483,7 +1729,11 @@
           "party_name": "Indian National Congress",
           "seats": 8
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 8 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 8
+        },
         {
           "party_code": "NCP",
           "party_name": "Nationalist Congress Party",
@@ -1501,7 +1751,10 @@
         }
       ]
     },
-    "center": [94.5, 26.1],
+    "center": [
+      94.5,
+      26.1
+    ],
     "scale": 16000
   },
   {
@@ -1545,7 +1798,11 @@
         }
       ],
       "2014": [
-        { "party_code": "BJD", "party_name": "Biju Janata Dal", "seats": 117 },
+        {
+          "party_code": "BJD",
+          "party_name": "Biju Janata Dal",
+          "seats": 117
+        },
         {
           "party_code": "INC",
           "party_name": "Indian National Congress",
@@ -1556,8 +1813,16 @@
           "party_name": "Bharatiya Janata Party",
           "seats": 10
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 2 },
-        { "party_code": "SKD", "party_name": "Samata Kranti Dal", "seats": 1 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 2
+        },
+        {
+          "party_code": "SKD",
+          "party_name": "Samata Kranti Dal",
+          "seats": 1
+        },
         {
           "party_code": "CPM",
           "party_name": "Communist Party of India  (Marxist)",
@@ -1565,7 +1830,10 @@
         }
       ]
     },
-    "center": [84, 20.4],
+    "center": [
+      84,
+      20.4
+    ],
     "scale": 6500
   },
   {
@@ -1593,7 +1861,11 @@
           "party_name": "Dravida Munnetra Kazhagam",
           "seats": 2
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 1 }
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 1
+        }
       ],
       "2016": [
         {
@@ -1616,10 +1888,17 @@
           "party_name": "Dravida Munnetra Kazhagam",
           "seats": 2
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 1 }
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 1
+        }
       ]
     },
-    "center": [79.5, 11.8],
+    "center": [
+      79.5,
+      11.8
+    ],
     "scale": 50000
   },
   {
@@ -1675,7 +1954,11 @@
           "party_name": "Indian National Congress",
           "seats": 77
         },
-        { "party_code": "AAAP", "party_name": "Aam Aadmi Party", "seats": 20 },
+        {
+          "party_code": "AAAP",
+          "party_name": "Aam Aadmi Party",
+          "seats": 20
+        },
         {
           "party_code": "SAD",
           "party_name": "Shiromani Akali Dal",
@@ -1686,7 +1969,11 @@
           "party_name": "Bharatiya Janata Party",
           "seats": 3
         },
-        { "party_code": "LIP", "party_name": "Lok Insaaf Party", "seats": 2 }
+        {
+          "party_code": "LIP",
+          "party_name": "Lok Insaaf Party",
+          "seats": 2
+        }
       ],
       "2012": [
         {
@@ -1704,10 +1991,17 @@
           "party_name": "Bharatiya Janata Party",
           "seats": 12
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 3 }
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 3
+        }
       ]
     },
-    "center": [75.4, 31],
+    "center": [
+      75.4,
+      31
+    ],
     "scale": 10000
   },
   {
@@ -1726,7 +2020,11 @@
           "party_name": "Bharatiya Janata Party",
           "seats": 73
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 13 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 13
+        },
         {
           "party_code": "BSP",
           "party_name": "Bahujan Samaj Party",
@@ -1747,7 +2045,11 @@
           "party_name": "Bhartiya Tribal Party",
           "seats": 2
         },
-        { "party_code": "RLD", "party_name": "Rashtriya Lok Dal", "seats": 1 }
+        {
+          "party_code": "RLD",
+          "party_name": "Rashtriya Lok Dal",
+          "seats": 1
+        }
       ],
       "2013": [
         {
@@ -1760,7 +2062,11 @@
           "party_name": "Indian National Congress",
           "seats": 21
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 7 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 7
+        },
         {
           "party_code": "NPEP",
           "party_name": "National People\u2019s Party",
@@ -1778,7 +2084,10 @@
         }
       ]
     },
-    "center": [74, 26.5],
+    "center": [
+      74,
+      26.5
+    ],
     "scale": 4400
   },
   {
@@ -1799,7 +2108,6 @@
       ]
     }
   },
-
   {
     "id": 31,
     "state_name": "Tamil Nadu",
@@ -1868,7 +2176,11 @@
           "party_name": "Manithaneya Makkal Katchi",
           "seats": 2
         },
-        { "party_code": "PT", "party_name": "Puthiya Tamilagam", "seats": 2 },
+        {
+          "party_code": "PT",
+          "party_name": "Puthiya Tamilagam",
+          "seats": 2
+        },
         {
           "party_code": "AIFB",
           "party_name": "All India Forward Bloc",
@@ -1876,7 +2188,10 @@
         }
       ]
     },
-    "center": [78.5, 10.8],
+    "center": [
+      78.5,
+      10.8
+    ],
     "scale": 6500
   },
   {
@@ -1900,7 +2215,11 @@
           "party_name": "All India Majlis-E-Ittehadul Muslimeen",
           "seats": 7
         },
-        { "party_code": "TDP", "party_name": "Telugu Desam", "seats": 2 },
+        {
+          "party_code": "TDP",
+          "party_name": "Telugu Desam",
+          "seats": 2
+        },
         {
           "party_code": "AIFB",
           "party_name": "All India Forward Bloc",
@@ -1911,7 +2230,11 @@
           "party_name": "Bharatiya Janata Party",
           "seats": 1
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 1 }
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 1
+        }
       ],
       "2014": [
         {
@@ -1924,7 +2247,11 @@
           "party_name": "Indian National Congress",
           "seats": 21
         },
-        { "party_code": "TDP", "party_name": "Telugu Desam", "seats": 15 },
+        {
+          "party_code": "TDP",
+          "party_name": "Telugu Desam",
+          "seats": 15
+        },
         {
           "party_code": "AIMIM",
           "party_name": "All India Majlis-E-Ittehadul Muslimeen",
@@ -1950,7 +2277,11 @@
           "party_name": "Communist Party of India",
           "seats": 1
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 1 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 1
+        },
         {
           "party_code": "CPM",
           "party_name": "Communist Party of India  (Marxist)",
@@ -1958,7 +2289,10 @@
         }
       ]
     },
-    "center": [79, 17.85],
+    "center": [
+      79,
+      17.85
+    ],
     "scale": 8500
   },
   {
@@ -2001,7 +2335,10 @@
         }
       ]
     },
-    "center": [91.8, 23.7],
+    "center": [
+      91.8,
+      23.7
+    ],
     "scale": 20000
   },
   {
@@ -2072,7 +2409,11 @@
           "party_name": "Bharatiya Janata Party",
           "seats": 312
         },
-        { "party_code": "SP", "party_name": "Samajwadi Party", "seats": 47 },
+        {
+          "party_code": "SP",
+          "party_name": "Samajwadi Party",
+          "seats": 47
+        },
         {
           "party_code": "BSP",
           "party_name": "Bahujan Samaj Party",
@@ -2093,8 +2434,16 @@
           "party_name": "Suheldev Bhartiya Samaj Party",
           "seats": 4
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 3 },
-        { "party_code": "RLD", "party_name": "Rashtriya Lok Dal", "seats": 1 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 3
+        },
+        {
+          "party_code": "RLD",
+          "party_name": "Rashtriya Lok Dal",
+          "seats": 1
+        },
         {
           "party_code": "NINSHAD",
           "party_name": "Nirbal Indian Shoshit Hamara Aam Dal",
@@ -2102,7 +2451,11 @@
         }
       ],
       "2012": [
-        { "party_code": "SP", "party_name": "Samajwadi Party", "seats": 224 },
+        {
+          "party_code": "SP",
+          "party_name": "Samajwadi Party",
+          "seats": 224
+        },
         {
           "party_code": "BSP",
           "party_name": "Bahujan Samaj Party",
@@ -2118,10 +2471,26 @@
           "party_name": "Indian National Congress",
           "seats": 28
         },
-        { "party_code": "RLD", "party_name": "Rashtriya Lok Dal", "seats": 9 },
-        { "party_code": "IND", "party_name": "Independent", "seats": 6 },
-        { "party_code": "PECP", "party_name": "Peace Party", "seats": 4 },
-        { "party_code": "QED", "party_name": "Quami Ekta Dal", "seats": 2 },
+        {
+          "party_code": "RLD",
+          "party_name": "Rashtriya Lok Dal",
+          "seats": 9
+        },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 6
+        },
+        {
+          "party_code": "PECP",
+          "party_name": "Peace Party",
+          "seats": 4
+        },
+        {
+          "party_code": "QED",
+          "party_name": "Quami Ekta Dal",
+          "seats": 2
+        },
         {
           "party_code": "IEMC",
           "party_name": "Ittehad-E-Millait Council",
@@ -2132,10 +2501,17 @@
           "party_name": "Nationalist Congress Party",
           "seats": 1
         },
-        { "party_code": "AD", "party_name": "Apna Dal", "seats": 1 }
+        {
+          "party_code": "AD",
+          "party_name": "Apna Dal",
+          "seats": 1
+        }
       ]
     },
-    "center": [80.9, 27.2],
+    "center": [
+      80.9,
+      27.2
+    ],
     "scale": 5000
   },
   {
@@ -2182,7 +2558,11 @@
           "party_name": "Indian National Congress",
           "seats": 11
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 2 }
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 2
+        }
       ],
       "2012": [
         {
@@ -2195,7 +2575,11 @@
           "party_name": "Bharatiya Janata Party",
           "seats": 31
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 3 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 3
+        },
         {
           "party_code": "BSP",
           "party_name": "Bahujan Samaj Party",
@@ -2208,7 +2592,10 @@
         }
       ]
     },
-    "center": [79.2, 30.1],
+    "center": [
+      79.2,
+      30.1
+    ],
     "scale": 11000
   },
   {
@@ -2280,7 +2667,11 @@
           "party_name": "All India Forward Bloc",
           "seats": 2
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 1 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 1
+        },
         {
           "party_code": "CPI",
           "party_name": "Communist Party of India",
@@ -2318,13 +2709,21 @@
           "party_name": "Gorkha Janmukti Morcha",
           "seats": 3
         },
-        { "party_code": "IND", "party_name": "Independent", "seats": 2 },
+        {
+          "party_code": "IND",
+          "party_name": "Independent",
+          "seats": 2
+        },
         {
           "party_code": "CPI",
           "party_name": "Communist Party of India",
           "seats": 2
         },
-        { "party_code": "SP", "party_name": "Samajwadi Party", "seats": 1 },
+        {
+          "party_code": "SP",
+          "party_name": "Samajwadi Party",
+          "seats": 1
+        },
         {
           "party_code": "SUCI",
           "party_name": "SOCIALIST UNITY CENTRE OF INDIA (COMMUNIST)",
@@ -2337,7 +2736,10 @@
         }
       ]
     },
-    "center": [88, 24.3],
+    "center": [
+      88,
+      24.3
+    ],
     "scale": 5800
   }
 ]

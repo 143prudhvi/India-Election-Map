@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+rect {
+    fill: none;
+    pointer-events: all;
+    stroke: #ccc;
+    stroke-width: 1.5px;
+  }
+
 body{
     overflow: hidden;
 }

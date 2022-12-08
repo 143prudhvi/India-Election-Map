@@ -32,6 +32,16 @@ app.get('/indiamap' , (req , res) => {
     res.render('india')
 })
 
+app.get('/aap' , (req , res) => {
+    var stateId = req.query.stateId
+    var electionYear = req.query.electionYear
+    res.render('AAP', {stateId , electionYear})
+})
+
+app.get('/us' , (req , res) => {
+    res.render('US')
+})
+
 app.listen(process.env.PORT || 5000, () => {
     console.log("server started on port 5000");
   });

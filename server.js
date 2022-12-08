@@ -33,8 +33,8 @@ app.get('/indiamap' , (req , res) => {
 })
 
 app.get('/aap' , (req , res) => {
-    var stateId = req.query.stateId
-    var electionYear = req.query.electionYear
+    var stateId = req.query.state
+    var electionYear = req.query.year
     res.render('AAP', {stateId , electionYear})
 })
 

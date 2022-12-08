@@ -53,16 +53,69 @@
             for(var i = 0; i<states.length; i++ ){
                 if(Number(selectedStateId == states[i].id)){
                     selectedState = states[i]
-                    var partiesDiv = d3.select(".parties-data");
-                    var partyDiv = partiesDiv.selectAll(".party")
-                    partyDiv.data(sortParties(selectedState.election_years[selectedYear])).enter().append("div").attr('class' , function(d,i){ return "party " +  d.party_name.replaceAll(' ','_') })
-                            .html(function(d){ return '<div class="partyColor"></div><div class="partyName">' + d.party_code + '</div><div class="number">' + d['seats'] + '</div><div class="percent">' + (d['vote %'] || "NA") + '</div>'})
                     break
                 }
             } 
 
             d3.json("/json/" + selectedState.state_name + "/" + selectedState.state_name + "-" + selectedYear + ".json", function(error, result){
                 electionData = result
+
+                var totalVotes = 0;
+                var partiesData = []
+
+                function addWinner(winner){
+                totalVotes += Number(winner['Total Votes'])
+                for(var j=0; j<=partiesData.length; j++){
+                    if(partiesData[j] && partiesData[j].party_name === winner.Party){
+                        partiesData[j].seats += 1
+                        partiesData[j].votes += Number(winner['Total Votes'])
+                        return 
+                    }
+                }
+                partiesData.push({
+                    party_name : winner.Party,
+                    seats : 1,
+                    votes : Number(winner['Total Votes'])
+                })
+                return
+                }
+            
+                function addCandidate(candidate){
+                totalVotes += Number(candidate['Total Votes']);
+                    for(var j=0; j<=partiesData.length; j++){
+                        if(partiesData[j] && partiesData[j].party_name === candidate.Party){
+                            partiesData[j].votes += Number(candidate['Total Votes'])
+                            return 
+                        }
+                    }
+                    partiesData.push({
+                        party_name : candidate.Party,
+                        seats : 0,
+                        votes : Number(candidate['Total Votes'])
+                    })
+                    return
+                }
+
+                electionData.map(assembly => {
+                    var candidates = sortCandidates(assembly.candidates);
+                    addWinner(candidates[0])
+                    for(var j=1; j< candidates.length;j++){
+                        addCandidate(candidates[j])
+                    }
+                })
+
+                for(var k=0; k<partiesData.length;k++){
+                    partiesData[k].VotePercent = (partiesData[k].votes/ totalVotes * 100).toFixed(2)
+                }
+                
+                partiesData = partiesData.filter((party) => party.VotePercent > 1 || party.seats > 0)
+                partiesData = sortParties(partiesData)
+
+                var partiesDiv = d3.select(".parties-data");
+                var partyDiv = partiesDiv.selectAll(".party")
+                partyDiv.data(partiesData).enter().append("div").attr('class' , function(d,i){ return "party " +  d.party_name.replaceAll(' ','_') })
+                        .html(function(d){ return '<div class="partyColor"></div><div class="partyName">' + getShortCode(d.party_name) + '</div><div class="number">' + d.seats + '</div><div class="percent">' + (d.VotePercent || "NA") + '</div>'})
+
                 var ac = d3.select('#ac');
                 var active = d3.select(null);
                 ac.selectAll('option').remove()
@@ -197,7 +250,7 @@
         $('.get-data').click(() => {
             var state = $('#state').val()
             var year = $('#year').val()
-            var url = '?stateId=' + state + '&electionYear=' + year
+            var url = '?state=' + state + '&year=' + year
             window.location.href = url
         })
 
@@ -262,8 +315,18 @@
         }
         
         function sortParties(parties){
+            parties.sort((a,b) => {return b['VotePercent'] - a['VotePercent']})
             parties.sort((a,b) => {return b['seats'] - a['seats']})
             return parties
+        }
+
+        function getShortCode(str){
+            if(str == "Independent"){
+                return "IND"
+            }
+            var matches = str.match(/\b(\w)/g); // ['J','S','O','N']
+            var acronym = matches.join(''); // JSON
+            return acronym
         }
 
         function getWinnerPartyColor(d){

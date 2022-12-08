@@ -646,6 +646,7 @@
     "state_name": "Gujarat",
     "total_seats": 182,
     "election_years": {
+      "2022" : [],
       "2017": [
         {
           "party_code": "BJP",
@@ -794,6 +795,7 @@
     "state_name": "Himachal Pradesh",
     "total_seats": 68,
     "election_years": {
+      "2022" : [],
       "2017": [
         {
           "party_code": "BJP",

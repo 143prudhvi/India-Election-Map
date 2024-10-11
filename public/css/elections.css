@@ -254,6 +254,18 @@ main{
     background-color: #FF0274;
 }
 
+.Bharat_Rashtra_Samithi .partyName{
+    background-color: #FF0274;
+}
+
+.Jammu_\&_Kashmir_National_Conference .partyName {
+    background-color: red;
+}
+
+.Jammu_\&_Kashmir_Peoples_Democratic_Party .partyName{
+    background-color: #87C2B9;
+}
+
 .All_India_Anna_Dravida_Munnetra_Kazhagam{
     background-color: #138808;
 }

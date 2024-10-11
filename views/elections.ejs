@@ -27,7 +27,7 @@
         <div class="data">
             <div class="parties-data"></div>
             <div class="assembly-name">
-                <select name="ac" id="ac">
+                <select name="ac" id="ac" disabled>
                     <option>Assembly</option>
                 </select>
             </div>
@@ -392,6 +392,12 @@
             else if(party == "Communist Party of India"){
                 return '#FF0000'
             }
+            else if(party == "Jammu & Kashmir National Conference"){
+                return '#FF0000'
+            }
+            else if(party == "Jammu & Kashmir Peoples Democratic Party"){
+                return '#87C2B9'
+            }
             else if(party == "Communist Party of India  (Marxist-Leninist)  (Liberation)"){
                 return '#FF1D15'
             }
@@ -440,7 +446,7 @@
             else if(party == "Shiv Sena" || party ==  "Shivsena"){
                 return '#F26F21'
             }
-            else if(party == "Telangana Rashtra Samithi"){
+            else if(party == "Telangana Rashtra Samithi" || party == "Bharat Rashtra Samithi"){
                 return '#FF0274'
             }
             else if(party == "Janta Congress Chhattisgarh (J)"){

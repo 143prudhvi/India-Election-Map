@@ -401,6 +401,7 @@
     "state_name": "Chhattisgarh",
     "total_seats": 90,
     "election_years": {
+      "2023": [],
       "2018": [
         {
           "party_code": "INC",
@@ -647,7 +648,7 @@
     "state_name": "Gujarat",
     "total_seats": 182,
     "election_years": {
-      "2022" : [],
+      "2022": [],
       "2017": [
         {
           "party_code": "BJP",
@@ -692,7 +693,7 @@
         },
         {
           "party_code": "GPP",
-          "party_name" : "Gujarat Parivartan Party",
+          "party_name": "Gujarat Parivartan Party",
           "seats": 2,
           "votes": 995297,
           "vote %": 3.63
@@ -731,6 +732,7 @@
     "state_name": "Haryana",
     "total_seats": 90,
     "election_years": {
+      "2024": [],
       "2019": [
         {
           "party_code": "BJP",
@@ -796,7 +798,7 @@
     "state_name": "Himachal Pradesh",
     "total_seats": 68,
     "election_years": {
-      "2022" : [],
+      "2022": [],
       "2017": [
         {
           "party_code": "BJP",
@@ -851,7 +853,14 @@
   {
     "id": 14,
     "state_name": "Jammu and Kashmir",
-    "election_years": []
+    "election_years": {
+      "2024": []
+    },
+    "center": [
+      75,
+      33.5
+    ],
+    "scale": 10000
   },
   {
     "id": 15,
@@ -1025,7 +1034,7 @@
           "seats": 1
         }
       ],
-      "2023" : []
+      "2023": []
     },
     "center": [
       76.5,
@@ -1189,6 +1198,7 @@
     "state_name": "Madhya Pradesh",
     "total_seats": 230,
     "election_years": {
+      "2023": [],
       "2018": [
         {
           "party_code": "INC",
@@ -1677,7 +1687,8 @@
           "party_name": "Mizoram People's Conference",
           "seats": 1
         }
-      ]
+      ],
+      "2023": []
     },
     "center": [
       92.7,
@@ -1832,7 +1843,8 @@
           "party_name": "Communist Party of India  (Marxist)",
           "seats": 1
         }
-      ]
+      ],
+      "2024": []
     },
     "center": [
       84,
@@ -2013,6 +2025,7 @@
     "state_name": "Rajasthan",
     "total_seats": 200,
     "election_years": {
+      "2023": [],
       "2018": [
         {
           "party_code": "INC",
@@ -2291,7 +2304,8 @@
           "party_name": "Communist Party of India  (Marxist)",
           "seats": 1
         }
-      ]
+      ],
+      "2023": []
     },
     "center": [
       79,

@@ -1,0 +1,1023 @@
+[
+  {
+    "code": "AAP",
+    "name": "Aam Aadmi Party",
+    "color": "#0066a4",
+    "aliases": [
+      "Aam Aadmi Party"
+    ]
+  },
+  {
+    "code": "AD",
+    "name": "Apna Dal",
+    "color": "#7e57c2",
+    "aliases": [
+      "Apna Dal"
+    ]
+  },
+  {
+    "code": "ADAL",
+    "name": "Apna Dal (Soneylal)",
+    "color": "#9500ff",
+    "aliases": [
+      "Apna Dal (Soneylal)"
+    ]
+  },
+  {
+    "code": "AGP",
+    "name": "Asom Gana Parishad",
+    "color": "#99ccff",
+    "aliases": [
+      "Asom Gana Parishad"
+    ]
+  },
+  {
+    "code": "AIADMK",
+    "name": "All India Anna Dravida Munnetra Kazhagam",
+    "color": "#138808",
+    "aliases": [
+      "All India Anna Dravida Munnetra Kazhagam"
+    ]
+  },
+  {
+    "code": "AIFB",
+    "name": "All India Forward Bloc",
+    "color": "#d70000",
+    "aliases": [
+      "All India Forward Bloc"
+    ]
+  },
+  {
+    "code": "AIMIM",
+    "name": "All India Majlis-E-Ittehadul Muslimeen",
+    "color": "#136b4b",
+    "aliases": [
+      "All India Majlis-E-Ittehadul Muslimeen"
+    ]
+  },
+  {
+    "code": "AINRC",
+    "name": "All India N.R. Congress",
+    "color": "#546e7a",
+    "aliases": [
+      "All India N.R. Congress"
+    ]
+  },
+  {
+    "code": "AITC",
+    "name": "All India Trinamool Congress",
+    "color": "#20c646",
+    "aliases": [
+      "All India Trinamool Congress"
+    ]
+  },
+  {
+    "code": "AIUDF",
+    "name": "All India United Democratic Front",
+    "color": "#348017",
+    "aliases": [
+      "All India United Democratic Front"
+    ]
+  },
+  {
+    "code": "AJSUP",
+    "name": "AJSU Party",
+    "color": "#ff33ff",
+    "aliases": [
+      "AJSU Party"
+    ]
+  },
+  {
+    "code": "BAP",
+    "name": "Bharat Adivasi Party",
+    "color": "#00695c",
+    "aliases": [
+      "Bharat Adivasi Party"
+    ]
+  },
+  {
+    "code": "BBM",
+    "name": "Bharipa Bahujan Mahasangh",
+    "color": "#283593",
+    "aliases": [
+      "Bharipa Bahujan Mahasangh"
+    ]
+  },
+  {
+    "code": "BJD",
+    "name": "Biju Janata Dal",
+    "color": "#006400",
+    "aliases": [
+      "Biju Janata Dal"
+    ]
+  },
+  {
+    "code": "BJP",
+    "name": "Bharatiya Janata Party",
+    "color": "#ff9933",
+    "aliases": [
+      "Bharatiya Janata Party"
+    ]
+  },
+  {
+    "code": "BOPF",
+    "name": "Bodoland Peoples Front",
+    "color": "#ff6600",
+    "aliases": [
+      "Bodoland Peoples Front"
+    ]
+  },
+  {
+    "code": "BSP",
+    "name": "Bahujan Samaj Party",
+    "color": "#22409a",
+    "aliases": [
+      "Bahujan Samaj Party"
+    ]
+  },
+  {
+    "code": "BSRCP",
+    "name": "Badavara Shramikara Raitara Congress Party",
+    "color": "#8d6e63",
+    "aliases": [
+      "Badavara Shramikara Raitara Congress Party"
+    ]
+  },
+  {
+    "code": "BTP",
+    "name": "Bhartiya Tribal Party",
+    "color": "#6d4c41",
+    "aliases": [
+      "Bhartiya Tribal Party"
+    ]
+  },
+  {
+    "code": "BVA",
+    "name": "Bahujan Vikas Aaghadi",
+    "color": "#5c6bc0",
+    "aliases": [
+      "Bahujan Vikas Aaghadi"
+    ]
+  },
+  {
+    "code": "C(S)",
+    "name": "Congress (Secular)",
+    "color": "#90a4ae",
+    "aliases": [
+      "Congress (Secular)",
+      "Congress  (Secular)"
+    ]
+  },
+  {
+    "code": "CMPKSC",
+    "name": "Communist Marxist Party Kerala State Committee",
+    "color": "#b71c1c",
+    "aliases": [
+      "Communist Marxist Party Kerala State Committee"
+    ]
+  },
+  {
+    "code": "CPI",
+    "name": "Communist Party of India",
+    "color": "#ff0000",
+    "aliases": [
+      "Communist Party of India"
+    ]
+  },
+  {
+    "code": "CPI(M)",
+    "name": "Communist Party of India (Marxist)",
+    "color": "#ff1d15",
+    "aliases": [
+      "Communist Party of India (Marxist)",
+      "Communist Party of India  (Marxist)"
+    ]
+  },
+  {
+    "code": "CPI(ML)(L)",
+    "name": "Communist Party of India (Marxist-Leninist) (Liberation)",
+    "color": "#ff1d15",
+    "aliases": [
+      "Communist Party of India (Marxist-Leninist) (Liberation)",
+      "Communist Party of India  (Marxist-Leninist)  (Liberation)"
+    ]
+  },
+  {
+    "code": "CPI(ML)RS",
+    "name": "Communist Party of India (Marxist-Leninist) Red Star",
+    "color": "#8e0000",
+    "aliases": [
+      "Communist Party of India (Marxist-Leninist) Red Star"
+    ]
+  },
+  {
+    "code": "DMDK",
+    "name": "Desiya Murpokku Dravida Kazhagam",
+    "color": "#ffea19",
+    "aliases": [
+      "Desiya Murpokku Dravida Kazhagam"
+    ]
+  },
+  {
+    "code": "DMK",
+    "name": "Dravida Munnetra Kazhagam",
+    "color": "#dd1100",
+    "aliases": [
+      "Dravida Munnetra Kazhagam"
+    ]
+  },
+  {
+    "code": "DSP(P)",
+    "name": "Democratic Socialist Party (Prabodh Chandra)",
+    "color": "#e64a19",
+    "aliases": [
+      "Democratic Socialist Party (Prabodh Chandra)",
+      "Democratic Socialist Party  (Prabodh Chandra)"
+    ]
+  },
+  {
+    "code": "GFP",
+    "name": "Goa Forward Party",
+    "color": "#f9a825",
+    "aliases": [
+      "Goa Forward Party"
+    ]
+  },
+  {
+    "code": "GGP",
+    "name": "Gondvana Gantantra Party",
+    "color": "#9e9d24",
+    "aliases": [
+      "Gondvana Gantantra Party"
+    ]
+  },
+  {
+    "code": "GNC",
+    "name": "Garo National Council",
+    "color": "#78909c",
+    "aliases": [
+      "Garo National Council"
+    ]
+  },
+  {
+    "code": "GOJAM",
+    "name": "Gorkha Janmukti Morcha",
+    "color": "#52d017",
+    "aliases": [
+      "Gorkha Janmukti Morcha"
+    ]
+  },
+  {
+    "code": "GPP",
+    "name": "Gujarat Parivartan Party",
+    "color": "#9fa8da",
+    "aliases": [
+      "Gujarat Parivartan Party"
+    ]
+  },
+  {
+    "code": "GVP",
+    "name": "Goa Vikas Party",
+    "color": "#26a69a",
+    "aliases": [
+      "Goa Vikas Party"
+    ]
+  },
+  {
+    "code": "HALP",
+    "name": "Haryana Lokhit Party",
+    "color": "#a1887f",
+    "aliases": [
+      "Haryana Lokhit Party"
+    ]
+  },
+  {
+    "code": "HAMS",
+    "name": "Hindustani Awam Morcha (Secular)",
+    "color": "#c9120c",
+    "aliases": [
+      "Hindustani Awam Morcha (Secular)"
+    ]
+  },
+  {
+    "code": "HJCBL",
+    "name": "Haryana Janhit Congress (BL)",
+    "color": "#7cb342",
+    "aliases": [
+      "Haryana Janhit Congress (BL)"
+    ]
+  },
+  {
+    "code": "HLP",
+    "name": "Himachal Lokhit Party",
+    "color": "#455a64",
+    "aliases": [
+      "Himachal Lokhit Party"
+    ]
+  },
+  {
+    "code": "HSPDP",
+    "name": "Hill State People's Democratic Party",
+    "color": "#0000ff",
+    "aliases": [
+      "Hill State People's Democratic Party",
+      "Hill State People’s Democratic Party"
+    ]
+  },
+  {
+    "code": "IEMC",
+    "name": "Ittehad-E-Millait Council",
+    "color": "#2e7d32",
+    "aliases": [
+      "Ittehad-E-Millait Council"
+    ]
+  },
+  {
+    "code": "INC",
+    "name": "Indian National Congress",
+    "color": "#19aaed",
+    "aliases": [
+      "Indian National Congress"
+    ]
+  },
+  {
+    "code": "IND",
+    "name": "Independent",
+    "color": "#757575",
+    "aliases": [
+      "Independent"
+    ]
+  },
+  {
+    "code": "INLD",
+    "name": "Indian National Lok Dal",
+    "color": "#336600",
+    "aliases": [
+      "Indian National Lok Dal"
+    ]
+  },
+  {
+    "code": "IPFT",
+    "name": "Indigenous People's Front of Tripura",
+    "color": "#008000",
+    "aliases": [
+      "Indigenous People's Front of Tripura",
+      "Indigenousn People's Front Of Tripura"
+    ]
+  },
+  {
+    "code": "IUML",
+    "name": "Indian Union Muslim League",
+    "color": "#228b22",
+    "aliases": [
+      "Indian Union Muslim League",
+      "Muslim League Kerala State Committee"
+    ]
+  },
+  {
+    "code": "JBSP",
+    "name": "Jai Bharat Samanta Party",
+    "color": "#4db6ac",
+    "aliases": [
+      "Jai Bharat Samanta Party"
+    ]
+  },
+  {
+    "code": "JCCJ",
+    "name": "Janta Congress Chhattisgarh (J)",
+    "color": "#ffc0db",
+    "aliases": [
+      "Janta Congress Chhattisgarh (J)"
+    ]
+  },
+  {
+    "code": "JD(S)",
+    "name": "Janata Dal (Secular)",
+    "color": "#138808",
+    "aliases": [
+      "Janata Dal (Secular)",
+      "Janata Dal  (Secular)"
+    ]
+  },
+  {
+    "code": "JD(U)",
+    "name": "Janata Dal (United)",
+    "color": "#003366",
+    "aliases": [
+      "Janata Dal (United)",
+      "Janata Dal  (United)"
+    ]
+  },
+  {
+    "code": "JDL",
+    "name": "Jansatta Dal Loktantrik",
+    "color": "#eaff00",
+    "aliases": [
+      "Jansatta Dal Loktantrik"
+    ]
+  },
+  {
+    "code": "JJP",
+    "name": "Jannayak Janta Party",
+    "color": "#ffff00",
+    "aliases": [
+      "Jannayak Janta Party"
+    ]
+  },
+  {
+    "code": "JKNC",
+    "name": "Jammu & Kashmir National Conference",
+    "color": "#ff0000",
+    "aliases": [
+      "Jammu & Kashmir National Conference"
+    ]
+  },
+  {
+    "code": "JKP",
+    "name": "Jharkhand Party",
+    "color": "#33691e",
+    "aliases": [
+      "Jharkhand Party"
+    ]
+  },
+  {
+    "code": "JKPC",
+    "name": "Jammu & Kashmir People Conference",
+    "color": "#1565c0",
+    "aliases": [
+      "Jammu & Kashmir People Conference"
+    ]
+  },
+  {
+    "code": "JKPDP",
+    "name": "Jammu & Kashmir Peoples Democratic Party",
+    "color": "#87c2b9",
+    "aliases": [
+      "Jammu & Kashmir Peoples Democratic Party"
+    ]
+  },
+  {
+    "code": "JMM",
+    "name": "Jharkhand Mukti Morcha",
+    "color": "#215b30",
+    "aliases": [
+      "Jharkhand Mukti Morcha"
+    ]
+  },
+  {
+    "code": "JSP",
+    "name": "Janasena Party",
+    "color": "#ff0000",
+    "aliases": [
+      "Janasena Party"
+    ]
+  },
+  {
+    "code": "JSS",
+    "name": "Jan Surajya Shakti",
+    "color": "#8e24aa",
+    "aliases": [
+      "Jan Surajya Shakti"
+    ]
+  },
+  {
+    "code": "JVM",
+    "name": "Jharkhand Vikas Morcha (Prajatantrik)",
+    "color": "#edfb06",
+    "aliases": [
+      "Jharkhand Vikas Morcha (Prajatantrik)"
+    ]
+  },
+  {
+    "code": "KEC(B)",
+    "name": "Kerala Congress (B)",
+    "color": "#a67c00",
+    "aliases": [
+      "Kerala Congress (B)"
+    ]
+  },
+  {
+    "code": "KEC(J)",
+    "name": "Kerala Congress (Jacob)",
+    "color": "#d4ac0d",
+    "aliases": [
+      "Kerala Congress (Jacob)",
+      "Kerala Congress  (Jacob)"
+    ]
+  },
+  {
+    "code": "KEC(M)",
+    "name": "Kerala Congress (M)",
+    "color": "#cc9900",
+    "aliases": [
+      "Kerala Congress (M)",
+      "Kerala Congress  (M)"
+    ]
+  },
+  {
+    "code": "KHNAM",
+    "name": "Khun Hynniewtrep National Awakening Movement",
+    "color": "#37474f",
+    "aliases": [
+      "Khun Hynniewtrep National Awakening Movement"
+    ]
+  },
+  {
+    "code": "KJP",
+    "name": "Karnataka Jantha Paksha",
+    "color": "#00838f",
+    "aliases": [
+      "Karnataka Jantha Paksha"
+    ]
+  },
+  {
+    "code": "KMP",
+    "name": "Karnataka Makkala Paksha",
+    "color": "#689f38",
+    "aliases": [
+      "Karnataka Makkala Paksha"
+    ]
+  },
+  {
+    "code": "KPA",
+    "name": "Kuki People's Alliance",
+    "color": "#ff0000",
+    "aliases": [
+      "Kuki People's Alliance",
+      "Kuki People’s Alliance"
+    ]
+  },
+  {
+    "code": "KPJP",
+    "name": "Karnataka Pragnyavantha Janatha Party",
+    "color": "#f06292",
+    "aliases": [
+      "Karnataka Pragnyavantha Janatha Party"
+    ]
+  },
+  {
+    "code": "KRPP",
+    "name": "Kalyana Rajya Pragathi Paksha",
+    "color": "#4e342e",
+    "aliases": [
+      "Kalyana Rajya Pragathi Paksha"
+    ]
+  },
+  {
+    "code": "KRSP",
+    "name": "Kerala Revolutionary Socialist Party (Baby John)",
+    "color": "#d84315",
+    "aliases": [
+      "Kerala Revolutionary Socialist Party (Baby John)",
+      "Kerala Revolutionary Socialist Party(Baby John)"
+    ]
+  },
+  {
+    "code": "KTSTP",
+    "name": "Krantikari Shetkari Party",
+    "color": "#827717",
+    "aliases": [
+      "Krantikari Shetkari Party"
+    ]
+  },
+  {
+    "code": "LIP",
+    "name": "Lok Insaaf Party",
+    "color": "#fbc02d",
+    "aliases": [
+      "Lok Insaaf Party"
+    ]
+  },
+  {
+    "code": "LJP",
+    "name": "Lok Jan Shakti Party",
+    "color": "#0093dd",
+    "aliases": [
+      "Lok Jan Shakti Party"
+    ]
+  },
+  {
+    "code": "MAG",
+    "name": "Maharashtrawadi Gomantak",
+    "color": "#ff8f00",
+    "aliases": [
+      "Maharashtrawadi Gomantak"
+    ]
+  },
+  {
+    "code": "MAMAK",
+    "name": "Manithaneya Makkal Katchi",
+    "color": "#1b5e20",
+    "aliases": [
+      "Manithaneya Makkal Katchi"
+    ]
+  },
+  {
+    "code": "MCO",
+    "name": "Marxist Co-Ordination",
+    "color": "#a93226",
+    "aliases": [
+      "Marxist Co-Ordination"
+    ]
+  },
+  {
+    "code": "MNF",
+    "name": "Mizo National Front",
+    "color": "#2e5694",
+    "aliases": [
+      "Mizo National Front"
+    ]
+  },
+  {
+    "code": "MNS",
+    "name": "Maharashtra Navnirman Sena",
+    "color": "#b7410e",
+    "aliases": [
+      "Maharashtra Navnirman Sena"
+    ]
+  },
+  {
+    "code": "MPC",
+    "name": "Mizoram People's Conference",
+    "color": "#5d4037",
+    "aliases": [
+      "Mizoram People's Conference"
+    ]
+  },
+  {
+    "code": "MSCP",
+    "name": "Manipur State Congress Party",
+    "color": "#99cc99",
+    "aliases": [
+      "Manipur State Congress Party"
+    ]
+  },
+  {
+    "code": "NCP",
+    "name": "Nationalist Congress Party",
+    "color": "#00b2b2",
+    "aliases": [
+      "Nationalist Congress Party"
+    ]
+  },
+  {
+    "code": "NDPP",
+    "name": "Nationalist Democratic Progressive Party",
+    "color": "#ed1b24",
+    "aliases": [
+      "Nationalist Democratic Progressive Party"
+    ]
+  },
+  {
+    "code": "NESDP",
+    "name": "North East Social Democratic Party",
+    "color": "#00acc1",
+    "aliases": [
+      "North East Social Democratic Party"
+    ]
+  },
+  {
+    "code": "NISHAD",
+    "name": "Nirbal Indian Shoshit Hamara Aam Dal",
+    "color": "#823426",
+    "aliases": [
+      "Nirbal Indian Shoshit Hamara Aam Dal"
+    ]
+  },
+  {
+    "code": "NOTA",
+    "name": "None of the Above",
+    "color": "#9e9e9e",
+    "aliases": [
+      "None of the Above"
+    ]
+  },
+  {
+    "code": "NPF",
+    "name": "Naga Peoples Front",
+    "color": "#990066",
+    "aliases": [
+      "Naga Peoples Front"
+    ]
+  },
+  {
+    "code": "NPP",
+    "name": "National People's Party",
+    "color": "#db7093",
+    "aliases": [
+      "National People's Party",
+      "National People’s Party"
+    ]
+  },
+  {
+    "code": "NPT",
+    "name": "Navodyam Party",
+    "color": "#ba68c8",
+    "aliases": [
+      "Navodyam Party"
+    ]
+  },
+  {
+    "code": "NSAM",
+    "name": "Navjawan Sangharsh Morcha",
+    "color": "#c0ca33",
+    "aliases": [
+      "Navjawan Sangharsh Morcha"
+    ]
+  },
+  {
+    "code": "NSC",
+    "name": "National Secular Conference",
+    "color": "#607d8b",
+    "aliases": [
+      "National Secular Conference"
+    ]
+  },
+  {
+    "code": "NUZP",
+    "name": "National Unionist Zamindara Party",
+    "color": "#795548",
+    "aliases": [
+      "National Unionist Zamindara Party"
+    ]
+  },
+  {
+    "code": "PDF",
+    "name": "People's Democratic Front",
+    "color": "#ffff00",
+    "aliases": [
+      "People's Democratic Front"
+    ]
+  },
+  {
+    "code": "PECP",
+    "name": "Peace Party",
+    "color": "#66bb6a",
+    "aliases": [
+      "Peace Party"
+    ]
+  },
+  {
+    "code": "PHJSP",
+    "name": "Prahar Janshakti Party",
+    "color": "#f57f17",
+    "aliases": [
+      "Prahar Janshakti Party"
+    ]
+  },
+  {
+    "code": "PMK",
+    "name": "Pattali Makkal Katchi",
+    "color": "#f4c430",
+    "aliases": [
+      "Pattali Makkal Katchi"
+    ]
+  },
+  {
+    "code": "PT",
+    "name": "Puthiya Tamilagam",
+    "color": "#6a1b9a",
+    "aliases": [
+      "Puthiya Tamilagam"
+    ]
+  },
+  {
+    "code": "PWPI",
+    "name": "Peasants And Workers Party of India",
+    "color": "#e53935",
+    "aliases": [
+      "Peasants And Workers Party of India"
+    ]
+  },
+  {
+    "code": "QED",
+    "name": "Quami Ekta Dal",
+    "color": "#558b2f",
+    "aliases": [
+      "Quami Ekta Dal"
+    ]
+  },
+  {
+    "code": "RGP",
+    "name": "Revolutionary Goans Party",
+    "color": "#ff7043",
+    "aliases": [
+      "Revolutionary Goans Party"
+    ]
+  },
+  {
+    "code": "RJD",
+    "name": "Rashtriya Janata Dal",
+    "color": "#008000",
+    "aliases": [
+      "Rashtriya Janata Dal"
+    ]
+  },
+  {
+    "code": "RLD",
+    "name": "Rashtriya Lok Dal",
+    "color": "#008000",
+    "aliases": [
+      "Rashtriya Lok Dal"
+    ]
+  },
+  {
+    "code": "RLSP",
+    "name": "Rashtriya Lok Samta Party",
+    "color": "#43a047",
+    "aliases": [
+      "Rashtriya Lok Samta Party"
+    ]
+  },
+  {
+    "code": "RLTP",
+    "name": "Rashtriya Loktantrik Party",
+    "color": "#dbe934",
+    "aliases": [
+      "Rashtriya Loktantrik Party"
+    ]
+  },
+  {
+    "code": "RSP",
+    "name": "Revolutionary Socialist Party",
+    "color": "#ff4a4a",
+    "aliases": [
+      "Revolutionary Socialist Party"
+    ]
+  },
+  {
+    "code": "RSPS",
+    "name": "Rashtriya Samaj Paksha",
+    "color": "#d81b60",
+    "aliases": [
+      "Rashtriya Samaj Paksha"
+    ]
+  },
+  {
+    "code": "RSSCMJP",
+    "name": "Rashtriya Secular Majlis Party",
+    "color": "#7986cb",
+    "aliases": [
+      "Rashtriya Secular Majlis Party"
+    ]
+  },
+  {
+    "code": "SAD",
+    "name": "Shiromani Akali Dal",
+    "color": "#ebc634",
+    "aliases": [
+      "Shiromani Akali Dal"
+    ]
+  },
+  {
+    "code": "SBSP",
+    "name": "Suheldev Bharatiya Samaj Party",
+    "color": "#ffd500",
+    "aliases": [
+      "Suheldev Bharatiya Samaj Party",
+      "Suheldev Bhartiya Samaj Party"
+    ]
+  },
+  {
+    "code": "SDF",
+    "name": "Sikkim Democratic Front",
+    "color": "#2e8b57",
+    "aliases": [
+      "Sikkim Democratic Front"
+    ]
+  },
+  {
+    "code": "SHS",
+    "name": "Shiv Sena",
+    "color": "#f26f21",
+    "aliases": [
+      "Shiv Sena",
+      "Shivsena"
+    ]
+  },
+  {
+    "code": "SJD",
+    "name": "Socialist Janta (Democratic)",
+    "color": "#e57373",
+    "aliases": [
+      "Socialist Janta (Democratic)"
+    ]
+  },
+  {
+    "code": "SKD",
+    "name": "Samata Kranti Dal",
+    "color": "#bcaaa4",
+    "aliases": [
+      "Samata Kranti Dal"
+    ]
+  },
+  {
+    "code": "SKM",
+    "name": "Sikkim Krantikari Morcha",
+    "color": "#c8102e",
+    "aliases": [
+      "Sikkim Krantikari Morcha"
+    ]
+  },
+  {
+    "code": "SKP",
+    "name": "Sarvodaya Karnataka Paksha",
+    "color": "#616161",
+    "aliases": [
+      "Sarvodaya Karnataka Paksha"
+    ]
+  },
+  {
+    "code": "SP",
+    "name": "Samajwadi Party",
+    "color": "#ff0000",
+    "aliases": [
+      "Samajwadi Party"
+    ]
+  },
+  {
+    "code": "SUCI",
+    "name": "Socialist Unity Centre of India (Communist)",
+    "color": "#d32f2f",
+    "aliases": [
+      "Socialist Unity Centre of India (Communist)"
+    ]
+  },
+  {
+    "code": "SWP",
+    "name": "Swabhimani Paksha",
+    "color": "#9ccc65",
+    "aliases": [
+      "Swabhimani Paksha"
+    ]
+  },
+  {
+    "code": "TDP",
+    "name": "Telugu Desam",
+    "color": "#ffff00",
+    "aliases": [
+      "Telugu Desam",
+      "Telugu Desam Party"
+    ]
+  },
+  {
+    "code": "TRS",
+    "name": "Telangana Rashtra Samithi",
+    "color": "#ff0274",
+    "aliases": [
+      "Telangana Rashtra Samithi",
+      "Bharat Rashtra Samithi"
+    ]
+  },
+  {
+    "code": "UDP",
+    "name": "United Democratic Party",
+    "color": "#cef2e0",
+    "aliases": [
+      "United Democratic Party"
+    ]
+  },
+  {
+    "code": "UKDP",
+    "name": "Uttarakhand Kranti Dal (P)",
+    "color": "#00796b",
+    "aliases": [
+      "Uttarakhand Kranti Dal (P)",
+      "Uttarakhand Kranti Dal(P)"
+    ]
+  },
+  {
+    "code": "UPPL",
+    "name": "United People's Party, Liberal",
+    "color": "#f3ed13",
+    "aliases": [
+      "United People's Party, Liberal",
+      "United People’s Party, Liberal"
+    ]
+  },
+  {
+    "code": "VIP",
+    "name": "Vikassheel Insaan Party",
+    "color": "#0000ff",
+    "aliases": [
+      "Vikassheel Insaan Party"
+    ]
+  },
+  {
+    "code": "YSRCP",
+    "name": "Yuvajana Sramika Rythu Congress Party",
+    "color": "#0000ff",
+    "aliases": [
+      "Yuvajana Sramika Rythu Congress Party"
+    ]
+  },
+  {
+    "code": "ZPM",
+    "name": "Zoram People's Movement",
+    "color": "#1e5aa8",
+    "aliases": [
+      "Zoram People's Movement",
+      "Zoram People’s Movement"
+    ]
+  }
+]

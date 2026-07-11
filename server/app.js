@@ -1,0 +1,95 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import express from 'express';
+import helmet from 'helmet';
+import compression from 'compression';
+import session from 'express-session';
+import connectPgSimple from 'connect-pg-simple';
+import { ZodError } from 'zod';
+import { pool } from './db/pool.js';
+import authRouter from './routes/auth.js';
+import profileRouter from './routes/profile.js';
+import adminUsersRouter from './routes/adminUsers.js';
+import dataRouter from './routes/data.js';
+
+if (!process.env.SESSION_SECRET) {
+  throw new Error('SESSION_SECRET is not set. Add a long random string to .env.');
+}
+
+const app = express();
+
+app.set('trust proxy', 1);
+app.use(helmet());
+app.use(compression());
+app.use(express.json({ limit: '10kb' }));
+
+const PgStore = connectPgSimple(session);
+app.use(
+  session({
+    store: new PgStore({ pool, createTableIfMissing: true }),
+    secret: process.env.SESSION_SECRET,
+    resave: false,
+    saveUninitialized: false,
+    rolling: true,
+    cookie: {
+      httpOnly: true,
+      sameSite: 'lax',
+      secure: process.env.NODE_ENV === 'production',
+      maxAge: 7 * 24 * 3600 * 1000,
+    },
+  })
+);
+
+// Unauthenticated on purpose: Render's health check probes this.
+app.get('/api/health', (req, res) => {
+  res.json({ ok: true });
+});
+
+app.use('/api/auth', authRouter);
+app.use('/api/profile', profileRouter);
+app.use('/api/admin/users', adminUsersRouter);
+app.use('/api/data', dataRouter);
+
+app.use('/api', (req, res) => {
+  res.status(404).json({ error: 'Not found', code: 'NOT_FOUND' });
+});
+
+const CLIENT_DIST = path.resolve(import.meta.dirname, '../client/dist');
+const INDEX_HTML = path.join(CLIENT_DIST, 'index.html');
+
+app.use(express.static(CLIENT_DIST, { index: false, immutable: true, maxAge: '1y' }));
+
+// SPA fallback. Express 5 removed the app.get('*') pattern; a plain use()
+// after the static handler catches everything that is not a file.
+app.use((req, res, next) => {
+  if (req.method !== 'GET' && req.method !== 'HEAD') return next();
+  if (!fs.existsSync(INDEX_HTML)) {
+    return res
+      .status(404)
+      .type('text/plain')
+      .send(
+        'Client build not found. In development the client runs on the Vite dev server ' +
+          '(npm run dev); for production run "npm run build" first.'
+      );
+  }
+  res.sendFile(INDEX_HTML, {
+    cacheControl: false,
+    headers: { 'Cache-Control': 'no-cache' },
+  });
+});
+
+// Central error handler.
+app.use((err, req, res, next) => {
+  if (res.headersSent) return next(err);
+  if (err instanceof ZodError) {
+    return res.status(400).json({ error: err.issues[0]?.message ?? 'Invalid request' });
+  }
+  // body-parser errors (malformed JSON, payload too large) carry expose+status
+  if (err.expose && err.status >= 400 && err.status < 500) {
+    return res.status(err.status).json({ error: err.message });
+  }
+  console.error(err);
+  res.status(500).json({ error: 'Internal server error' });
+});
+
+export default app;

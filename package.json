@@ -1,20 +1,26 @@
 {
-  "name": "states",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "start": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "ejs": "^3.1.6",
-    "express": "^4.17.3",
-    "nodemon": "^2.0.15"
-  },
+  "name": "india-election-map",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Authenticated explorer for Indian assembly election results",
+  "type": "module",
+  "workspaces": [
+    "server",
+    "client"
+  ],
   "engines": {
-    "node": "14.x"
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "concurrently -n api,web -c blue,green \"npm:dev -w server\" \"npm:dev -w client\"",
+    "build": "npm run build -w client",
+    "start": "node --env-file-if-exists=.env server/index.js",
+    "migrate": "node --env-file-if-exists=.env server/db/migrate.js",
+    "seed:admin": "node --env-file-if-exists=.env scripts/seed-admin.js",
+    "pipeline": "node scripts/build-data.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "mapshaper": "^0.6.104"
   }
 }

@@ -1,0 +1,275 @@
+[
+  {
+    "slug": "andhra-pradesh",
+    "name": "Andhra Pradesh",
+    "center": [
+      80.5,
+      16
+    ],
+    "scale": 5000
+  },
+  {
+    "slug": "arunachal-pradesh",
+    "name": "Arunachal Pradesh",
+    "center": null,
+    "scale": null
+  },
+  {
+    "slug": "assam",
+    "name": "Assam",
+    "center": [
+      93,
+      26
+    ],
+    "scale": 8000
+  },
+  {
+    "slug": "bihar",
+    "name": "Bihar",
+    "center": [
+      85.8,
+      25.9
+    ],
+    "scale": 9000
+  },
+  {
+    "slug": "chhattisgarh",
+    "name": "Chhattisgarh",
+    "center": [
+      82,
+      21
+    ],
+    "scale": 5000
+  },
+  {
+    "slug": "delhi",
+    "name": "Delhi",
+    "center": [
+      77.16,
+      28.65
+    ],
+    "scale": 60000
+  },
+  {
+    "slug": "goa",
+    "name": "Goa",
+    "center": [
+      74,
+      15.35
+    ],
+    "scale": 35000
+  },
+  {
+    "slug": "gujarat",
+    "name": "Gujarat",
+    "center": [
+      72,
+      22.3
+    ],
+    "scale": 6500
+  },
+  {
+    "slug": "haryana",
+    "name": "Haryana",
+    "center": [
+      76,
+      29.2
+    ],
+    "scale": 9000
+  },
+  {
+    "slug": "himachal-pradesh",
+    "name": "Himachal Pradesh",
+    "center": [
+      77.3,
+      31.8
+    ],
+    "scale": 10000
+  },
+  {
+    "slug": "jammu-and-kashmir",
+    "name": "Jammu and Kashmir",
+    "center": [
+      75,
+      33.5
+    ],
+    "scale": 10000
+  },
+  {
+    "slug": "jharkhand",
+    "name": "Jharkhand",
+    "center": [
+      85.6,
+      23.7
+    ],
+    "scale": 9000
+  },
+  {
+    "slug": "karnataka",
+    "name": "Karnataka",
+    "center": [
+      76.5,
+      15
+    ],
+    "scale": 5000
+  },
+  {
+    "slug": "kerala",
+    "name": "Kerala",
+    "center": [
+      76,
+      10.5
+    ],
+    "scale": 8000
+  },
+  {
+    "slug": "madhya-pradesh",
+    "name": "Madhya Pradesh",
+    "center": [
+      78.5,
+      24
+    ],
+    "scale": 5500
+  },
+  {
+    "slug": "maharashtra",
+    "name": "Maharashtra",
+    "center": [
+      77,
+      19
+    ],
+    "scale": 5000
+  },
+  {
+    "slug": "manipur",
+    "name": "Manipur",
+    "center": [
+      94,
+      24.8
+    ],
+    "scale": 17000
+  },
+  {
+    "slug": "meghalaya",
+    "name": "Meghalaya",
+    "center": [
+      91.3,
+      25.5
+    ],
+    "scale": 18000
+  },
+  {
+    "slug": "mizoram",
+    "name": "Mizoram",
+    "center": [
+      92.7,
+      23.3
+    ],
+    "scale": 13000
+  },
+  {
+    "slug": "nagaland",
+    "name": "Nagaland",
+    "center": [
+      94.5,
+      26.1
+    ],
+    "scale": 16000
+  },
+  {
+    "slug": "odisha",
+    "name": "Odisha",
+    "center": [
+      84,
+      20.4
+    ],
+    "scale": 6500
+  },
+  {
+    "slug": "puducherry",
+    "name": "Puducherry",
+    "center": [
+      79.5,
+      11.8
+    ],
+    "scale": 50000
+  },
+  {
+    "slug": "punjab",
+    "name": "Punjab",
+    "center": [
+      75.4,
+      31
+    ],
+    "scale": 10000
+  },
+  {
+    "slug": "rajasthan",
+    "name": "Rajasthan",
+    "center": [
+      74,
+      26.5
+    ],
+    "scale": 4400
+  },
+  {
+    "slug": "sikkim",
+    "name": "Sikkim",
+    "center": null,
+    "scale": null
+  },
+  {
+    "slug": "tamil-nadu",
+    "name": "Tamil Nadu",
+    "center": [
+      78.5,
+      10.8
+    ],
+    "scale": 6500
+  },
+  {
+    "slug": "telangana",
+    "name": "Telangana",
+    "center": [
+      79,
+      17.85
+    ],
+    "scale": 8500
+  },
+  {
+    "slug": "tripura",
+    "name": "Tripura",
+    "center": [
+      91.8,
+      23.7
+    ],
+    "scale": 20000
+  },
+  {
+    "slug": "uttar-pradesh",
+    "name": "Uttar Pradesh",
+    "center": [
+      80.9,
+      27.2
+    ],
+    "scale": 5000
+  },
+  {
+    "slug": "uttarakhand",
+    "name": "Uttarakhand",
+    "center": [
+      79.2,
+      30.1
+    ],
+    "scale": 11000
+  },
+  {
+    "slug": "west-bengal",
+    "name": "West Bengal",
+    "center": [
+      88,
+      24.3
+    ],
+    "scale": 5800
+  }
+]

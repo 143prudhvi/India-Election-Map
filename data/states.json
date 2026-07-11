@@ -1,0 +1,445 @@
+[
+  {
+    "slug": "andhra-pradesh",
+    "name": "Andhra Pradesh",
+    "total_seats": 175,
+    "years": [
+      2014,
+      2019,
+      2024
+    ],
+    "center": [
+      80.5,
+      16
+    ],
+    "scale": 5000
+  },
+  {
+    "slug": "arunachal-pradesh",
+    "name": "Arunachal Pradesh",
+    "total_seats": 60,
+    "years": [],
+    "center": null,
+    "scale": null
+  },
+  {
+    "slug": "assam",
+    "name": "Assam",
+    "total_seats": 126,
+    "years": [
+      2011,
+      2016,
+      2021
+    ],
+    "center": [
+      93,
+      26
+    ],
+    "scale": 8000
+  },
+  {
+    "slug": "bihar",
+    "name": "Bihar",
+    "total_seats": 243,
+    "years": [
+      2010,
+      2015,
+      2020
+    ],
+    "center": [
+      85.8,
+      25.9
+    ],
+    "scale": 9000
+  },
+  {
+    "slug": "chhattisgarh",
+    "name": "Chhattisgarh",
+    "total_seats": 90,
+    "years": [
+      2013,
+      2018,
+      2023
+    ],
+    "center": [
+      82,
+      21
+    ],
+    "scale": 5000
+  },
+  {
+    "slug": "delhi",
+    "name": "Delhi",
+    "total_seats": 70,
+    "years": [
+      2013,
+      2015,
+      2020
+    ],
+    "center": [
+      77.16,
+      28.65
+    ],
+    "scale": 60000
+  },
+  {
+    "slug": "goa",
+    "name": "Goa",
+    "total_seats": 40,
+    "years": [
+      2012,
+      2017,
+      2022
+    ],
+    "center": [
+      74,
+      15.35
+    ],
+    "scale": 35000
+  },
+  {
+    "slug": "gujarat",
+    "name": "Gujarat",
+    "total_seats": 182,
+    "years": [
+      2012,
+      2017,
+      2022
+    ],
+    "center": [
+      72,
+      22.3
+    ],
+    "scale": 6500
+  },
+  {
+    "slug": "haryana",
+    "name": "Haryana",
+    "total_seats": 90,
+    "years": [
+      2014,
+      2019,
+      2024
+    ],
+    "center": [
+      76,
+      29.2
+    ],
+    "scale": 9000
+  },
+  {
+    "slug": "himachal-pradesh",
+    "name": "Himachal Pradesh",
+    "total_seats": 68,
+    "years": [
+      2012,
+      2017,
+      2022
+    ],
+    "center": [
+      77.3,
+      31.8
+    ],
+    "scale": 10000
+  },
+  {
+    "slug": "jammu-and-kashmir",
+    "name": "Jammu and Kashmir",
+    "total_seats": 91,
+    "years": [
+      2024
+    ],
+    "center": [
+      75,
+      33.5
+    ],
+    "scale": 10000
+  },
+  {
+    "slug": "jharkhand",
+    "name": "Jharkhand",
+    "total_seats": 81,
+    "years": [
+      2014,
+      2019
+    ],
+    "center": [
+      85.6,
+      23.7
+    ],
+    "scale": 9000
+  },
+  {
+    "slug": "karnataka",
+    "name": "Karnataka",
+    "total_seats": 224,
+    "years": [
+      2013,
+      2018,
+      2023
+    ],
+    "center": [
+      76.5,
+      15
+    ],
+    "scale": 5000
+  },
+  {
+    "slug": "kerala",
+    "name": "Kerala",
+    "total_seats": 140,
+    "years": [
+      2011,
+      2016
+    ],
+    "center": [
+      76,
+      10.5
+    ],
+    "scale": 8000
+  },
+  {
+    "slug": "madhya-pradesh",
+    "name": "Madhya Pradesh",
+    "total_seats": 230,
+    "years": [
+      2013,
+      2018,
+      2023
+    ],
+    "center": [
+      78.5,
+      24
+    ],
+    "scale": 5500
+  },
+  {
+    "slug": "maharashtra",
+    "name": "Maharashtra",
+    "total_seats": 288,
+    "years": [
+      2014,
+      2019
+    ],
+    "center": [
+      77,
+      19
+    ],
+    "scale": 5000
+  },
+  {
+    "slug": "manipur",
+    "name": "Manipur",
+    "total_seats": 60,
+    "years": [
+      2012,
+      2017,
+      2022
+    ],
+    "center": [
+      94,
+      24.8
+    ],
+    "scale": 17000
+  },
+  {
+    "slug": "meghalaya",
+    "name": "Meghalaya",
+    "total_seats": 60,
+    "years": [
+      2013,
+      2018
+    ],
+    "center": [
+      91.3,
+      25.5
+    ],
+    "scale": 18000
+  },
+  {
+    "slug": "mizoram",
+    "name": "Mizoram",
+    "total_seats": 40,
+    "years": [
+      2013,
+      2018,
+      2023
+    ],
+    "center": [
+      92.7,
+      23.3
+    ],
+    "scale": 13000
+  },
+  {
+    "slug": "nagaland",
+    "name": "Nagaland",
+    "total_seats": 60,
+    "years": [
+      2013,
+      2018
+    ],
+    "center": [
+      94.5,
+      26.1
+    ],
+    "scale": 16000
+  },
+  {
+    "slug": "odisha",
+    "name": "Odisha",
+    "total_seats": 147,
+    "years": [
+      2014,
+      2019,
+      2024
+    ],
+    "center": [
+      84,
+      20.4
+    ],
+    "scale": 6500
+  },
+  {
+    "slug": "puducherry",
+    "name": "Puducherry",
+    "total_seats": 30,
+    "years": [
+      2011,
+      2016
+    ],
+    "center": [
+      79.5,
+      11.8
+    ],
+    "scale": 50000
+  },
+  {
+    "slug": "punjab",
+    "name": "Punjab",
+    "total_seats": 117,
+    "years": [
+      2012,
+      2017,
+      2022
+    ],
+    "center": [
+      75.4,
+      31
+    ],
+    "scale": 10000
+  },
+  {
+    "slug": "rajasthan",
+    "name": "Rajasthan",
+    "total_seats": 200,
+    "years": [
+      2013,
+      2018,
+      2023
+    ],
+    "center": [
+      74,
+      26.5
+    ],
+    "scale": 4400
+  },
+  {
+    "slug": "sikkim",
+    "name": "Sikkim",
+    "total_seats": 32,
+    "years": [
+      2014
+    ],
+    "center": null,
+    "scale": null
+  },
+  {
+    "slug": "tamil-nadu",
+    "name": "Tamil Nadu",
+    "total_seats": 234,
+    "years": [
+      2011,
+      2016
+    ],
+    "center": [
+      78.5,
+      10.8
+    ],
+    "scale": 6500
+  },
+  {
+    "slug": "telangana",
+    "name": "Telangana",
+    "total_seats": 119,
+    "years": [
+      2014,
+      2018,
+      2023
+    ],
+    "center": [
+      79,
+      17.85
+    ],
+    "scale": 8500
+  },
+  {
+    "slug": "tripura",
+    "name": "Tripura",
+    "total_seats": 60,
+    "years": [
+      2013,
+      2018
+    ],
+    "center": [
+      91.8,
+      23.7
+    ],
+    "scale": 20000
+  },
+  {
+    "slug": "uttar-pradesh",
+    "name": "Uttar Pradesh",
+    "total_seats": 403,
+    "years": [
+      2012,
+      2017,
+      2022
+    ],
+    "center": [
+      80.9,
+      27.2
+    ],
+    "scale": 5000
+  },
+  {
+    "slug": "uttarakhand",
+    "name": "Uttarakhand",
+    "total_seats": 70,
+    "years": [
+      2012,
+      2017,
+      2022
+    ],
+    "center": [
+      79.2,
+      30.1
+    ],
+    "scale": 11000
+  },
+  {
+    "slug": "west-bengal",
+    "name": "West Bengal",
+    "total_seats": 294,
+    "years": [
+      2011,
+      2016,
+      2021
+    ],
+    "center": [
+      88,
+      24.3
+    ],
+    "scale": 5800
+  }
+]

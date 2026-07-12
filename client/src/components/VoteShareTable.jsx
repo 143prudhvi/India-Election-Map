@@ -53,6 +53,7 @@ export default function VoteShareTable({
               code={code}
               isAlliance={isAlliance}
               seatPct={seatPct}
+              totalSeats={totalSeats}
               color={isAlliance ? colorFor(code) : partyColor(code)}
               clickable={clickable}
               active={activeCode === code}
@@ -67,7 +68,7 @@ export default function VoteShareTable({
   );
 }
 
-function RowGroup({ row, code, isAlliance, seatPct, color, clickable, active, onPick, partyColor, partyName }) {
+function RowGroup({ row, code, isAlliance, seatPct, totalSeats, color, clickable, active, onPick, partyColor, partyName }) {
   const rowClass = [
     isAlliance ? 'alliance-line' : 'party-line',
     clickable ? 'clickable' : '',
@@ -96,13 +97,20 @@ function RowGroup({ row, code, isAlliance, seatPct, color, clickable, active, on
         <td className="n">{row.vote_pct.toFixed(2)}%</td>
       </tr>
       {isAlliance &&
+        (row.parties || []).length > 1 &&
         (row.parties || []).map((p) => (
           <tr key={p.party} className="member-line">
             <td>
               <PartyChip code={p.party} color={partyColor(p.party)} title={partyName(p.party)} />
             </td>
             <td className="n">{p.seats}</td>
-            <td />
+            <td>
+              <DualBars
+                seatPct={totalSeats > 0 ? (p.seats / totalSeats) * 100 : 0}
+                votePct={p.vote_pct}
+                color={partyColor(p.party)}
+              />
+            </td>
             <td className="n">{p.vote_pct.toFixed(2)}%</td>
           </tr>
         ))}

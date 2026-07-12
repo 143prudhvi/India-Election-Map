@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import PartyChip from './PartyChip.jsx';
 import AllianceChip from './AllianceChip.jsx';
 import { displayName } from '../lib/formatName.js';
@@ -140,71 +140,155 @@ export default function ConstituencyPanel({
             Candidates
             <span className="heading-count">{(constituency.candidates || []).length}</span>
           </h3>
-          <div className="table-scroll">
-            <table className="candidates-table">
-              <thead>
-                <tr>
-                  <th className="rank-col" aria-label="Position" />
-                  <th>Candidate</th>
-                  <th className="num">Votes</th>
-                  <th className="num pct-col">%</th>
-                </tr>
-              </thead>
-              <tbody>
-                {(constituency.candidates || []).map((c, i) => (
-                  <tr
-                    key={`${c.candidate}-${i}`}
-                    className={i === 0 && winner ? 'winner-row' : undefined}
-                    style={{ '--r': i }}
-                  >
-                    <td className="rank">
-                      {i === 0 && winner ? <span className="winner-tick">✓</span> : i + 1}
-                    </td>
-                    <td>
-                      <span className="candidate-cell">
-                        <CandidateName name={c.candidate} bold={i === 0 && !!winner} tip={nameTip} />
-                        <span className="candidate-chips">
-                          <PartyChip
-                            code={c.party}
-                            color={partyColor(c.party)}
-                            title={partyName(c.party)}
-                          />
-                          {allianceOfParty?.get(c.party) && (
-                            <span
-                              className="alliance-dot"
-                              style={{ backgroundColor: allianceOfParty.get(c.party).color }}
-                              onMouseEnter={(e) =>
-                                allianceTip.show(allianceOfParty.get(c.party).name, e)
-                              }
-                              onMouseMove={allianceTip.move}
-                              onMouseLeave={allianceTip.hide}
-                            />
-                          )}
-                        </span>
-                      </span>
-                    </td>
-                    <td className="num">{formatVotes(c.votes)}</td>
-                    <td className="num pct-col">
-                      <span className="pct-cell">
-                        <span
-                          className="pct-bar"
-                          style={{
-                            width: `${Math.min(c.vote_pct ?? 0, 100)}%`,
-                            backgroundColor: partyColor(c.party),
-                          }}
-                        />
-                        <span className="pct-num">{c.vote_pct}%</span>
-                      </span>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+          <CandidateList
+            key={acNo}
+            candidates={constituency.candidates || []}
+            hasWinner={!!winner}
+            partyColor={partyColor}
+            partyName={partyName}
+            allianceOfParty={allianceOfParty}
+            nameTip={nameTip}
+            allianceTip={allianceTip}
+          />
           {nameTip.tipNode}
           {allianceTip.tipNode}
         </>
       )}
     </div>
+  );
+}
+
+// Below this vote share a candidate folds into the "others" summary row. Every
+// candidate under it forfeits their deposit (one-sixth of valid votes), so the
+// fold is a real category, not just a "show more" cut-off.
+const ALSO_RAN_THRESHOLD = 5;
+
+// The candidate field: the top contenders as ranked-bar rows, with the trailing
+// run of sub-threshold also-rans folded behind one expandable summary row so a
+// 20-candidate ballot doesn't bury the two names that decided the seat.
+function CandidateList({
+  candidates,
+  hasWinner,
+  partyColor,
+  partyName,
+  allianceOfParty,
+  nameTip,
+  allianceTip,
+}) {
+  const [open, setOpen] = useState(false);
+
+  // Candidates arrive sorted by votes (winner first). Always keep the top two —
+  // they anchor the head-to-head above — then keep any further candidate still
+  // at/above the threshold; fold the rest.
+  let split = Math.min(2, candidates.length);
+  while (split < candidates.length && (candidates[split].vote_pct ?? 0) >= ALSO_RAN_THRESHOLD) {
+    split += 1;
+  }
+  const contenders = candidates.slice(0, split);
+  const folded = candidates.slice(split);
+  const foldedPct = folded.reduce((sum, c) => sum + (c.vote_pct ?? 0), 0);
+
+  const rowProps = { partyColor, partyName, allianceOfParty, nameTip, allianceTip };
+
+  return (
+    <div className="cand-list">
+      {contenders.map((c, i) => (
+        <CandRow key={`${c.candidate}-${i}`} c={c} rank={i} r={i} isWinner={i === 0 && hasWinner} {...rowProps} />
+      ))}
+
+      {folded.length > 0 && (
+        <>
+          <button
+            type="button"
+            className={open ? 'cand-fold open' : 'cand-fold'}
+            onClick={() => setOpen((o) => !o)}
+            aria-expanded={open}
+          >
+            <span className="fold-dots" aria-hidden="true">
+              {folded.slice(0, 8).map((c, i) => (
+                <i key={i} style={{ background: partyColor(c.party) }} />
+              ))}
+            </span>
+            <span className="fold-lbl">
+              {open
+                ? 'Hide others'
+                : `+${folded.length} ${folded.length === 1 ? 'other' : 'others'} · ${foldedPct.toFixed(2)}% combined`}
+            </span>
+            <span className="fold-chev" aria-hidden="true">
+              <Chevron />
+            </span>
+          </button>
+          <div className={open ? 'cand-collapse open' : 'cand-collapse'}>
+            <div>
+              {folded.map((c, j) => (
+                <CandRow
+                  key={`${c.candidate}-${split + j}`}
+                  c={c}
+                  rank={split + j}
+                  r={j}
+                  member
+                  {...rowProps}
+                />
+              ))}
+            </div>
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
+
+function CandRow({ c, rank, r, isWinner, member, partyColor, partyName, allianceOfParty, nameTip, allianceTip }) {
+  const alliance = allianceOfParty?.get(c.party);
+  const cls = ['cand-row', member ? 'is-member' : '', isWinner ? 'is-winner' : '']
+    .filter(Boolean)
+    .join(' ');
+  const pct = Math.min(c.vote_pct ?? 0, 100);
+  return (
+    <div className={cls} style={{ '--r': r ?? rank }}>
+      <span className="cand-rank">
+        {isWinner ? <span className="winner-tick">✓</span> : rank + 1}
+      </span>
+      <span className="candidate-cell">
+        <CandidateName name={c.candidate} bold={isWinner} tip={nameTip} />
+        <span className="candidate-chips">
+          <PartyChip code={c.party} color={partyColor(c.party)} title={partyName(c.party)} />
+          {alliance && (
+            <span
+              className="alliance-dot"
+              style={{ backgroundColor: alliance.color }}
+              onMouseEnter={(e) => allianceTip.show(alliance.name, e)}
+              onMouseMove={allianceTip.move}
+              onMouseLeave={allianceTip.hide}
+            />
+          )}
+          <span className="cand-votes">{formatVotes(c.votes)}</span>
+        </span>
+      </span>
+      <span className="cand-pct">{c.vote_pct}%</span>
+      {!member && (
+        <span
+          className="cand-bar"
+          style={{ width: `calc((100% - 27px) * ${pct / 100})`, backgroundColor: partyColor(c.party) }}
+        />
+      )}
+    </div>
+  );
+}
+
+function Chevron() {
+  return (
+    <svg
+      width="13"
+      height="13"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <polyline points="6 9 12 15 18 9" />
+    </svg>
   );
 }

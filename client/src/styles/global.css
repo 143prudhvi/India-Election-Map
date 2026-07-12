@@ -2800,10 +2800,154 @@ button {
   color: var(--text-muted);
 }
 
+/* candidate list: ranked-bar rows with a foldable also-ran summary */
+.cand-list {
+  margin-top: 2px;
+}
+
+.cand-row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 18px 1fr auto;
+  align-items: center;
+  column-gap: 9px;
+  padding: 8px 0 9px;
+  border-top: 1px solid var(--border);
+  animation: cardIn 340ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: calc(var(--r, 0) * 30ms);
+}
+
+.cand-list > .cand-row:first-child,
+.cand-collapse .cand-row:first-child {
+  border-top: none;
+}
+
+.cand-row.is-winner {
+  background: #f2f9f4;
+  border-radius: 8px;
+  border-top-color: transparent;
+}
+
+.cand-rank {
+  text-align: center;
+  font-size: 11px;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.cand-rank .winner-tick {
+  color: var(--success);
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.cand-pct {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.cand-votes {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.cand-bar {
+  position: absolute;
+  left: 27px;
+  bottom: 3px;
+  height: 3px;
+  border-radius: 2px;
+  opacity: 0.85;
+  transform-origin: left;
+  animation: barGrow 620ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: 100ms;
+}
+
+.cand-fold {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-top: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: color 120ms;
+}
+
+.cand-fold:hover {
+  color: var(--text);
+}
+
+.fold-dots {
+  display: flex;
+  gap: 3px;
+  flex: 0 0 auto;
+}
+
+.fold-dots i {
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+}
+
+.fold-lbl {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.fold-chev {
+  margin-left: auto;
+  display: flex;
+  color: var(--text-muted);
+  transition: transform 220ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.cand-fold.open .fold-chev {
+  transform: rotate(180deg);
+}
+
+.cand-collapse {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 260ms ease;
+}
+
+.cand-collapse.open {
+  grid-template-rows: 1fr;
+}
+
+.cand-collapse > div {
+  overflow: hidden;
+  min-height: 0;
+}
+
+.cand-row.is-member {
+  padding: 6px 0 7px;
+}
+
+.cand-row.is-member .cand-pct {
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
 @media (prefers-reduced-motion: reduce) {
   .tug > span,
-  .vtl-item {
+  .vtl-item,
+  .cand-row,
+  .cand-bar {
     animation: none;
     transform: none;
+  }
+
+  .cand-collapse {
+    transition: none;
   }
 }

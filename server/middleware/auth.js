@@ -36,3 +36,25 @@ export function requireAdmin() {
     });
   };
 }
+
+// True when the account may use paid features. Admins always qualify.
+export function isPro(user) {
+  return !!user && (user.role === 'admin' || user.tier === 'pro');
+}
+
+// Gates the paid analysis/API/export surface. 403 PRO_REQUIRED lets the
+// client show an upgrade prompt rather than a generic error.
+export function requirePro() {
+  const auth = requireAuth();
+  return (req, res, next) => {
+    auth(req, res, (err) => {
+      if (err) return next(err);
+      if (!isPro(req.user)) {
+        return res
+          .status(403)
+          .json({ error: 'This feature requires a Pro subscription', code: 'PRO_REQUIRED' });
+      }
+      next();
+    });
+  };
+}

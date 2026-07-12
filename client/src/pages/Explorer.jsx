@@ -1,16 +1,26 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useSearchParams, useNavigate } from 'react-router-dom';
+import * as d3 from 'd3';
 import { useApi } from '../hooks/useApi.js';
+import { useAuth } from '../auth/AuthContext.jsx';
 import StateYearPicker from '../components/StateYearPicker.jsx';
 import ColorModeToggle from '../components/ColorModeToggle.jsx';
 import ViewToggle from '../components/ViewToggle.jsx';
+import AnalysisControl from '../components/AnalysisControl.jsx';
+import AnalysisLegend from '../components/AnalysisLegend.jsx';
 import MapChoropleth from '../components/MapChoropleth.jsx';
 import SeatDonut from '../components/SeatDonut.jsx';
 import PartyLegend from '../components/PartyLegend.jsx';
 import ConstituencyPanel from '../components/ConstituencyPanel.jsx';
+import ConstituencyHistory from '../components/ConstituencyHistory.jsx';
+import WhatIfPanel from '../components/WhatIfPanel.jsx';
 import PartyChip from '../components/PartyChip.jsx';
+import { shareBandT } from '../lib/shareBands.js';
+import { marginColor } from '../lib/marginBands.js';
+import { swingColor } from '../lib/swingScale.js';
 
 const FALLBACK_COLOR = '#9e9e9e';
+const NO_DATA_FILL = '#e0e0e0';
 const DEFAULT_STATE = 'delhi';
 
 function latestYear(years) {
@@ -19,6 +29,11 @@ function latestYear(years) {
 
 export default function Explorer() {
   const [searchParams, setSearchParams] = useSearchParams();
+  const navigate = useNavigate();
+  const { user } = useAuth();
+  const isPro = user?.role === 'admin' || user?.tier === 'pro';
+  const goUpgrade = useCallback(() => navigate('/upgrade'), [navigate]);
+  const mapApiRef = useRef(null);
 
   const statesReq = useApi('/api/data/states', { cached: true });
   const partiesReq = useApi('/api/data/parties', { cached: true });
@@ -75,11 +90,15 @@ export default function Explorer() {
 
   const [colorMode, setColorMode] = useState('winner'); // 'winner' | party/alliance code
   const [selectedAc, setSelectedAc] = useState(null); // {acNo, acName} | null
+  const [analysis, setAnalysis] = useState(null); // null | 'margin' | {kind:'swing',code,fromYear}
+  const [whatIfOpen, setWhatIfOpen] = useState(false);
 
   // Selection can also change through browser back/forward (URL-driven), not
-  // just the picker handlers — drop a stale constituency selection either way.
+  // just the picker handlers — drop stale per-view state either way.
   useEffect(() => {
     setSelectedAc(null);
+    setAnalysis(null);
+    setWhatIfOpen(false);
   }, [selection?.slug, selection?.year]);
 
   const boundaryReq = useApi(
@@ -90,6 +109,19 @@ export default function Explorer() {
     selection ? `/api/data/${selection.slug}/${selection.year}/results` : null
   );
   const results = resultsReq.data;
+
+  // Swing mode needs the comparison election's results too.
+  const swingFromYear = analysis?.kind === 'swing' ? analysis.fromYear : null;
+  const compareReq = useApi(
+    selection && swingFromYear != null
+      ? `/api/data/${selection.slug}/${swingFromYear}/results`
+      : null
+  );
+  const compareByAc = useMemo(() => {
+    const map = new Map();
+    (compareReq.data?.constituencies || []).forEach((c) => map.set(c.ac_no, c));
+    return map;
+  }, [compareReq.data]);
 
   const resultsByAc = useMemo(() => {
     const map = new Map();
@@ -185,6 +217,97 @@ export default function Explorer() {
     [view]
   );
 
+  const otherYears = useMemo(
+    () => (selection?.state.years || []).filter((y) => y !== selection?.year).sort((a, b) => b - a),
+    [selection]
+  );
+
+  const swingPartyColor = analysis?.kind === 'swing' ? colorFor(analysis.code) : FALLBACK_COLOR;
+
+  // Ramp for the current share color mode (winner/share views).
+  const shareRamp = useMemo(
+    () => (effectiveMode === 'winner' ? null : d3.interpolateRgb('#ffffff', colorFor(effectiveMode))),
+    [effectiveMode, colorFor]
+  );
+
+  // The single fill function handed to the map, derived from the active mode.
+  const fillFor = useCallback(
+    (acNo) => {
+      const row = resultsByAc.get(acNo);
+      if (analysis === 'margin') {
+        return row?.winner ? marginColor(row.margin_pct) ?? NO_DATA_FILL : NO_DATA_FILL;
+      }
+      if (analysis?.kind === 'swing') {
+        const now = row ? shareOf(row, analysis.code) : 0;
+        const prevRow = compareByAc.get(acNo);
+        if (!row?.winner || !prevRow) return NO_DATA_FILL;
+        const prev = shareOf(prevRow, analysis.code);
+        return swingColor(now - prev, swingPartyColor);
+      }
+      if (effectiveMode === 'winner') {
+        const code = row ? winnerCodeOf(row) : null;
+        return code ? colorFor(code) : NO_DATA_FILL;
+      }
+      const t = shareBandT(row ? shareOf(row, effectiveMode) : 0);
+      return t == null ? '#ffffff' : shareRamp(t);
+    },
+    [analysis, resultsByAc, compareByAc, effectiveMode, colorFor, winnerCodeOf, shareOf, shareRamp, swingPartyColor]
+  );
+
+  const tooltipExtra = useCallback(
+    (row) => {
+      const lines = [];
+      const tag = winnerTag(row);
+      if (tag) lines.push({ text: `Alliance: ${tag}`, muted: true });
+      if (analysis?.kind === 'swing') {
+        const now = shareOf(row, analysis.code);
+        const prevRow = compareByAc.get(row.ac_no);
+        const prev = prevRow ? shareOf(prevRow, analysis.code) : null;
+        if (prev != null) {
+          const d = Math.round((now - prev) * 10) / 10;
+          lines.push({
+            text: `${analysis.code}: ${prev}% → ${now}% (${d > 0 ? '+' : ''}${d})`,
+          });
+        } else {
+          lines.push({ text: `${analysis.code}: no ${analysis.fromYear} data`, muted: true });
+        }
+      } else if (row.margin != null) {
+        lines.push({
+          text: `Margin: ${row.margin.toLocaleString('en-IN')}${row.margin_pct != null ? ` (${row.margin_pct}%)` : ''}`,
+          muted: true,
+        });
+      }
+      if (!analysis && effectiveMode !== 'winner') {
+        const s = shareOf(row, effectiveMode);
+        lines.push({ text: `${effectiveMode}: ${s > 0 ? `${s}%` : 'no votes'}`, muted: true });
+      }
+      return lines;
+    },
+    [analysis, effectiveMode, winnerTag, shareOf, compareByAc]
+  );
+
+  const baseStroke = analysis || effectiveMode !== 'winner' ? '#c9c9c9' : '#ffffff';
+
+  async function handleExportPng() {
+    if (!mapApiRef.current) return;
+    try {
+      const blob = await mapApiRef.current.exportPng(2);
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `${selection.slug}-${selection.year}-map.png`;
+      a.click();
+      URL.revokeObjectURL(url);
+    } catch {
+      /* map not ready — ignore */
+    }
+  }
+
+  function handleAnalysisChange(next) {
+    setAnalysis(next);
+    if (next) setWhatIfOpen(false);
+  }
+
   function handleStateChange(slug) {
     const st = (states || []).find((s) => s.slug === slug);
     if (!st || st.years.length === 0) return;
@@ -267,25 +390,77 @@ export default function Explorer() {
           onYearChange={handleYearChange}
         />
         {hasAlliances && <ViewToggle view={view} onChange={handleViewChange} />}
-        <ColorModeToggle
-          mode={effectiveMode}
-          parties={shareCodes}
-          onChange={setColorMode}
-        />
+        {!analysis && (
+          <ColorModeToggle
+            mode={effectiveMode}
+            parties={shareCodes}
+            onChange={setColorMode}
+          />
+        )}
+        <div className="toolbar-actions">
+          <AnalysisControl
+            analysis={analysis}
+            parties={shareCodes}
+            otherYears={otherYears}
+            isPro={isPro}
+            onChange={handleAnalysisChange}
+            onUpgrade={goUpgrade}
+          />
+          <button
+            type="button"
+            className="btn btn-secondary btn-sm"
+            onClick={() => {
+              if (!isPro) return goUpgrade();
+              setWhatIfOpen((v) => !v);
+              setAnalysis(null);
+            }}
+            title="Project seats under a uniform swing"
+          >
+            What-if{!isPro && <span className="pro-tag">PRO</span>}
+          </button>
+          <button
+            type="button"
+            className="btn btn-secondary btn-sm"
+            onClick={() => (isPro ? handleExportPng() : goUpgrade())}
+            title="Download the current map as PNG"
+          >
+            Export PNG{!isPro && <span className="pro-tag">PRO</span>}
+          </button>
+        </div>
       </div>
 
       <div className="explorer-body">
         <aside className="explorer-sidebar">
-          {selectedAc ? (
-            <ConstituencyPanel
-              acNo={selectedAc.acNo}
-              acName={selectedAc.acName}
-              constituency={selectedResult}
+          {whatIfOpen && results ? (
+            <WhatIfPanel
+              results={results}
+              parties={notableParties}
               partyColor={partyColor}
               partyName={partyName}
-              allianceOfParty={allianceOfParty}
-              onClose={() => setSelectedAc(null)}
+              onClose={() => setWhatIfOpen(false)}
             />
+          ) : selectedAc ? (
+            <>
+              <ConstituencyPanel
+                acNo={selectedAc.acNo}
+                acName={selectedAc.acName}
+                constituency={selectedResult}
+                partyColor={partyColor}
+                partyName={partyName}
+                allianceOfParty={allianceOfParty}
+                onClose={() => setSelectedAc(null)}
+              />
+              <div className="card sidebar-card">
+                <ConstituencyHistory
+                  slug={selection.slug}
+                  acNo={selectedAc.acNo}
+                  isPro={isPro}
+                  partyColor={partyColor}
+                  partyName={partyName}
+                  onUpgrade={goUpgrade}
+                />
+              </div>
+            </>
           ) : (
             <>
               <div className="card sidebar-card">
@@ -315,14 +490,18 @@ export default function Explorer() {
                       totalSeats={results.summary.total_seats}
                       partyColor={colorFor}
                     />
-                    <PartyLegend
-                      mode={effectiveMode}
-                      parties={groupRows}
-                      partyColor={colorFor}
-                      totalSeats={results.summary.total_seats}
-                      onPartyClick={(code) => setColorMode(code)}
-                      onBack={() => setColorMode('winner')}
-                    />
+                    {analysis ? (
+                      <AnalysisLegend analysis={analysis} swingPartyColor={swingPartyColor} />
+                    ) : (
+                      <PartyLegend
+                        mode={effectiveMode}
+                        parties={groupRows}
+                        partyColor={colorFor}
+                        totalSeats={results.summary.total_seats}
+                        onPartyClick={(code) => setColorMode(code)}
+                        onBack={() => setColorMode('winner')}
+                      />
+                    )}
                   </>
                 )}
               </div>
@@ -413,14 +592,16 @@ export default function Explorer() {
             <MapChoropleth
               boundary={boundaryReq.data}
               resultsByAc={resultsByAc}
-              colorFor={colorFor}
-              winnerCodeOf={winnerCodeOf}
-              shareOf={shareOf}
-              winnerTag={winnerTag}
-              colorMode={effectiveMode}
+              fillFor={fillFor}
+              baseStroke={baseStroke}
+              tooltipExtra={tooltipExtra}
               selectedAc={selectedAc}
               onSelect={handleSelectAc}
+              svgApiRef={mapApiRef}
             />
+          )}
+          {analysis?.kind === 'swing' && compareReq.loading && (
+            <div className="map-badge">Loading {analysis.fromYear}…</div>
           )}
         </div>
       </div>

@@ -1778,3 +1778,159 @@ button {
 .adm-import-report {
   margin-top: 14px;
 }
+
+/* ---------- analysis + monetization (Pro) ---------- */
+
+.toolbar-actions {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+
+.analysis-control {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.pro-tag {
+  display: inline-block;
+  margin-left: 5px;
+  padding: 0 5px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #f5a623, #e08a00);
+  color: #fff;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  vertical-align: 1px;
+}
+
+/* seat bar in the party legend (track + fill) */
+.legend-bar {
+  display: block;
+  flex: 1;
+  height: 5px;
+  margin: 0 8px;
+  border-radius: 3px;
+  background: #edeff3;
+  overflow: hidden;
+}
+
+.legend-bar-fill {
+  display: block;
+  height: 100%;
+  border-radius: 3px;
+}
+
+.map-badge {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 6;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: rgba(12, 21, 38, 0.85);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* seat history table */
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12.5px;
+}
+
+.history-table th,
+.history-table td {
+  text-align: left;
+  padding: 6px 6px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+}
+
+.history-table th {
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
+.history-table .num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.history-winner {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  max-width: 160px;
+}
+
+.history-cand {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.history-locked {
+  text-align: center;
+  padding: 4px 0;
+}
+
+.history-locked .btn {
+  margin-top: 8px;
+}
+
+/* what-if projector */
+.whatif-panel .whatif-controls {
+  margin-bottom: 14px;
+}
+
+.whatif-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 3px 0;
+}
+
+.whatif-slider {
+  flex: 1;
+  accent-color: var(--accent);
+}
+
+.whatif-delta {
+  width: 38px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-weight: 650;
+  font-size: 12.5px;
+}
+
+.whatif-table {
+  margin-top: 4px;
+}
+
+.delta-up {
+  color: var(--success);
+  font-weight: 700;
+}
+
+.delta-down {
+  color: var(--danger);
+  font-weight: 700;
+}
+
+.legend-vrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 6px;
+  font-size: 12.5px;
+}

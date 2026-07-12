@@ -2,7 +2,7 @@ import { pool } from './pool.js';
 
 // The public shape returned to clients; password_hash never leaves the db
 // layer except via findByEmail (needed for credential checks).
-const PUBLIC_COLS = 'id, email, display_name, role, must_change_password';
+const PUBLIC_COLS = 'id, email, display_name, role, tier, must_change_password';
 
 export async function findByEmail(email) {
   const { rows } = await pool.query(
@@ -53,6 +53,16 @@ export async function updateRole(id, role) {
      WHERE id = $1
      RETURNING ${PUBLIC_COLS}`,
     [id, role]
+  );
+  return rows[0] ?? null;
+}
+
+export async function updateTier(id, tier) {
+  const { rows } = await pool.query(
+    `UPDATE users SET tier = $2, updated_at = now()
+     WHERE id = $1
+     RETURNING ${PUBLIC_COLS}`,
+    [id, tier]
   );
   return rows[0] ?? null;
 }

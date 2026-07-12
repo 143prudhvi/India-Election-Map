@@ -11,6 +11,11 @@ CREATE TABLE IF NOT EXISTS users (
   updated_at           timestamptz NOT NULL DEFAULT now()
 );
 
+-- Subscription tier gating the paid features (advanced analysis, API, exports).
+-- Admins are implicitly 'pro' at the middleware level regardless of this value.
+ALTER TABLE users ADD COLUMN IF NOT EXISTS tier text NOT NULL DEFAULT 'free'
+  CHECK (tier IN ('free', 'pro'));
+
 -- Session table used by connect-pg-simple.
 CREATE TABLE IF NOT EXISTS "session" (
   "sid"    varchar NOT NULL COLLATE "default",
@@ -97,3 +102,37 @@ CREATE TABLE IF NOT EXISTS alliance_members (
   party_code  text NOT NULL REFERENCES parties(code),
   PRIMARY KEY (alliance_id, party_code)
 );
+
+-- ---------------------------------------------------------------------------
+-- Monetization: API keys and subscription/payment records.
+
+-- Only the SHA-256 hash of a key is stored; the plaintext is shown once at
+-- creation. key_prefix (first 8 chars) is kept for display ("iem_1a2b…").
+CREATE TABLE IF NOT EXISTS api_keys (
+  id          serial PRIMARY KEY,
+  user_id     int NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  name        text NOT NULL DEFAULT '',
+  key_prefix  text NOT NULL,
+  key_hash    text NOT NULL UNIQUE,
+  last_used_at timestamptz,
+  revoked     boolean NOT NULL DEFAULT false,
+  created_at  timestamptz NOT NULL DEFAULT now()
+);
+
+CREATE INDEX IF NOT EXISTS idx_api_keys_user ON api_keys(user_id);
+CREATE INDEX IF NOT EXISTS idx_api_keys_hash ON api_keys(key_hash);
+
+-- One row per user's current/most-recent subscription. Razorpay is the
+-- provider; rows are created/updated by the checkout flow + webhook.
+CREATE TABLE IF NOT EXISTS subscriptions (
+  id                      serial PRIMARY KEY,
+  user_id                 int NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  provider                text NOT NULL DEFAULT 'razorpay',
+  provider_subscription_id text UNIQUE,
+  status                  text NOT NULL DEFAULT 'created',
+  current_period_end      timestamptz,
+  created_at              timestamptz NOT NULL DEFAULT now(),
+  updated_at              timestamptz NOT NULL DEFAULT now()
+);
+
+CREATE INDEX IF NOT EXISTS idx_subscriptions_user ON subscriptions(user_id);

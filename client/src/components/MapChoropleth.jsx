@@ -1,23 +1,20 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useImperativeHandle, useMemo, useRef, useState } from 'react';
 import * as d3 from 'd3';
 import { feature } from 'topojson-client';
 import { shortPartyLabel } from '../lib/partyLabel.js';
 import { displayName } from '../lib/formatName.js';
-import { shareBandT } from '../lib/shareBands.js';
 
-const NO_DATA_FILL = '#e0e0e0';
 const MAX_ZOOM = 12;
 
 export default function MapChoropleth({
   boundary,
   resultsByAc,
-  colorFor, // (code) => color — party or alliance depending on the view
-  winnerCodeOf, // (row) => code|null used for winner-mode fill
-  shareOf, // (row, code) => vote_pct for share-mode fill
-  winnerTag, // (row) => string|null — extra muted tooltip line (alliance view)
-  colorMode, // 'winner' | party/alliance code
+  fillFor, // (acNo) => color string — computed per active map mode in Explorer
+  baseStroke = '#ffffff', // constituency outline color
+  tooltipExtra, // (row) => Array<{text, muted?}> — mode-specific tooltip lines
   selectedAc, // {acNo, acName} | null
   onSelect, // (ac|null) => void
+  svgApiRef, // optional ref -> { exportPng() } for the download button
 }) {
   const containerRef = useRef(null);
   const svgRef = useRef(null);
@@ -84,24 +81,6 @@ export default function MapChoropleth({
     }
   }, [selectedAc]);
 
-  const shareRamp = useMemo(() => {
-    if (colorMode === 'winner') return null;
-    return d3.interpolateRgb('#ffffff', colorFor(colorMode));
-  }, [colorMode, colorFor]);
-
-  function fillFor(acNo) {
-    const row = resultsByAc ? resultsByAc.get(acNo) : null;
-    if (colorMode === 'winner') {
-      const code = row ? winnerCodeOf(row) : null;
-      if (!code) return NO_DATA_FILL;
-      return colorFor(code);
-    }
-    // Fixed slabs (see lib/shareBands.js) — the same shade always means the
-    // same share, regardless of party or election.
-    const t = shareBandT(row ? shareOf(row, colorMode) : 0);
-    return t == null ? '#ffffff' : shareRamp(t);
-  }
-
   function zoomToFeature(f) {
     if (!geoPath || !svgRef.current || !zoomRef.current) return;
     const [[x0, y0], [x1, y1]] = geoPath.bounds(f);
@@ -134,17 +113,48 @@ export default function MapChoropleth({
     onSelect(null);
   }
 
-  const baseStroke = colorMode === 'winner' ? '#ffffff' : '#c9c9c9';
-
   const hoverEntry = hover ? paths.find((p) => p.feature.properties.ac_no === hover.acNo) : null;
   const selectedEntry = selectedAc
     ? paths.find((p) => p.feature.properties.ac_no === selectedAc.acNo)
     : null;
 
   const hoverRow = hover && resultsByAc ? resultsByAc.get(hover.acNo) : null;
-  const hoverShare =
-    hover && colorMode !== 'winner' && hoverRow ? shareOf(hoverRow, colorMode) : null;
-  const hoverTag = hoverRow && winnerTag ? winnerTag(hoverRow) : null;
+  const hoverLines = hoverRow && tooltipExtra ? tooltipExtra(hoverRow) : [];
+
+  // Rasterize the current SVG to a PNG blob for the download button.
+  useImperativeHandle(
+    svgApiRef,
+    () => ({
+      exportPng(scale = 2) {
+        return new Promise((resolve, reject) => {
+          const svg = svgRef.current;
+          if (!svg) return reject(new Error('map not ready'));
+          const w = size.width || 800;
+          const h = size.height || 600;
+          const clone = svg.cloneNode(true);
+          clone.setAttribute('width', w);
+          clone.setAttribute('height', h);
+          clone.setAttribute('viewBox', `0 0 ${w} ${h}`);
+          const xml = new XMLSerializer().serializeToString(clone);
+          const svg64 = `data:image/svg+xml;base64,${btoa(unescape(encodeURIComponent(xml)))}`;
+          const img = new Image();
+          img.onload = () => {
+            const canvas = document.createElement('canvas');
+            canvas.width = w * scale;
+            canvas.height = h * scale;
+            const ctx = canvas.getContext('2d');
+            ctx.fillStyle = '#ffffff';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+            canvas.toBlob((blob) => (blob ? resolve(blob) : reject(new Error('encode failed'))), 'image/png');
+          };
+          img.onerror = () => reject(new Error('render failed'));
+          img.src = svg64;
+        });
+      },
+    }),
+    [size.width, size.height]
+  );
 
   const tooltipStyle = hover
     ? {
@@ -229,18 +239,11 @@ export default function MapChoropleth({
               <div className="map-tooltip-line">
                 {displayName(hoverRow.winner.candidate)} ({shortPartyLabel(hoverRow.winner.party)})
               </div>
-              {hoverTag && <div className="map-tooltip-line muted">Alliance: {hoverTag}</div>}
-              {hoverRow.margin != null && (
-                <div className="map-tooltip-line muted">
-                  Margin: {hoverRow.margin.toLocaleString('en-IN')}
-                  {hoverRow.margin_pct != null ? ` (${hoverRow.margin_pct}%)` : ''}
+              {hoverLines.map((line, i) => (
+                <div key={i} className={line.muted ? 'map-tooltip-line muted' : 'map-tooltip-line'}>
+                  {line.text}
                 </div>
-              )}
-              {colorMode !== 'winner' && (
-                <div className="map-tooltip-line muted">
-                  {colorMode}: {hoverShare > 0 ? `${hoverShare}%` : 'no votes'}
-                </div>
-              )}
+              ))}
             </>
           ) : (
             <div className="map-tooltip-line muted">No result data</div>

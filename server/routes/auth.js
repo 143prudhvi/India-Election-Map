@@ -38,6 +38,7 @@ function publicUser(u) {
     email: u.email,
     display_name: u.display_name,
     role: u.role,
+    tier: u.tier,
     must_change_password: u.must_change_password,
   };
 }

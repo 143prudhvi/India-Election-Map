@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { requireAuth } from '../middleware/auth.js';
+import { requireAuth, requirePro } from '../middleware/auth.js';
 import * as data from '../db/electionData.js';
 
 const router = Router();
@@ -56,6 +56,21 @@ router.get('/:state/:year/results', async (req, res, next) => {
     if (!sy) return notFound(res);
     res.set('Cache-Control', 'private, no-cache');
     res.json(await data.getResults(sy.slug, sy.year));
+  } catch (err) {
+    next(err);
+  }
+});
+
+// Pro: one constituency's result across every election of the state.
+router.get('/:state/:acNo/history', requirePro(), async (req, res, next) => {
+  try {
+    if (!/^[0-9]{1,3}$/.test(req.params.acNo)) return notFound(res);
+    const manifest = await data.getManifest();
+    if (!manifest.some((s) => s.slug === req.params.state)) return notFound(res);
+    const result = await data.getConstituencyHistory(req.params.state, Number(req.params.acNo));
+    if (!result) return notFound(res);
+    res.set('Cache-Control', 'private, no-cache');
+    res.json(result);
   } catch (err) {
     next(err);
   }

@@ -108,6 +108,29 @@ export async function getResults(slug, year) {
   return view;
 }
 
+/** One constituency's result across every election of its state, joined by
+ *  ac_no (approximate across delimitations, exact for unchanged boundaries). */
+export async function getConstituencyHistory(slug, acNo) {
+  const manifest = await getManifest();
+  const state = manifest.find((s) => s.slug === slug);
+  if (!state) return null;
+  const history = [];
+  for (const year of state.years) {
+    const view = await getResults(slug, year);
+    const c = view?.constituencies.find((x) => x.ac_no === acNo);
+    if (!c) continue;
+    history.push({
+      year,
+      ac_name: c.ac_name,
+      winner: c.winner,
+      runner_up: c.runner_up,
+      margin: c.margin,
+      margin_pct: c.margin_pct,
+    });
+  }
+  return { state: slug, ac_no: acNo, history };
+}
+
 // -------------------------------------------------------------- mutations
 
 export class DataError extends Error {

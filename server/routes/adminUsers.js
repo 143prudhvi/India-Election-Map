@@ -20,6 +20,7 @@ const createSchema = z.object({
 const patchSchema = z.object({
   display_name: z.string().trim().max(200, 'Display name is too long').optional(),
   role: z.enum(['admin', 'user']).optional(),
+  tier: z.enum(['free', 'pro']).optional(),
 });
 
 function newTempPassword() {
@@ -68,7 +69,7 @@ router.patch('/:id', validate(patchSchema), async (req, res, next) => {
   try {
     const id = parseId(req, res);
     if (id === null) return;
-    const { display_name, role } = req.body;
+    const { display_name, role, tier } = req.body;
 
     let user = await users.findById(id);
     if (!user) {
@@ -80,6 +81,9 @@ router.patch('/:id', validate(patchSchema), async (req, res, next) => {
 
     if (display_name !== undefined) {
       user = await users.updateProfile(id, display_name);
+    }
+    if (tier !== undefined && tier !== user.tier) {
+      user = await users.updateTier(id, tier);
     }
     if (role === 'user' && user.role === 'admin') {
       // Atomic with the last-admin check — see users.demoteAdminGuarded.

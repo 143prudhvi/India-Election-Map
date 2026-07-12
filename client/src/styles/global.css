@@ -1440,3 +1440,285 @@ button {
     right: -40%;
   }
 }
+
+/* ---------- admin data ---------- */
+
+.adm-tabs {
+  margin-bottom: 18px;
+}
+
+.mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 12.5px;
+}
+
+/* Toolbar above the parties table: search + raw toggle + export */
+.adm-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.adm-search {
+  width: 260px;
+}
+
+.adm-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--text-muted);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.adm-push-right {
+  margin-left: auto;
+}
+
+/* 28px square color pickers */
+.swatch-input {
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 1px solid var(--border-strong);
+  border-radius: 6px;
+  background: none;
+  cursor: pointer;
+}
+
+.swatch-input::-webkit-color-swatch-wrapper {
+  padding: 2px;
+}
+
+.swatch-input::-webkit-color-swatch {
+  border: none;
+  border-radius: 4px;
+}
+
+.swatch-input::-moz-color-swatch {
+  border: none;
+  border-radius: 4px;
+}
+
+/* Compact inputs inside table cells */
+.input-cell {
+  padding: 5px 8px;
+  font-size: 13px;
+}
+
+.admin-table .row-error td {
+  color: var(--danger);
+  font-size: 12.5px;
+  padding-top: 0;
+}
+
+.adm-more {
+  color: var(--text-muted);
+  font-size: 12.5px;
+  margin-top: 10px;
+}
+
+.adm-empty {
+  color: var(--text-muted);
+  padding: 10px 0;
+}
+
+/* Inline form rows (add-party card, state/year pickers, editors) */
+.adm-form-row,
+.adm-picker-row {
+  display: flex;
+  gap: 14px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.adm-picker-row {
+  margin-bottom: 14px;
+}
+
+.adm-form-row .field,
+.adm-picker-row .field {
+  margin-bottom: 0;
+}
+
+.adm-form-row .field {
+  flex: 1 1 180px;
+}
+
+.adm-field-inline {
+  flex: 0 0 auto;
+}
+
+.adm-field-grow {
+  flex: 1 1 220px;
+}
+
+.adm-form-row .adm-field-code,
+.adm-field-code {
+  flex: 0 1 120px;
+}
+
+.adm-form-row .adm-field-swatch,
+.adm-field-swatch {
+  flex: 0 0 auto;
+}
+
+.adm-form-row .adm-field-submit {
+  flex: 0 0 auto;
+}
+
+.adm-picker-row .adm-check {
+  padding-bottom: 9px;
+}
+
+.adm-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+
+.adm-election-actions {
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+
+/* Alliance bloc cards */
+.bloc-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: #fafbfd;
+  padding: 14px;
+  margin-bottom: 12px;
+}
+
+.bloc-head {
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.bloc-head .field {
+  margin-bottom: 0;
+}
+
+/* Tag input: neutral chips like .party-chip, plus an inline free-text input */
+.tag-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 6px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+}
+
+.tag-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 2px 5px 2px 9px;
+  border-radius: 999px;
+  background: var(--bg);
+  border: 1px solid var(--border-strong);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 11.5px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.tag-chip-x {
+  border: none;
+  background: none;
+  padding: 0 3px;
+  font-size: 13px;
+  line-height: 1;
+  color: var(--text-muted);
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.tag-chip-x:hover {
+  color: var(--danger);
+}
+
+.tag-input {
+  border: none;
+  outline: none;
+  background: none;
+  font: inherit;
+  font-size: 13px;
+  color: var(--text);
+  flex: 1 1 140px;
+  min-width: 140px;
+  padding: 2px 4px;
+}
+
+.adm-saved-summary {
+  margin-top: 16px;
+  max-width: 520px;
+}
+
+/* Constituency editor (Results tab) */
+.adm-editor {
+  border-top: 1px solid var(--border);
+  padding-top: 14px;
+  margin-top: 4px;
+}
+
+.adm-current-winner {
+  background: #f8f9fb;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  padding: 8px 12px;
+  margin-bottom: 14px;
+  font-size: 13px;
+}
+
+.adm-current-winner .label {
+  margin-bottom: 2px;
+}
+
+.adm-candidates-edit .adm-votes-col {
+  width: 120px;
+}
+
+.adm-votes-input {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.adm-num-col {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Import tab */
+.adm-year-input {
+  width: 100px;
+}
+
+.adm-file-input {
+  font-size: 13px;
+}
+
+.import-textarea {
+  min-height: 180px;
+  resize: vertical;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.adm-import-report {
+  margin-top: 14px;
+}

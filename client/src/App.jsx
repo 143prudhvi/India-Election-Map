@@ -7,6 +7,7 @@ import ForceChangePassword from './pages/ForceChangePassword.jsx';
 import Explorer from './pages/Explorer.jsx';
 import Profile from './pages/Profile.jsx';
 import AdminUsers from './pages/AdminUsers.jsx';
+import AdminData from './pages/AdminData.jsx';
 
 export default function App() {
   return (
@@ -43,6 +44,11 @@ function Header({ minimal = false }) {
           {user?.role === 'admin' && (
             <NavLink to="/admin/users" className={navLinkClass}>
               Admin Users
+            </NavLink>
+          )}
+          {user?.role === 'admin' && (
+            <NavLink to="/admin/data" className={navLinkClass}>
+              Data
             </NavLink>
           )}
         </nav>
@@ -113,6 +119,14 @@ function AppShell() {
             element={
               <RequireAdmin>
                 <AdminUsers />
+              </RequireAdmin>
+            }
+          />
+          <Route
+            path="/admin/data"
+            element={
+              <RequireAdmin>
+                <AdminData />
               </RequireAdmin>
             }
           />

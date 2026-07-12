@@ -34,13 +34,14 @@ export default function VoteShareTable({
   const rows = (isAlliance ? alliances : parties) || [];
 
   return (
+    <>
     <table className="vote-table">
       <thead>
         <tr>
           <th>{isAlliance ? 'Alliance / party' : 'Party'}</th>
-          <th className="n">Seats</th>
-          <th className="dual-col">Seats · votes</th>
-          <th className="n">Votes</th>
+          <th className="n seats-head">Seats</th>
+          <th className="dual-col" aria-label="Seat share versus vote share" />
+          <th className="n votes-head">Votes</th>
         </tr>
       </thead>
       <tbody>
@@ -67,6 +68,10 @@ export default function VoteShareTable({
         })}
       </tbody>
     </table>
+    <p className="legend-note vote-table-note">
+      Bars: seat share (top) vs vote share (bottom)
+    </p>
+    </>
   );
 }
 

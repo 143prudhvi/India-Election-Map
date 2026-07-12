@@ -70,8 +70,16 @@ entries are allowed when a major party contested alone. Run
 its alliance, precomputes per-alliance vote shares and seat summaries, and
 prints validation notes (a party in two alliances is a build error; friendly
 fights and no-show parties are informational). States/years with alliance
-data get a "Parties | Alliances" toggle in the Explorer. Currently seeded:
-Andhra Pradesh 2024.
+data get a "Parties | Alliances" toggle in the Explorer.
+
+Seeded for 37 elections across 17 states (AP, Assam, Bihar, Chhattisgarh
+2018, Goa, J&K, Jharkhand, Kerala, Maharashtra 2019, Nagaland, Puducherry,
+Punjab, TN, Telangana, Tripura, UP, WB) — every bloc's seat total verified
+against the officially reported outcome. States whose elections had no
+meaningful pre-poll alliances (Delhi, Karnataka, MP, Gujarat, ...) are
+intentionally absent. Known limitation: alliance-backed independents count
+under Others (they share the IND code), so e.g. Kerala LDF shows 84 rather
+than the headline 91 for 2016.
 
 ### Adding a new election
 

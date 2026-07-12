@@ -1,25 +1,223 @@
 {
-  "$comment": "Pre-poll alliances, defined per state per year (compositions change every cycle — never assume continuity). Party codes must match data/parties.json. A single-party entry is allowed when a major party contested alone and deserves its own bloc in the alliance view. Parties not listed anywhere count as Others/Unaligned. Run `npm run pipeline` after editing and review the ALLIANCE NOTES in its output.",
+  "$comment": "Pre-poll alliances, defined per state per year (compositions change every cycle — never assume continuity). Party codes must match data/parties.json. A single-party entry is allowed when a major party contested alone and deserves its own bloc in the alliance view. Parties not listed anywhere count as Others/Unaligned. Only pre-poll contest alliances are recorded — post-poll government formation does not belong here. State-years with no meaningful pre-poll alliances (e.g. Delhi, Karnataka, MP) are intentionally absent. Known limitation: alliance-backed INDEPENDENTS cannot be attributed to their bloc (they all share the IND code), so e.g. Kerala LDF totals run a few seats below the headline number (2011: 66 vs 68, 2016: 84 vs 91 — the gap is LDF-backed independents). Every other bloc's seat total here has been verified against the officially reported outcome. Run `npm run pipeline` after editing and review the ALLIANCE NOTES in its output.",
   "andhra-pradesh": {
+    "2014": [
+      { "code": "NDA", "name": "TDP–BJP alliance (NDA)", "color": "#f59e0b", "parties": ["TDP", "BJP"] },
+      { "code": "YSRCP", "name": "YSR Congress Party (contested alone)", "color": "#1d4ed8", "parties": ["YSRCP"] },
+      { "code": "INC", "name": "Indian National Congress (contested alone)", "color": "#19aaed", "parties": ["INC"] }
+    ],
+    "2019": [
+      { "code": "YSRCP", "name": "YSR Congress Party (contested alone)", "color": "#1d4ed8", "parties": ["YSRCP"] },
+      { "code": "TDP", "name": "Telugu Desam Party (contested alone)", "color": "#eab308", "parties": ["TDP"] },
+      { "code": "JSP+", "name": "Janasena–BSP–Left front", "color": "#dc2626", "parties": ["JSP", "BSP", "CPI", "CPI(M)"] },
+      { "code": "BJP", "name": "Bharatiya Janata Party (contested alone)", "color": "#ff9933", "parties": ["BJP"] },
+      { "code": "INC", "name": "Indian National Congress (contested alone)", "color": "#19aaed", "parties": ["INC"] }
+    ],
     "2024": [
-      {
-        "code": "NDA",
-        "name": "National Democratic Alliance (TDP + JSP + BJP)",
-        "color": "#f59e0b",
-        "parties": ["TDP", "JSP", "BJP"]
-      },
-      {
-        "code": "YSRCP",
-        "name": "YSR Congress Party (contested alone)",
-        "color": "#1d4ed8",
-        "parties": ["YSRCP"]
-      },
-      {
-        "code": "INDIA",
-        "name": "INDIA bloc (INC + Left)",
-        "color": "#19aaed",
-        "parties": ["INC", "CPI", "CPI(M)"]
-      }
+      { "code": "NDA", "name": "National Democratic Alliance (TDP + JSP + BJP)", "color": "#f59e0b", "parties": ["TDP", "JSP", "BJP"] },
+      { "code": "YSRCP", "name": "YSR Congress Party (contested alone)", "color": "#1d4ed8", "parties": ["YSRCP"] },
+      { "code": "INDIA", "name": "INDIA bloc (INC + Left)", "color": "#19aaed", "parties": ["INC", "CPI", "CPI(M)"] }
+    ]
+  },
+  "assam": {
+    "2016": [
+      { "code": "NDA", "name": "NDA (BJP + AGP + BPF)", "color": "#f97316", "parties": ["BJP", "AGP", "BOPF"] },
+      { "code": "INC", "name": "Indian National Congress", "color": "#19aaed", "parties": ["INC"] },
+      { "code": "AIUDF", "name": "All India United Democratic Front", "color": "#348017", "parties": ["AIUDF"] }
+    ],
+    "2021": [
+      { "code": "NDA", "name": "NDA (BJP + AGP + UPPL)", "color": "#f97316", "parties": ["BJP", "AGP", "UPPL"] },
+      { "code": "MGJ", "name": "Mahajot (INC + AIUDF + BPF + Left)", "color": "#19aaed", "parties": ["INC", "AIUDF", "BOPF", "CPI", "CPI(M)", "CPI(ML)(L)"] }
+    ]
+  },
+  "bihar": {
+    "2010": [
+      { "code": "NDA", "name": "NDA (JD(U) + BJP)", "color": "#f97316", "parties": ["JD(U)", "BJP"] },
+      { "code": "RJD+", "name": "RJD–LJP alliance", "color": "#15803d", "parties": ["RJD", "LJP"] },
+      { "code": "INC", "name": "Indian National Congress (contested alone)", "color": "#19aaed", "parties": ["INC"] }
+    ],
+    "2015": [
+      { "code": "MGB", "name": "Mahagathbandhan (JD(U) + RJD + INC)", "color": "#15803d", "parties": ["JD(U)", "RJD", "INC"] },
+      { "code": "NDA", "name": "NDA (BJP + LJP + RLSP + HAM)", "color": "#f97316", "parties": ["BJP", "LJP", "RLSP", "HAMS"] }
+    ],
+    "2020": [
+      { "code": "NDA", "name": "NDA (BJP + JD(U) + VIP + HAM)", "color": "#f97316", "parties": ["BJP", "JD(U)", "VIP", "HAMS"] },
+      { "code": "MGB", "name": "Mahagathbandhan (RJD + INC + Left)", "color": "#15803d", "parties": ["RJD", "INC", "CPI(ML)(L)", "CPI", "CPI(M)"] },
+      { "code": "LJP", "name": "Lok Jan Shakti Party (contested alone)", "color": "#0093dd", "parties": ["LJP"] }
+    ]
+  },
+  "chhattisgarh": {
+    "2018": [
+      { "code": "INC", "name": "Indian National Congress", "color": "#19aaed", "parties": ["INC"] },
+      { "code": "BJP", "name": "Bharatiya Janata Party", "color": "#f97316", "parties": ["BJP"] },
+      { "code": "JCC+", "name": "JCC(J)–BSP alliance", "color": "#d81b60", "parties": ["JCCJ", "BSP"] }
+    ]
+  },
+  "goa": {
+    "2012": [
+      { "code": "NDA", "name": "BJP–MGP alliance", "color": "#f97316", "parties": ["BJP", "MAG"] },
+      { "code": "INC+", "name": "INC–NCP alliance", "color": "#19aaed", "parties": ["INC", "NCP"] }
+    ],
+    "2022": [
+      { "code": "BJP", "name": "Bharatiya Janata Party (contested alone)", "color": "#f97316", "parties": ["BJP"] },
+      { "code": "INC+", "name": "INC–Goa Forward alliance", "color": "#19aaed", "parties": ["INC", "GFP"] },
+      { "code": "TMC+", "name": "TMC–MGP alliance", "color": "#16a34a", "parties": ["AITC", "MAG"] },
+      { "code": "AAP", "name": "Aam Aadmi Party (contested alone)", "color": "#0066a4", "parties": ["AAP"] }
+    ]
+  },
+  "jammu-and-kashmir": {
+    "2024": [
+      { "code": "INDIA", "name": "NC–INC alliance (INDIA bloc)", "color": "#d92d20", "parties": ["JKNC", "INC", "CPI(M)"] },
+      { "code": "PDP", "name": "J&K Peoples Democratic Party (contested alone)", "color": "#4db6ac", "parties": ["JKPDP"] },
+      { "code": "BJP", "name": "Bharatiya Janata Party (contested alone)", "color": "#f97316", "parties": ["BJP"] }
+    ]
+  },
+  "jharkhand": {
+    "2014": [
+      { "code": "NDA", "name": "BJP–AJSU alliance", "color": "#f97316", "parties": ["BJP", "AJSUP"] },
+      { "code": "INC+", "name": "INC–RJD–JD(U) alliance", "color": "#19aaed", "parties": ["INC", "RJD", "JD(U)"] },
+      { "code": "JMM", "name": "Jharkhand Mukti Morcha (contested alone)", "color": "#215b30", "parties": ["JMM"] },
+      { "code": "JVM", "name": "Jharkhand Vikas Morcha (contested alone)", "color": "#c0ca33", "parties": ["JVM"] }
+    ],
+    "2019": [
+      { "code": "MGB", "name": "Mahagathbandhan (JMM + INC + RJD)", "color": "#215b30", "parties": ["JMM", "INC", "RJD"] },
+      { "code": "BJP", "name": "Bharatiya Janata Party (contested alone)", "color": "#f97316", "parties": ["BJP"] },
+      { "code": "AJSUP", "name": "AJSU Party (contested alone)", "color": "#c026d3", "parties": ["AJSUP"] },
+      { "code": "JVM", "name": "Jharkhand Vikas Morcha (contested alone)", "color": "#c0ca33", "parties": ["JVM"] }
+    ]
+  },
+  "kerala": {
+    "2011": [
+      { "code": "UDF", "name": "United Democratic Front (INC-led)", "color": "#1565c0", "parties": ["INC", "IUML", "KEC(M)", "KEC(J)", "KEC(B)", "SJD", "KRSP"] },
+      { "code": "LDF", "name": "Left Democratic Front (CPI(M)-led)", "color": "#c62828", "parties": ["CPI(M)", "CPI", "JD(S)", "NCP", "RSP"] },
+      { "code": "BJP", "name": "Bharatiya Janata Party", "color": "#f97316", "parties": ["BJP"] }
+    ],
+    "2016": [
+      { "code": "LDF", "name": "Left Democratic Front (CPI(M)-led)", "color": "#c62828", "parties": ["CPI(M)", "CPI", "JD(S)", "NCP", "C(S)", "KEC(B)"] },
+      { "code": "UDF", "name": "United Democratic Front (INC-led)", "color": "#1565c0", "parties": ["INC", "IUML", "KEC(M)", "KEC(J)", "RSP"] },
+      { "code": "NDA", "name": "NDA (BJP-led)", "color": "#f97316", "parties": ["BJP"] }
+    ]
+  },
+  "maharashtra": {
+    "2019": [
+      { "code": "NDA", "name": "BJP–Shiv Sena alliance (Mahayuti)", "color": "#f97316", "parties": ["BJP", "SHS"] },
+      { "code": "UPA", "name": "INC–NCP alliance (Aghadi)", "color": "#19aaed", "parties": ["INC", "NCP"] }
+    ]
+  },
+  "nagaland": {
+    "2013": [
+      { "code": "DAN", "name": "Democratic Alliance of Nagaland (NPF + BJP)", "color": "#990066", "parties": ["NPF", "BJP"] },
+      { "code": "INC", "name": "Indian National Congress", "color": "#19aaed", "parties": ["INC"] }
+    ],
+    "2018": [
+      { "code": "NDPP+", "name": "NDPP–BJP alliance", "color": "#ed1b24", "parties": ["NDPP", "BJP"] },
+      { "code": "NPF", "name": "Naga Peoples Front (contested alone)", "color": "#990066", "parties": ["NPF"] }
+    ]
+  },
+  "puducherry": {
+    "2011": [
+      { "code": "AINRC+", "name": "AINRC–AIADMK front", "color": "#546e7a", "parties": ["AINRC", "AIADMK"] },
+      { "code": "DMK+", "name": "DMK–INC front", "color": "#dd1100", "parties": ["DMK", "INC"] }
+    ],
+    "2016": [
+      { "code": "INC+", "name": "INC–DMK front", "color": "#19aaed", "parties": ["INC", "DMK"] },
+      { "code": "AINRC", "name": "All India N.R. Congress (contested alone)", "color": "#546e7a", "parties": ["AINRC"] },
+      { "code": "AIADMK", "name": "AIADMK (contested alone)", "color": "#138808", "parties": ["AIADMK"] }
+    ]
+  },
+  "punjab": {
+    "2012": [
+      { "code": "SAD+", "name": "SAD–BJP alliance", "color": "#ebc634", "parties": ["SAD", "BJP"] },
+      { "code": "INC", "name": "Indian National Congress (contested alone)", "color": "#19aaed", "parties": ["INC"] }
+    ],
+    "2017": [
+      { "code": "INC", "name": "Indian National Congress (contested alone)", "color": "#19aaed", "parties": ["INC"] },
+      { "code": "AAP+", "name": "AAP–Lok Insaaf alliance", "color": "#0066a4", "parties": ["AAP", "LIP"] },
+      { "code": "SAD+", "name": "SAD–BJP alliance", "color": "#ebc634", "parties": ["SAD", "BJP"] }
+    ],
+    "2022": [
+      { "code": "AAP", "name": "Aam Aadmi Party (contested alone)", "color": "#0066a4", "parties": ["AAP"] },
+      { "code": "INC", "name": "Indian National Congress (contested alone)", "color": "#19aaed", "parties": ["INC"] },
+      { "code": "SAD+", "name": "SAD–BSP alliance", "color": "#ebc634", "parties": ["SAD", "BSP"] },
+      { "code": "BJP", "name": "Bharatiya Janata Party", "color": "#f97316", "parties": ["BJP"] }
+    ]
+  },
+  "tamil-nadu": {
+    "2011": [
+      { "code": "ADMK+", "name": "AIADMK front (with DMDK + Left)", "color": "#138808", "parties": ["AIADMK", "DMDK", "CPI", "CPI(M)", "MAMAK", "PT", "AIFB"] },
+      { "code": "DMK+", "name": "DMK front (with INC + PMK)", "color": "#dd1100", "parties": ["DMK", "INC", "PMK"] }
+    ],
+    "2016": [
+      { "code": "ADMK", "name": "AIADMK (contested alone)", "color": "#138808", "parties": ["AIADMK"] },
+      { "code": "DMK+", "name": "DMK front (with INC + IUML)", "color": "#dd1100", "parties": ["DMK", "INC", "IUML"] },
+      { "code": "PWF", "name": "People's Welfare Front (DMDK + Left)", "color": "#6a1b9a", "parties": ["DMDK", "CPI", "CPI(M)"] },
+      { "code": "PMK", "name": "Pattali Makkal Katchi (contested alone)", "color": "#f4c430", "parties": ["PMK"] }
+    ]
+  },
+  "telangana": {
+    "2014": [
+      { "code": "TRS", "name": "Telangana Rashtra Samithi (contested alone)", "color": "#db2777", "parties": ["TRS"] },
+      { "code": "TDP+", "name": "TDP–BJP alliance", "color": "#eab308", "parties": ["TDP", "BJP"] },
+      { "code": "INC", "name": "Indian National Congress (contested alone)", "color": "#19aaed", "parties": ["INC"] },
+      { "code": "AIMIM", "name": "All India Majlis-E-Ittehadul Muslimeen", "color": "#136b4b", "parties": ["AIMIM"] }
+    ],
+    "2018": [
+      { "code": "TRS", "name": "Telangana Rashtra Samithi (contested alone)", "color": "#db2777", "parties": ["TRS"] },
+      { "code": "KUTAMI", "name": "Prajakutami (INC + TDP + CPI)", "color": "#19aaed", "parties": ["INC", "TDP", "CPI"] },
+      { "code": "BJP", "name": "Bharatiya Janata Party (contested alone)", "color": "#f97316", "parties": ["BJP"] },
+      { "code": "AIMIM", "name": "All India Majlis-E-Ittehadul Muslimeen", "color": "#136b4b", "parties": ["AIMIM"] }
+    ],
+    "2023": [
+      { "code": "INC+", "name": "INC–CPI alliance", "color": "#19aaed", "parties": ["INC", "CPI"] },
+      { "code": "BRS", "name": "Bharat Rashtra Samithi (contested alone)", "color": "#db2777", "parties": ["TRS"] },
+      { "code": "BJP+", "name": "BJP–Janasena alliance", "color": "#f97316", "parties": ["BJP", "JSP"] },
+      { "code": "AIMIM", "name": "All India Majlis-E-Ittehadul Muslimeen", "color": "#136b4b", "parties": ["AIMIM"] }
+    ]
+  },
+  "tripura": {
+    "2013": [
+      { "code": "LF", "name": "Left Front (CPI(M)-led)", "color": "#c62828", "parties": ["CPI(M)", "CPI", "RSP", "AIFB"] },
+      { "code": "INC", "name": "Indian National Congress", "color": "#19aaed", "parties": ["INC"] }
+    ],
+    "2018": [
+      { "code": "BJP+", "name": "BJP–IPFT alliance", "color": "#f97316", "parties": ["BJP", "IPFT"] },
+      { "code": "LF", "name": "Left Front (CPI(M)-led)", "color": "#c62828", "parties": ["CPI(M)", "CPI", "RSP", "AIFB"] },
+      { "code": "INC", "name": "Indian National Congress", "color": "#19aaed", "parties": ["INC"] }
+    ]
+  },
+  "uttar-pradesh": {
+    "2012": [
+      { "code": "SP", "name": "Samajwadi Party (contested alone)", "color": "#dc2626", "parties": ["SP"] },
+      { "code": "BSP", "name": "Bahujan Samaj Party (contested alone)", "color": "#22409a", "parties": ["BSP"] },
+      { "code": "BJP", "name": "Bharatiya Janata Party (contested alone)", "color": "#f97316", "parties": ["BJP"] },
+      { "code": "INC+", "name": "INC–RLD alliance", "color": "#19aaed", "parties": ["INC", "RLD"] }
+    ],
+    "2017": [
+      { "code": "BJP+", "name": "BJP–Apna Dal(S)–SBSP alliance", "color": "#f97316", "parties": ["BJP", "ADAL", "SBSP"] },
+      { "code": "SP+", "name": "SP–INC gathbandhan", "color": "#dc2626", "parties": ["SP", "INC"] },
+      { "code": "BSP", "name": "Bahujan Samaj Party (contested alone)", "color": "#22409a", "parties": ["BSP"] }
+    ],
+    "2022": [
+      { "code": "BJP+", "name": "BJP–Apna Dal(S)–NISHAD alliance", "color": "#f97316", "parties": ["BJP", "ADAL", "NISHAD"] },
+      { "code": "SP+", "name": "SP–RLD–SBSP alliance", "color": "#dc2626", "parties": ["SP", "RLD", "SBSP"] },
+      { "code": "BSP", "name": "Bahujan Samaj Party (contested alone)", "color": "#22409a", "parties": ["BSP"] },
+      { "code": "INC", "name": "Indian National Congress (contested alone)", "color": "#19aaed", "parties": ["INC"] }
+    ]
+  },
+  "west-bengal": {
+    "2011": [
+      { "code": "TMC+", "name": "TMC–INC alliance", "color": "#16a34a", "parties": ["AITC", "INC", "SUCI"] },
+      { "code": "LF", "name": "Left Front (CPI(M)-led)", "color": "#c62828", "parties": ["CPI(M)", "CPI", "RSP", "AIFB", "DSP(P)", "SP"] }
+    ],
+    "2016": [
+      { "code": "TMC", "name": "All India Trinamool Congress (contested alone)", "color": "#16a34a", "parties": ["AITC"] },
+      { "code": "LF+INC", "name": "Left–Congress alliance", "color": "#c62828", "parties": ["CPI(M)", "CPI", "RSP", "AIFB", "DSP(P)", "INC"] },
+      { "code": "BJP", "name": "Bharatiya Janata Party (contested alone)", "color": "#f97316", "parties": ["BJP"] }
+    ],
+    "2021": [
+      { "code": "TMC", "name": "All India Trinamool Congress (contested alone)", "color": "#16a34a", "parties": ["AITC"] },
+      { "code": "BJP", "name": "Bharatiya Janata Party (contested alone)", "color": "#f97316", "parties": ["BJP"] },
+      { "code": "SM", "name": "Sanyukta Morcha (Left + INC + ISF)", "color": "#c62828", "parties": ["CPI(M)", "CPI", "RSP", "AIFB", "INC", "RSSCMJP"] }
     ]
   }
 }

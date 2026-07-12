@@ -726,15 +726,35 @@ button {
 
 .explorer-toolbar {
   display: flex;
+  justify-content: space-between;
   align-items: flex-end;
-  gap: 20px;
+  gap: 14px 28px;
   flex-wrap: wrap;
-  padding: 12px 20px;
+  padding: 13px 22px;
   background: var(--surface);
   border-bottom: 1px solid var(--border);
+  box-shadow: 0 1px 0 rgba(12, 21, 38, 0.03), 0 6px 16px -12px rgba(12, 21, 38, 0.18);
   flex: 0 0 auto;
   position: relative;
   z-index: 10;
+}
+
+.toolbar-primary,
+.toolbar-tools {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.toolbar-tools {
+  gap: 14px;
+}
+
+.toolbar-buttons {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
 }
 
 .state-year-picker {
@@ -746,13 +766,27 @@ button {
   display: block;
 }
 
-.picker-field .select {
-  width: auto;
-  min-width: 150px;
+.picker-field .label {
+  margin-bottom: 6px;
 }
 
-.color-mode-toggle {
-  margin-left: auto;
+.picker-field .select {
+  width: auto;
+  min-width: 152px;
+  height: 38px;
+}
+
+/* keep the buttons visually aligned with the labelled selects' input row */
+.toolbar-buttons .btn-sm {
+  height: 38px;
+  padding: 0 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.analysis-control .select {
+  height: 38px;
 }
 
 /* Parties | Alliances segmented toggle */
@@ -1484,8 +1518,27 @@ button {
     margin-left: 0;
   }
 
+  /* Let the nav links scroll horizontally instead of overflowing the header. */
+  .app-header {
+    gap: 12px;
+    padding: 0 14px;
+  }
+
   .app-nav {
     gap: 0;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .app-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-link {
+    white-space: nowrap;
+    padding: 6px 10px;
   }
 
   .user-chip {

@@ -2,18 +2,25 @@
    .card / .btn* / .badge* / .notice* / .modal* / .admin-table classes. */
 
 .api-usage {
-  margin: 0.5rem 0 0.75rem;
-  padding: 0.75rem 1rem;
-  border-radius: 8px;
-  background: rgba(0, 0, 0, 0.35);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  color: #e6e6e6;
+  margin: 8px 0 12px;
+  padding: 12px 14px;
+  border-radius: var(--radius-sm, 8px);
+  background: linear-gradient(180deg, #16203a, #0f1830);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  color: #d7e0f2;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  font-size: 0.85rem;
-  line-height: 1.5;
+  font-size: 12.5px;
+  line-height: 1.6;
   white-space: pre-wrap;
   word-break: break-all;
   overflow-x: auto;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+/* highlight the base URL / header names inside the usage block */
+.api-usage strong {
+  color: #ffffff;
+  font-weight: 600;
 }
 
 .api-key-full {

@@ -84,7 +84,7 @@ export default function Login() {
         </form>
 
         <p className="login-footnote">
-          30 states &amp; union territories · 78 elections · 2010–2024
+          30 states &amp; union territories · assembly elections 2010–2026
         </p>
       </div>
     </div>

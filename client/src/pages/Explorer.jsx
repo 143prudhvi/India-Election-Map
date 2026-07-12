@@ -383,29 +383,24 @@ export default function Explorer() {
   return (
     <div className="explorer">
       <div className="explorer-toolbar">
-        <StateYearPicker
-          states={states}
-          selectedState={selection.slug}
-          selectedYear={selection.year}
-          onStateChange={handleStateChange}
-          onYearChange={handleYearChange}
-        />
-        {hasAlliances && <ViewToggle view={view} onChange={handleViewChange} />}
-        {!analysis && (
-          <ColorModeToggle
-            mode={effectiveMode}
-            parties={shareCodes}
-            onChange={setColorMode}
+        <div className="toolbar-primary">
+          <StateYearPicker
+            states={states}
+            selectedState={selection.slug}
+            selectedYear={selection.year}
+            onStateChange={handleStateChange}
+            onYearChange={handleYearChange}
           />
-        )}
-        <div className="toolbar-actions">
-          <ShareButton
-            params={{
-              state: selection.slug,
-              year: String(selection.year),
-              ...(view === 'alliances' ? { view: 'alliances' } : {}),
-            }}
-          />
+          {hasAlliances && <ViewToggle view={view} onChange={handleViewChange} />}
+          {!analysis && (
+            <ColorModeToggle
+              mode={effectiveMode}
+              parties={shareCodes}
+              onChange={setColorMode}
+            />
+          )}
+        </div>
+        <div className="toolbar-tools">
           <AnalysisControl
             analysis={analysis}
             parties={shareCodes}
@@ -414,26 +409,35 @@ export default function Explorer() {
             onChange={handleAnalysisChange}
             onUpgrade={goUpgrade}
           />
-          <button
-            type="button"
-            className="btn btn-secondary btn-sm"
-            onClick={() => {
-              if (!isPro) return goUpgrade();
-              setWhatIfOpen((v) => !v);
-              setAnalysis(null);
-            }}
-            title="Project seats under a uniform swing"
-          >
-            What-if{!isPro && <span className="pro-tag">PRO</span>}
-          </button>
-          <button
-            type="button"
-            className="btn btn-secondary btn-sm"
-            onClick={() => (isPro ? handleExportPng() : goUpgrade())}
-            title="Download the current map as PNG"
-          >
-            Export PNG{!isPro && <span className="pro-tag">PRO</span>}
-          </button>
+          <div className="toolbar-buttons">
+            <button
+              type="button"
+              className="btn btn-secondary btn-sm"
+              onClick={() => {
+                if (!isPro) return goUpgrade();
+                setWhatIfOpen((v) => !v);
+                setAnalysis(null);
+              }}
+              title="Project seats under a uniform swing"
+            >
+              What-if{!isPro && <span className="pro-tag">PRO</span>}
+            </button>
+            <button
+              type="button"
+              className="btn btn-secondary btn-sm"
+              onClick={() => (isPro ? handleExportPng() : goUpgrade())}
+              title="Download the current map as PNG"
+            >
+              Export PNG{!isPro && <span className="pro-tag">PRO</span>}
+            </button>
+            <ShareButton
+              params={{
+                state: selection.slug,
+                year: String(selection.year),
+                ...(view === 'alliances' ? { view: 'alliances' } : {}),
+              }}
+            />
+          </div>
         </div>
       </div>
 

@@ -1,32 +1,30 @@
+import * as d3 from 'd3';
 import { shortPartyLabel } from '../lib/partyLabel.js';
+import { SHARE_BANDS } from '../lib/shareBands.js';
 
 export default function PartyLegend({
   mode,
   parties,
   partyColor,
-  shareMax,
   totalSeats,
   onPartyClick,
 }) {
   if (mode !== 'winner') {
-    const color = partyColor(mode);
-    const max = shareMax > 0 ? shareMax : 1;
+    const ramp = d3.interpolateRgb('#ffffff', partyColor(mode));
     return (
       <div className="party-legend">
         <p className="legend-caption" title={mode}>
           {shortPartyLabel(mode)} vote share
         </p>
-        <div
-          className="legend-gradient"
-          style={{ background: `linear-gradient(to right, #ffffff, ${color})` }}
-        />
-        <div className="legend-gradient-labels">
-          <span>0%</span>
-          <span>{max.toFixed(1)}%</span>
+        <div className="legend-bands">
+          {SHARE_BANDS.map((b) => (
+            <div key={b.label} className="legend-band">
+              <span className="legend-band-swatch" style={{ backgroundColor: ramp(b.t) }} />
+              <span className="legend-band-label">{b.label.replace('%', '')}</span>
+            </div>
+          ))}
         </div>
-        <button type="button" className="legend-back" onClick={() => onPartyClick('winner')}>
-          ← Back to winners
-        </button>
+        <p className="legend-note">White — no votes / did not contest</p>
       </div>
     );
   }
@@ -48,23 +46,19 @@ export default function PartyLegend({
                 className="legend-swatch"
                 style={{ backgroundColor: partyColor(p.party) }}
               />
-              <span className="legend-main">
-                <span className="legend-top">
-                  <span className="legend-code" title={p.party}>
-                    {shortPartyLabel(p.party)}
-                  </span>
-                  <span className="legend-seats">{p.seats}</span>
-                </span>
-                <span className="legend-bar-track">
-                  <span
-                    className="legend-bar"
-                    style={{
-                      width: `${Math.max((p.seats / denominator) * 100, p.seats > 0 ? 1.5 : 0)}%`,
-                      backgroundColor: partyColor(p.party),
-                    }}
-                  />
-                </span>
+              <span className="legend-code" title={p.party}>
+                {shortPartyLabel(p.party)}
               </span>
+              <span className="legend-bar">
+                <span
+                  className="legend-bar-fill"
+                  style={{
+                    width: `${Math.min((p.seats / denominator) * 100, 100)}%`,
+                    backgroundColor: partyColor(p.party),
+                  }}
+                />
+              </span>
+              <span className="legend-seats">{p.seats}</span>
             </button>
           </li>
         ))}

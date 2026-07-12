@@ -1050,19 +1050,47 @@ button {
   margin-bottom: 8px;
 }
 
-.legend-gradient {
-  height: 12px;
-  border-radius: 6px;
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.12);
+/* Fixed vote-share slabs (lib/shareBands.js) — stepped legend */
+
+.legend-bands {
+  display: flex;
+  margin-top: 2px;
 }
 
-.legend-gradient-labels {
-  display: flex;
-  justify-content: space-between;
-  font-size: 12px;
+.legend-band {
+  flex: 1;
+  min-width: 0;
+  text-align: center;
+}
+
+.legend-band-swatch {
+  display: block;
+  height: 14px;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.14);
+}
+
+.legend-band:first-child .legend-band-swatch {
+  border-radius: 4px 0 0 4px;
+}
+
+.legend-band:last-child .legend-band-swatch {
+  border-radius: 0 4px 4px 0;
+}
+
+.legend-band-label {
+  display: block;
+  margin-top: 3px;
+  font-size: 9.5px;
+  letter-spacing: -0.01em;
   color: var(--text-muted);
-  margin-top: 5px;
+  white-space: nowrap;
   font-variant-numeric: tabular-nums;
+}
+
+.legend-note {
+  margin-top: 6px;
+  font-size: 11px;
+  color: var(--text-muted);
 }
 
 .legend-back {

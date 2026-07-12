@@ -185,16 +185,6 @@ export default function Explorer() {
     [view]
   );
 
-  const shareMax = useMemo(() => {
-    if (effectiveMode === 'winner' || !results) return 0;
-    let max = 0;
-    for (const c of results.constituencies || []) {
-      const v = shareOf(c, effectiveMode);
-      if (v > max) max = v;
-    }
-    return max;
-  }, [results, effectiveMode, shareOf]);
-
   function handleStateChange(slug) {
     const st = (states || []).find((s) => s.slug === slug);
     if (!st || st.years.length === 0) return;
@@ -329,7 +319,6 @@ export default function Explorer() {
                       mode={effectiveMode}
                       parties={groupRows}
                       partyColor={colorFor}
-                      shareMax={shareMax}
                       totalSeats={results.summary.total_seats}
                       onPartyClick={(code) => setColorMode(code)}
                     />
@@ -428,7 +417,6 @@ export default function Explorer() {
               shareOf={shareOf}
               winnerTag={winnerTag}
               colorMode={effectiveMode}
-              shareMax={shareMax}
               selectedAc={selectedAc}
               onSelect={handleSelectAc}
             />

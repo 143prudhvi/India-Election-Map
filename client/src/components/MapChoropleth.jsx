@@ -3,6 +3,7 @@ import * as d3 from 'd3';
 import { feature } from 'topojson-client';
 import { shortPartyLabel } from '../lib/partyLabel.js';
 import { displayName } from '../lib/formatName.js';
+import { shareBandT } from '../lib/shareBands.js';
 
 const NO_DATA_FILL = '#e0e0e0';
 const MAX_ZOOM = 12;
@@ -15,7 +16,6 @@ export default function MapChoropleth({
   shareOf, // (row, code) => vote_pct for share-mode fill
   winnerTag, // (row) => string|null — extra muted tooltip line (alliance view)
   colorMode, // 'winner' | party/alliance code
-  shareMax,
   selectedAc, // {acNo, acName} | null
   onSelect, // (ac|null) => void
 }) {
@@ -84,12 +84,10 @@ export default function MapChoropleth({
     }
   }, [selectedAc]);
 
-  const shareScale = useMemo(() => {
+  const shareRamp = useMemo(() => {
     if (colorMode === 'winner') return null;
-    return d3
-      .scaleSequential(d3.interpolateRgb('#ffffff', colorFor(colorMode)))
-      .domain([0, shareMax > 0 ? shareMax : 1]);
-  }, [colorMode, shareMax, colorFor]);
+    return d3.interpolateRgb('#ffffff', colorFor(colorMode));
+  }, [colorMode, colorFor]);
 
   function fillFor(acNo) {
     const row = resultsByAc ? resultsByAc.get(acNo) : null;
@@ -98,7 +96,10 @@ export default function MapChoropleth({
       if (!code) return NO_DATA_FILL;
       return colorFor(code);
     }
-    return shareScale(row ? shareOf(row, colorMode) : 0);
+    // Fixed slabs (see lib/shareBands.js) — the same shade always means the
+    // same share, regardless of party or election.
+    const t = shareBandT(row ? shareOf(row, colorMode) : 0);
+    return t == null ? '#ffffff' : shareRamp(t);
   }
 
   function zoomToFeature(f) {

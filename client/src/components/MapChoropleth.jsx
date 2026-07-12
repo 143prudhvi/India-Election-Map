@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import * as d3 from 'd3';
 import { feature } from 'topojson-client';
 import { shortPartyLabel } from '../lib/partyLabel.js';
+import { displayName } from '../lib/formatName.js';
 
 const NO_DATA_FILL = '#e0e0e0';
 const MAX_ZOOM = 12;
@@ -224,7 +225,7 @@ export default function MapChoropleth({
           {hoverRow && hoverRow.winner ? (
             <>
               <div className="map-tooltip-line">
-                {hoverRow.winner.candidate} ({shortPartyLabel(hoverRow.winner.party)})
+                {displayName(hoverRow.winner.candidate)} ({shortPartyLabel(hoverRow.winner.party)})
               </div>
               {hoverRow.margin != null && (
                 <div className="map-tooltip-line muted">

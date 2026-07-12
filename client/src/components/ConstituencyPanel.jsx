@@ -1,7 +1,32 @@
+import { useRef } from 'react';
 import PartyChip from './PartyChip.jsx';
+import { displayName } from '../lib/formatName.js';
+import { useTip } from '../hooks/useTip.jsx';
 
 function formatVotes(n) {
   return n == null ? '—' : n.toLocaleString('en-IN');
+}
+
+// One line with an ellipsis; the styled tooltip appears only when the name
+// is actually truncated.
+function CandidateName({ name, bold, tip }) {
+  const ref = useRef(null);
+  const display = displayName(name);
+  const truncated = () => {
+    const el = ref.current;
+    return el && el.scrollWidth > el.clientWidth + 1;
+  };
+  return (
+    <span
+      ref={ref}
+      className={bold ? 'candidate-name candidate-name-bold' : 'candidate-name'}
+      onMouseEnter={(e) => truncated() && tip.show(display, e)}
+      onMouseMove={tip.move}
+      onMouseLeave={tip.hide}
+    >
+      {display}
+    </span>
+  );
 }
 
 export default function ConstituencyPanel({
@@ -14,6 +39,7 @@ export default function ConstituencyPanel({
 }) {
   const winner = constituency?.winner;
   const runnerUp = constituency?.runner_up;
+  const nameTip = useTip();
 
   return (
     <div className="card sidebar-card constituency-panel">
@@ -41,7 +67,7 @@ export default function ConstituencyPanel({
               style={{ borderLeftColor: partyColor(winner.party) }}
             >
               <p className="winner-label">Winner</p>
-              <p className="winner-name">{winner.candidate}</p>
+              <p className="winner-name">{displayName(winner.candidate)}</p>
               <p className="winner-detail">
                 <PartyChip
                   code={winner.party}
@@ -78,7 +104,7 @@ export default function ConstituencyPanel({
 
           {runnerUp && (
             <p className="runner-up-line">
-              Runner-up: {runnerUp.candidate}{' '}
+              Runner-up: {displayName(runnerUp.candidate)}{' '}
               <PartyChip
                 code={runnerUp.party}
                 color={partyColor(runnerUp.party)}
@@ -94,11 +120,15 @@ export default function ConstituencyPanel({
             </p>
           )}
 
-          <h3 className="sidebar-heading-sm">Candidates</h3>
+          <h3 className="sidebar-heading-sm">
+            Candidates
+            <span className="heading-count">{(constituency.candidates || []).length}</span>
+          </h3>
           <div className="table-scroll">
             <table className="candidates-table">
               <thead>
                 <tr>
+                  <th className="rank-col" aria-label="Position" />
                   <th>Candidate</th>
                   <th className="num">Votes</th>
                   <th className="num pct-col">%</th>
@@ -106,12 +136,13 @@ export default function ConstituencyPanel({
               </thead>
               <tbody>
                 {(constituency.candidates || []).map((c, i) => (
-                  <tr key={`${c.candidate}-${i}`}>
+                  <tr key={`${c.candidate}-${i}`} className={i === 0 && winner ? 'winner-row' : undefined}>
+                    <td className="rank">
+                      {i === 0 && winner ? <span className="winner-tick">✓</span> : i + 1}
+                    </td>
                     <td>
                       <span className="candidate-cell">
-                        <span className="candidate-name" title={c.candidate}>
-                          {c.candidate}
-                        </span>
+                        <CandidateName name={c.candidate} bold={i === 0 && !!winner} tip={nameTip} />
                         <PartyChip
                           code={c.party}
                           color={partyColor(c.party)}
@@ -137,6 +168,7 @@ export default function ConstituencyPanel({
               </tbody>
             </table>
           </div>
+          {nameTip.tipNode}
         </>
       )}
     </div>

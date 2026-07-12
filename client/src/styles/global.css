@@ -1091,12 +1091,68 @@ button {
   table-layout: fixed;
 }
 
+.candidates-table th,
+.candidates-table td {
+  padding: 7px 6px;
+}
+
+.candidates-table th.rank-col {
+  width: 22px;
+}
+
 .candidates-table th.num {
-  width: 66px;
+  width: 60px;
 }
 
 .candidates-table th.pct-col {
-  width: 74px;
+  width: 66px;
+}
+
+.candidates-table td.rank {
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: center;
+  font-size: 10.5px;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.candidates-table .winner-tick {
+  color: var(--success);
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.candidates-table tbody tr {
+  transition: background-color 100ms;
+}
+
+.candidates-table tbody tr:hover {
+  background: #f6f8fb;
+}
+
+.candidates-table tr.winner-row {
+  background: #f2f9f4;
+}
+
+.candidates-table tr.winner-row:hover {
+  background: #ecf6ef;
+}
+
+.candidate-name-bold {
+  font-weight: 700;
+}
+
+.heading-count {
+  margin-left: 7px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--bg);
+  color: var(--text-muted);
+  font-size: 10.5px;
+  font-weight: 650;
+  letter-spacing: 0;
+  vertical-align: 1px;
 }
 
 .candidate-cell {

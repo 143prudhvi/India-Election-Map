@@ -39,43 +39,37 @@ function HistoryBody({ slug, acNo, partyColor, partyName }) {
   return (
     <div>
       <h3 className="sidebar-heading-sm">Seat history</h3>
-      <table className="history-table">
-        <thead>
-          <tr>
-            <th>Year</th>
-            <th>Winner</th>
-            <th className="num">Vote %</th>
-            <th className="num">Margin</th>
-          </tr>
-        </thead>
-        <tbody>
-          {rows.map((r) => (
-            <tr key={r.year}>
-              <td className="mono">{r.year}</td>
-              <td>
-                <span className="history-winner">
-                  {r.winner ? (
-                    <>
-                      <PartyChip
-                        code={r.winner.party}
-                        color={partyColor(r.winner.party)}
-                        title={partyName(r.winner.party)}
-                      />
-                      <span className="history-cand" title={displayName(r.winner.candidate)}>
-                        {displayName(r.winner.candidate)}
-                      </span>
-                    </>
-                  ) : (
-                    '—'
-                  )}
-                </span>
-              </td>
-              <td className="num">{r.winner ? `${r.winner.vote_pct}%` : '—'}</td>
-              <td className="num">{r.margin_pct != null ? `${r.margin_pct}%` : '—'}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <div className="vtl">
+        {rows.map((r) => {
+          const color = r.winner ? partyColor(r.winner.party) : 'var(--border-strong)';
+          return (
+            <div className="vtl-item" key={r.year} style={{ '--dot': color }}>
+              <span className="vtl-dot" />
+              <div className="vtl-yr">
+                {r.year}
+                {r.winner && (
+                  <span className="vtl-party" style={{ color }}>
+                    {shortPartyLabel(r.winner.party)}
+                  </span>
+                )}
+              </div>
+              {r.winner ? (
+                <>
+                  <div className="vtl-cand" title={displayName(r.winner.candidate)}>
+                    {displayName(r.winner.candidate)}
+                  </div>
+                  <div className="vtl-marg">
+                    {r.winner.vote_pct}%
+                    {r.margin_pct != null ? ` · won by ${r.margin_pct}%` : ''}
+                  </div>
+                </>
+              ) : (
+                <div className="vtl-cand muted">No result</div>
+              )}
+            </div>
+          );
+        })}
+      </div>
       <p className="legend-note">
         Matched by constituency number; may differ where boundaries were redrawn.
       </p>

@@ -66,71 +66,74 @@ export default function ConstituencyPanel({
           )}
 
           {winner && (
-            <div
-              className="winner-block"
-              style={{ borderLeftColor: partyColor(winner.party) }}
-            >
-              <p className="winner-label">Winner</p>
-              <p className="winner-name">{displayName(winner.candidate)}</p>
-              <p className="winner-detail">
-                <PartyChip
-                  code={winner.party}
-                  color={partyColor(winner.party)}
-                  title={partyName(winner.party)}
-                />{' '}
-                {winnerAlliance && (
+            <>
+              <div className={runnerUp ? 'h2h' : 'h2h h2h-solo'}>
+                <div className="h2h-side win" style={{ borderColor: partyColor(winner.party) }}>
+                  <div className="h2h-tag">WON</div>
+                  <div className="h2h-chips">
+                    <PartyChip
+                      code={winner.party}
+                      color={partyColor(winner.party)}
+                      title={partyName(winner.party)}
+                    />
+                    {winnerAlliance && (
+                      <AllianceChip
+                        code={winnerAlliance.alliance}
+                        color={winnerAlliance.color}
+                        name={winnerAlliance.name}
+                      />
+                    )}
+                  </div>
+                  <div className="h2h-who" title={displayName(winner.candidate)}>
+                    {displayName(winner.candidate)}
+                  </div>
+                  <div className="h2h-pct">{winner.vote_pct}%</div>
+                </div>
+
+                {runnerUp && (
                   <>
-                    <AllianceChip
-                      code={winnerAlliance.alliance}
-                      color={winnerAlliance.color}
-                      name={winnerAlliance.name}
-                    />{' '}
+                    <div className="h2h-vs">vs</div>
+                    <div className="h2h-side">
+                      <div className="h2h-tag">RUNNER-UP</div>
+                      <div className="h2h-chips">
+                        <PartyChip
+                          code={runnerUp.party}
+                          color={partyColor(runnerUp.party)}
+                          title={partyName(runnerUp.party)}
+                        />
+                      </div>
+                      <div className="h2h-who" title={displayName(runnerUp.candidate)}>
+                        {displayName(runnerUp.candidate)}
+                      </div>
+                      <div className="h2h-pct">{runnerUp.vote_pct}%</div>
+                    </div>
                   </>
                 )}
-                {formatVotes(winner.votes)} votes ({winner.vote_pct}%)
-              </p>
+              </div>
 
               {runnerUp && (
-                <div className="margin-viz" aria-hidden="true">
-                  <div className="margin-bar-row">
-                    <span
-                      className="margin-bar"
-                      style={{
-                        width: '100%',
-                        backgroundColor: partyColor(winner.party),
-                      }}
-                    />
-                  </div>
-                  <div className="margin-bar-row">
-                    <span
-                      className="margin-bar"
-                      style={{
-                        width: `${Math.max((runnerUp.votes / (winner.votes || 1)) * 100, 2)}%`,
-                        backgroundColor: partyColor(runnerUp.party),
-                      }}
-                    />
-                  </div>
-                </div>
-              )}
-            </div>
-          )}
-
-          {runnerUp && (
-            <p className="runner-up-line">
-              Runner-up: {displayName(runnerUp.candidate)}{' '}
-              <PartyChip
-                code={runnerUp.party}
-                color={partyColor(runnerUp.party)}
-                title={partyName(runnerUp.party)}
-              />
-              {constituency.margin != null && (
                 <>
-                  {' '}
-                  — margin <strong>{formatVotes(constituency.margin)}</strong>
-                  {constituency.margin_pct != null ? ` (${constituency.margin_pct}%)` : ''}
+                  <div className="tug" aria-hidden="true">
+                    <span
+                      style={{ width: `${winner.vote_pct}%`, background: partyColor(winner.party) }}
+                    />
+                    <span
+                      style={{ width: `${runnerUp.vote_pct}%`, background: partyColor(runnerUp.party) }}
+                    />
+                    <span
+                      style={{ width: `${Math.max(100 - winner.vote_pct - runnerUp.vote_pct, 0)}%` }}
+                      className="tug-other"
+                    />
+                  </div>
+                  {constituency.margin != null && (
+                    <p className="h2h-margin">
+                      Won by <strong>{formatVotes(constituency.margin)}</strong>
+                      {constituency.margin_pct != null ? ` (${constituency.margin_pct}%)` : ''}
+                    </p>
+                  )}
                 </>
               )}
-            </p>
+            </>
           )}
 
           <h3 className="sidebar-heading-sm">

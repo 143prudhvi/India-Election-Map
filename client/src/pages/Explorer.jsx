@@ -9,13 +9,13 @@ import ViewToggle from '../components/ViewToggle.jsx';
 import AnalysisControl from '../components/AnalysisControl.jsx';
 import AnalysisLegend from '../components/AnalysisLegend.jsx';
 import MapChoropleth from '../components/MapChoropleth.jsx';
-import SeatDonut from '../components/SeatDonut.jsx';
-import PartyLegend from '../components/PartyLegend.jsx';
+import SeatStats from '../components/SeatStats.jsx';
+import ShareBandLegend from '../components/ShareBandLegend.jsx';
+import VoteShareTable from '../components/VoteShareTable.jsx';
 import ConstituencyPanel from '../components/ConstituencyPanel.jsx';
 import ConstituencyHistory from '../components/ConstituencyHistory.jsx';
 import WhatIfPanel from '../components/WhatIfPanel.jsx';
 import ShareButton from '../components/ShareButton.jsx';
-import PartyChip from '../components/PartyChip.jsx';
 import { shareBandT } from '../lib/shareBands.js';
 import { marginColor } from '../lib/marginBands.js';
 import { swingColor } from '../lib/swingScale.js';
@@ -497,80 +497,44 @@ export default function Explorer() {
                 )}
                 {results && (
                   <>
-                    <SeatDonut
-                      parties={groupRows}
+                    <SeatStats
+                      rows={groupRows}
                       totalSeats={results.summary.total_seats}
-                      partyColor={colorFor}
+                      colorFor={colorFor}
+                      activeCode={effectiveMode}
+                      onPick={(code) => setColorMode(code)}
+                      partyName={view === 'alliances' ? undefined : partyName}
                     />
                     {analysis ? (
                       <AnalysisLegend analysis={analysis} swingPartyColor={swingPartyColor} />
-                    ) : (
-                      <PartyLegend
-                        mode={effectiveMode}
-                        parties={groupRows}
-                        partyColor={colorFor}
-                        totalSeats={results.summary.total_seats}
-                        onPartyClick={(code) => setColorMode(code)}
+                    ) : effectiveMode !== 'winner' ? (
+                      <ShareBandLegend
+                        code={effectiveMode}
+                        color={colorFor(effectiveMode)}
                         onBack={() => setColorMode('winner')}
                       />
+                    ) : (
+                      <p className="legend-hint">Tap a tile or row to map its vote share</p>
                     )}
                   </>
                 )}
               </div>
 
-              {results && view === 'alliances' && (
+              {results && (
                 <div className="card sidebar-card">
                   <h3 className="sidebar-heading-sm">Vote share</h3>
-                  <table className="summary-table">
-                    <thead>
-                      <tr>
-                        <th>Alliance / party</th>
-                        <th className="num">Seats</th>
-                        <th className="num">Votes %</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {allianceRows.map((a) => (
-                        <AllianceSummaryRows
-                          key={a.alliance}
-                          alliance={a}
-                          partyColor={partyColor}
-                          partyName={partyName}
-                        />
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              )}
-
-              {results && view === 'parties' && (
-                <div className="card sidebar-card">
-                  <h3 className="sidebar-heading-sm">Vote share</h3>
-                  <table className="summary-table">
-                    <thead>
-                      <tr>
-                        <th>Party</th>
-                        <th className="num">Seats</th>
-                        <th className="num">Votes %</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {notableParties.map((p) => (
-                        <tr key={p.party}>
-                          <td>
-                            <PartyChip
-                              code={p.party}
-                              color={partyColor(p.party)}
-                              title={partyMap.get(p.party)?.name || p.party}
-                            />
-                          </td>
-                          <td className="num">{p.seats}</td>
-                          <td className="num">{p.vote_pct.toFixed(2)}%</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                  {minorPartyCount > 0 && (
+                  <VoteShareTable
+                    view={view}
+                    parties={notableParties}
+                    alliances={allianceRows}
+                    totalSeats={results.summary.total_seats}
+                    colorFor={colorFor}
+                    partyColor={partyColor}
+                    partyName={partyName}
+                    activeCode={effectiveMode}
+                    onPick={(code) => setColorMode(code)}
+                  />
+                  {view === 'parties' && minorPartyCount > 0 && (
                     <p className="summary-minor-note">
                       + {minorPartyCount} smaller parties under 1% vote share
                     </p>
@@ -618,38 +582,5 @@ export default function Explorer() {
         </div>
       </div>
     </div>
-  );
-}
-
-function AllianceSummaryRows({ alliance, partyColor, partyName }) {
-  return (
-    <>
-      <tr className="alliance-row">
-        <td>
-          <span className="alliance-cell">
-            <span
-              className="legend-swatch"
-              style={{ backgroundColor: alliance.color || FALLBACK_COLOR }}
-            />
-            <span title={alliance.name}>{alliance.alliance}</span>
-          </span>
-        </td>
-        <td className="num">{alliance.seats}</td>
-        <td className="num">{alliance.vote_pct.toFixed(2)}%</td>
-      </tr>
-      {(alliance.parties || []).map((p) => (
-        <tr key={p.party} className="member-row">
-          <td>
-            <PartyChip
-              code={p.party}
-              color={partyColor(p.party)}
-              title={partyName(p.party)}
-            />
-          </td>
-          <td className="num">{p.seats}</td>
-          <td className="num">{p.vote_pct.toFixed(2)}%</td>
-        </tr>
-      ))}
-    </>
   );
 }

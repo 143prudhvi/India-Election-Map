@@ -2085,3 +2085,220 @@ button {
   text-decoration: none;
   font-weight: 600;
 }
+
+/* ============================================================ Explorer polish + motion */
+
+/* --- custom select chevron (replaces the native arrow) --- */
+.select {
+  appearance: none;
+  -webkit-appearance: none;
+  padding-right: 34px;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23647084' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  cursor: pointer;
+}
+
+/* --- segmented toggle: springy active pill --- */
+.seg-toggle {
+  position: relative;
+}
+
+.seg-btn.active {
+  transition: background-color 160ms cubic-bezier(0.34, 1.56, 0.64, 1),
+    box-shadow 160ms ease, color 120ms ease;
+}
+
+/* --- staggered card entrance --- */
+@keyframes cardIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.explorer-sidebar > .card {
+  animation: cardIn 380ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.explorer-sidebar > .card:nth-child(2) {
+  animation-delay: 70ms;
+}
+
+/* --- seat donut: fade the canvas, pop each arc in sequence --- */
+@keyframes donutIn {
+  from {
+    opacity: 0;
+    transform: scale(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.seat-donut {
+  animation: donutIn 480ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  transform-origin: 50% 100%;
+}
+
+@keyframes arcPop {
+  from {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.donut-arc {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: arcPop 420ms cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  animation-delay: calc(220ms + var(--i, 0) * 55ms);
+}
+
+.seat-donut-majority {
+  stroke-dasharray: 60;
+  animation: dashDraw 500ms ease 620ms both;
+}
+
+@keyframes dashDraw {
+  from {
+    stroke-dashoffset: 60;
+    opacity: 0;
+  }
+  to {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+
+/* --- legend seat bars grow from the left --- */
+.legend-bar-fill {
+  transform-origin: left center;
+  animation: barGrow 620ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: 260ms;
+}
+
+@keyframes barGrow {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.legend-row {
+  transition: background-color 130ms ease, transform 130ms ease;
+}
+
+.legend-row:hover {
+  transform: translateX(2px);
+}
+
+/* --- constituency panel slides in from the map side --- */
+@keyframes panelIn {
+  from {
+    opacity: 0;
+    transform: translateX(-14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.explorer-sidebar > .constituency-panel {
+  animation: panelIn 320ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.candidates-table tbody tr {
+  animation: rowIn 300ms ease both;
+  animation-delay: calc(var(--r, 0) * 22ms);
+}
+
+@keyframes rowIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* --- map: soft fade of constituencies as they load; crisper hover/selected --- */
+@keyframes acFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.ac-path {
+  animation: acFade 420ms ease both;
+  transition: fill 220ms ease, fill-opacity 120ms ease;
+}
+
+.ac-path:hover {
+  fill-opacity: 0.82;
+}
+
+/* tooltip fade + rise */
+@keyframes tipIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.map-tooltip {
+  animation: tipIn 130ms ease both;
+}
+
+.map-badge {
+  animation: tipIn 200ms ease both;
+}
+
+/* year pill + chips get a gentle hover */
+.year-pill {
+  transition: transform 140ms ease;
+}
+
+.sidebar-headline:hover .year-pill {
+  transform: translateY(-1px);
+}
+
+/* --- respect reduced motion: disable all of the above --- */
+@media (prefers-reduced-motion: reduce) {
+  .explorer-sidebar > .card,
+  .seat-donut,
+  .donut-arc,
+  .seat-donut-majority,
+  .legend-bar-fill,
+  .constituency-panel,
+  .candidates-table tbody tr,
+  .ac-path,
+  .map-tooltip,
+  .map-badge {
+    animation: none !important;
+  }
+  .legend-bar-fill {
+    transform: none;
+  }
+}

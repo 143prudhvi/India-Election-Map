@@ -1,5 +1,6 @@
 import { useMemo } from 'react';
 import * as d3 from 'd3';
+import { useCountUp } from '../hooks/useCountUp.js';
 
 const WIDTH = 300;
 const HEIGHT = 172;
@@ -7,6 +8,7 @@ const OUTER = 136;
 const INNER = 92;
 
 export default function SeatDonut({ parties, totalSeats, partyColor }) {
+  const displayTotal = useCountUp(totalSeats);
   const arcs = useMemo(() => {
     const pie = d3
       .pie()
@@ -49,8 +51,14 @@ export default function SeatDonut({ parties, totalSeats, partyColor }) {
       aria-label={`Seats won by party. ${majority} of ${totalSeats} needed for a majority.`}
     >
       <g transform={`translate(${WIDTH / 2}, ${HEIGHT - 10})`}>
-        {arcs.map((a) => (
-          <path key={a.data.party} d={arcGen(a)} fill={partyColor(a.data.party)}>
+        {arcs.map((a, i) => (
+          <path
+            key={a.data.party}
+            className="donut-arc"
+            style={{ '--i': i }}
+            d={arcGen(a)}
+            fill={partyColor(a.data.party)}
+          >
             <title>
               {a.data.party}: {a.data.seats} seat{a.data.seats === 1 ? '' : 's'}
             </title>
@@ -68,7 +76,7 @@ export default function SeatDonut({ parties, totalSeats, partyColor }) {
           </line>
         )}
         <text className="seat-donut-total" textAnchor="middle" y={-30}>
-          {totalSeats}
+          {displayTotal}
         </text>
         <text className="seat-donut-label" textAnchor="middle" y={-14}>
           seats

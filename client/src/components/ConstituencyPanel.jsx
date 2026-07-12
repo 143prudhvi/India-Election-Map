@@ -149,7 +149,11 @@ export default function ConstituencyPanel({
               </thead>
               <tbody>
                 {(constituency.candidates || []).map((c, i) => (
-                  <tr key={`${c.candidate}-${i}`} className={i === 0 && winner ? 'winner-row' : undefined}>
+                  <tr
+                    key={`${c.candidate}-${i}`}
+                    className={i === 0 && winner ? 'winner-row' : undefined}
+                    style={{ '--r': i }}
+                  >
                     <td className="rank">
                       {i === 0 && winner ? <span className="winner-tick">✓</span> : i + 1}
                     </td>

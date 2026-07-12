@@ -1,72 +1,28 @@
-import path from 'node:path';
-import { readFile } from 'node:fs/promises';
 import { Router } from 'express';
 import { requireAuth } from '../middleware/auth.js';
-
-const DATA_DIR = path.resolve(import.meta.dirname, '../../data');
+import * as data from '../db/electionData.js';
 
 const router = Router();
 router.use(requireAuth());
-
-// Lazy caches; the data files are immutable once the pipeline has run.
-let manifestCache = null; // { states: [...], years: Map<slug, Set<year>> }
-let partiesCache = null;
-const summaryCache = new Map(); // "slug/year" -> summary object
-
-async function getManifest() {
-  if (!manifestCache) {
-    const states = JSON.parse(await readFile(path.join(DATA_DIR, 'states.json'), 'utf8'));
-    manifestCache = {
-      states,
-      years: new Map(states.map((s) => [s.slug, new Set(s.years)])),
-    };
-  }
-  return manifestCache;
-}
 
 function notFound(res) {
   res.status(404).json({ error: 'Unknown state or year', code: 'NOT_FOUND' });
 }
 
-// Manifest lookups are the only path to a filename, so traversal via
-// :state/:year is impossible.
-async function checkState(req, res) {
-  const { years } = await getManifest();
-  if (!years.has(req.params.state)) {
-    notFound(res);
-    return false;
-  }
-  return true;
-}
-
-async function checkStateYear(req, res) {
-  const { state, year } = req.params;
-  if (!/^[0-9]{4}$/.test(year)) {
-    notFound(res);
-    return false;
-  }
-  const { years } = await getManifest();
-  if (!years.get(state)?.has(Number(year))) {
-    notFound(res);
-    return false;
-  }
-  return true;
-}
-
-function sendDataFile(res, next, filePath, cacheControl) {
-  // cacheControl:false stops sendFile writing its own public Cache-Control.
-  res.sendFile(
-    filePath,
-    { cacheControl: false, headers: { 'Cache-Control': cacheControl } },
-    (err) => {
-      if (err) next(err);
-    }
-  );
+// Manifest lookups are the only path to data, so :state/:year can never
+// reach anything that wasn't explicitly loaded into the database.
+async function resolveStateYear(req) {
+  if (!/^[0-9]{4}$/.test(req.params.year)) return null;
+  const year = Number(req.params.year);
+  const manifest = await data.getManifest();
+  const st = manifest.find((s) => s.slug === req.params.state);
+  return st && st.years.includes(year) ? { slug: st.slug, year } : null;
 }
 
 router.get('/states', async (req, res, next) => {
   try {
-    res.json((await getManifest()).states);
+    res.set('Cache-Control', 'private, no-cache');
+    res.json(await data.getManifest());
   } catch (err) {
     next(err);
   }
@@ -74,10 +30,8 @@ router.get('/states', async (req, res, next) => {
 
 router.get('/parties', async (req, res, next) => {
   try {
-    if (!partiesCache) {
-      partiesCache = JSON.parse(await readFile(path.join(DATA_DIR, 'parties.json'), 'utf8'));
-    }
-    res.json(partiesCache);
+    res.set('Cache-Control', 'private, no-cache');
+    res.json(await data.getParties());
   } catch (err) {
     next(err);
   }
@@ -85,9 +39,12 @@ router.get('/parties', async (req, res, next) => {
 
 router.get('/:state/boundary', async (req, res, next) => {
   try {
-    if (!(await checkState(req, res))) return;
-    const file = path.join(DATA_DIR, 'boundaries', `${req.params.state}.json`);
-    sendDataFile(res, next, file, 'private, max-age=604800');
+    const boundary = await data.getBoundary(req.params.state);
+    if (!boundary) return notFound(res);
+    // Boundaries are effectively immutable; results/parties are editable so
+    // they revalidate (no-cache + ETag -> 304s).
+    res.set('Cache-Control', 'private, max-age=604800');
+    res.json(boundary);
   } catch (err) {
     next(err);
   }
@@ -95,9 +52,10 @@ router.get('/:state/boundary', async (req, res, next) => {
 
 router.get('/:state/:year/results', async (req, res, next) => {
   try {
-    if (!(await checkStateYear(req, res))) return;
-    const file = path.join(DATA_DIR, 'results', req.params.state, `${req.params.year}.json`);
-    sendDataFile(res, next, file, 'private, max-age=3600');
+    const sy = await resolveStateYear(req);
+    if (!sy) return notFound(res);
+    res.set('Cache-Control', 'private, no-cache');
+    res.json(await data.getResults(sy.slug, sy.year));
   } catch (err) {
     next(err);
   }
@@ -105,27 +63,14 @@ router.get('/:state/:year/results', async (req, res, next) => {
 
 router.get('/:state/:year/summary', async (req, res, next) => {
   try {
-    if (!(await checkStateYear(req, res))) return;
-    const { state, year } = req.params;
-    const key = `${state}/${year}`;
-    let summary = summaryCache.get(key);
-    if (!summary) {
-      const file = path.join(DATA_DIR, 'results', state, `${year}.json`);
-      summary = JSON.parse(await readFile(file, 'utf8')).summary;
-      summaryCache.set(key, summary);
-    }
-    res.json({ state, year: Number(year), summary });
+    const sy = await resolveStateYear(req);
+    if (!sy) return notFound(res);
+    const view = await data.getResults(sy.slug, sy.year);
+    res.set('Cache-Control', 'private, no-cache');
+    res.json({ state: sy.slug, year: sy.year, summary: view.summary });
   } catch (err) {
     next(err);
   }
-});
-
-// Missing data files mean the pipeline has not been run.
-router.use((err, req, res, next) => {
-  if (err?.code === 'ENOENT' && !res.headersSent) {
-    return res.status(503).json({ error: 'Data not built. Run: npm run pipeline' });
-  }
-  next(err);
 });
 
 export default router;

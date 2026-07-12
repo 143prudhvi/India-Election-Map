@@ -10,6 +10,7 @@ import { pool } from './db/pool.js';
 import authRouter from './routes/auth.js';
 import profileRouter from './routes/profile.js';
 import adminUsersRouter from './routes/adminUsers.js';
+import adminDataRouter from './routes/adminData.js';
 import dataRouter from './routes/data.js';
 
 if (!process.env.SESSION_SECRET) {
@@ -21,7 +22,13 @@ const app = express();
 app.set('trust proxy', 1);
 app.use(helmet());
 app.use(compression());
-app.use(express.json({ limit: '10kb' }));
+// Small default body cap; /api/admin/data parses its own bodies (election
+// imports run to megabytes), so the strict parser must not see them first.
+const smallJson = express.json({ limit: '10kb' });
+app.use((req, res, next) => {
+  if (req.path.startsWith('/api/admin/data')) return next();
+  smallJson(req, res, next);
+});
 
 const PgStore = connectPgSimple(session);
 app.use(
@@ -48,6 +55,7 @@ app.get('/api/health', (req, res) => {
 app.use('/api/auth', authRouter);
 app.use('/api/profile', profileRouter);
 app.use('/api/admin/users', adminUsersRouter);
+app.use('/api/admin/data', adminDataRouter);
 app.use('/api/data', dataRouter);
 
 app.use('/api', (req, res) => {

@@ -49,28 +49,31 @@ required; the server refuses to boot without them.
 
 ## Data model
 
-Election data is **not** in the database. It's committed, pre-computed JSON in
-`data/`, served through authenticated API routes:
+Election data lives in **Postgres** (states, boundaries, parties, elections,
+constituencies, candidates, alliances) and admins edit it in-app under
+**Admin → Data**. Derived values — winners, margins, party/alliance summaries,
+vote shares — are never stored; the server recomputes them (with caching)
+from the base rows, so every edit stays consistent everywhere.
 
-- `data/states.json` — manifest: slug, name, seats, covered years, map placement
-- `data/parties.json` — canonical party registry (code, name, color, name aliases)
-- `data/boundaries/<slug>.json` — simplified TopoJSON per state
-  (object `constituencies`, properties `{ac_no, ac_name}`)
-- `data/results/<slug>/<year>.json` — per-constituency candidates with
-  precomputed winner, runner-up, margin, and a party seat/vote summary
-- `data/raw/results/<slug>/<year>.json` — raw source results (pipeline input)
+The JSON files under `data/` are the **seed**: on first boot against an empty
+database the server loads them automatically (`scripts/seed-data.js`;
+`npm run seed:data -- --reset` rebuilds a dev database, discarding in-app
+edits). Admin → Data provides Download buttons (parties, alliances,
+per-election results in the raw import shape) so you can commit snapshots of
+edited data back to git.
+
+- `data/states.json`, `data/parties.json`, `data/boundaries/<slug>.json`,
+  `data/raw/results/<slug>/<year>.json`, `data/raw/alliances.json` — seed
+  sources (same shapes as before the DB move)
 
 ### Alliances
 
-Pre-poll alliances are curated by hand in `data/raw/alliances.json`, per state
-per year (compositions change every cycle — never assume continuity). Each
-entry lists a code, display name, color, and member party codes; single-party
-entries are allowed when a major party contested alone. Run
-`npm run pipeline` after editing: it stamps each constituency's winner with
-its alliance, precomputes per-alliance vote shares and seat summaries, and
-prints validation notes (a party in two alliances is a build error; friendly
-fights and no-show parties are informational). States/years with alliance
-data get a "Parties | Alliances" toggle in the Explorer.
+Pre-poll alliances are defined per state per year (compositions change every
+cycle — never assume continuity): code, display name, color, member party
+codes. Single-party blocs are allowed when a major party contested alone.
+Edit them under Admin → Data → Alliances (a party in two blocs is rejected;
+seat totals recompute immediately). States/years with alliance data get a
+"Parties | Alliances" toggle in the Explorer.
 
 Seeded for 37 elections across 17 states (AP, Assam, Bihar, Chhattisgarh
 2018, Goa, J&K, Jharkhand, Kerala, Maharashtra 2019, Nagaland, Puducherry,
@@ -83,13 +86,15 @@ than the headline 91 for 2016.
 
 ### Adding a new election
 
-1. Drop the raw results file at `data/raw/results/<state-slug>/<year>.json`
-   (same shape as the existing raw files: array of
-   `{ac_no, ac_name, candidates: [{Candidate, Party, "Total Votes", ...}]}`).
-2. Run `npm run pipeline`.
-3. Review the console report (unknown parties, boundary join mismatches).
-   Add any new party to `data/parties.json` (code, color, alias) and re-run.
-4. Commit the regenerated files under `data/`.
+Use **Admin → Data → Import**: pick the state, enter the year, and upload the
+raw results JSON (array of
+`{ac_no, ac_name, candidates: [{Candidate, Party, "Total Votes", ...}]}`).
+Party names are mapped through the registry's aliases; unknown parties are
+auto-registered in grey — give them proper codes/colors in the Parties tab.
+Then set the election's alliances (if any) in the Alliances tab.
+
+To keep git in sync, download the imported election from the Results tab and
+commit it under `data/raw/results/<state-slug>/<year>.json`.
 
 Boundary sources were one-time inputs and have been removed from the working
 tree; they are recoverable from git history (`master` branch,
@@ -105,8 +110,10 @@ boundary ever needs to be regenerated.
    after 90 days) and note the connection string.
 2. Create the Render blueprint from this repo; paste `DATABASE_URL` when asked
    (it's marked `sync: false`).
-3. After first deploy, run migrations + seed the admin once from a local shell:
-   `DATABASE_URL=... npm run migrate && DATABASE_URL=... ADMIN_EMAIL=... ADMIN_PASSWORD=... npm run seed:admin`
+3. Schema migration and the election-data seed run automatically at boot
+   (the seed only fires on an empty database, so it never clobbers in-app
+   edits). Seed the first admin once from a local shell:
+   `DATABASE_URL=... ADMIN_EMAIL=... ADMIN_PASSWORD=... npm run seed:admin`
 4. Log in with the admin credentials — you'll be forced to change the password
    immediately, which retires the bootstrap secret.
 

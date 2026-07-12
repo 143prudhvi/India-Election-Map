@@ -17,6 +17,7 @@
     "start": "node --env-file-if-exists=.env server/index.js",
     "migrate": "node --env-file-if-exists=.env server/db/migrate.js",
     "seed:admin": "node --env-file-if-exists=.env scripts/seed-admin.js",
+    "seed:data": "node --env-file-if-exists=.env scripts/seed-data.js",
     "pipeline": "node scripts/build-data.js"
   },
   "devDependencies": {

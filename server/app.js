@@ -57,7 +57,20 @@ app.use('/api', (req, res) => {
 const CLIENT_DIST = path.resolve(import.meta.dirname, '../client/dist');
 const INDEX_HTML = path.join(CLIENT_DIST, 'index.html');
 
-app.use(express.static(CLIENT_DIST, { index: false, immutable: true, maxAge: '1y' }));
+// Only Vite's content-hashed /assets/* files are safe to cache forever; a
+// blanket immutable policy would let a stale /index.html pin an old bundle.
+const ASSETS_DIR = path.join(CLIENT_DIST, 'assets') + path.sep;
+app.use(
+  express.static(CLIENT_DIST, {
+    index: false,
+    setHeaders(res, filePath) {
+      res.setHeader(
+        'Cache-Control',
+        filePath.startsWith(ASSETS_DIR) ? 'public, max-age=31536000, immutable' : 'no-cache'
+      );
+    },
+  })
+);
 
 // SPA fallback. Express 5 removed the app.get('*') pattern; a plain use()
 // after the static handler catches everything that is not a file.

@@ -285,6 +285,12 @@ export async function main() {
     throw new Error(`boundary validation failed for ${new Set(violations.map((v) => v.state)).size} state(s)`);
   }
 
+  if (rows.length === 0) {
+    throw new Error(
+      'no boundary files were built — sources are missing. Restore them from git ' +
+        'history (master branch, public/json/<State>/<State>.json) and re-run.'
+    );
+  }
   console.log(`Done. ${rows.length} boundary files written, all validations passed.`);
 }
 

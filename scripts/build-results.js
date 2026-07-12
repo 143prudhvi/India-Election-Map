@@ -239,7 +239,9 @@ export async function main() {
   // ------------------------------------------------------------ manifest
   const manifest = meta.map(({ slug, name, center, scale }) => {
     const boundaryAcs = loadBoundaryAcs(slug);
-    const total_seats = boundaryAcs?.size ?? maxSeatsBySlug.get(slug) ?? 0;
+    // ac_no 0 is an "unassigned area" placeholder polygon, not a seat.
+    const realSeats = boundaryAcs && [...boundaryAcs].filter((n) => n >= 1).length;
+    const total_seats = realSeats ?? maxSeatsBySlug.get(slug) ?? 0;
     return { slug, name, total_seats, years: listYears(slug), center, scale };
   });
   writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2) + '\n');

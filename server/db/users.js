@@ -72,16 +72,75 @@ export async function deleteById(id) {
   return rowCount > 0;
 }
 
-export async function countAdmins() {
-  const { rows } = await pool.query(
-    `SELECT count(*)::int AS n FROM users WHERE role = 'admin'`
-  );
-  return rows[0].n;
-}
-
 export async function deleteSessionsForUser(id) {
   await pool.query(
     `DELETE FROM "session" WHERE (sess->'user'->>'id')::int = $1`,
     [id]
   );
+}
+
+// Demotions and deletions of admins must be atomic with the "is this the last
+// admin?" check — two concurrent requests could otherwise each see two admins
+// and remove both. The advisory lock serializes these rare admin mutations.
+async function withAdminLock(fn) {
+  const client = await pool.connect();
+  try {
+    await client.query('BEGIN');
+    await client.query('SELECT pg_advisory_xact_lock(874321)');
+    const result = await fn(client);
+    await client.query('COMMIT');
+    return result;
+  } catch (err) {
+    await client.query('ROLLBACK');
+    throw err;
+  } finally {
+    client.release();
+  }
+}
+
+export async function demoteAdminGuarded(id) {
+  return withAdminLock(async (client) => {
+    const { rows } = await client.query(
+      `SELECT ${PUBLIC_COLS} FROM users WHERE id = $1`,
+      [id]
+    );
+    const target = rows[0];
+    if (!target) return { ok: false, reason: 'NOT_FOUND' };
+    if (target.role === 'admin') {
+      const { rows: counted } = await client.query(
+        `SELECT count(*)::int AS n FROM users WHERE role = 'admin'`
+      );
+      if (counted[0].n <= 1) return { ok: false, reason: 'LAST_ADMIN' };
+    }
+    const { rows: updated } = await client.query(
+      `UPDATE users SET role = 'user', updated_at = now()
+       WHERE id = $1
+       RETURNING ${PUBLIC_COLS}`,
+      [id]
+    );
+    return { ok: true, user: updated[0] };
+  });
+}
+
+export async function deleteUserGuarded(id) {
+  return withAdminLock(async (client) => {
+    const { rows } = await client.query(
+      `SELECT ${PUBLIC_COLS} FROM users WHERE id = $1`,
+      [id]
+    );
+    const target = rows[0];
+    if (!target) return { ok: false, reason: 'NOT_FOUND' };
+    if (target.role === 'admin') {
+      const { rows: counted } = await client.query(
+        `SELECT count(*)::int AS n FROM users WHERE role = 'admin'`
+      );
+      if (counted[0].n <= 1) return { ok: false, reason: 'LAST_ADMIN' };
+    }
+    await client.query('DELETE FROM users WHERE id = $1', [id]);
+    await client.query(
+      `DELETE FROM "session" WHERE (sess->'user'->>'id')::int = $1`,
+      [id]
+    );
+    return { ok: true };
+  });
 }

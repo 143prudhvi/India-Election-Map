@@ -33,7 +33,14 @@ export function useApi(url, options = {}) {
       return undefined;
     }
     let cancelled = false;
-    setState({ url, data: null, error: null, loading: true });
+    // Keep showing the previous data for the SAME url while refetching
+    // (e.g. the admin table after an action); only a url change blanks it.
+    setState((s) => ({
+      url,
+      data: s.url === url ? s.data : null,
+      error: null,
+      loading: true,
+    }));
     api.get(url).then(
       (data) => {
         if (cached) cache.set(url, data);

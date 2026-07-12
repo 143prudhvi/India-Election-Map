@@ -27,11 +27,13 @@ function newTempPassword() {
 }
 
 function parseId(req, res) {
-  if (!/^\d+$/.test(req.params.id)) {
+  const id = Number(req.params.id);
+  // Upper bound keeps out-of-int4-range ids from becoming Postgres 22003 -> 500s.
+  if (!/^\d+$/.test(req.params.id) || id < 1 || id > 2147483647) {
     res.status(404).json({ error: 'User not found', code: 'NOT_FOUND' });
     return null;
   }
-  return Number(req.params.id);
+  return id;
 }
 
 router.get('/', async (req, res, next) => {
@@ -75,14 +77,21 @@ router.patch('/:id', validate(patchSchema), async (req, res, next) => {
     if (role !== undefined && id === req.user.id && role !== req.user.role) {
       return res.status(400).json({ error: 'You cannot change your own role' });
     }
-    if (role === 'user' && user.role === 'admin' && (await users.countAdmins()) <= 1) {
-      return res.status(400).json({ error: 'Cannot demote the last admin' });
-    }
 
     if (display_name !== undefined) {
       user = await users.updateProfile(id, display_name);
     }
-    if (role !== undefined) {
+    if (role === 'user' && user.role === 'admin') {
+      // Atomic with the last-admin check — see users.demoteAdminGuarded.
+      const result = await users.demoteAdminGuarded(id);
+      if (!result.ok) {
+        if (result.reason === 'NOT_FOUND') {
+          return res.status(404).json({ error: 'User not found', code: 'NOT_FOUND' });
+        }
+        return res.status(400).json({ error: 'Cannot demote the last admin' });
+      }
+      user = result.user;
+    } else if (role !== undefined && role !== user.role) {
       user = await users.updateRole(id, role);
     }
     res.json({ user });
@@ -98,15 +107,14 @@ router.delete('/:id', async (req, res, next) => {
     if (id === req.user.id) {
       return res.status(400).json({ error: 'You cannot delete your own account' });
     }
-    const target = await users.findById(id);
-    if (!target) {
-      return res.status(404).json({ error: 'User not found', code: 'NOT_FOUND' });
-    }
-    if (target.role === 'admin' && (await users.countAdmins()) <= 1) {
+    // Atomic with the last-admin check — see users.deleteUserGuarded.
+    const result = await users.deleteUserGuarded(id);
+    if (!result.ok) {
+      if (result.reason === 'NOT_FOUND') {
+        return res.status(404).json({ error: 'User not found', code: 'NOT_FOUND' });
+      }
       return res.status(400).json({ error: 'Cannot delete the last admin' });
     }
-    await users.deleteById(id);
-    await users.deleteSessionsForUser(id);
     res.status(204).end();
   } catch (err) {
     next(err);

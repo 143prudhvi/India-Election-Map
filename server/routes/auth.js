@@ -90,7 +90,10 @@ router.post(
       }
       const hash = await bcrypt.hash(req.body.new_password, BCRYPT_COST);
       await users.updatePassword({ id: req.user.id, hash, mustChange: false });
-      await regenerate(req); // new session id, but stay logged in
+      // Revoke every session for this user (including any on other devices —
+      // the point of a password change), then mint a fresh one to stay logged in.
+      await users.deleteSessionsForUser(req.user.id);
+      await regenerate(req);
       req.session.user = { id: req.user.id };
       res.status(204).end();
     } catch (err) {

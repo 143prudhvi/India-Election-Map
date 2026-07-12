@@ -160,9 +160,9 @@ export default function MapChoropleth({
         aria-label="Constituency map"
       >
         <g transform={transform.toString()}>
-          {paths.map(({ feature: f, d }) => (
+          {paths.map(({ feature: f, d }, i) => (
             <path
-              key={f.properties.ac_no}
+              key={`${f.properties.ac_no}-${i}`}
               d={d}
               className="ac-path"
               fill={fillFor(f.properties.ac_no)}

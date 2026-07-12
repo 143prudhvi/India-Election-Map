@@ -23,3 +23,9 @@ export const pool = new pg.Pool({
   connectionString,
   ssl: isLocal(connectionString) ? false : { rejectUnauthorized: false },
 });
+
+// Managed Postgres kills idle connections during maintenance/failover; the
+// pool emits 'error' for those, and without a listener the process dies.
+pool.on('error', (err) => {
+  console.error('Idle Postgres client error:', err.message);
+});

@@ -8,11 +8,20 @@ import Explorer from './pages/Explorer.jsx';
 import Profile from './pages/Profile.jsx';
 import AdminUsers from './pages/AdminUsers.jsx';
 import AdminData from './pages/AdminData.jsx';
+import ApiKeys from './pages/ApiKeys.jsx';
+import Upgrade from './pages/Upgrade.jsx';
+import PublicMap from './pages/PublicMap.jsx';
 
 export default function App() {
   return (
     <AuthProvider>
-      <AppShell />
+      <Routes>
+        {/* Public, no-login routes (data only served when the server has
+            PUBLIC_ACCESS_ENABLED=true) — outside the authed app chrome. */}
+        <Route path="/m" element={<PublicMap />} />
+        <Route path="/embed" element={<PublicMap embed />} />
+        <Route path="/*" element={<AppShell />} />
+      </Routes>
     </AuthProvider>
   );
 }
@@ -41,6 +50,14 @@ function Header({ minimal = false }) {
           <NavLink to="/profile" className={navLinkClass}>
             Profile
           </NavLink>
+          <NavLink to="/api-keys" className={navLinkClass}>
+            API Keys
+          </NavLink>
+          {user && user.role !== 'admin' && user.tier !== 'pro' && (
+            <NavLink to="/upgrade" className={navLinkClass}>
+              Upgrade
+            </NavLink>
+          )}
           {user?.role === 'admin' && (
             <NavLink to="/admin/users" className={navLinkClass}>
               Admin Users
@@ -128,6 +145,22 @@ function AppShell() {
               <RequireAdmin>
                 <AdminData />
               </RequireAdmin>
+            }
+          />
+          <Route
+            path="/api-keys"
+            element={
+              <RequireAuth>
+                <ApiKeys />
+              </RequireAuth>
+            }
+          />
+          <Route
+            path="/upgrade"
+            element={
+              <RequireAuth>
+                <Upgrade />
+              </RequireAuth>
             }
           />
           <Route path="*" element={<Navigate to="/" replace />} />

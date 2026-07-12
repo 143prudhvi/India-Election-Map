@@ -1,0 +1,31 @@
+/* API Keys page — only NEW classes live here; everything else reuses global
+   .card / .btn* / .badge* / .notice* / .modal* / .admin-table classes. */
+
+.api-usage {
+  margin: 0.5rem 0 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #e6e6e6;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-break: break-all;
+  overflow-x: auto;
+}
+
+.api-key-full {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.api-key-prefix {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.85rem;
+}
+
+.muted {
+  opacity: 0.55;
+}

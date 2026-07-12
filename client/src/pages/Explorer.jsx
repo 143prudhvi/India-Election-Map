@@ -14,6 +14,7 @@ import PartyLegend from '../components/PartyLegend.jsx';
 import ConstituencyPanel from '../components/ConstituencyPanel.jsx';
 import ConstituencyHistory from '../components/ConstituencyHistory.jsx';
 import WhatIfPanel from '../components/WhatIfPanel.jsx';
+import ShareButton from '../components/ShareButton.jsx';
 import PartyChip from '../components/PartyChip.jsx';
 import { shareBandT } from '../lib/shareBands.js';
 import { marginColor } from '../lib/marginBands.js';
@@ -398,6 +399,13 @@ export default function Explorer() {
           />
         )}
         <div className="toolbar-actions">
+          <ShareButton
+            params={{
+              state: selection.slug,
+              year: String(selection.year),
+              ...(view === 'alliances' ? { view: 'alliances' } : {}),
+            }}
+          />
           <AnalysisControl
             analysis={analysis}
             parties={shareCodes}

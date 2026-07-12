@@ -12,6 +12,10 @@ import profileRouter from './routes/profile.js';
 import adminUsersRouter from './routes/adminUsers.js';
 import adminDataRouter from './routes/adminData.js';
 import dataRouter from './routes/data.js';
+import apiV1Router from './routes/apiV1.js';
+import apiKeysRouter from './routes/apiKeys.js';
+import publicDataRouter from './routes/publicData.js';
+import billingRouter, { webhookHandler } from './routes/billing.js';
 
 if (!process.env.SESSION_SECRET) {
   throw new Error('SESSION_SECRET is not set. Add a long random string to .env.');
@@ -22,6 +26,16 @@ const app = express();
 app.set('trust proxy', 1);
 app.use(helmet());
 app.use(compression());
+
+// Razorpay webhook needs the RAW body for HMAC signature verification, so it
+// must be registered before any JSON body parser.
+app.post('/api/billing/webhook', express.raw({ type: '*/*' }), webhookHandler);
+
+// API-key-authenticated data API and the flagged public map data need no
+// session cookie — mount them before the session middleware.
+app.use('/api/v1', apiV1Router);
+app.use('/api/public', publicDataRouter);
+
 // Small default body cap; /api/admin/data parses its own bodies (election
 // imports run to megabytes), so the strict parser must not see them first.
 const smallJson = express.json({ limit: '10kb' });
@@ -57,6 +71,8 @@ app.use('/api/profile', profileRouter);
 app.use('/api/admin/users', adminUsersRouter);
 app.use('/api/admin/data', adminDataRouter);
 app.use('/api/data', dataRouter);
+app.use('/api/keys', apiKeysRouter);
+app.use('/api/billing', billingRouter);
 
 app.use('/api', (req, res) => {
   res.status(404).json({ error: 'Not found', code: 'NOT_FOUND' });

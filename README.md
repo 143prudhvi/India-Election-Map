@@ -4,18 +4,53 @@ Authenticated web app for exploring Indian state assembly election results as
 interactive constituency maps. React (Vite) frontend + Express API + Postgres,
 deployed as a single Node service.
 
-The whole app is behind login. There is no self-registration: an admin creates
-accounts and hands out temporary passwords, which must be changed at first login.
+By default the whole app is behind login (an optional flag opens a read-only
+public map). There is no self-registration: an admin creates accounts and hands
+out temporary passwords, which must be changed at first login. Accounts have a
+**free** or **pro** tier gating the advanced analysis, API, and export features.
 
 ## Features
 
+**Free (any logged-in user)**
 - Choropleth of any state's assembly constituencies for any covered election year
-  (30 states/UTs, elections from 2010–2024)
-- Color by **winner** or by **any party's vote share**
+  (30 states/UTs, elections from 2010–2026)
+- Color by **winner**, **any party's vote share** (fixed slabs), or group by
+  **pre-poll alliance**
 - Click a constituency: zoom in, full candidate table, winner/runner-up/margin
-- Party seat summary + semicircle seat donut per state-year
-- Admin panel: create users, change roles, reset passwords, delete users
-- Profile page: display name + password change
+- Party/alliance seat summary + semicircle seat donut per state-year
+
+**Pro (subscription or admin-granted)**
+- **Marginal-seats** map (victory-margin bands) and **swing** map vs any prior election
+- **Seat history** — every past winner/margin for a selected constituency
+- **What-if** uniform-swing seat projector
+- **Export PNG** of the current map
+- **Programmatic API** with personal API keys (`/api/v1`, rate-limited)
+
+**Admin**
+- Users: create, roles, **tier (free/pro)**, reset passwords, delete
+- Data: edit parties/alliances/results/states, import elections (see below)
+
+**Optional public tier** (off by default): a read-only winner/alliance map with
+shareable links + iframe embeds, gated by the `PUBLIC_ACCESS_ENABLED` flag.
+
+## Plans, tiers & billing
+
+`users.tier` is `free` or `pro`; admins are implicitly Pro. Admins grant Pro
+directly from **Admin → Users**. Self-serve upgrade uses **Razorpay** — set the
+`RAZORPAY_*` env vars to enable it; when unset, the upgrade flow degrades to a
+"contact an admin" message and everything else works. Pro is enforced
+server-side (`requirePro`, `403 PRO_REQUIRED`), not just hidden in the UI.
+
+## Public data API
+
+Pro users mint API keys under **API Keys** and call the read-only JSON API:
+
+```bash
+curl -H "X-API-Key: iem_…" https://<host>/api/v1/delhi/2025/results
+# also: /api/v1/states, /api/v1/parties, /api/v1/:state/:year/summary
+```
+
+Keyed rate limit: 60 requests/minute. Keys are stored hashed (shown once).
 
 ## Stack
 
@@ -23,8 +58,9 @@ accounts and hands out temporary passwords, which must be changed at first login
 |---|---|
 | Frontend | React 19, Vite 7, D3 v7, react-router 7 (`client/`) |
 | API | Express 5, express-session + connect-pg-simple, bcrypt, zod (`server/`) |
-| Database | Postgres (users + sessions only — election data is static JSON) |
-| Data | Precomputed JSON under `data/` (committed), built by `scripts/` pipeline |
+| Database | Postgres (users, sessions, and all election data) |
+| Billing | Razorpay (subscriptions), via REST — no SDK dependency |
+| Shared | `shared/electionShape.js` computes winners/margins/summaries/alliances |
 
 ## Getting started
 

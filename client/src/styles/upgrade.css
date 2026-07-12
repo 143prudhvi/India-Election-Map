@@ -1,0 +1,93 @@
+/* Page-specific styles for the Upgrade → Pro page. Relies on global .card,
+   .btn/.btn-primary, and .notice* classes; only adds what's unique here. */
+
+.upgrade-card {
+  position: relative;
+}
+
+.pricing-card {
+  border-top: 3px solid #2563eb;
+}
+
+.upgrade-badge {
+  display: inline-block;
+  align-self: flex-start;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  background: #2563eb;
+  margin-bottom: 0.5rem;
+}
+
+.price-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+}
+
+.price-amount {
+  font-size: 2.25rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.price-period {
+  font-size: 1rem;
+  color: var(--text-muted, #6b7280);
+}
+
+.price-note {
+  margin-top: 0.25rem;
+}
+
+.feature-list {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.feature-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  line-height: 1.35;
+}
+
+.feature-check {
+  flex: 0 0 1.25rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #fff;
+  background: #16a34a;
+}
+
+/* Global .notice provides base + error/success; add the warn variant used for
+   a dismissed / pending-payment checkout. */
+.notice-warn {
+  color: #92600a;
+  background: #fdf4e3;
+  border-color: #f0dcae;
+}
+
+.btn-upgrade {
+  width: 100%;
+  margin-top: 0.25rem;
+}
+
+.upgrade-disabled-note,
+.sub-status {
+  margin-top: 0.75rem;
+}

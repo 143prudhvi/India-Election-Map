@@ -326,7 +326,11 @@ export default function Explorer() {
 
   function handleViewChange(next) {
     if (!selection) return;
+    // A party-scoped share/swing is meaningless once grouping changes — reset
+    // to a clean winner view for the new grouping.
     setColorMode('winner');
+    setAnalysis(null);
+    setWhatIfOpen(false);
     setSearchParams(paramsFor(selection.slug, selection.year, next === 'alliances'), {
       replace: true,
     });

@@ -2,6 +2,7 @@ import { Navigate, NavLink, Route, Routes, useLocation } from 'react-router-dom'
 import { AuthProvider, useAuth } from './auth/AuthContext.jsx';
 import RequireAuth from './auth/RequireAuth.jsx';
 import RequireAdmin from './auth/RequireAdmin.jsx';
+import ErrorBoundary from './components/ErrorBoundary.jsx';
 import Login from './pages/Login.jsx';
 import ForceChangePassword from './pages/ForceChangePassword.jsx';
 import Explorer from './pages/Explorer.jsx';
@@ -113,6 +114,7 @@ function AppShell() {
     <div className="app">
       {showHeader && <Header />}
       <main className="app-main">
+        <ErrorBoundary key={location.pathname + location.search}>
         <Routes>
           <Route path="/login" element={user ? <Navigate to="/" replace /> : <Login />} />
           <Route
@@ -165,6 +167,7 @@ function AppShell() {
           />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
+        </ErrorBoundary>
       </main>
     </div>
   );

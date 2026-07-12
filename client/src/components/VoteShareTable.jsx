@@ -1,5 +1,7 @@
 import PartyChip from './PartyChip.jsx';
 
+const num = (v) => (typeof v === 'number' && Number.isFinite(v) ? v : 0);
+
 // Dual-bar breakdown: each row shows seats + an overlaid seat-share (top,
 // solid) vs vote-share (bottom, lighter) bar on a shared 0–100% scale, so the
 // "few % of votes → many seats" amplification is visible at a glance. Rows are
@@ -29,7 +31,7 @@ export default function VoteShareTable({
   onPick,
 }) {
   const isAlliance = view === 'alliances';
-  const rows = isAlliance ? alliances : parties;
+  const rows = (isAlliance ? alliances : parties) || [];
 
   return (
     <table className="vote-table">
@@ -90,11 +92,11 @@ function RowGroup({ row, code, isAlliance, seatPct, totalSeats, color, clickable
             <PartyChip code={code} color={color} title={partyName(code)} />
           )}
         </td>
-        <td className="n seats-cell">{row.seats}</td>
+        <td className="n seats-cell">{row.seats ?? 0}</td>
         <td>
-          <DualBars seatPct={seatPct} votePct={row.vote_pct} color={color} />
+          <DualBars seatPct={seatPct} votePct={num(row.vote_pct)} color={color} />
         </td>
-        <td className="n">{row.vote_pct.toFixed(2)}%</td>
+        <td className="n">{num(row.vote_pct).toFixed(2)}%</td>
       </tr>
       {isAlliance &&
         (row.parties || []).length > 1 &&
@@ -103,15 +105,15 @@ function RowGroup({ row, code, isAlliance, seatPct, totalSeats, color, clickable
             <td>
               <PartyChip code={p.party} color={partyColor(p.party)} title={partyName(p.party)} />
             </td>
-            <td className="n">{p.seats}</td>
+            <td className="n">{p.seats ?? 0}</td>
             <td>
               <DualBars
-                seatPct={totalSeats > 0 ? (p.seats / totalSeats) * 100 : 0}
-                votePct={p.vote_pct}
+                seatPct={totalSeats > 0 ? ((p.seats ?? 0) / totalSeats) * 100 : 0}
+                votePct={num(p.vote_pct)}
                 color={partyColor(p.party)}
               />
             </td>
-            <td className="n">{p.vote_pct.toFixed(2)}%</td>
+            <td className="n">{num(p.vote_pct).toFixed(2)}%</td>
           </tr>
         ))}
     </>

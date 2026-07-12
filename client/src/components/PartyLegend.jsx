@@ -1,3 +1,5 @@
+import { shortPartyLabel } from '../lib/partyLabel.js';
+
 export default function PartyLegend({
   mode,
   parties,
@@ -11,7 +13,9 @@ export default function PartyLegend({
     const max = shareMax > 0 ? shareMax : 1;
     return (
       <div className="party-legend">
-        <p className="legend-caption">{mode} vote share</p>
+        <p className="legend-caption" title={mode}>
+          {shortPartyLabel(mode)} vote share
+        </p>
         <div
           className="legend-gradient"
           style={{ background: `linear-gradient(to right, #ffffff, ${color})` }}
@@ -46,7 +50,9 @@ export default function PartyLegend({
               />
               <span className="legend-main">
                 <span className="legend-top">
-                  <span className="legend-code">{p.party}</span>
+                  <span className="legend-code" title={p.party}>
+                    {shortPartyLabel(p.party)}
+                  </span>
                   <span className="legend-seats">{p.seats}</span>
                 </span>
                 <span className="legend-bar-track">

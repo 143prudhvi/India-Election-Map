@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import * as d3 from 'd3';
 import { feature } from 'topojson-client';
+import { shortPartyLabel } from '../lib/partyLabel.js';
 
 const NO_DATA_FILL = '#e0e0e0';
 const MAX_ZOOM = 12;
@@ -21,14 +22,15 @@ export default function MapChoropleth({
   const [transform, setTransform] = useState(() => d3.zoomIdentity);
   const [hover, setHover] = useState(null); // {acNo, acName, x, y}
 
-  // Measure the container.
+  // Measure the container. Seed from the current rect too — don't rely
+  // solely on the observer's initial callback.
   useEffect(() => {
     const el = containerRef.current;
     if (!el) return undefined;
-    const ro = new ResizeObserver((entries) => {
-      const rect = entries[0].contentRect;
+    const apply = (rect) =>
       setSize({ width: Math.round(rect.width), height: Math.round(rect.height) });
-    });
+    apply(el.getBoundingClientRect());
+    const ro = new ResizeObserver((entries) => apply(entries[0].contentRect));
     ro.observe(el);
     return () => ro.disconnect();
   }, []);
@@ -222,7 +224,7 @@ export default function MapChoropleth({
           {hoverRow && hoverRow.winner ? (
             <>
               <div className="map-tooltip-line">
-                {hoverRow.winner.candidate} ({hoverRow.winner.party})
+                {hoverRow.winner.candidate} ({shortPartyLabel(hoverRow.winner.party)})
               </div>
               {hoverRow.margin != null && (
                 <div className="map-tooltip-line muted">

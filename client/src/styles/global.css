@@ -1085,7 +1085,17 @@ button {
   white-space: nowrap;
 }
 
-.candidates-table .pct-col {
+/* Fixed layout so a long nowrap candidate name clips with an ellipsis
+   instead of widening its column and pushing votes/% out of view. */
+.candidates-table {
+  table-layout: fixed;
+}
+
+.candidates-table th.num {
+  width: 66px;
+}
+
+.candidates-table th.pct-col {
   width: 74px;
 }
 
@@ -1099,7 +1109,10 @@ button {
 
 .candidate-name {
   font-weight: 550;
-  overflow-wrap: anywhere;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .pct-cell {
@@ -1139,12 +1152,29 @@ button {
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.02em;
-  max-width: 160px;
+  max-width: 120px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   vertical-align: middle;
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.08);
+  cursor: default;
+}
+
+/* Shared fixed-position hover tooltip (portaled to <body>, so it is never
+   clipped by scroll containers like .table-scroll). */
+.ui-tooltip {
+  position: fixed;
+  z-index: 200;
+  pointer-events: none;
+  background: rgba(12, 21, 38, 0.94);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 7px;
+  font-size: 12px;
+  font-weight: 500;
+  max-width: 260px;
+  box-shadow: var(--shadow-md);
 }
 
 /* ============================================================ constituency panel */

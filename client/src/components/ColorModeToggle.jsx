@@ -1,3 +1,5 @@
+import { shortPartyLabel } from '../lib/partyLabel.js';
+
 export default function ColorModeToggle({ mode, parties, onChange }) {
   return (
     <label className="picker-field color-mode-toggle">
@@ -6,7 +8,7 @@ export default function ColorModeToggle({ mode, parties, onChange }) {
         <option value="winner">Winner</option>
         {(parties || []).map((p) => (
           <option key={p.party} value={p.party}>
-            {p.party} vote share
+            {shortPartyLabel(p.party)} vote share
           </option>
         ))}
       </select>

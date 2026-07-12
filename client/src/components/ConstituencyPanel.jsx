@@ -4,7 +4,14 @@ function formatVotes(n) {
   return n == null ? '—' : n.toLocaleString('en-IN');
 }
 
-export default function ConstituencyPanel({ acNo, acName, constituency, partyColor, onClose }) {
+export default function ConstituencyPanel({
+  acNo,
+  acName,
+  constituency,
+  partyColor,
+  partyName,
+  onClose,
+}) {
   const winner = constituency?.winner;
   const runnerUp = constituency?.runner_up;
 
@@ -36,7 +43,11 @@ export default function ConstituencyPanel({ acNo, acName, constituency, partyCol
               <p className="winner-label">Winner</p>
               <p className="winner-name">{winner.candidate}</p>
               <p className="winner-detail">
-                <PartyChip code={winner.party} color={partyColor(winner.party)} />{' '}
+                <PartyChip
+                  code={winner.party}
+                  color={partyColor(winner.party)}
+                  title={partyName(winner.party)}
+                />{' '}
                 {formatVotes(winner.votes)} votes ({winner.vote_pct}%)
               </p>
 
@@ -68,7 +79,11 @@ export default function ConstituencyPanel({ acNo, acName, constituency, partyCol
           {runnerUp && (
             <p className="runner-up-line">
               Runner-up: {runnerUp.candidate}{' '}
-              <PartyChip code={runnerUp.party} color={partyColor(runnerUp.party)} />
+              <PartyChip
+                code={runnerUp.party}
+                color={partyColor(runnerUp.party)}
+                title={partyName(runnerUp.party)}
+              />
               {constituency.margin != null && (
                 <>
                   {' '}
@@ -94,8 +109,14 @@ export default function ConstituencyPanel({ acNo, acName, constituency, partyCol
                   <tr key={`${c.candidate}-${i}`}>
                     <td>
                       <span className="candidate-cell">
-                        <span className="candidate-name">{c.candidate}</span>
-                        <PartyChip code={c.party} color={partyColor(c.party)} />
+                        <span className="candidate-name" title={c.candidate}>
+                          {c.candidate}
+                        </span>
+                        <PartyChip
+                          code={c.party}
+                          color={partyColor(c.party)}
+                          title={partyName(c.party)}
+                        />
                       </span>
                     </td>
                     <td className="num">{formatVotes(c.votes)}</td>

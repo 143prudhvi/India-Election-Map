@@ -35,6 +35,11 @@ export default function Explorer() {
     [partyMap]
   );
 
+  const partyName = useCallback(
+    (code) => partyMap.get(code)?.name || code,
+    [partyMap]
+  );
+
   // Resolve state/year from the URL query, falling back to delhi + latest year.
   const selection = useMemo(() => {
     if (!states) return null;
@@ -200,6 +205,7 @@ export default function Explorer() {
               acName={selectedAc.acName}
               constituency={selectedResult}
               partyColor={partyColor}
+              partyName={partyName}
               onClose={() => setSelectedAc(null)}
             />
           ) : (

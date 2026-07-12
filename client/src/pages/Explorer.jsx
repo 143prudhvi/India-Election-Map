@@ -65,6 +65,12 @@ export default function Explorer() {
   const [colorMode, setColorMode] = useState('winner'); // 'winner' | party code
   const [selectedAc, setSelectedAc] = useState(null); // {acNo, acName} | null
 
+  // Selection can also change through browser back/forward (URL-driven), not
+  // just the picker handlers — drop a stale constituency selection either way.
+  useEffect(() => {
+    setSelectedAc(null);
+  }, [selection?.slug, selection?.year]);
+
   const boundaryReq = useApi(
     selection ? `/api/data/${selection.slug}/boundary` : null,
     { cached: true }
@@ -199,11 +205,12 @@ export default function Explorer() {
           ) : (
             <>
               <div className="card sidebar-card">
-                <h2 className="sidebar-heading">
-                  {selection.state.name} {selection.year}
-                </h2>
+                <div className="sidebar-headline">
+                  <h2 className="sidebar-heading">{selection.state.name}</h2>
+                  <span className="year-pill">{selection.year}</span>
+                </div>
                 <p className="sidebar-subheading">
-                  {selection.state.total_seats} seats
+                  Assembly election · {selection.state.total_seats} seats
                 </p>
                 {resultsReq.loading && (
                   <div className="spinner-wrap">
@@ -228,6 +235,7 @@ export default function Explorer() {
                       parties={notableParties}
                       partyColor={partyColor}
                       shareMax={shareMax}
+                      totalSeats={results.summary.total_seats}
                       onPartyClick={(code) => setColorMode(code)}
                     />
                   </>

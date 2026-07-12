@@ -5,6 +5,9 @@ function formatVotes(n) {
 }
 
 export default function ConstituencyPanel({ acNo, acName, constituency, partyColor, onClose }) {
+  const winner = constituency?.winner;
+  const runnerUp = constituency?.runner_up;
+
   return (
     <div className="card sidebar-card constituency-panel">
       <div className="panel-header">
@@ -25,31 +28,51 @@ export default function ConstituencyPanel({ acNo, acName, constituency, partyCol
             <p className="badge badge-warn">Result not declared</p>
           )}
 
-          {constituency.winner && (
-            <div className="winner-block">
+          {winner && (
+            <div
+              className="winner-block"
+              style={{ borderLeftColor: partyColor(winner.party) }}
+            >
               <p className="winner-label">Winner</p>
-              <p className="winner-name">{constituency.winner.candidate}</p>
+              <p className="winner-name">{winner.candidate}</p>
               <p className="winner-detail">
-                <PartyChip
-                  code={constituency.winner.party}
-                  color={partyColor(constituency.winner.party)}
-                />{' '}
-                {formatVotes(constituency.winner.votes)} votes ({constituency.winner.vote_pct}%)
+                <PartyChip code={winner.party} color={partyColor(winner.party)} />{' '}
+                {formatVotes(winner.votes)} votes ({winner.vote_pct}%)
               </p>
+
+              {runnerUp && (
+                <div className="margin-viz" aria-hidden="true">
+                  <div className="margin-bar-row">
+                    <span
+                      className="margin-bar"
+                      style={{
+                        width: '100%',
+                        backgroundColor: partyColor(winner.party),
+                      }}
+                    />
+                  </div>
+                  <div className="margin-bar-row">
+                    <span
+                      className="margin-bar"
+                      style={{
+                        width: `${Math.max((runnerUp.votes / (winner.votes || 1)) * 100, 2)}%`,
+                        backgroundColor: partyColor(runnerUp.party),
+                      }}
+                    />
+                  </div>
+                </div>
+              )}
             </div>
           )}
 
-          {constituency.runner_up && (
+          {runnerUp && (
             <p className="runner-up-line">
-              Runner-up: {constituency.runner_up.candidate}{' '}
-              <PartyChip
-                code={constituency.runner_up.party}
-                color={partyColor(constituency.runner_up.party)}
-              />
+              Runner-up: {runnerUp.candidate}{' '}
+              <PartyChip code={runnerUp.party} color={partyColor(runnerUp.party)} />
               {constituency.margin != null && (
                 <>
                   {' '}
-                  — margin {formatVotes(constituency.margin)}
+                  — margin <strong>{formatVotes(constituency.margin)}</strong>
                   {constituency.margin_pct != null ? ` (${constituency.margin_pct}%)` : ''}
                 </>
               )}
@@ -62,20 +85,32 @@ export default function ConstituencyPanel({ acNo, acName, constituency, partyCol
               <thead>
                 <tr>
                   <th>Candidate</th>
-                  <th>Party</th>
                   <th className="num">Votes</th>
-                  <th className="num">%</th>
+                  <th className="num pct-col">%</th>
                 </tr>
               </thead>
               <tbody>
                 {(constituency.candidates || []).map((c, i) => (
                   <tr key={`${c.candidate}-${i}`}>
-                    <td>{c.candidate}</td>
                     <td>
-                      <PartyChip code={c.party} color={partyColor(c.party)} />
+                      <span className="candidate-cell">
+                        <span className="candidate-name">{c.candidate}</span>
+                        <PartyChip code={c.party} color={partyColor(c.party)} />
+                      </span>
                     </td>
                     <td className="num">{formatVotes(c.votes)}</td>
-                    <td className="num">{c.vote_pct}%</td>
+                    <td className="num pct-col">
+                      <span className="pct-cell">
+                        <span
+                          className="pct-bar"
+                          style={{
+                            width: `${Math.min(c.vote_pct ?? 0, 100)}%`,
+                            backgroundColor: partyColor(c.party),
+                          }}
+                        />
+                        <span className="pct-num">{c.vote_pct}%</span>
+                      </span>
+                    </td>
                   </tr>
                 ))}
               </tbody>

@@ -1,4 +1,11 @@
-export default function PartyLegend({ mode, parties, partyColor, shareMax, onPartyClick }) {
+export default function PartyLegend({
+  mode,
+  parties,
+  partyColor,
+  shareMax,
+  totalSeats,
+  onPartyClick,
+}) {
   if (mode !== 'winner') {
     const color = partyColor(mode);
     const max = shareMax > 0 ? shareMax : 1;
@@ -13,9 +20,14 @@ export default function PartyLegend({ mode, parties, partyColor, shareMax, onPar
           <span>0%</span>
           <span>{max.toFixed(1)}%</span>
         </div>
+        <button type="button" className="legend-back" onClick={() => onPartyClick('winner')}>
+          ← Back to winners
+        </button>
       </div>
     );
   }
+
+  const denominator = totalSeats > 0 ? totalSeats : 1;
 
   return (
     <div className="party-legend">
@@ -32,8 +44,21 @@ export default function PartyLegend({ mode, parties, partyColor, shareMax, onPar
                 className="legend-swatch"
                 style={{ backgroundColor: partyColor(p.party) }}
               />
-              <span className="legend-code">{p.party}</span>
-              <span className="legend-seats">{p.seats}</span>
+              <span className="legend-main">
+                <span className="legend-top">
+                  <span className="legend-code">{p.party}</span>
+                  <span className="legend-seats">{p.seats}</span>
+                </span>
+                <span className="legend-bar-track">
+                  <span
+                    className="legend-bar"
+                    style={{
+                      width: `${Math.max((p.seats / denominator) * 100, p.seats > 0 ? 1.5 : 0)}%`,
+                      backgroundColor: partyColor(p.party),
+                    }}
+                  />
+                </span>
+              </span>
             </button>
           </li>
         ))}

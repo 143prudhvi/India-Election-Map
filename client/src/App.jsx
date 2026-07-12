@@ -24,7 +24,14 @@ function Header({ minimal = false }) {
   const { user, logout } = useAuth();
   return (
     <header className="app-header">
-      <div className="app-title">India Election Map</div>
+      <div className="app-brand">
+        <span className="brand-mark" aria-hidden="true">
+          <span />
+          <span />
+          <span />
+        </span>
+        <span className="app-title">India Election Map</span>
+      </div>
       {!minimal && (
         <nav className="app-nav">
           <NavLink to="/" end className={navLinkClass}>

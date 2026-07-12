@@ -10,8 +10,11 @@ const MAX_ZOOM = 12;
 export default function MapChoropleth({
   boundary,
   resultsByAc,
-  partyColor,
-  colorMode, // 'winner' | party code
+  colorFor, // (code) => color — party or alliance depending on the view
+  winnerCodeOf, // (row) => code|null used for winner-mode fill
+  shareOf, // (row, code) => vote_pct for share-mode fill
+  winnerTag, // (row) => string|null — extra muted tooltip line (alliance view)
+  colorMode, // 'winner' | party/alliance code
   shareMax,
   selectedAc, // {acNo, acName} | null
   onSelect, // (ac|null) => void
@@ -84,19 +87,18 @@ export default function MapChoropleth({
   const shareScale = useMemo(() => {
     if (colorMode === 'winner') return null;
     return d3
-      .scaleSequential(d3.interpolateRgb('#ffffff', partyColor(colorMode)))
+      .scaleSequential(d3.interpolateRgb('#ffffff', colorFor(colorMode)))
       .domain([0, shareMax > 0 ? shareMax : 1]);
-  }, [colorMode, shareMax, partyColor]);
+  }, [colorMode, shareMax, colorFor]);
 
   function fillFor(acNo) {
     const row = resultsByAc ? resultsByAc.get(acNo) : null;
     if (colorMode === 'winner') {
-      if (!row || !row.winner) return NO_DATA_FILL;
-      return partyColor(row.winner.party);
+      const code = row ? winnerCodeOf(row) : null;
+      if (!code) return NO_DATA_FILL;
+      return colorFor(code);
     }
-    const cand =
-      row && row.candidates ? row.candidates.find((c) => c.party === colorMode) : null;
-    return shareScale(cand ? cand.vote_pct : 0);
+    return shareScale(row ? shareOf(row, colorMode) : 0);
   }
 
   function zoomToFeature(f) {
@@ -140,9 +142,8 @@ export default function MapChoropleth({
 
   const hoverRow = hover && resultsByAc ? resultsByAc.get(hover.acNo) : null;
   const hoverShare =
-    hover && colorMode !== 'winner' && hoverRow && hoverRow.candidates
-      ? hoverRow.candidates.find((c) => c.party === colorMode)
-      : null;
+    hover && colorMode !== 'winner' && hoverRow ? shareOf(hoverRow, colorMode) : null;
+  const hoverTag = hoverRow && winnerTag ? winnerTag(hoverRow) : null;
 
   const tooltipStyle = hover
     ? {
@@ -227,6 +228,7 @@ export default function MapChoropleth({
               <div className="map-tooltip-line">
                 {displayName(hoverRow.winner.candidate)} ({shortPartyLabel(hoverRow.winner.party)})
               </div>
+              {hoverTag && <div className="map-tooltip-line muted">Alliance: {hoverTag}</div>}
               {hoverRow.margin != null && (
                 <div className="map-tooltip-line muted">
                   Margin: {hoverRow.margin.toLocaleString('en-IN')}
@@ -235,7 +237,7 @@ export default function MapChoropleth({
               )}
               {colorMode !== 'winner' && (
                 <div className="map-tooltip-line muted">
-                  {colorMode}: {hoverShare ? `${hoverShare.vote_pct}%` : 'no candidate'}
+                  {colorMode}: {hoverShare > 0 ? `${hoverShare}%` : 'no votes'}
                 </div>
               )}
             </>

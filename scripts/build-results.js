@@ -27,10 +27,13 @@ import { pathToFileURL } from 'node:url';
 const ROOT = path.resolve(import.meta.dirname, '..');
 const META_PATH = path.join(ROOT, 'data', 'raw', 'states-meta.json');
 const PARTIES_PATH = path.join(ROOT, 'data', 'parties.json');
+const ALLIANCES_PATH = path.join(ROOT, 'data', 'raw', 'alliances.json');
 const RAW_DIR = path.join(ROOT, 'data', 'raw', 'results');
 const BOUNDARY_DIR = path.join(ROOT, 'data', 'boundaries');
 const OUT_DIR = path.join(ROOT, 'data', 'results');
 const MANIFEST_PATH = path.join(ROOT, 'data', 'states.json');
+
+const OTH_ALLIANCE = { code: 'OTH', name: 'Others / Unaligned', color: '#9e9e9e' };
 
 // ---------------------------------------------------------------- helpers
 
@@ -160,6 +163,111 @@ function buildSummary(constituencies) {
   return { total_seats: constituencies.length, parties };
 }
 
+// -------------------------------------------------------------- alliances
+
+/** data/raw/alliances.json: { <slug>: { <year>: [{code,name,color,parties[]}] } } */
+function loadAlliances() {
+  if (!existsSync(ALLIANCES_PATH)) return {};
+  return readJson(ALLIANCES_PATH);
+}
+
+/**
+ * Enrich a built state-year in place: winner.alliance and alliance_votes per
+ * constituency, summary.alliances with member breakdown + an OTH bucket.
+ * Pre-poll alliances only; defined per (state, year) because compositions
+ * change every cycle. Pushes curator problems into report.{errors,notes}.
+ */
+function applyAlliances(out, defs, report) {
+  const where = `${out.state}/${out.year}`;
+  const partyToAlliance = new Map();
+  for (const a of defs) {
+    for (const p of a.parties) {
+      if (partyToAlliance.has(p)) {
+        report.errors.push(`${where}: party ${p} is in both ${partyToAlliance.get(p)} and ${a.code}`);
+      }
+      partyToAlliance.set(p, a.code);
+    }
+  }
+
+  const presentParties = new Set();
+  for (const c of out.constituencies) {
+    for (const cand of c.candidates) presentParties.add(cand.party);
+
+    if (c.winner) {
+      const al = partyToAlliance.get(c.winner.party);
+      if (al) c.winner.alliance = al;
+    }
+
+    const constituencyTotal = c.candidates.reduce((s, cand) => s + cand.votes, 0);
+    const votesByAlliance = new Map();
+    const contestants = new Map(); // alliance -> candidate count (friendly fights)
+    for (const cand of c.candidates) {
+      const al = partyToAlliance.get(cand.party);
+      if (!al) continue;
+      votesByAlliance.set(al, (votesByAlliance.get(al) ?? 0) + cand.votes);
+      contestants.set(al, (contestants.get(al) ?? 0) + 1);
+    }
+    c.alliance_votes = Object.fromEntries(
+      defs.map((a) => [
+        a.code,
+        constituencyTotal > 0
+          ? round2(((votesByAlliance.get(a.code) ?? 0) / constituencyTotal) * 100)
+          : 0,
+      ]),
+    );
+    for (const [al, n] of contestants) {
+      if (n > 1) report.notes.push(`${where}: friendly fight in ${c.ac_name} (#${c.ac_no}) — ${n} ${al} candidates`);
+    }
+  }
+
+  for (const a of defs) {
+    for (const p of a.parties) {
+      if (!presentParties.has(p)) {
+        report.notes.push(`${where}: ${a.code} lists ${p}, but it fielded no candidates`);
+      }
+    }
+  }
+
+  const stateTotal = out.summary.parties.reduce((s, p) => s + p.votes, 0);
+  const partyEntry = new Map(out.summary.parties.map((p) => [p.party, p]));
+  const allianceRows = defs.map((a) => {
+    const members = a.parties
+      .map((p) => partyEntry.get(p))
+      .filter(Boolean)
+      .sort((x, y) => y.seats - x.seats || y.votes - x.votes);
+    const seats = members.reduce((s, m) => s + m.seats, 0);
+    const votes = members.reduce((s, m) => s + m.votes, 0);
+    return {
+      alliance: a.code,
+      name: a.name,
+      color: a.color,
+      seats,
+      votes,
+      vote_pct: stateTotal > 0 ? round2((votes / stateTotal) * 100) : 0,
+      parties: members,
+    };
+  });
+
+  const unaligned = out.summary.parties.filter((p) => !partyToAlliance.has(p.party));
+  const othSeats = unaligned.reduce((s, p) => s + p.seats, 0);
+  const othVotes = unaligned.reduce((s, p) => s + p.votes, 0);
+  if (othVotes > 0 || othSeats > 0) {
+    allianceRows.push({
+      alliance: OTH_ALLIANCE.code,
+      name: OTH_ALLIANCE.name,
+      color: OTH_ALLIANCE.color,
+      seats: othSeats,
+      votes: othVotes,
+      vote_pct: stateTotal > 0 ? round2((othVotes / stateTotal) * 100) : 0,
+      // Keep the OTH breakdown to parties that actually registered — the
+      // full long tail is still available in summary.parties.
+      parties: unaligned.filter((p) => p.seats > 0 || p.vote_pct >= 1),
+    });
+  }
+
+  out.summary.alliances = allianceRows.sort((a, b) => b.seats - a.seats || b.votes - a.votes);
+}
+
 function buildStateYear(slug, year, partyMap, unknownParties) {
   const rawFile = path.join(RAW_DIR, slug, `${year}.json`);
   const raw = readJson(rawFile); // parse errors handled by caller
@@ -182,6 +290,8 @@ function buildStateYear(slug, year, partyMap, unknownParties) {
 export async function main() {
   const meta = readJson(META_PATH);
   const partyMap = loadPartyMap();
+  const alliances = loadAlliances();
+  const allianceReport = { errors: [], notes: [] };
   const unknownParties = new Map(); // raw name -> occurrence count
   const parseFailures = [];
   const joinWarnings = [];
@@ -210,6 +320,11 @@ export async function main() {
         parseFailures.push({ slug, year, error: err.message });
         console.error(`ERROR: ${slug}/${year}.json unparseable: ${err.message}`);
         continue;
+      }
+
+      const allianceDefs = alliances[slug]?.[String(year)];
+      if (Array.isArray(allianceDefs) && allianceDefs.length > 0) {
+        applyAlliances(out, allianceDefs, allianceReport);
       }
 
       mkdirSync(path.join(OUT_DIR, slug), { recursive: true });
@@ -274,8 +389,21 @@ export async function main() {
     }
   }
 
+  if (allianceReport.notes.length > 0) {
+    console.warn('');
+    console.warn(`ALLIANCE NOTES — ${allianceReport.notes.length}:`);
+    for (const n of allianceReport.notes) console.warn(`  ${n}`);
+  }
+
   console.log('');
   console.log(`Done. ${filesWritten} results file(s) written.`);
+
+  if (allianceReport.errors.length > 0) {
+    console.error('');
+    console.error(`FATAL: alliance definition error(s) in ${path.relative(ROOT, ALLIANCES_PATH)}:`);
+    for (const e of allianceReport.errors) console.error(`  ${e}`);
+    throw new Error(`${allianceReport.errors.length} alliance definition error(s)`);
+  }
 
   if (parseFailures.length > 0) {
     console.error('');

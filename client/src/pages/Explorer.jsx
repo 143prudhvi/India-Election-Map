@@ -3,6 +3,7 @@ import { useSearchParams } from 'react-router-dom';
 import { useApi } from '../hooks/useApi.js';
 import StateYearPicker from '../components/StateYearPicker.jsx';
 import ColorModeToggle from '../components/ColorModeToggle.jsx';
+import ViewToggle from '../components/ViewToggle.jsx';
 import MapChoropleth from '../components/MapChoropleth.jsx';
 import SeatDonut from '../components/SeatDonut.jsx';
 import PartyLegend from '../components/PartyLegend.jsx';
@@ -53,6 +54,14 @@ export default function Explorer() {
     return { slug: st.slug, year, state: st };
   }, [states, searchParams]);
 
+  const wantAlliances = searchParams.get('view') === 'alliances';
+
+  function paramsFor(slug, year, alliances = wantAlliances) {
+    const p = { state: slug, year: String(year) };
+    if (alliances) p.view = 'alliances';
+    return p;
+  }
+
   // Keep the URL in sync so refresh/deep-link restores the view.
   useEffect(() => {
     if (!selection) return;
@@ -60,14 +69,11 @@ export default function Explorer() {
       searchParams.get('state') !== selection.slug ||
       searchParams.get('year') !== String(selection.year)
     ) {
-      setSearchParams(
-        { state: selection.slug, year: String(selection.year) },
-        { replace: true }
-      );
+      setSearchParams(paramsFor(selection.slug, selection.year), { replace: true });
     }
   }, [selection, searchParams, setSearchParams]);
 
-  const [colorMode, setColorMode] = useState('winner'); // 'winner' | party code
+  const [colorMode, setColorMode] = useState('winner'); // 'winner' | party/alliance code
   const [selectedAc, setSelectedAc] = useState(null); // {acNo, acName} | null
 
   // Selection can also change through browser back/forward (URL-driven), not
@@ -92,6 +98,27 @@ export default function Explorer() {
   }, [results]);
 
   const summaryParties = results?.summary?.parties || [];
+  const allianceRows = results?.summary?.alliances || [];
+  const hasAlliances = allianceRows.length > 0;
+
+  // Alliances exist only where curated (data/raw/alliances.json).
+  const view = wantAlliances && hasAlliances ? 'alliances' : 'parties';
+
+  const allianceMeta = useMemo(() => {
+    const map = new Map();
+    allianceRows.forEach((a) => map.set(a.alliance, a));
+    return map;
+  }, [allianceRows]);
+
+  // party code -> alliance row (for chips/dots in the constituency panel)
+  const allianceOfParty = useMemo(() => {
+    const map = new Map();
+    allianceRows.forEach((a) => {
+      if (a.alliance === 'OTH') return;
+      (a.parties || []).forEach((p) => map.set(p.party, a));
+    });
+    return map;
+  }, [allianceRows]);
 
   // States like UP have 250+ registered parties on the ballot; only ones that
   // won a seat or crossed 1% vote share are worth listing individually.
@@ -101,35 +128,94 @@ export default function Explorer() {
   );
   const minorPartyCount = summaryParties.length - notableParties.length;
 
-  // If the chosen share-mode party isn't in this state/year, fall back to winner.
+  // Rows feeding the donut/legend, shaped identically for both views.
+  const groupRows = useMemo(
+    () =>
+      view === 'alliances'
+        ? allianceRows.map((a) => ({ party: a.alliance, seats: a.seats, vote_pct: a.vote_pct }))
+        : notableParties,
+    [view, allianceRows, notableParties]
+  );
+
+  const colorFor = useCallback(
+    (code) =>
+      view === 'alliances' ? allianceMeta.get(code)?.color || FALLBACK_COLOR : partyColor(code),
+    [view, allianceMeta, partyColor]
+  );
+
+  // Codes valid as a vote-share color mode (OTH has no alliance_votes entry).
+  const shareCodes = useMemo(
+    () =>
+      view === 'alliances'
+        ? allianceRows.filter((a) => a.alliance !== 'OTH').map((a) => ({ party: a.alliance }))
+        : notableParties,
+    [view, allianceRows, notableParties]
+  );
+
+  // If the chosen share-mode code isn't valid in this state/year/view, fall
+  // back to winner.
   const effectiveMode =
-    colorMode === 'winner' || summaryParties.some((p) => p.party === colorMode)
+    colorMode === 'winner' || shareCodes.some((p) => p.party === colorMode)
       ? colorMode
       : 'winner';
+
+  const winnerCodeOf = useCallback(
+    (row) => {
+      if (!row.winner) return null;
+      return view === 'alliances' ? row.winner.alliance ?? 'OTH' : row.winner.party;
+    },
+    [view]
+  );
+
+  const shareOf = useCallback(
+    (row, code) => {
+      if (view === 'alliances') return row.alliance_votes?.[code] ?? 0;
+      const cand = (row.candidates || []).find((c) => c.party === code);
+      return cand ? cand.vote_pct : 0;
+    },
+    [view]
+  );
+
+  // Muted extra tooltip line in alliance view: the winner's bloc.
+  const winnerTag = useCallback(
+    (row) =>
+      view === 'alliances' && row.winner
+        ? row.winner.alliance ?? 'Unaligned'
+        : null,
+    [view]
+  );
 
   const shareMax = useMemo(() => {
     if (effectiveMode === 'winner' || !results) return 0;
     let max = 0;
     for (const c of results.constituencies || []) {
-      for (const cand of c.candidates || []) {
-        if (cand.party === effectiveMode && cand.vote_pct > max) max = cand.vote_pct;
-      }
+      const v = shareOf(c, effectiveMode);
+      if (v > max) max = v;
     }
     return max;
-  }, [results, effectiveMode]);
+  }, [results, effectiveMode, shareOf]);
 
   function handleStateChange(slug) {
     const st = (states || []).find((s) => s.slug === slug);
     if (!st || st.years.length === 0) return;
     setSelectedAc(null);
     setColorMode('winner');
-    setSearchParams({ state: slug, year: String(latestYear(st.years)) });
+    setSearchParams(paramsFor(slug, latestYear(st.years)));
   }
 
   function handleYearChange(year) {
     if (!selection) return;
     setSelectedAc(null);
-    setSearchParams({ state: selection.slug, year: String(year) });
+    setColorMode('winner');
+    setSearchParams(paramsFor(selection.slug, year));
+  }
+
+  function handleViewChange(next) {
+    if (!selection) return;
+    setColorMode('winner');
+    setSearchParams(paramsFor(selection.slug, selection.year, next === 'alliances'), {
+      replace: true,
+    });
   }
 
   function handleSelectAc(ac) {
@@ -190,9 +276,10 @@ export default function Explorer() {
           onStateChange={handleStateChange}
           onYearChange={handleYearChange}
         />
+        {hasAlliances && <ViewToggle view={view} onChange={handleViewChange} />}
         <ColorModeToggle
           mode={effectiveMode}
-          parties={notableParties}
+          parties={shareCodes}
           onChange={setColorMode}
         />
       </div>
@@ -206,6 +293,7 @@ export default function Explorer() {
               constituency={selectedResult}
               partyColor={partyColor}
               partyName={partyName}
+              allianceOfParty={allianceOfParty}
               onClose={() => setSelectedAc(null)}
             />
           ) : (
@@ -217,6 +305,7 @@ export default function Explorer() {
                 </div>
                 <p className="sidebar-subheading">
                   Assembly election · {selection.state.total_seats} seats
+                  {view === 'alliances' ? ' · by alliance' : ''}
                 </p>
                 {resultsReq.loading && (
                   <div className="spinner-wrap">
@@ -232,14 +321,14 @@ export default function Explorer() {
                 {results && (
                   <>
                     <SeatDonut
-                      parties={summaryParties}
+                      parties={groupRows}
                       totalSeats={results.summary.total_seats}
-                      partyColor={partyColor}
+                      partyColor={colorFor}
                     />
                     <PartyLegend
                       mode={effectiveMode}
-                      parties={notableParties}
-                      partyColor={partyColor}
+                      parties={groupRows}
+                      partyColor={colorFor}
                       shareMax={shareMax}
                       totalSeats={results.summary.total_seats}
                       onPartyClick={(code) => setColorMode(code)}
@@ -248,7 +337,32 @@ export default function Explorer() {
                 )}
               </div>
 
-              {results && (
+              {results && view === 'alliances' && (
+                <div className="card sidebar-card">
+                  <h3 className="sidebar-heading-sm">Vote share</h3>
+                  <table className="summary-table">
+                    <thead>
+                      <tr>
+                        <th>Alliance / party</th>
+                        <th className="num">Seats</th>
+                        <th className="num">Votes %</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {allianceRows.map((a) => (
+                        <AllianceSummaryRows
+                          key={a.alliance}
+                          alliance={a}
+                          partyColor={partyColor}
+                          partyName={partyName}
+                        />
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              )}
+
+              {results && view === 'parties' && (
                 <div className="card sidebar-card">
                   <h3 className="sidebar-heading-sm">Vote share</h3>
                   <table className="summary-table">
@@ -309,7 +423,10 @@ export default function Explorer() {
             <MapChoropleth
               boundary={boundaryReq.data}
               resultsByAc={resultsByAc}
-              partyColor={partyColor}
+              colorFor={colorFor}
+              winnerCodeOf={winnerCodeOf}
+              shareOf={shareOf}
+              winnerTag={winnerTag}
               colorMode={effectiveMode}
               shareMax={shareMax}
               selectedAc={selectedAc}
@@ -319,5 +436,38 @@ export default function Explorer() {
         </div>
       </div>
     </div>
+  );
+}
+
+function AllianceSummaryRows({ alliance, partyColor, partyName }) {
+  return (
+    <>
+      <tr className="alliance-row">
+        <td>
+          <span className="alliance-cell">
+            <span
+              className="legend-swatch"
+              style={{ backgroundColor: alliance.color || FALLBACK_COLOR }}
+            />
+            <span title={alliance.name}>{alliance.alliance}</span>
+          </span>
+        </td>
+        <td className="num">{alliance.seats}</td>
+        <td className="num">{alliance.vote_pct.toFixed(2)}%</td>
+      </tr>
+      {(alliance.parties || []).map((p) => (
+        <tr key={p.party} className="member-row">
+          <td>
+            <PartyChip
+              code={p.party}
+              color={partyColor(p.party)}
+              title={partyName(p.party)}
+            />
+          </td>
+          <td className="num">{p.seats}</td>
+          <td className="num">{p.vote_pct.toFixed(2)}%</td>
+        </tr>
+      ))}
+    </>
   );
 }

@@ -60,6 +60,19 @@ Election data is **not** in the database. It's committed, pre-computed JSON in
   precomputed winner, runner-up, margin, and a party seat/vote summary
 - `data/raw/results/<slug>/<year>.json` — raw source results (pipeline input)
 
+### Alliances
+
+Pre-poll alliances are curated by hand in `data/raw/alliances.json`, per state
+per year (compositions change every cycle — never assume continuity). Each
+entry lists a code, display name, color, and member party codes; single-party
+entries are allowed when a major party contested alone. Run
+`npm run pipeline` after editing: it stamps each constituency's winner with
+its alliance, precomputes per-alliance vote shares and seat summaries, and
+prints validation notes (a party in two alliances is a build error; friendly
+fights and no-show parties are informational). States/years with alliance
+data get a "Parties | Alliances" toggle in the Explorer. Currently seeded:
+Andhra Pradesh 2024.
+
 ### Adding a new election
 
 1. Drop the raw results file at `data/raw/results/<state-slug>/<year>.json`

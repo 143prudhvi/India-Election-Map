@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import PartyChip from './PartyChip.jsx';
+import AllianceChip from './AllianceChip.jsx';
 import { displayName } from '../lib/formatName.js';
 import { useTip } from '../hooks/useTip.jsx';
 
@@ -35,11 +36,14 @@ export default function ConstituencyPanel({
   constituency,
   partyColor,
   partyName,
+  allianceOfParty, // Map(party code -> alliance summary row), empty when no alliances
   onClose,
 }) {
   const winner = constituency?.winner;
   const runnerUp = constituency?.runner_up;
   const nameTip = useTip();
+  const allianceTip = useTip();
+  const winnerAlliance = winner ? allianceOfParty?.get(winner.party) : null;
 
   return (
     <div className="card sidebar-card constituency-panel">
@@ -74,6 +78,15 @@ export default function ConstituencyPanel({
                   color={partyColor(winner.party)}
                   title={partyName(winner.party)}
                 />{' '}
+                {winnerAlliance && (
+                  <>
+                    <AllianceChip
+                      code={winnerAlliance.alliance}
+                      color={winnerAlliance.color}
+                      name={winnerAlliance.name}
+                    />{' '}
+                  </>
+                )}
                 {formatVotes(winner.votes)} votes ({winner.vote_pct}%)
               </p>
 
@@ -143,11 +156,24 @@ export default function ConstituencyPanel({
                     <td>
                       <span className="candidate-cell">
                         <CandidateName name={c.candidate} bold={i === 0 && !!winner} tip={nameTip} />
-                        <PartyChip
-                          code={c.party}
-                          color={partyColor(c.party)}
-                          title={partyName(c.party)}
-                        />
+                        <span className="candidate-chips">
+                          <PartyChip
+                            code={c.party}
+                            color={partyColor(c.party)}
+                            title={partyName(c.party)}
+                          />
+                          {allianceOfParty?.get(c.party) && (
+                            <span
+                              className="alliance-dot"
+                              style={{ backgroundColor: allianceOfParty.get(c.party).color }}
+                              onMouseEnter={(e) =>
+                                allianceTip.show(allianceOfParty.get(c.party).name, e)
+                              }
+                              onMouseMove={allianceTip.move}
+                              onMouseLeave={allianceTip.hide}
+                            />
+                          )}
+                        </span>
                       </span>
                     </td>
                     <td className="num">{formatVotes(c.votes)}</td>
@@ -169,6 +195,7 @@ export default function ConstituencyPanel({
             </table>
           </div>
           {nameTip.tipNode}
+          {allianceTip.tipNode}
         </>
       )}
     </div>

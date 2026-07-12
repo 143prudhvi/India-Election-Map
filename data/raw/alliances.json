@@ -1,0 +1,25 @@
+{
+  "$comment": "Pre-poll alliances, defined per state per year (compositions change every cycle — never assume continuity). Party codes must match data/parties.json. A single-party entry is allowed when a major party contested alone and deserves its own bloc in the alliance view. Parties not listed anywhere count as Others/Unaligned. Run `npm run pipeline` after editing and review the ALLIANCE NOTES in its output.",
+  "andhra-pradesh": {
+    "2024": [
+      {
+        "code": "NDA",
+        "name": "National Democratic Alliance (TDP + JSP + BJP)",
+        "color": "#f59e0b",
+        "parties": ["TDP", "JSP", "BJP"]
+      },
+      {
+        "code": "YSRCP",
+        "name": "YSR Congress Party (contested alone)",
+        "color": "#1d4ed8",
+        "parties": ["YSRCP"]
+      },
+      {
+        "code": "INDIA",
+        "name": "INDIA bloc (INC + Left)",
+        "color": "#19aaed",
+        "parties": ["INC", "CPI", "CPI(M)"]
+      }
+    ]
+  }
+}

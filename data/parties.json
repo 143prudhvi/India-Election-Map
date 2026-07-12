@@ -18,7 +18,7 @@
   {
     "code": "ADAL",
     "name": "Apna Dal (Soneylal)",
-    "color": "#9500ff",
+    "color": "#7c3aed",
     "aliases": [
       "Apna Dal (Soneylal)"
     ]
@@ -26,7 +26,7 @@
   {
     "code": "AGP",
     "name": "Asom Gana Parishad",
-    "color": "#99ccff",
+    "color": "#4f83cc",
     "aliases": [
       "Asom Gana Parishad"
     ]
@@ -66,7 +66,7 @@
   {
     "code": "AITC",
     "name": "All India Trinamool Congress",
-    "color": "#20c646",
+    "color": "#16a34a",
     "aliases": [
       "All India Trinamool Congress"
     ]
@@ -82,7 +82,7 @@
   {
     "code": "AJSUP",
     "name": "AJSU Party",
-    "color": "#ff33ff",
+    "color": "#c026d3",
     "aliases": [
       "AJSU Party"
     ]
@@ -179,7 +179,7 @@
   {
     "code": "CPI",
     "name": "Communist Party of India",
-    "color": "#ff0000",
+    "color": "#c62828",
     "aliases": [
       "Communist Party of India"
     ]
@@ -187,7 +187,7 @@
   {
     "code": "CPI(M)",
     "name": "Communist Party of India (Marxist)",
-    "color": "#ff1d15",
+    "color": "#e02b20",
     "aliases": [
       "Communist Party of India (Marxist)",
       "Communist Party of India  (Marxist)"
@@ -196,7 +196,7 @@
   {
     "code": "CPI(ML)(L)",
     "name": "Communist Party of India (Marxist-Leninist) (Liberation)",
-    "color": "#ff1d15",
+    "color": "#e02b20",
     "aliases": [
       "Communist Party of India (Marxist-Leninist) (Liberation)",
       "Communist Party of India  (Marxist-Leninist)  (Liberation)"
@@ -213,7 +213,7 @@
   {
     "code": "DMDK",
     "name": "Desiya Murpokku Dravida Kazhagam",
-    "color": "#ffea19",
+    "color": "#d4b106",
     "aliases": [
       "Desiya Murpokku Dravida Kazhagam"
     ]
@@ -262,7 +262,7 @@
   {
     "code": "GOJAM",
     "name": "Gorkha Janmukti Morcha",
-    "color": "#52d017",
+    "color": "#7cb342",
     "aliases": [
       "Gorkha Janmukti Morcha"
     ]
@@ -318,7 +318,7 @@
   {
     "code": "HSPDP",
     "name": "Hill State People's Democratic Party",
-    "color": "#0000ff",
+    "color": "#2563eb",
     "aliases": [
       "Hill State People's Democratic Party",
       "Hill State People’s Democratic Party"
@@ -359,7 +359,7 @@
   {
     "code": "IPFT",
     "name": "Indigenous People's Front of Tripura",
-    "color": "#008000",
+    "color": "#1a936f",
     "aliases": [
       "Indigenous People's Front of Tripura",
       "Indigenousn People's Front Of Tripura"
@@ -385,7 +385,7 @@
   {
     "code": "JCCJ",
     "name": "Janta Congress Chhattisgarh (J)",
-    "color": "#ffc0db",
+    "color": "#f48fb1",
     "aliases": [
       "Janta Congress Chhattisgarh (J)"
     ]
@@ -411,7 +411,7 @@
   {
     "code": "JDL",
     "name": "Jansatta Dal Loktantrik",
-    "color": "#eaff00",
+    "color": "#cddc39",
     "aliases": [
       "Jansatta Dal Loktantrik"
     ]
@@ -419,7 +419,7 @@
   {
     "code": "JJP",
     "name": "Jannayak Janta Party",
-    "color": "#ffff00",
+    "color": "#eab308",
     "aliases": [
       "Jannayak Janta Party"
     ]
@@ -427,7 +427,7 @@
   {
     "code": "JKNC",
     "name": "Jammu & Kashmir National Conference",
-    "color": "#ff0000",
+    "color": "#d92d20",
     "aliases": [
       "Jammu & Kashmir National Conference"
     ]
@@ -451,7 +451,7 @@
   {
     "code": "JKPDP",
     "name": "Jammu & Kashmir Peoples Democratic Party",
-    "color": "#87c2b9",
+    "color": "#4db6ac",
     "aliases": [
       "Jammu & Kashmir Peoples Democratic Party"
     ]
@@ -467,7 +467,7 @@
   {
     "code": "JSP",
     "name": "Janasena Party",
-    "color": "#ff0000",
+    "color": "#dc2626",
     "aliases": [
       "Janasena Party"
     ]
@@ -483,7 +483,7 @@
   {
     "code": "JVM",
     "name": "Jharkhand Vikas Morcha (Prajatantrik)",
-    "color": "#edfb06",
+    "color": "#c0ca33",
     "aliases": [
       "Jharkhand Vikas Morcha (Prajatantrik)"
     ]
@@ -541,7 +541,7 @@
   {
     "code": "KPA",
     "name": "Kuki People's Alliance",
-    "color": "#ff0000",
+    "color": "#d92d20",
     "aliases": [
       "Kuki People's Alliance",
       "Kuki People’s Alliance"
@@ -647,7 +647,7 @@
   {
     "code": "MSCP",
     "name": "Manipur State Congress Party",
-    "color": "#99cc99",
+    "color": "#66bb6a",
     "aliases": [
       "Manipur State Congress Party"
     ]
@@ -744,7 +744,7 @@
   {
     "code": "PDF",
     "name": "People's Democratic Front",
-    "color": "#ffff00",
+    "color": "#eab308",
     "aliases": [
       "People's Democratic Front"
     ]
@@ -808,7 +808,7 @@
   {
     "code": "RJD",
     "name": "Rashtriya Janata Dal",
-    "color": "#008000",
+    "color": "#15803d",
     "aliases": [
       "Rashtriya Janata Dal"
     ]
@@ -816,7 +816,7 @@
   {
     "code": "RLD",
     "name": "Rashtriya Lok Dal",
-    "color": "#008000",
+    "color": "#2e7d32",
     "aliases": [
       "Rashtriya Lok Dal"
     ]
@@ -832,7 +832,7 @@
   {
     "code": "RLTP",
     "name": "Rashtriya Loktantrik Party",
-    "color": "#dbe934",
+    "color": "#c0ca33",
     "aliases": [
       "Rashtriya Loktantrik Party"
     ]
@@ -872,7 +872,7 @@
   {
     "code": "SBSP",
     "name": "Suheldev Bharatiya Samaj Party",
-    "color": "#ffd500",
+    "color": "#d4b106",
     "aliases": [
       "Suheldev Bharatiya Samaj Party",
       "Suheldev Bhartiya Samaj Party"
@@ -930,7 +930,7 @@
   {
     "code": "SP",
     "name": "Samajwadi Party",
-    "color": "#ff0000",
+    "color": "#dc2626",
     "aliases": [
       "Samajwadi Party"
     ]
@@ -954,7 +954,7 @@
   {
     "code": "TDP",
     "name": "Telugu Desam",
-    "color": "#ffff00",
+    "color": "#eab308",
     "aliases": [
       "Telugu Desam",
       "Telugu Desam Party"
@@ -963,7 +963,7 @@
   {
     "code": "TRS",
     "name": "Telangana Rashtra Samithi",
-    "color": "#ff0274",
+    "color": "#db2777",
     "aliases": [
       "Telangana Rashtra Samithi",
       "Bharat Rashtra Samithi"
@@ -972,7 +972,7 @@
   {
     "code": "UDP",
     "name": "United Democratic Party",
-    "color": "#cef2e0",
+    "color": "#3eb489",
     "aliases": [
       "United Democratic Party"
     ]
@@ -989,7 +989,7 @@
   {
     "code": "UPPL",
     "name": "United People's Party, Liberal",
-    "color": "#f3ed13",
+    "color": "#d4b106",
     "aliases": [
       "United People's Party, Liberal",
       "United People’s Party, Liberal"
@@ -998,7 +998,7 @@
   {
     "code": "VIP",
     "name": "Vikassheel Insaan Party",
-    "color": "#0000ff",
+    "color": "#2563eb",
     "aliases": [
       "Vikassheel Insaan Party"
     ]
@@ -1006,7 +1006,7 @@
   {
     "code": "YSRCP",
     "name": "Yuvajana Sramika Rythu Congress Party",
-    "color": "#0000ff",
+    "color": "#1d4ed8",
     "aliases": [
       "Yuvajana Sramika Rythu Congress Party"
     ]

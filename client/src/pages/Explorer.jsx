@@ -321,6 +321,7 @@ export default function Explorer() {
                       partyColor={colorFor}
                       totalSeats={results.summary.total_seats}
                       onPartyClick={(code) => setColorMode(code)}
+                      onBack={() => setColorMode('winner')}
                     />
                   </>
                 )}

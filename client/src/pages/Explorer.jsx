@@ -20,6 +20,7 @@ import ShareButton from '../components/ShareButton.jsx';
 import { shareBandT } from '../lib/shareBands.js';
 import { marginColor } from '../lib/marginBands.js';
 import { swingColor } from '../lib/swingScale.js';
+import { shortPartyLabel } from '../lib/partyLabel.js';
 
 const FALLBACK_COLOR = '#9e9e9e';
 const NO_DATA_FILL = '#e0e0e0';
@@ -94,6 +95,16 @@ export default function Explorer() {
   const [selectedAc, setSelectedAc] = useState(null); // {acNo, acName} | null
   const [analysis, setAnalysis] = useState(null); // null | 'margin' | {kind:'swing',code,fromYear}
   const [whatIfOpen, setWhatIfOpen] = useState(false);
+  const [swings, setSwings] = useState({}); // partyCode -> delta points (what-if)
+
+  const setSwing = useCallback((code, val) => {
+    setSwings((s) => {
+      const next = { ...s };
+      if (!val || Number(val) === 0) delete next[code];
+      else next[code] = Number(val);
+      return next;
+    });
+  }, []);
 
   // Selection can also change through browser back/forward (URL-driven), not
   // just the picker handlers — drop stale per-view state either way.
@@ -101,6 +112,7 @@ export default function Explorer() {
     setSelectedAc(null);
     setAnalysis(null);
     setWhatIfOpen(false);
+    setSwings({});
   }, [selection?.slug, selection?.year]);
 
   const boundaryReq = useApi(
@@ -232,10 +244,37 @@ export default function Explorer() {
     [effectiveMode, colorFor]
   );
 
+  // Projected winner under the current what-if swings (uniform-swing model:
+  // argmax of adjusted vote shares), reduced to the current view's code.
+  const projectedCode = useCallback(
+    (row) => {
+      if (!row) return null;
+      let best = null;
+      for (const cand of row.candidates || []) {
+        const adj = (cand.vote_pct || 0) + (swings[cand.party] || 0);
+        if (!best || adj > best.adj) best = { party: cand.party, adj };
+      }
+      if (!best) return null;
+      return view === 'alliances'
+        ? allianceOfParty.get(best.party)?.alliance ?? 'OTH'
+        : best.party;
+    },
+    [swings, view, allianceOfParty]
+  );
+
+  const codeLabel = useCallback(
+    (code) => (code == null ? '—' : view === 'alliances' ? code : shortPartyLabel(code)),
+    [view]
+  );
+
   // The single fill function handed to the map, derived from the active mode.
   const fillFor = useCallback(
     (acNo) => {
       const row = resultsByAc.get(acNo);
+      if (whatIfOpen) {
+        const code = projectedCode(row);
+        return code ? colorFor(code) : NO_DATA_FILL;
+      }
       if (analysis === 'margin') {
         return row?.winner ? marginColor(row.margin_pct) ?? NO_DATA_FILL : NO_DATA_FILL;
       }
@@ -253,7 +292,7 @@ export default function Explorer() {
       const t = shareBandT(row ? shareOf(row, effectiveMode) : 0);
       return t == null ? '#ffffff' : shareRamp(t);
     },
-    [analysis, resultsByAc, compareByAc, effectiveMode, colorFor, winnerCodeOf, shareOf, shareRamp, swingPartyColor]
+    [analysis, whatIfOpen, projectedCode, resultsByAc, compareByAc, effectiveMode, colorFor, winnerCodeOf, shareOf, shareRamp, swingPartyColor]
   );
 
   const tooltipExtra = useCallback(
@@ -261,6 +300,16 @@ export default function Explorer() {
       const lines = [];
       const tag = winnerTag(row);
       if (tag) lines.push({ text: `Alliance: ${tag}`, muted: true });
+      if (whatIfOpen) {
+        const actual = winnerCodeOf(row);
+        const proj = projectedCode(row);
+        if (proj && proj !== actual) {
+          lines.push({ text: `Projected: ${codeLabel(proj)} (was ${codeLabel(actual)})` });
+        } else {
+          lines.push({ text: `Holds ${codeLabel(proj)}`, muted: true });
+        }
+        return lines;
+      }
       if (analysis?.kind === 'swing') {
         const now = shareOf(row, analysis.code);
         const prevRow = compareByAc.get(row.ac_no);
@@ -285,10 +334,14 @@ export default function Explorer() {
       }
       return lines;
     },
-    [analysis, effectiveMode, winnerTag, shareOf, compareByAc]
+    [analysis, whatIfOpen, projectedCode, codeLabel, winnerCodeOf, effectiveMode, winnerTag, shareOf, compareByAc]
   );
 
-  const baseStroke = analysis || effectiveMode !== 'winner' ? '#c9c9c9' : '#ffffff';
+  const baseStroke = whatIfOpen
+    ? '#ffffff'
+    : analysis || effectiveMode !== 'winner'
+      ? '#c9c9c9'
+      : '#ffffff';
 
   async function handleExportPng() {
     if (!mapApiRef.current) return;
@@ -332,6 +385,7 @@ export default function Explorer() {
     setColorMode('winner');
     setAnalysis(null);
     setWhatIfOpen(false);
+    setSwings({});
     setSearchParams(paramsFor(selection.slug, selection.year, next === 'alliances'), {
       replace: true,
     });
@@ -454,7 +508,13 @@ export default function Explorer() {
               parties={notableParties}
               partyColor={partyColor}
               partyName={partyName}
-              onClose={() => setWhatIfOpen(false)}
+              swings={swings}
+              onSwingChange={setSwing}
+              onReset={() => setSwings({})}
+              onClose={() => {
+                setWhatIfOpen(false);
+                setSwings({});
+              }}
             />
           ) : selectedAc ? (
             <>

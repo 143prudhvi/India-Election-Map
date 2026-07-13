@@ -3085,43 +3085,37 @@ button {
   line-height: 1.45;
 }
 
-.mg-deltas {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-top: 10px;
-}
-
-.mg-delta {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  padding: 3px 8px;
-  border: 1px solid var(--border);
-  border-radius: 999px;
+.mg-flows-label {
   font-size: 11px;
   font-weight: 650;
-  background: var(--surface);
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 12px 0 6px;
 }
 
-.mg-delta .sw {
-  width: 9px;
-  height: 9px;
-  border-radius: 3px;
+.mg-flows {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
-.mg-delta-code {
+.mg-flow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.mg-flow .mg-arrow {
+  font-size: 13px;
+}
+
+.mg-flow-n {
+  margin-left: auto;
+  font-size: 13px;
+  font-weight: 750;
+  font-variant-numeric: tabular-nums;
   color: var(--text);
-}
-
-.mg-delta-up {
-  color: var(--success);
-  font-variant-numeric: tabular-nums;
-}
-
-.mg-delta-down {
-  color: #b91c1c;
-  font-variant-numeric: tabular-nums;
 }
 
 /* seats at risk */

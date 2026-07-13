@@ -1,14 +1,22 @@
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
 import PartyChip from './PartyChip.jsx';
 import { shortPartyLabel } from '../lib/partyLabel.js';
 
 // Pro: uniform-swing seat projector. The user nudges parties up/down by a
 // number of points; every constituency's winner is recomputed as the argmax
 // of adjusted vote shares (standard uniform-swing model — no renormalization
-// needed since only the ordering matters).
-export default function WhatIfPanel({ results, parties, partyColor, partyName, onClose }) {
-  const [swings, setSwings] = useState({}); // partyCode -> delta points
-
+// needed since only the ordering matters). Swings are lifted to Explorer so
+// the map can recolour to the projection live.
+export default function WhatIfPanel({
+  results,
+  parties,
+  partyColor,
+  partyName,
+  swings,
+  onSwingChange,
+  onReset,
+  onClose,
+}) {
   const actualSeats = useMemo(() => {
     const m = new Map();
     parties.forEach((p) => m.set(p.party, p.seats));
@@ -42,15 +50,6 @@ export default function WhatIfPanel({ results, parties, partyColor, partyName, o
 
   const swingable = parties.filter((p) => p.seats > 0 || p.vote_pct >= 1);
 
-  function setSwing(code, val) {
-    setSwings((s) => {
-      const next = { ...s };
-      if (!val || Number(val) === 0) delete next[code];
-      else next[code] = Number(val);
-      return next;
-    });
-  }
-
   return (
     <div className="card sidebar-card whatif-panel">
       <div className="panel-header">
@@ -73,7 +72,7 @@ export default function WhatIfPanel({ results, parties, partyColor, partyName, o
               max="15"
               step="0.5"
               value={swings[p.party] || 0}
-              onChange={(e) => setSwing(p.party, e.target.value)}
+              onChange={(e) => onSwingChange(p.party, e.target.value)}
               className="whatif-slider"
             />
             <span className="whatif-delta">
@@ -114,7 +113,7 @@ export default function WhatIfPanel({ results, parties, partyColor, partyName, o
       <button
         type="button"
         className="btn btn-secondary btn-sm btn-block"
-        onClick={() => setSwings({})}
+        onClick={onReset}
         disabled={Object.keys(swings).length === 0}
       >
         Reset

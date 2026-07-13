@@ -87,21 +87,27 @@ export default function Marginals({
     const flipping = seats.filter((c) => c.margin_pct < thr && c.runner_up);
     const before = new Map(groupRows.map((r) => [r.party, r.seats]));
     const after = new Map(before);
+    const flowMap = new Map(); // "from|to" -> count (gross seats changing hands)
     for (const c of flipping) {
       const w = codeOf(c.winner, true);
       const r = codeOf(c.runner_up, false);
-      if (w != null) after.set(w, (after.get(w) ?? 0) - 1);
-      if (r != null) after.set(r, (after.get(r) ?? 0) + 1);
+      if (w == null || r == null || w === r) continue; // skip intra-bloc friendly fights
+      after.set(w, (after.get(w) ?? 0) - 1);
+      after.set(r, (after.get(r) ?? 0) + 1);
+      const key = `${w}|${r}`;
+      flowMap.set(key, (flowMap.get(key) ?? 0) + 1);
     }
     const afterRows = [...after.entries()]
       .map(([code, s]) => ({ code, seats: s }))
       .filter((r) => r.seats > 0)
       .sort((a, b) => b.seats - a.seats);
-    const deltas = [...after.keys()]
-      .map((code) => ({ code, before: before.get(code) ?? 0, after: after.get(code) ?? 0 }))
-      .filter((d) => d.after !== d.before)
-      .sort((a, b) => b.after - a.after);
-    return { count: flipping.length, afterRows, deltas, leader: afterRows[0] };
+    const flows = [...flowMap.entries()]
+      .map(([k, n]) => {
+        const [from, to] = k.split('|');
+        return { from, to, n };
+      })
+      .sort((a, b) => b.n - a.n);
+    return { count: flipping.length, afterRows, flows, leader: afterRows[0] };
   }, [seats, thr, groupRows, codeOf]);
 
   const pick = (c) => onSelect?.({ acNo: c.ac_no, acName: c.ac_name });
@@ -205,19 +211,16 @@ export default function Marginals({
                 <span>{majority} for majority</span>
               </div>
             </div>
-            <div className="mg-deltas">
-              {flip.deltas.map((d) => {
-                const diff = d.after - d.before;
-                return (
-                  <span className="mg-delta" key={d.code}>
-                    <span className="sw" style={{ background: colorFor(d.code) }} />
-                    <span className="mg-delta-code">{label(d.code)}</span>
-                    <span className={diff > 0 ? 'mg-delta-up' : 'mg-delta-down'}>
-                      {diff > 0 ? `+${diff}` : diff}
-                    </span>
-                  </span>
-                );
-              })}
+            <p className="mg-flows-label">Seats changing hands</p>
+            <div className="mg-flows">
+              {flip.flows.map((f) => (
+                <div className="mg-flow" key={`${f.from}-${f.to}`}>
+                  <PartyChip code={f.from} color={colorFor(f.from)} title={partyName(f.from)} />
+                  <span className="mg-arrow">›</span>
+                  <PartyChip code={f.to} color={colorFor(f.to)} title={partyName(f.to)} />
+                  <b className="mg-flow-n">{f.n}</b>
+                </div>
+              ))}
             </div>
           </>
         )}

@@ -13,6 +13,7 @@ import SeatStats from '../components/SeatStats.jsx';
 import ShareBandLegend from '../components/ShareBandLegend.jsx';
 import VoteShareTable from '../components/VoteShareTable.jsx';
 import Marginals from '../components/Marginals.jsx';
+import PrevComparison from '../components/PrevComparison.jsx';
 import ConstituencyPanel from '../components/ConstituencyPanel.jsx';
 import ConstituencyHistory from '../components/ConstituencyHistory.jsx';
 import WhatIfPanel from '../components/WhatIfPanel.jsx';
@@ -96,6 +97,7 @@ export default function Explorer() {
   const [analysis, setAnalysis] = useState(null); // null | 'margin' | {kind:'swing',code,fromYear}
   const [whatIfOpen, setWhatIfOpen] = useState(false);
   const [swings, setSwings] = useState({}); // partyCode -> delta points (what-if)
+  const [comparePrev, setComparePrev] = useState(false); // KPI card vs previous election
 
   const setSwing = useCallback((code, val) => {
     setSwings((s) => {
@@ -234,6 +236,18 @@ export default function Explorer() {
   const otherYears = useMemo(
     () => (selection?.state.years || []).filter((y) => y !== selection?.year).sort((a, b) => b - a),
     [selection]
+  );
+
+  // The election immediately before the selected year (for the vs-previous KPIs).
+  const prevYear = useMemo(() => {
+    const earlier = (selection?.state.years || []).filter((y) => y < selection?.year);
+    return earlier.length ? Math.max(...earlier) : null;
+  }, [selection]);
+
+  const prevReq = useApi(
+    selection && comparePrev && prevYear != null
+      ? `/api/data/${selection.slug}/${prevYear}/results`
+      : null
   );
 
   const swingPartyColor = analysis?.kind === 'swing' ? colorFor(analysis.code) : FALLBACK_COLOR;
@@ -469,6 +483,17 @@ export default function Explorer() {
             onUpgrade={goUpgrade}
           />
           <div className="toolbar-buttons">
+            {prevYear != null && (
+              <button
+                type="button"
+                className={comparePrev ? 'btn btn-secondary btn-sm active' : 'btn btn-secondary btn-sm'}
+                onClick={() => (isPro ? setComparePrev((v) => !v) : goUpgrade())}
+                title={`Compare seats and vote share with the ${prevYear} election`}
+              >
+                vs {prevYear}
+                {!isPro && <span className="pro-tag">PRO</span>}
+              </button>
+            )}
             <button
               type="button"
               className="btn btn-secondary btn-sm"
@@ -584,6 +609,16 @@ export default function Explorer() {
                   </>
                 )}
               </div>
+
+              {comparePrev && prevYear != null && results && prevReq.data && (
+                <PrevComparison
+                  curr={results}
+                  prev={prevReq.data}
+                  prevYear={prevYear}
+                  partyColor={partyColor}
+                  partyName={partyName}
+                />
+              )}
 
               {results && analysis === 'margin' ? (
                 <Marginals

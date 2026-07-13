@@ -2938,11 +2938,270 @@ button {
   color: var(--text-muted);
 }
 
+/* ============================================ marginals (margin-mode sidebar) */
+.mg-list {
+  margin-top: 2px;
+}
+
+.mg-row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  column-gap: 10px;
+  width: 100%;
+  padding: 9px 4px 11px;
+  border: none;
+  border-top: 1px solid var(--border);
+  border-radius: 8px;
+  background: transparent;
+  font: inherit;
+  text-align: left;
+  color: inherit;
+  cursor: pointer;
+  transition: background-color 110ms;
+  animation: cardIn 340ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.mg-list > .mg-row:first-child {
+  border-top: none;
+}
+
+.mg-row:hover {
+  background: #f6f8fb;
+}
+
+.mg-main {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.mg-seat {
+  font-size: 13px;
+  font-weight: 650;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mg-tags {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.mg-arrow {
+  color: var(--text-muted);
+  font-weight: 700;
+}
+
+.mg-spoil {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3px;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.mg-spoil .sw {
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+}
+
+.mg-val {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1px;
+}
+
+.mg-pct {
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.mg-sub {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.mg-bar {
+  position: absolute;
+  left: 4px;
+  bottom: 3px;
+  height: 3px;
+  border-radius: 2px;
+  opacity: 0.85;
+  transform-origin: left;
+  animation: barGrow 620ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* flip-watch */
+.mg-flip-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.mg-thr-group {
+  display: inline-flex;
+  gap: 3px;
+}
+
+.mg-thr {
+  padding: 3px 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 650;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-variant-numeric: tabular-nums;
+}
+
+.mg-thr.on {
+  background: var(--text);
+  border-color: var(--text);
+  color: var(--surface);
+}
+
+.mg-note {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin: 0 0 10px;
+  line-height: 1.45;
+}
+
+.mg-deltas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.mg-delta {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 8px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 650;
+  background: var(--surface);
+}
+
+.mg-delta .sw {
+  width: 9px;
+  height: 9px;
+  border-radius: 3px;
+}
+
+.mg-delta-code {
+  color: var(--text);
+}
+
+.mg-delta-up {
+  color: var(--success);
+  font-variant-numeric: tabular-nums;
+}
+
+.mg-delta-down {
+  color: #b91c1c;
+  font-variant-numeric: tabular-nums;
+}
+
+/* seats at risk */
+.mg-risk {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin: 4px 0 2px;
+}
+
+.mg-risk-row {
+  display: grid;
+  grid-template-columns: 78px 1fr auto;
+  align-items: center;
+  gap: 9px;
+}
+
+.mg-risk-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+
+.mg-risk-label b {
+  font-size: 12px;
+  font-weight: 750;
+  font-variant-numeric: tabular-nums;
+}
+
+.mg-stack {
+  display: flex;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+.mg-stack .mg-seg {
+  height: 100%;
+  box-shadow: 1px 0 0 var(--surface);
+}
+
+.mg-tight {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.mg-tight.hot {
+  color: #b91c1c;
+  font-weight: 650;
+}
+
+.mg-legend-sw {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  margin: 0 3px 0 7px;
+  vertical-align: 0;
+}
+
+.mg-legend-sw:first-child {
+  margin-left: 0;
+}
+
+/* the flip strip reuses .maj-strip/.maj-track/.maj-seg/.maj-tick from SeatStats */
+.mg-flip-head + .mg-note + .maj-strip {
+  margin-top: 4px;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .tug > span,
   .vtl-item,
   .cand-row,
-  .cand-bar {
+  .cand-bar,
+  .mg-row,
+  .mg-bar {
     animation: none;
     transform: none;
   }

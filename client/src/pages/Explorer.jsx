@@ -12,6 +12,7 @@ import MapChoropleth from '../components/MapChoropleth.jsx';
 import SeatStats from '../components/SeatStats.jsx';
 import ShareBandLegend from '../components/ShareBandLegend.jsx';
 import VoteShareTable from '../components/VoteShareTable.jsx';
+import Marginals from '../components/Marginals.jsx';
 import ConstituencyPanel from '../components/ConstituencyPanel.jsx';
 import ConstituencyHistory from '../components/ConstituencyHistory.jsx';
 import WhatIfPanel from '../components/WhatIfPanel.jsx';
@@ -524,26 +525,40 @@ export default function Explorer() {
                 )}
               </div>
 
-              {results && (
-                <div className="card sidebar-card">
-                  <h3 className="sidebar-heading-sm">Vote share</h3>
-                  <VoteShareTable
-                    view={view}
-                    parties={notableParties}
-                    alliances={allianceRows}
-                    totalSeats={results.summary.total_seats}
-                    colorFor={colorFor}
-                    partyColor={partyColor}
-                    partyName={partyName}
-                    activeCode={effectiveMode}
-                    onPick={(code) => setColorMode(code)}
-                  />
-                  {view === 'parties' && minorPartyCount > 0 && (
-                    <p className="summary-minor-note">
-                      + {minorPartyCount} smaller parties under 1% vote share
-                    </p>
-                  )}
-                </div>
+              {results && analysis === 'margin' ? (
+                <Marginals
+                  constituencies={results.constituencies}
+                  groupRows={groupRows}
+                  totalSeats={results.summary.total_seats}
+                  view={view}
+                  colorFor={colorFor}
+                  partyColor={partyColor}
+                  partyName={partyName}
+                  allianceOfParty={allianceOfParty}
+                  onSelect={handleSelectAc}
+                />
+              ) : (
+                results && (
+                  <div className="card sidebar-card">
+                    <h3 className="sidebar-heading-sm">Vote share</h3>
+                    <VoteShareTable
+                      view={view}
+                      parties={notableParties}
+                      alliances={allianceRows}
+                      totalSeats={results.summary.total_seats}
+                      colorFor={colorFor}
+                      partyColor={partyColor}
+                      partyName={partyName}
+                      activeCode={effectiveMode}
+                      onPick={(code) => setColorMode(code)}
+                    />
+                    {view === 'parties' && minorPartyCount > 0 && (
+                      <p className="summary-minor-note">
+                        + {minorPartyCount} smaller parties under 1% vote share
+                      </p>
+                    )}
+                  </div>
+                )
               )}
             </>
           )}
